@@ -1,2 +1,3 @@
 __pycache__/
 *.py[cod]
+# Keep test_reports/ tracked so generated reports are committed
