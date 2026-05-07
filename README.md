@@ -53,6 +53,27 @@ The agent will:
 - Search your codebase for relevant source files
 - Generate unit tests following your project's conventions
 
+## Exporting Test Cases to Text or Word
+
+The agent generates test cases as `.py` files in the `tests/` directory. To export them as a human-readable **text** or **Word** document grouped by user story, use the export script:
+
+```bash
+# Export as plain text file
+python scripts/export_tests_to_text.py
+
+# Export as Word document (.docx)
+pip install python-docx
+python scripts/export_tests_to_text.py --format docx
+```
+
+Output files are saved to `test_reports/` by default. Use `--output-dir` to change the destination, or `--tests-dir` to point at a different test directory.
+
+Each report includes:
+- Test cases organized by user story ID (US-001, US-002, etc.)
+- Test type classification (Positive, Negative, Boundary, Integration)
+- Test method names and descriptions
+- A summary with total counts per user story
+
 ## Files
 
 | File | Purpose |
@@ -61,5 +82,6 @@ The agent will:
 | `.github/copilot-instructions.md` | Project-level Copilot customization |
 | `.github/workflows/convert-excel.yml` | Auto-converts pushed Excel files to Markdown |
 | `scripts/excel_to_md.py` | Converts Excel workbooks to Markdown |
-| `scripts/requirements.txt` | Excel conversion dependencies |
+| `scripts/export_tests_to_text.py` | Exports test cases from `.py` files to text or Word documents |
+| `scripts/requirements.txt` | Script dependencies (Excel conversion + Word export) |
 | `sample/user_stories_sample.md` | Sample user stories for testing |
