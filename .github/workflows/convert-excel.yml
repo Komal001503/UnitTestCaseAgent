@@ -1,0 +1,85 @@
+name: Convert Excel to Markdown
+
+on:
+  push:
+    paths:
+      - '*.xlsx'
+      - '**/*.xlsx'
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install conversion dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Collect changed Excel files
+        id: changed-files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          before_sha="${{ github.event.before }}"
+          current_sha="${{ github.sha }}"
+          null_sha="0000000000000000000000000000000000000000"
+
+          if [[ "$before_sha" == "$null_sha" ]]; then
+            mapfile -t files < <(find . -type f -name '*.xlsx' -print | sed 's|^\./||' | sort -u)
+          else
+            mapfile -t files < <(git diff --name-only "$before_sha" "$current_sha" -- '*.xlsx' '**/*.xlsx' | sort -u)
+          fi
+
+          {
+            echo 'files<<EOF'
+            printf '%s\n' "${files[@]}"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Convert changed Excel files
+        if: steps.changed-files.outputs.files != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          while IFS= read -r file; do
+            [[ -n "$file" ]] || continue
+            python scripts/excel_to_md.py "$file"
+          done <<< "${{ steps.changed-files.outputs.files }}"
+
+      - name: Commit generated Markdown files
+        if: steps.changed-files.outputs.files != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          declare -a markdown_files=()
+          while IFS= read -r file; do
+            [[ -n "$file" ]] || continue
+            markdown_files+=("${file%.xlsx}.md")
+          done <<< "${{ steps.changed-files.outputs.files }}"
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "${markdown_files[@]}"
+
+          if git diff --cached --quiet; then
+            echo 'No Markdown changes to commit.'
+            exit 0
+          fi
+
+          git commit -m 'Auto-convert Excel files to Markdown'
+          git push
