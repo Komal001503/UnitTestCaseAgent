@@ -35,8 +35,9 @@ jobs:
 
           before_sha="${{ github.event.before }}"
           current_sha="${{ github.sha }}"
+          null_sha="0000000000000000000000000000000000000000"
 
-          if [[ "$before_sha" == "0000000000000000000000000000000000000000" ]]; then
+          if [[ "$before_sha" == "$null_sha" ]]; then
             mapfile -t files < <(find . -type f -name '*.xlsx' -print | sed 's|^\./||' | sort -u)
           else
             mapfile -t files < <(git diff --name-only "$before_sha" "$current_sha" -- '*.xlsx' '**/*.xlsx' | sort -u)

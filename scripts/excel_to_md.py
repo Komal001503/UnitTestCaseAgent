@@ -71,7 +71,7 @@ def main():
         print(f"Error: {error}", file=sys.stderr)
         sys.exit(1)
     except Exception as error:  # pragma: no cover - defensive CLI handling
-        print(f"Error reading Excel file: {error}", file=sys.stderr)
+        print(f"Error converting '{args.input_file}': {error}", file=sys.stderr)
         sys.exit(1)
 
     print(f"Markdown written to {output_path}", file=sys.stderr)

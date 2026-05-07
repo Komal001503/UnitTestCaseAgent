@@ -8,7 +8,7 @@ from scripts.excel_to_md import convert_excel_to_markdown
 
 
 class ConvertExcelToMarkdownTests(unittest.TestCase):
-    def test_convert_excel_to_markdown_multiple_sheets_writes_expected_sections(self):
+    def test_convert_excel_to_markdown_multipleSheets_createsMarkdownWithAllSheets(self):
         with tempfile.TemporaryDirectory() as temporary_directory:
             workbook_path = Path(temporary_directory) / "user_stories.xlsx"
             output_path = workbook_path.with_suffix(".md")
