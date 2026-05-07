@@ -8,9 +8,9 @@ from scripts.excel_to_md import convert_excel_to_markdown
 
 
 class ConvertExcelToMarkdownTests(unittest.TestCase):
-    def test_convert_excel_to_markdown_multipleSheets_createsMarkdownWithAllSheets(self):
-        with tempfile.TemporaryDirectory() as temporary_directory:
-            workbook_path = Path(temporary_directory) / "user_stories.xlsx"
+    def test_convertExcelToMarkdown_multipleSheets_createsMarkdownWithAllSheets(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            workbook_path = Path(temp_dir) / "user_stories.xlsx"
             output_path = workbook_path.with_suffix(".md")
 
             with pd.ExcelWriter(workbook_path, engine="openpyxl") as writer:
@@ -40,9 +40,9 @@ class ConvertExcelToMarkdownTests(unittest.TestCase):
             self.assertIn("| US-102", markdown)
             self.assertNotIn("nan", markdown.lower())
 
-    def test_convert_excel_to_markdown_marks_empty_sheet(self):
-        with tempfile.TemporaryDirectory() as temporary_directory:
-            workbook_path = Path(temporary_directory) / "empty.xlsx"
+    def test_convertExcelToMarkdown_emptySheet_marksSheetAsEmpty(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            workbook_path = Path(temp_dir) / "empty.xlsx"
             output_path = workbook_path.with_suffix(".md")
 
             with pd.ExcelWriter(workbook_path, engine="openpyxl") as writer:
