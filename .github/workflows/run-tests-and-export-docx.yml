@@ -35,11 +35,21 @@ jobs:
         run: |
           python scripts/export_tests_to_text.py --format docx --output-dir test_reports
 
+      - name: Generate Excel spreadsheet report
+        run: |
+          python scripts/export_tests_to_text.py --format xlsx --output-dir test_reports
+
       - name: Upload Word report as artifact
         uses: actions/upload-artifact@v4
         with:
           name: unit-test-cases-report
           path: test_reports/unit_test_cases_report.docx
+
+      - name: Upload Excel report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-cases-excel-report
+          path: test_reports/unit_test_cases_report.xlsx
 
       - name: Commit report to repository
         run: |
