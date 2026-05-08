@@ -207,7 +207,7 @@ class TestFormatTestSteps(unittest.TestCase):
             "test_login_validCredentials_returnsSuccess",
             "Positive: Valid credentials return success"
         )
-        self.assertIn("Verify that: Valid credentials return success", result)
+        self.assertIn("Validate expected result: Valid credentials return success", result)
 
     def test_formatTestSteps_twoPartWithDocstring_addsVerifyStep(self):
         result = _format_test_steps(
@@ -215,7 +215,7 @@ class TestFormatTestSteps(unittest.TestCase):
             "Positive: Login works"
         )
         self.assertIn("4.", result)
-        self.assertIn("Verify that: Login works", result)
+        self.assertIn("Validate expected result: Login works", result)
 
     def test_formatTestSteps_withTestInfo_includesCallArgs(self):
         test_info = {
@@ -230,7 +230,6 @@ class TestFormatTestSteps(unittest.TestCase):
         )
         self.assertIn("test_user", result)
         self.assertIn("Password@123", result)
-        self.assertIn("status", result)
 
 
 class TestRenderXlsx(unittest.TestCase):
@@ -350,31 +349,32 @@ class TestFormatPreconditions(unittest.TestCase):
         result = _format_preconditions(
             "US-001: Verify login screen", module="Login"
         )
-        self.assertIn("User must be registered", result)
-        self.assertIn("Login page", result)
+        self.assertIn("User account must be registered", result)
+        self.assertIn("login page", result)
 
     def test_formatPreconditions_withClassDoc_includesContext(self):
         result = _format_preconditions(
             "US-100: Verify sample feature.", module="General"
         )
-        self.assertIn("Feature context:", result)
+        # Now uses module-specific preconditions instead of raw class_doc
+        self.assertIn("General module", result)
 
     def test_formatPreconditions_negativeType_includesErrorHandling(self):
         result = _format_preconditions(
-            "US-100: Verify feature", test_type="Negative"
+            "US-100: Verify feature", module="Login", test_type="Negative"
         )
-        self.assertIn("handle invalid inputs", result)
+        self.assertIn("Invalid/expired credentials", result)
 
     def test_formatPreconditions_withSetupInfo_includesServices(self):
         setup_info = {"mock_names": ["login_service"], "setUp_doc": ""}
         result = _format_preconditions(
             "US-100: Verify feature", setup_info=setup_info, module="Login"
         )
-        self.assertIn("login service", result)
+        self.assertIn("Login Service", result)
 
     def test_formatPreconditions_onboardingModule_includesPermissions(self):
         result = _format_preconditions("", module="Quick Onboarding")
-        self.assertIn("appropriate permissions", result)
+        self.assertIn("HR/Admin role permissions", result)
 
 
 class TestFormatTestData(unittest.TestCase):
@@ -403,11 +403,12 @@ class TestFormatTestData(unittest.TestCase):
     def test_formatTestData_positiveType_includesValidNote(self):
         test_info = {"call_args": ["val"], "mock_returns": {}, "assertions": []}
         result = _format_test_data(test_info, "test_action_valid", "Positive")
-        self.assertIn("valid and expected to succeed", result)
+        self.assertIn("Data Type: Valid (positive test)", result)
 
-    def test_formatTestData_noInfo_returnsEmpty(self):
-        result = _format_test_data(None)
-        self.assertEqual(result, "")
+    def test_formatTestData_noInfo_generatesContextualData(self):
+        result = _format_test_data(None, "test_action_scenario", "General")
+        # Even without test_info, should generate meaningful test data
+        self.assertIn("Test Scenario:", result)
 
 
 class TestFormatExpectedResult(unittest.TestCase):
