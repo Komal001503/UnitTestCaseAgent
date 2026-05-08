@@ -16,6 +16,9 @@ import re
 import textwrap
 from pathlib import Path
 
+# Default environment label used in Excel reports; override via constant.
+DEFAULT_ENVIRONMENT = "QA – Chrome"
+
 
 # ---------------------------------------------------------------------------
 # Argument parsing
@@ -281,10 +284,10 @@ def render_docx(grouped: dict[str, list[dict]], output_path: Path) -> None:
 # ---------------------------------------------------------------------------
 
 def _build_test_case_id(story_id: str, index: int) -> str:
-    """Build a test case ID like TC_LOGIN_001 from a user story ID and index."""
-    # Extract numeric part from story ID (e.g., US-001 -> 001)
-    m = re.search(r"\d+", story_id)
-    story_num = m.group() if m else "000"
+    """Build a test case ID from a user story ID and index.
+
+    Example: ``_build_test_case_id("US-100", 1)`` → ``"TC_US_100_001"``
+    """
     return f"TC_{story_id.replace('-', '_')}_{index:03d}"
 
 
@@ -426,7 +429,7 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
                     "To be filled during ITQA",         # Status
                     "To be filled during ITQA",         # Priority
                     "To be filled during ITQA",         # Severity
-                    "QA – Chrome",                      # Environment
+                    DEFAULT_ENVIRONMENT,                # Environment
                     "To be filled during ITQA",         # Remarks
                 ]
 

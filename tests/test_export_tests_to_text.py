@@ -231,8 +231,7 @@ class TestRenderXlsx(unittest.TestCase):
 
         wb = load_workbook(str(output_path))
         ws = wb.active
-        # 1 header row + 4 test cases = 5 rows (but US-100 has 3 tests, US-101 has 1)
-        # However tests may appear under multiple stories if grouped differently
+        # Each test appears once per user story it belongs to
         data_rows = ws.max_row - 1  # subtract header
         self.assertGreaterEqual(data_rows, 4)
 
