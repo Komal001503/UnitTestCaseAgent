@@ -1,0 +1,54 @@
+name: Run Tests & Export Word Report
+
+on:
+  push:
+    paths:
+      - 'tests/**'
+      - 'scripts/export_tests_to_text.py'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  run-tests-and-export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run unit tests
+        run: |
+          mkdir -p test_reports
+          python -m pytest tests/ -v --tb=short --junitxml=test_reports/test_results.xml || true
+
+      - name: Generate Word document report
+        run: |
+          python scripts/export_tests_to_text.py --format docx --output-dir test_reports
+
+      - name: Upload Word report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-cases-report
+          path: test_reports/unit_test_cases_report.docx
+
+      - name: Commit report to repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add test_reports/
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'Auto-generate unit test cases Word report'
+            git push
+          fi
