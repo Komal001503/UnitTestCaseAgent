@@ -442,46 +442,92 @@ def _format_test_steps(method_name: str, docstring: str = "",
 
     steps: list[str] = []
 
-    # Step 1: Set up / preconditions
-    if test_info and test_info.get("mock_returns"):
-        mock_vals = test_info["mock_returns"]
-        setup_details = []
-        for key, val in mock_vals.items():
-            setup_details.append(f"{key}=\"{val}\"")
-        mock_summary = ", ".join(setup_details)
-        steps.append(
-            f"1. Set up test environment and configure the expected service response "
-            f"({mock_summary})"
-        )
+    # Step 1: Navigate/Prepare - specific to the action context
+    method_lower = method_name.lower()
+    if "login" in method_lower or "sso" in method_lower:
+        steps.append("1. Navigate to the application login page")
+    elif "display" in method_lower or "render" in method_lower or "show" in method_lower:
+        steps.append(f"1. Navigate to the {readable_action} screen and wait for it to fully load")
+    elif "upload" in method_lower or "bulk" in method_lower:
+        steps.append("1. Navigate to the upload/import section of the application")
+    elif "profile" in method_lower:
+        steps.append("1. Navigate to the user profile page")
+    elif "onboarding" in method_lower:
+        steps.append("1. Navigate to the onboarding module")
+    elif "approval" in method_lower or "approver" in method_lower:
+        steps.append("1. Navigate to the approval workflow section")
     else:
-        steps.append("1. Set up test environment and ensure all preconditions are met")
+        if readable_action:
+            steps.append(f"1. Navigate to the {readable_action} section of the application")
+        else:
+            steps.append("1. Navigate to the relevant application module")
 
-    # Step 2: Perform the action
+    # Step 2: Perform the action with specific data
     if test_info and test_info.get("call_args"):
         args_display = ", ".join(f'"{a}"' for a in test_info["call_args"])
         steps.append(
-            f"2. Perform {readable_action} action with input data: {args_display}"
+            f"2. Enter the test data: {args_display} and perform the {readable_action} action"
+        )
+    elif test_info and test_info.get("mock_returns"):
+        mock_vals = test_info["mock_returns"]
+        setup_details = ", ".join(f'{k}="{v}"' for k, v in mock_vals.items())
+        steps.append(
+            f"2. Trigger the {readable_action} action (service configured to return: {setup_details})"
+        )
+    elif "display" in method_lower or "render" in method_lower:
+        element = expected_token.replace("_", " ") if expected_token else readable_scenario
+        # Convert camelCase to readable words
+        element = re.sub(r"([a-z])([A-Z])", r"\1 \2", element).lower()
+        steps.append(
+            f"2. Observe the page layout and locate the {element} element"
         )
     elif readable_scenario:
         steps.append(
-            f"2. Perform {readable_action} action with {readable_scenario} scenario"
+            f"2. Perform the {readable_action} action with {readable_scenario} scenario"
         )
     else:
-        steps.append(f"2. Execute {method_name}")
+        steps.append(f"2. Execute the {readable_action} operation with prepared test data")
 
     # Step 3: Observe / wait for response
-    steps.append(
-        "3. Wait for the system to process the request and observe the response"
-    )
-
-    # Step 4: Verify
-    if desc:
-        steps.append(f"4. Verify that: {desc}")
-    elif expected_token:
-        readable_expected = re.sub(r"([a-z])([A-Z])", r"\1 \2", expected_token).lower()
-        steps.append(f"4. Verify that the system {readable_expected}")
+    if "display" in method_lower or "render" in method_lower or "show" in method_lower:
+        steps.append(
+            "3. Verify the UI element is visible and properly rendered on the page"
+        )
     else:
-        steps.append("4. Verify the system behaves as expected")
+        steps.append(
+            "3. Wait for the system to process the request and observe the response"
+        )
+
+    # Step 4: Verify expected outcome
+    if desc:
+        steps.append(f"4. Validate expected result: {desc}")
+    elif expected_token:
+        readable_expected = expected_token.replace("_", " ").lower()
+        steps.append(f"4. Validate that the system {readable_expected}")
+    else:
+        steps.append("4. Validate the system response matches the expected behavior")
+
+    # Step 5: Assertion-based verification (if we have assertion info)
+    if test_info and test_info.get("assertions"):
+        assertion_details = []
+        for assertion in test_info["assertions"]:
+            method = assertion.get("method", "")
+            args = assertion.get("args", [])
+            if method == "assertEqual" and args:
+                assertion_details.append(f'value equals "{args[0]}"')
+            elif method == "assertIn" and args:
+                assertion_details.append(f'response contains "{args[0]}"')
+            elif method == "assertTrue":
+                assertion_details.append("condition is true")
+            elif method == "assertFalse":
+                assertion_details.append("condition is false")
+            elif method == "assertIsNone":
+                assertion_details.append("result is None/empty")
+            elif method == "assertIsNotNone":
+                assertion_details.append("result is not None/empty")
+        if assertion_details:
+            checks = "; ".join(assertion_details)
+            steps.append(f"5. Confirm assertion checks pass: {checks}")
 
     return "\n".join(steps)
 
@@ -495,46 +541,69 @@ def _format_preconditions(class_doc: str, setup_info: dict | None = None,
     """
     lines: list[str] = []
 
-    # Base precondition from class context
-    if class_doc:
-        # Extract meaningful context – strip US-NNN references
-        clean_doc = re.sub(r"US-\d+\s*[/,]?\s*", "", class_doc, flags=re.IGNORECASE).strip()
-        clean_doc = clean_doc.lstrip(":").strip()
-        if clean_doc:
-            lines.append(f"Feature context: {clean_doc}")
-
-    # Application must be running
-    lines.append("The application must be running and accessible")
-
-    # Module-specific preconditions
+    # Module-specific preconditions (concrete system-state requirements)
     if module:
         mod_lower = module.lower()
         if "login" in mod_lower:
-            lines.append("User must be registered in the system")
-            lines.append("User must be on the Login page")
+            lines.append("1. User account must be registered and active in the system")
+            lines.append("2. Application login page must be accessible via browser")
+            lines.append("3. Network connectivity to authentication server must be available")
+            if test_type == "Negative":
+                lines.append("4. Invalid/expired credentials must be prepared for testing")
+            elif test_type == "Boundary":
+                lines.append("4. Boundary test data (empty strings, max-length inputs) must be prepared")
+            else:
+                lines.append("4. Valid user credentials must be available for testing")
         elif "onboarding" in mod_lower:
-            lines.append("User must be logged in with appropriate permissions")
-            lines.append("Onboarding module must be accessible")
+            lines.append("1. User must be logged in with HR/Admin role permissions")
+            lines.append("2. Onboarding module must be enabled and accessible")
+            lines.append("3. Required employee data templates must be configured")
+            if test_type == "Negative":
+                lines.append("4. Invalid/incomplete onboarding data must be prepared")
+            else:
+                lines.append("4. Valid employee records must be available in the system")
         elif "profile" in mod_lower:
-            lines.append("User must be logged in and on the Profile page")
+            lines.append("1. User must be authenticated and logged in")
+            lines.append("2. User profile page must be accessible")
+            lines.append("3. Profile data fields must be editable based on user role")
         elif "upload" in mod_lower or "bulk" in mod_lower:
-            lines.append("User must be logged in with upload permissions")
+            lines.append("1. User must be logged in with data upload permissions")
+            lines.append("2. Bulk upload module must be accessible")
+            lines.append("3. Valid file templates must be available for upload")
+            if test_type == "Negative":
+                lines.append("4. Invalid/corrupted files must be prepared for testing")
+            else:
+                lines.append("4. Test data files must be formatted correctly")
+        elif "rehire" in mod_lower:
+            lines.append("1. User must be logged in with HR permissions")
+            lines.append("2. Rehire module must be accessible")
+            lines.append("3. Previously separated employee records must exist in the system")
+        elif "overview" in mod_lower:
+            lines.append("1. User must be logged in with appropriate role")
+            lines.append("2. Onboarding overview dashboard must be accessible")
+            lines.append("3. Onboarding records must exist for display")
+        elif "approver" in mod_lower or "ir" in mod_lower:
+            lines.append("1. User must be logged in with IR Approver role")
+            lines.append("2. Approval workflow module must be accessible")
+            lines.append("3. Pending approval requests must exist in the system")
+        elif "workforce" in mod_lower:
+            lines.append("1. User must be logged in with workforce management role")
+            lines.append("2. Workforce information module must be accessible")
+            lines.append("3. Employee workforce records must exist in the system")
         else:
-            lines.append(f"User must have access to the {module} module")
+            lines.append(f"1. User must be logged in with access to the {module} module")
+            lines.append(f"2. {module} module must be accessible and functional")
+            lines.append("3. Required test data must be available in the system")
+    else:
+        lines.append("1. Application must be running and accessible")
+        lines.append("2. User must be authenticated with appropriate permissions")
+        lines.append("3. Required test data must be available")
 
     # Mock/service requirements
     if setup_info and setup_info.get("mock_names"):
-        services = [name.replace("_", " ").replace("self.", "")
+        services = [name.replace("_", " ").replace("self.", "").title()
                      for name in setup_info["mock_names"]]
-        lines.append(f"Required service(s) must be available: {', '.join(services)}")
-
-    # Test type specific
-    if test_type == "Negative":
-        lines.append("System must be in a state where it can handle invalid inputs gracefully")
-    elif test_type == "Boundary":
-        lines.append("System must be in a state where boundary/edge inputs can be tested")
-    elif test_type == "Integration":
-        lines.append("All dependent services and integrations must be configured")
+        lines.append(f"{len(lines) + 1}. Backend service(s) must be operational: {', '.join(services)}")
 
     return "\n".join(lines)
 
@@ -546,19 +615,20 @@ def _format_test_data(test_info: dict | None = None,
     Returns a multi-line string listing the concrete data values used
     in the test, making it easy for testers to replicate the scenario.
     """
-    if not test_info:
-        return ""
-
     lines: list[str] = []
 
-    # Call arguments – the primary input data
-    call_args = test_info.get("call_args", [])
-    if call_args:
-        # Try to label arguments based on method name hints
-        parts = method_name.split("_")
-        parts = [p for p in parts if p.lower() != "test"]
-        action = parts[0].lower() if parts else ""
+    # Extract call arguments from test_info
+    call_args = test_info.get("call_args", []) if test_info else []
+    mock_returns = test_info.get("mock_returns", {}) if test_info else {}
+    assertions = test_info.get("assertions", []) if test_info else []
 
+    # Parse method name to understand context
+    parts = method_name.split("_")
+    parts = [p for p in parts if p.lower() != "test"]
+    action = parts[0].lower() if parts else ""
+
+    # Call arguments – the primary input data
+    if call_args:
         if "login" in action or "sso" in action.lower():
             if len(call_args) >= 2:
                 lines.append(f"Username: {call_args[0]}")
@@ -573,19 +643,56 @@ def _format_test_data(test_info: dict | None = None,
                 lines.append(f"Input {i}: {arg}")
 
     # Mock return values – the expected service behavior
-    mock_returns = test_info.get("mock_returns", {})
     if mock_returns:
         lines.append("Expected service response:")
         for key, val in mock_returns.items():
             lines.append(f"  {key}: {val}")
 
-    # Note about test type
+    # If no explicit data from call_args/mock_returns, derive data from
+    # assertions and method name context
+    if not call_args and not mock_returns:
+        # Extract expected values from assertions
+        assertion_values = []
+        for assertion in assertions:
+            for arg in assertion.get("args", []):
+                assertion_values.append(arg)
+
+        if assertion_values:
+            lines.append("Expected UI elements/values:")
+            for val in assertion_values:
+                readable_val = val.replace("_", " ").title()
+                lines.append(f"  - {readable_val}")
+        else:
+            # Derive meaningful test data from method name
+            method_lower = method_name.lower()
+            if "display" in method_lower or "render" in method_lower or "show" in method_lower:
+                # UI verification test
+                element = "_".join(parts[2:]) if len(parts) > 2 else "element"
+                readable_element = element.replace("_", " ").title()
+                lines.append(f"UI Element: {readable_element}")
+                lines.append("Page State: Fully loaded")
+            elif "valid" in method_lower or "success" in method_lower:
+                lines.append("Input: Valid test data as per acceptance criteria")
+            elif "invalid" in method_lower or "error" in method_lower or "fail" in method_lower:
+                lines.append("Input: Invalid/malformed test data")
+            elif "empty" in method_lower or "blank" in method_lower:
+                lines.append("Input: Empty/blank values")
+            elif "max" in method_lower or "min" in method_lower:
+                lines.append("Input: Boundary value data (min/max length)")
+            else:
+                # Generic but still informative
+                readable_action = " ".join(parts[:2]) if len(parts) >= 2 else action
+                lines.append(f"Test Scenario: {readable_action.replace('_', ' ').title()}")
+
+    # Add test type context
     if test_type == "Positive":
-        lines.append("Note: All input data values are valid and expected to succeed")
+        lines.append("Data Type: Valid (positive test)")
     elif test_type == "Negative":
-        lines.append("Note: Input data contains invalid values to test error handling")
+        lines.append("Data Type: Invalid (negative test - error handling)")
     elif test_type == "Boundary":
-        lines.append("Note: Input data tests boundary/edge conditions")
+        lines.append("Data Type: Boundary/edge case values")
+    elif test_type == "Integration":
+        lines.append("Data Type: Integration test data")
 
     return "\n".join(lines)
 
