@@ -302,11 +302,21 @@ def _extract_module_from_source(source_file: str) -> str:
     return "General"
 
 
-def _format_test_steps(method_name: str) -> str:
-    """Convert a test method name into numbered test steps."""
-    # e.g. test_login_validCredentials_returnsSuccess ->
-    #   1. Invoke login with validCredentials scenario
-    #   2. Verify returnsSuccess
+def _format_test_steps(method_name: str, docstring: str = "") -> str:
+    """Convert a test method name and docstring into numbered test steps.
+
+    When a *docstring* is provided the steps include a human-readable
+    description derived from it, making the output more meaningful than
+    relying on the method name alone.
+    """
+    # Strip type prefix from docstring so we get a clean description.
+    desc = re.sub(
+        r"^(Positive|Negative|Boundary|Integration|Edge|General)\s*:\s*",
+        "",
+        docstring,
+        flags=re.IGNORECASE,
+    ).strip() if docstring else ""
+
     parts = method_name.split("_")
     # Remove leading "test" token
     parts = [p for p in parts if p.lower() != "test"]
@@ -314,13 +324,16 @@ def _format_test_steps(method_name: str) -> str:
         action = parts[0]
         scenario = parts[1]
         expected = "_".join(parts[2:])
-        return (
-            f"1. Set up test environment\n"
-            f"2. Invoke {action} with {scenario} scenario\n"
-            f"3. Verify {expected}"
-        )
+        step2 = f"2. Invoke {action} with {scenario} scenario"
+        step3 = f"3. Verify {desc}" if desc else f"3. Verify {expected}"
+        return f"1. Set up test environment\n{step2}\n{step3}"
     elif len(parts) == 2:
-        return f"1. Set up test environment\n2. Invoke {parts[0]} with {parts[1]} scenario"
+        step2 = f"2. Invoke {parts[0]} with {parts[1]} scenario"
+        if desc:
+            return f"1. Set up test environment\n{step2}\n3. Verify {desc}"
+        return f"1. Set up test environment\n{step2}"
+    if desc:
+        return f"1. Set up test environment\n2. Execute {method_name}\n3. Verify {desc}"
     return f"1. Execute {method_name}"
 
 
@@ -349,6 +362,7 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
     headers = [
         "Test Case ID",
         "Test Case Title",
+        "Test Type",
         "Module",
         "User Story ID",
         "Preconditions",
@@ -414,11 +428,12 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
                 # Preconditions from class docstring
                 preconditions = class_doc if class_doc else "Test environment is set up"
 
-                test_steps = _format_test_steps(test["method_name"])
+                test_steps = _format_test_steps(test["method_name"], test["docstring"])
 
                 row_data = [
                     tc_id,                              # Test Case ID
                     title,                              # Test Case Title
+                    test["test_type"],                   # Test Type
                     module,                             # Module
                     story_id,                           # User Story ID
                     preconditions,                      # Preconditions
