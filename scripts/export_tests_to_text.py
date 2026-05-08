@@ -75,13 +75,113 @@ def _extract_user_stories(text: str) -> list[str]:
     return sorted(set(m.group().upper() for m in _US_PATTERN.finditer(text)))
 
 
+def _extract_string_literals(node: ast.AST) -> list[str]:
+    """Recursively collect all string literal values from an AST node."""
+    strings: list[str] = []
+    for child in ast.walk(node):
+        if isinstance(child, ast.Constant) and isinstance(child.value, str):
+            strings.append(child.value)
+    return strings
+
+
+def _extract_call_args(node: ast.AST) -> list[str]:
+    """Extract string arguments from service/method calls in test body.
+
+    Only captures arguments from calls on ``self.<service>.<method>(...)``
+    patterns – i.e. the actual service invocations that represent test
+    input data.  Assertion calls (``self.assertXxx``) are excluded.
+    """
+    args: list[str] = []
+    for child in ast.walk(node):
+        if not isinstance(child, ast.Call):
+            continue
+        func = child.func
+        # Match self.<service>.<method>(...) but NOT self.assert*
+        if isinstance(func, ast.Attribute):
+            attr_name = func.attr
+            # Skip assertions and return_value assignments
+            if attr_name.startswith("assert"):
+                continue
+            if attr_name == "return_value":
+                continue
+            # Only keep calls on self.<obj>.<method>
+            if isinstance(func.value, ast.Attribute):
+                for arg in child.args:
+                    if isinstance(arg, ast.Constant) and isinstance(arg.value, str):
+                        args.append(arg.value)
+    return args
+
+
+def _extract_mock_return_values(node: ast.AST) -> dict[str, str]:
+    """Extract key-value pairs from mock return_value dicts.
+
+    Looks for patterns like ``service.method.return_value = {"key": "val"}``
+    and returns a dict of all string key-value pairs found.
+    """
+    pairs: dict[str, str] = {}
+    for child in ast.walk(node):
+        if isinstance(child, ast.Assign):
+            # Look for Dict values in assignments
+            if isinstance(child.value, ast.Dict):
+                for key, val in zip(child.value.keys, child.value.values):
+                    if (isinstance(key, ast.Constant) and isinstance(key.value, str)
+                            and isinstance(val, ast.Constant) and isinstance(val.value, str)):
+                        pairs[key.value] = val.value
+    return pairs
+
+
+def _extract_assertions(node: ast.AST) -> list[dict]:
+    """Extract assertion details from a test method.
+
+    Returns a list of dicts with keys: method, args (list of string values).
+    """
+    assertions: list[dict] = []
+    for child in ast.walk(node):
+        if isinstance(child, ast.Call) and isinstance(child.func, ast.Attribute):
+            attr_name = child.func.attr
+            if attr_name.startswith("assert"):
+                assertion_args: list[str] = []
+                for arg in child.args:
+                    if isinstance(arg, ast.Constant) and isinstance(arg.value, str):
+                        assertion_args.append(arg.value)
+                assertions.append({
+                    "method": attr_name,
+                    "args": assertion_args,
+                })
+    return assertions
+
+
+def _extract_setup_info(class_node: ast.ClassDef) -> dict:
+    """Extract precondition info from the setUp method of a test class.
+
+    Returns a dict with keys:
+        mock_names   – list of attribute names assigned as MagicMock
+        setUp_doc    – docstring of setUp method
+    """
+    mock_names: list[str] = []
+    setup_doc = ""
+    for item in class_node.body:
+        if isinstance(item, ast.FunctionDef) and item.name == "setUp":
+            setup_doc = _extract_docstring(item)
+            for stmt in ast.walk(item):
+                # Detect self.xxx = MagicMock()
+                if isinstance(stmt, ast.Assign):
+                    for target in stmt.targets:
+                        if (isinstance(target, ast.Attribute)
+                                and isinstance(target.value, ast.Name)
+                                and target.value.id == "self"):
+                            mock_names.append(target.attr)
+            break
+    return {"mock_names": mock_names, "setUp_doc": setup_doc}
+
+
 def parse_test_file(filepath: Path) -> list[dict]:
     """Parse a single test file and return a list of test-class dicts.
 
     Each dict has keys:
-        class_name, class_docstring, user_stories, tests
+        class_name, class_docstring, user_stories, setup_info, tests
     where ``tests`` is a list of dicts with:
-        method_name, docstring, test_type
+        method_name, docstring, test_type, call_args, mock_returns, assertions
     """
     source = filepath.read_text(encoding="utf-8")
     tree = ast.parse(source, filename=str(filepath))
@@ -96,6 +196,7 @@ def parse_test_file(filepath: Path) -> list[dict]:
             continue
         cls_doc = _extract_docstring(node)
         cls_stories = _extract_user_stories(cls_doc) or module_stories
+        setup_info = _extract_setup_info(node)
 
         methods: list[dict] = []
         for item in node.body:
@@ -105,6 +206,9 @@ def parse_test_file(filepath: Path) -> list[dict]:
                     "method_name": item.name,
                     "docstring": m_doc,
                     "test_type": _extract_test_type(m_doc),
+                    "call_args": _extract_call_args(item),
+                    "mock_returns": _extract_mock_return_values(item),
+                    "assertions": _extract_assertions(item),
                 })
 
         if methods:
@@ -113,6 +217,7 @@ def parse_test_file(filepath: Path) -> list[dict]:
                 "class_docstring": cls_doc,
                 "user_stories": cls_stories,
                 "source_file": filepath.name,
+                "setup_info": setup_info,
                 "tests": methods,
             })
 
@@ -302,8 +407,13 @@ def _extract_module_from_source(source_file: str) -> str:
     return "General"
 
 
-def _format_test_steps(method_name: str, docstring: str = "") -> str:
-    """Convert a test method name and docstring into numbered test steps.
+def _format_test_steps(method_name: str, docstring: str = "",
+                       test_info: dict | None = None) -> str:
+    """Convert a test method name and docstring into detailed numbered test steps.
+
+    When *test_info* is provided (from the enhanced AST parser) the steps
+    include concrete actions derived from the actual test code – call
+    arguments, mock scenarios, and assertion checks.
 
     When a *docstring* is provided the steps include a human-readable
     description derived from it, making the output more meaningful than
@@ -320,21 +430,232 @@ def _format_test_steps(method_name: str, docstring: str = "") -> str:
     parts = method_name.split("_")
     # Remove leading "test" token
     parts = [p for p in parts if p.lower() != "test"]
-    if len(parts) >= 3:
-        action = parts[0]
-        scenario = parts[1]
-        expected = "_".join(parts[2:])
-        step2 = f"2. Invoke {action} with {scenario} scenario"
-        step3 = f"3. Verify {desc}" if desc else f"3. Verify {expected}"
-        return f"1. Set up test environment\n{step2}\n{step3}"
-    elif len(parts) == 2:
-        step2 = f"2. Invoke {parts[0]} with {parts[1]} scenario"
-        if desc:
-            return f"1. Set up test environment\n{step2}\n3. Verify {desc}"
-        return f"1. Set up test environment\n{step2}"
+
+    # Derive a human-readable action from method name parts
+    action = parts[0] if parts else method_name
+    scenario = parts[1] if len(parts) >= 2 else ""
+    expected_token = "_".join(parts[2:]) if len(parts) >= 3 else ""
+
+    # Pretty-print scenario: camelCase → spaced words
+    readable_scenario = re.sub(r"([a-z])([A-Z])", r"\1 \2", scenario).lower() if scenario else ""
+    readable_action = re.sub(r"([a-z])([A-Z])", r"\1 \2", action).lower() if action else ""
+
+    steps: list[str] = []
+
+    # Step 1: Set up / preconditions
+    if test_info and test_info.get("mock_returns"):
+        mock_vals = test_info["mock_returns"]
+        setup_details = []
+        for key, val in mock_vals.items():
+            setup_details.append(f"{key}=\"{val}\"")
+        mock_summary = ", ".join(setup_details)
+        steps.append(
+            f"1. Set up test environment and configure the expected service response "
+            f"({mock_summary})"
+        )
+    else:
+        steps.append("1. Set up test environment and ensure all preconditions are met")
+
+    # Step 2: Perform the action
+    if test_info and test_info.get("call_args"):
+        args_display = ", ".join(f'"{a}"' for a in test_info["call_args"])
+        steps.append(
+            f"2. Perform {readable_action} action with input data: {args_display}"
+        )
+    elif readable_scenario:
+        steps.append(
+            f"2. Perform {readable_action} action with {readable_scenario} scenario"
+        )
+    else:
+        steps.append(f"2. Execute {method_name}")
+
+    # Step 3: Observe / wait for response
+    steps.append(
+        "3. Wait for the system to process the request and observe the response"
+    )
+
+    # Step 4: Verify
     if desc:
-        return f"1. Set up test environment\n2. Execute {method_name}\n3. Verify {desc}"
-    return f"1. Execute {method_name}"
+        steps.append(f"4. Verify that: {desc}")
+    elif expected_token:
+        readable_expected = re.sub(r"([a-z])([A-Z])", r"\1 \2", expected_token).lower()
+        steps.append(f"4. Verify that the system {readable_expected}")
+    else:
+        steps.append("4. Verify the system behaves as expected")
+
+    return "\n".join(steps)
+
+
+def _format_preconditions(class_doc: str, setup_info: dict | None = None,
+                          module: str = "", test_type: str = "") -> str:
+    """Generate detailed preconditions from class docstring and setUp info.
+
+    Returns a multi-line string describing what must already be true
+    before the test can be executed.
+    """
+    lines: list[str] = []
+
+    # Base precondition from class context
+    if class_doc:
+        # Extract meaningful context – strip US-NNN references
+        clean_doc = re.sub(r"US-\d+\s*[/,]?\s*", "", class_doc, flags=re.IGNORECASE).strip()
+        clean_doc = clean_doc.lstrip(":").strip()
+        if clean_doc:
+            lines.append(f"Feature context: {clean_doc}")
+
+    # Application must be running
+    lines.append("The application must be running and accessible")
+
+    # Module-specific preconditions
+    if module:
+        mod_lower = module.lower()
+        if "login" in mod_lower:
+            lines.append("User must be registered in the system")
+            lines.append("User must be on the Login page")
+        elif "onboarding" in mod_lower:
+            lines.append("User must be logged in with appropriate permissions")
+            lines.append("Onboarding module must be accessible")
+        elif "profile" in mod_lower:
+            lines.append("User must be logged in and on the Profile page")
+        elif "upload" in mod_lower or "bulk" in mod_lower:
+            lines.append("User must be logged in with upload permissions")
+        else:
+            lines.append(f"User must have access to the {module} module")
+
+    # Mock/service requirements
+    if setup_info and setup_info.get("mock_names"):
+        services = [name.replace("_", " ").replace("self.", "")
+                     for name in setup_info["mock_names"]]
+        lines.append(f"Required service(s) must be available: {', '.join(services)}")
+
+    # Test type specific
+    if test_type == "Negative":
+        lines.append("System must be in a state where it can handle invalid inputs gracefully")
+    elif test_type == "Boundary":
+        lines.append("System must be in a state where boundary/edge inputs can be tested")
+    elif test_type == "Integration":
+        lines.append("All dependent services and integrations must be configured")
+
+    return "\n".join(lines)
+
+
+def _format_test_data(test_info: dict | None = None,
+                      method_name: str = "", test_type: str = "") -> str:
+    """Generate detailed test data description from extracted method info.
+
+    Returns a multi-line string listing the concrete data values used
+    in the test, making it easy for testers to replicate the scenario.
+    """
+    if not test_info:
+        return ""
+
+    lines: list[str] = []
+
+    # Call arguments – the primary input data
+    call_args = test_info.get("call_args", [])
+    if call_args:
+        # Try to label arguments based on method name hints
+        parts = method_name.split("_")
+        parts = [p for p in parts if p.lower() != "test"]
+        action = parts[0].lower() if parts else ""
+
+        if "login" in action or "sso" in action.lower():
+            if len(call_args) >= 2:
+                lines.append(f"Username: {call_args[0]}")
+                lines.append(f"Password: {call_args[1]}")
+            elif len(call_args) == 1:
+                if "sso" in action.lower() or "token" in method_name.lower():
+                    lines.append(f"SSO Token: {call_args[0]}")
+                else:
+                    lines.append(f"Input: {call_args[0]}")
+        else:
+            for i, arg in enumerate(call_args, 1):
+                lines.append(f"Input {i}: {arg}")
+
+    # Mock return values – the expected service behavior
+    mock_returns = test_info.get("mock_returns", {})
+    if mock_returns:
+        lines.append("Expected service response:")
+        for key, val in mock_returns.items():
+            lines.append(f"  {key}: {val}")
+
+    # Note about test type
+    if test_type == "Positive":
+        lines.append("Note: All input data values are valid and expected to succeed")
+    elif test_type == "Negative":
+        lines.append("Note: Input data contains invalid values to test error handling")
+    elif test_type == "Boundary":
+        lines.append("Note: Input data tests boundary/edge conditions")
+
+    return "\n".join(lines)
+
+
+def _format_expected_result(docstring: str = "", test_info: dict | None = None,
+                            test_type: str = "") -> str:
+    """Generate a detailed expected result description.
+
+    Combines the test docstring, assertion details, and mock return values
+    to produce a comprehensive expected-outcome description.
+    """
+    # Clean description from docstring
+    desc = re.sub(
+        r"^(Positive|Negative|Boundary|Integration|Edge|General)\s*:\s*",
+        "",
+        docstring,
+        flags=re.IGNORECASE,
+    ).strip() if docstring else ""
+
+    lines: list[str] = []
+
+    if desc:
+        lines.append(desc)
+
+    if test_info:
+        mock_returns = test_info.get("mock_returns", {})
+        assertions = test_info.get("assertions", [])
+
+        # Add specifics from mock return values
+        if "status" in mock_returns:
+            status_val = mock_returns["status"]
+            if status_val == "success":
+                lines.append("The system should process the request successfully")
+            elif status_val == "error":
+                lines.append("The system should return an appropriate error response")
+
+        if "redirect" in mock_returns:
+            lines.append(f"User should be redirected to: {mock_returns['redirect']}")
+
+        if "message" in mock_returns:
+            lines.append(f"System should display message: \"{mock_returns['message']}\"")
+
+        # Add assertion-based expectations
+        for assertion in assertions:
+            method = assertion.get("method", "")
+            args = assertion.get("args", [])
+            if method == "assertEqual" and args:
+                for arg in args:
+                    lines.append(f"Verify value equals: \"{arg}\"")
+            elif method == "assertIn" and args:
+                for arg in args:
+                    lines.append(f"Verify response contains: \"{arg}\"")
+
+    # Add general expectation based on test type
+    if test_type == "Positive":
+        lines.append("No error messages should be displayed")
+    elif test_type == "Negative":
+        lines.append("An appropriate error message should be shown to the user")
+    elif test_type == "Boundary":
+        lines.append("System should handle the edge case gracefully without crashing")
+
+    # Deduplicate while preserving order
+    seen: set[str] = set()
+    unique_lines: list[str] = []
+    for line in lines:
+        if line not in seen:
+            seen.add(line)
+            unique_lines.append(line)
+
+    return "\n".join(unique_lines)
 
 
 def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
@@ -408,6 +729,7 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
         for cls in classes:
             module = _extract_module_from_source(cls["source_file"])
             class_doc = cls["class_docstring"]
+            setup_info = cls.get("setup_info")
 
             for test in cls["tests"]:
                 tc_counter += 1
@@ -422,22 +744,37 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
                     flags=re.IGNORECASE,
                 ).strip()
 
-                # Extract expected result from docstring
-                expected_result = title
+                test_type = test["test_type"]
 
-                # Preconditions from class docstring
-                preconditions = class_doc if class_doc else "Test environment is set up"
+                # Build test_info dict from enhanced AST data
+                test_info = {
+                    "call_args": test.get("call_args", []),
+                    "mock_returns": test.get("mock_returns", {}),
+                    "assertions": test.get("assertions", []),
+                }
 
-                test_steps = _format_test_steps(test["method_name"], test["docstring"])
+                # Generate detailed content for each column
+                preconditions = _format_preconditions(
+                    class_doc, setup_info, module, test_type
+                )
+                test_data = _format_test_data(
+                    test_info, test["method_name"], test_type
+                )
+                test_steps = _format_test_steps(
+                    test["method_name"], test["docstring"], test_info
+                )
+                expected_result = _format_expected_result(
+                    test["docstring"], test_info, test_type
+                )
 
                 row_data = [
                     tc_id,                              # Test Case ID
                     title,                              # Test Case Title
-                    test["test_type"],                   # Test Type
+                    test_type,                          # Test Type
                     module,                             # Module
                     story_id,                           # User Story ID
                     preconditions,                      # Preconditions
-                    "",                                 # Test Data
+                    test_data,                          # Test Data
                     test_steps,                         # Test Steps
                     expected_result,                    # Expected Result
                     "To be filled during ITQA",         # Actual Result

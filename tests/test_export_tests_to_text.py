@@ -13,6 +13,13 @@ from scripts.export_tests_to_text import (
     _build_test_case_id,
     _extract_module_from_source,
     _format_test_steps,
+    _format_preconditions,
+    _format_test_data,
+    _format_expected_result,
+    _extract_setup_info,
+    _extract_call_args,
+    _extract_mock_return_values,
+    _extract_assertions,
 )
 
 
@@ -178,33 +185,52 @@ class TestExtractModuleFromSource(unittest.TestCase):
 
 
 class TestFormatTestSteps(unittest.TestCase):
-    def test_formatTestSteps_threePartName_returnsThreeSteps(self):
+    def test_formatTestSteps_threePartName_returnsDetailedSteps(self):
         result = _format_test_steps("test_login_validCredentials_returnsSuccess")
         self.assertIn("1.", result)
         self.assertIn("2.", result)
         self.assertIn("3.", result)
+        self.assertIn("4.", result)
         self.assertIn("login", result)
-        self.assertIn("validCredentials", result)
+        self.assertIn("valid credentials", result)
 
-    def test_formatTestSteps_twoPartName_returnsTwoSteps(self):
+    def test_formatTestSteps_twoPartName_returnsDetailedSteps(self):
         result = _format_test_steps("test_login_validCredentials")
         self.assertIn("1.", result)
         self.assertIn("2.", result)
+        self.assertIn("3.", result)
+        self.assertIn("4.", result)
+        self.assertIn("login", result)
 
     def test_formatTestSteps_withDocstring_usesDocstringInVerifyStep(self):
         result = _format_test_steps(
             "test_login_validCredentials_returnsSuccess",
             "Positive: Valid credentials return success"
         )
-        self.assertIn("Verify Valid credentials return success", result)
+        self.assertIn("Verify that: Valid credentials return success", result)
 
     def test_formatTestSteps_twoPartWithDocstring_addsVerifyStep(self):
         result = _format_test_steps(
             "test_login_validCredentials",
             "Positive: Login works"
         )
-        self.assertIn("3.", result)
-        self.assertIn("Verify Login works", result)
+        self.assertIn("4.", result)
+        self.assertIn("Verify that: Login works", result)
+
+    def test_formatTestSteps_withTestInfo_includesCallArgs(self):
+        test_info = {
+            "call_args": ["test_user", "Password@123"],
+            "mock_returns": {"status": "success", "redirect": "/dashboard"},
+            "assertions": [],
+        }
+        result = _format_test_steps(
+            "test_login_validCredentials_returnsSuccess",
+            "Positive: Valid credentials return success",
+            test_info,
+        )
+        self.assertIn("test_user", result)
+        self.assertIn("Password@123", result)
+        self.assertIn("status", result)
 
 
 class TestRenderXlsx(unittest.TestCase):
@@ -317,6 +343,139 @@ class TestRenderXlsx(unittest.TestCase):
             steps = ws.cell(row=row, column=8).value
             self.assertIsNotNone(steps, f"Test Steps is empty at row {row}")
             self.assertIn("1.", steps)
+
+
+class TestFormatPreconditions(unittest.TestCase):
+    def test_formatPreconditions_loginModule_includesRegistrationRequirement(self):
+        result = _format_preconditions(
+            "US-001: Verify login screen", module="Login"
+        )
+        self.assertIn("User must be registered", result)
+        self.assertIn("Login page", result)
+
+    def test_formatPreconditions_withClassDoc_includesContext(self):
+        result = _format_preconditions(
+            "US-100: Verify sample feature.", module="General"
+        )
+        self.assertIn("Feature context:", result)
+
+    def test_formatPreconditions_negativeType_includesErrorHandling(self):
+        result = _format_preconditions(
+            "US-100: Verify feature", test_type="Negative"
+        )
+        self.assertIn("handle invalid inputs", result)
+
+    def test_formatPreconditions_withSetupInfo_includesServices(self):
+        setup_info = {"mock_names": ["login_service"], "setUp_doc": ""}
+        result = _format_preconditions(
+            "US-100: Verify feature", setup_info=setup_info, module="Login"
+        )
+        self.assertIn("login service", result)
+
+    def test_formatPreconditions_onboardingModule_includesPermissions(self):
+        result = _format_preconditions("", module="Quick Onboarding")
+        self.assertIn("appropriate permissions", result)
+
+
+class TestFormatTestData(unittest.TestCase):
+    def test_formatTestData_loginWithArgs_displaysUsernamePassword(self):
+        test_info = {
+            "call_args": ["test_user", "Password@123"],
+            "mock_returns": {"status": "success"},
+            "assertions": [],
+        }
+        result = _format_test_data(
+            test_info, "test_login_validCredentials_returnsSuccess", "Positive"
+        )
+        self.assertIn("Username: test_user", result)
+        self.assertIn("Password: Password@123", result)
+
+    def test_formatTestData_withMockReturns_displaysServiceResponse(self):
+        test_info = {
+            "call_args": [],
+            "mock_returns": {"status": "error", "message": "Invalid credentials"},
+            "assertions": [],
+        }
+        result = _format_test_data(test_info, "test_login_invalid", "Negative")
+        self.assertIn("Expected service response:", result)
+        self.assertIn("status: error", result)
+
+    def test_formatTestData_positiveType_includesValidNote(self):
+        test_info = {"call_args": ["val"], "mock_returns": {}, "assertions": []}
+        result = _format_test_data(test_info, "test_action_valid", "Positive")
+        self.assertIn("valid and expected to succeed", result)
+
+    def test_formatTestData_noInfo_returnsEmpty(self):
+        result = _format_test_data(None)
+        self.assertEqual(result, "")
+
+
+class TestFormatExpectedResult(unittest.TestCase):
+    def test_formatExpectedResult_successResponse_includesRedirect(self):
+        test_info = {
+            "call_args": [],
+            "mock_returns": {"status": "success", "redirect": "/dashboard"},
+            "assertions": [],
+        }
+        result = _format_expected_result(
+            "Positive: Valid login succeeds", test_info, "Positive"
+        )
+        self.assertIn("Valid login succeeds", result)
+        self.assertIn("redirected to: /dashboard", result)
+        self.assertIn("No error messages", result)
+
+    def test_formatExpectedResult_errorResponse_includesMessage(self):
+        test_info = {
+            "call_args": [],
+            "mock_returns": {"status": "error", "message": "Invalid credentials"},
+            "assertions": [{"method": "assertIn", "args": ["Invalid credentials"]}],
+        }
+        result = _format_expected_result(
+            "Negative: Invalid password returns error", test_info, "Negative"
+        )
+        self.assertIn("Invalid credentials", result)
+        self.assertIn("error", result.lower())
+
+    def test_formatExpectedResult_boundaryType_includesGracefulHandling(self):
+        test_info = {"call_args": [], "mock_returns": {}, "assertions": []}
+        result = _format_expected_result("Boundary: Edge case", test_info, "Boundary")
+        self.assertIn("gracefully", result)
+
+    def test_formatExpectedResult_noDocstring_stillProducesOutput(self):
+        test_info = {
+            "call_args": [],
+            "mock_returns": {"status": "success"},
+            "assertions": [],
+        }
+        result = _format_expected_result("", test_info, "Positive")
+        self.assertIn("successfully", result)
+
+
+class TestExtractASTHelpers(unittest.TestCase):
+    def setUp(self):
+        self.tmpdir = tempfile.mkdtemp()
+        self.test_file = Path(self.tmpdir) / "test_sample.py"
+        self.test_file.write_text(SAMPLE_TEST_FILE, encoding="utf-8")
+
+    def test_parseTestFile_sampleFile_includesSetupInfo(self):
+        classes = parse_test_file(self.test_file)
+        self.assertIn("setup_info", classes[0])
+        self.assertIn("mock_names", classes[0]["setup_info"])
+
+    def test_parseTestFile_sampleFile_testsIncludeCallArgs(self):
+        classes = parse_test_file(self.test_file)
+        for test in classes[0]["tests"]:
+            self.assertIn("call_args", test)
+
+    def test_parseTestFile_sampleFile_testsIncludeMockReturns(self):
+        classes = parse_test_file(self.test_file)
+        for test in classes[0]["tests"]:
+            self.assertIn("mock_returns", test)
+
+    def test_parseTestFile_sampleFile_testsIncludeAssertions(self):
+        classes = parse_test_file(self.test_file)
+        for test in classes[0]["tests"]:
+            self.assertIn("assertions", test)
 
 
 if __name__ == "__main__":
