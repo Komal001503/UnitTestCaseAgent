@@ -7,8 +7,12 @@ from scripts.export_tests_to_text import (
     parse_test_file,
     group_by_user_story,
     render_text,
+    render_xlsx,
     _extract_user_stories,
     _extract_test_type,
+    _build_test_case_id,
+    _extract_module_from_source,
+    _format_test_steps,
 )
 
 
@@ -147,6 +151,128 @@ class TestRenderText(unittest.TestCase):
 
         self.assertIn("SUMMARY", text)
         self.assertIn("TOTAL TEST CASES:", text)
+
+
+class TestBuildTestCaseId(unittest.TestCase):
+    def test_buildTestCaseId_storyUS100_index1_returnsCorrectId(self):
+        result = _build_test_case_id("US-100", 1)
+        self.assertEqual(result, "TC_US_100_001")
+
+    def test_buildTestCaseId_storyUS001_index15_returnsCorrectId(self):
+        result = _build_test_case_id("US-001", 15)
+        self.assertEqual(result, "TC_US_001_015")
+
+
+class TestExtractModuleFromSource(unittest.TestCase):
+    def test_extractModule_loginFile_returnsLogin(self):
+        result = _extract_module_from_source("test_us001_us004_us007_us012_us016_us027_login.py")
+        self.assertEqual(result, "Login")
+
+    def test_extractModule_quickOnboarding_returnsQuickOnboarding(self):
+        result = _extract_module_from_source("test_us002_us003_quick_onboarding.py")
+        self.assertEqual(result, "Quick Onboarding")
+
+    def test_extractModule_noModuleName_returnsGeneral(self):
+        result = _extract_module_from_source("test_us001.py")
+        self.assertEqual(result, "General")
+
+
+class TestFormatTestSteps(unittest.TestCase):
+    def test_formatTestSteps_threePartName_returnsThreeSteps(self):
+        result = _format_test_steps("test_login_validCredentials_returnsSuccess")
+        self.assertIn("1.", result)
+        self.assertIn("2.", result)
+        self.assertIn("3.", result)
+        self.assertIn("login", result)
+        self.assertIn("validCredentials", result)
+
+    def test_formatTestSteps_twoPartName_returnsTwoSteps(self):
+        result = _format_test_steps("test_login_validCredentials")
+        self.assertIn("1.", result)
+        self.assertIn("2.", result)
+
+
+class TestRenderXlsx(unittest.TestCase):
+    def setUp(self):
+        self.tmpdir = tempfile.mkdtemp()
+        self.test_file = Path(self.tmpdir) / "test_sample.py"
+        self.test_file.write_text(SAMPLE_TEST_FILE, encoding="utf-8")
+
+    def test_renderXlsx_sampleFile_createsFile(self):
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+        self.assertTrue(output_path.exists())
+
+    def test_renderXlsx_sampleFile_hasCorrectHeaders(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        headers = [ws.cell(row=1, column=c).value for c in range(1, 15)]
+        self.assertEqual(headers[0], "Test Case ID")
+        self.assertEqual(headers[1], "Test Case Title")
+        self.assertEqual(headers[2], "Module")
+        self.assertEqual(headers[3], "User Story ID")
+        self.assertEqual(headers[7], "Expected Result")
+        self.assertEqual(headers[13], "Remarks")
+
+    def test_renderXlsx_sampleFile_hasCorrectRowCount(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        # Each test appears once per user story it belongs to
+        data_rows = ws.max_row - 1  # subtract header
+        self.assertGreaterEqual(data_rows, 4)
+
+    def test_renderXlsx_sampleFile_containsTestCaseIds(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        tc_id = ws.cell(row=2, column=1).value
+        self.assertTrue(tc_id.startswith("TC_"))
+
+    def test_renderXlsx_sampleFile_containsUserStoryId(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        story_ids = set()
+        for row in range(2, ws.max_row + 1):
+            story_ids.add(ws.cell(row=row, column=4).value)
+        self.assertIn("US-100", story_ids)
+        self.assertIn("US-101", story_ids)
+
+    def test_renderXlsx_sampleFile_actualResultPlaceholder(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        actual_result = ws.cell(row=2, column=9).value
+        self.assertEqual(actual_result, "To be filled during ITQA")
 
 
 if __name__ == "__main__":

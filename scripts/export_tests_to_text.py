@@ -5,7 +5,7 @@ Parses Python unittest files, extracts test classes and methods with their
 docstrings, and produces a human-readable text report grouped by user story.
 
 Usage:
-    python scripts/export_tests_to_text.py [--output-dir OUTPUT_DIR] [--format {txt,docx}]
+    python scripts/export_tests_to_text.py [--output-dir OUTPUT_DIR] [--format {txt,docx,xlsx}]
 
 By default, output is written to ``test_reports/`` in the repository root.
 """
@@ -15,6 +15,9 @@ import ast
 import re
 import textwrap
 from pathlib import Path
+
+# Default environment label used in Excel reports; override via constant.
+DEFAULT_ENVIRONMENT = "QA – Chrome"
 
 
 # ---------------------------------------------------------------------------
@@ -38,9 +41,9 @@ def parse_args():
     )
     parser.add_argument(
         "--format",
-        choices=["txt", "docx"],
+        choices=["txt", "docx", "xlsx"],
         default="txt",
-        help="Output format: 'txt' (plain text) or 'docx' (Word document). Default: txt",
+        help="Output format: 'txt' (plain text), 'docx' (Word document), or 'xlsx' (Excel spreadsheet). Default: txt",
     )
     return parser.parse_args()
 
@@ -277,6 +280,182 @@ def render_docx(grouped: dict[str, list[dict]], output_path: Path) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Rendering – Excel spreadsheet (xlsx)
+# ---------------------------------------------------------------------------
+
+def _build_test_case_id(story_id: str, index: int) -> str:
+    """Build a test case ID from a user story ID and index.
+
+    Example: ``_build_test_case_id("US-100", 1)`` → ``"TC_US_100_001"``
+    """
+    return f"TC_{story_id.replace('-', '_')}_{index:03d}"
+
+
+def _extract_module_from_source(source_file: str) -> str:
+    """Derive a module name from the test source filename."""
+    # test_us001_us004_us007_us012_us016_us027_login.py -> Login
+    name = source_file.replace("test_", "").replace(".py", "")
+    # Remove user-story segments like us001, us004, etc.
+    parts = re.sub(r"us\d+_?", "", name, flags=re.IGNORECASE).strip("_")
+    if parts:
+        return parts.replace("_", " ").title()
+    return "General"
+
+
+def _format_test_steps(method_name: str) -> str:
+    """Convert a test method name into numbered test steps."""
+    # e.g. test_login_validCredentials_returnsSuccess ->
+    #   1. Invoke login with validCredentials scenario
+    #   2. Verify returnsSuccess
+    parts = method_name.split("_")
+    # Remove leading "test" token
+    parts = [p for p in parts if p.lower() != "test"]
+    if len(parts) >= 3:
+        action = parts[0]
+        scenario = parts[1]
+        expected = "_".join(parts[2:])
+        return (
+            f"1. Set up test environment\n"
+            f"2. Invoke {action} with {scenario} scenario\n"
+            f"3. Verify {expected}"
+        )
+    elif len(parts) == 2:
+        return f"1. Set up test environment\n2. Invoke {parts[0]} with {parts[1]} scenario"
+    return f"1. Execute {method_name}"
+
+
+def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
+    """Render grouped test data as an Excel (.xlsx) spreadsheet.
+
+    Columns follow the standard test case format:
+    Test Case ID, Test Case Title, Module, User Story ID, Preconditions,
+    Test Data, Test Steps, Expected Result, Actual Result, Status,
+    Priority, Severity, Environment, Remarks
+    """
+    try:
+        from openpyxl import Workbook
+        from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
+    except ImportError:
+        raise SystemExit(
+            "openpyxl is required for Excel output. Install it with:\n"
+            "  pip install openpyxl"
+        )
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Test Cases"
+
+    # Define headers
+    headers = [
+        "Test Case ID",
+        "Test Case Title",
+        "Module",
+        "User Story ID",
+        "Preconditions",
+        "Test Data",
+        "Test Steps",
+        "Expected Result",
+        "Actual Result",
+        "Status",
+        "Priority",
+        "Severity",
+        "Environment",
+        "Remarks",
+    ]
+
+    # Style for header row
+    header_font = Font(bold=True, color="FFFFFF", size=11)
+    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
+    header_alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+    thin_border = Border(
+        left=Side(style="thin"),
+        right=Side(style="thin"),
+        top=Side(style="thin"),
+        bottom=Side(style="thin"),
+    )
+
+    # Write headers
+    for col_idx, header in enumerate(headers, start=1):
+        cell = ws.cell(row=1, column=col_idx, value=header)
+        cell.font = header_font
+        cell.fill = header_fill
+        cell.alignment = header_alignment
+        cell.border = thin_border
+
+    # Write data rows
+    sorted_stories = sorted(grouped.keys(), key=_story_sort_key)
+    row_idx = 2
+    cell_alignment = Alignment(vertical="top", wrap_text=True)
+
+    for story_id in sorted_stories:
+        classes = grouped[story_id]
+        tc_counter = 0
+
+        for cls in classes:
+            module = _extract_module_from_source(cls["source_file"])
+            class_doc = cls["class_docstring"]
+
+            for test in cls["tests"]:
+                tc_counter += 1
+                tc_id = _build_test_case_id(story_id, tc_counter)
+
+                # Build title from docstring
+                doc = test["docstring"] or test["method_name"]
+                title = re.sub(
+                    r"^(Positive|Negative|Boundary|Integration|Edge|General)\s*:\s*",
+                    "",
+                    doc,
+                    flags=re.IGNORECASE,
+                ).strip()
+
+                # Extract expected result from docstring
+                expected_result = title
+
+                # Preconditions from class docstring
+                preconditions = class_doc if class_doc else "Test environment is set up"
+
+                test_steps = _format_test_steps(test["method_name"])
+
+                row_data = [
+                    tc_id,                              # Test Case ID
+                    title,                              # Test Case Title
+                    module,                             # Module
+                    story_id,                           # User Story ID
+                    preconditions,                      # Preconditions
+                    "",                                 # Test Data
+                    test_steps,                         # Test Steps
+                    expected_result,                    # Expected Result
+                    "To be filled during ITQA",         # Actual Result
+                    "To be filled during ITQA",         # Status
+                    "To be filled during ITQA",         # Priority
+                    "To be filled during ITQA",         # Severity
+                    DEFAULT_ENVIRONMENT,                # Environment
+                    "To be filled during ITQA",         # Remarks
+                ]
+
+                for col_idx, value in enumerate(row_data, start=1):
+                    cell = ws.cell(row=row_idx, column=col_idx, value=value)
+                    cell.alignment = cell_alignment
+                    cell.border = thin_border
+
+                row_idx += 1
+
+    # Auto-adjust column widths
+    for col_idx, header in enumerate(headers, start=1):
+        max_len = len(header)
+        for row in range(2, row_idx):
+            cell_value = ws.cell(row=row, column=col_idx).value
+            if cell_value:
+                max_len = max(max_len, min(len(str(cell_value)), 50))
+        ws.column_dimensions[ws.cell(row=1, column=col_idx).column_letter].width = max_len + 4
+
+    # Freeze header row
+    ws.freeze_panes = "A2"
+
+    wb.save(str(output_path))
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -314,6 +493,10 @@ def main():
         out_file = output_dir / "unit_test_cases_report.docx"
         render_docx(grouped, out_file)
         print(f"Word document written to {out_file}")
+    elif args.format == "xlsx":
+        out_file = output_dir / "unit_test_cases_report.xlsx"
+        render_xlsx(grouped, out_file)
+        print(f"Excel spreadsheet written to {out_file}")
 
 
 if __name__ == "__main__":
