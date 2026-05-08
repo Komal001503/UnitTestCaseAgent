@@ -191,6 +191,21 @@ class TestFormatTestSteps(unittest.TestCase):
         self.assertIn("1.", result)
         self.assertIn("2.", result)
 
+    def test_formatTestSteps_withDocstring_usesDocstringInVerifyStep(self):
+        result = _format_test_steps(
+            "test_login_validCredentials_returnsSuccess",
+            "Positive: Valid credentials return success"
+        )
+        self.assertIn("Verify Valid credentials return success", result)
+
+    def test_formatTestSteps_twoPartWithDocstring_addsVerifyStep(self):
+        result = _format_test_steps(
+            "test_login_validCredentials",
+            "Positive: Login works"
+        )
+        self.assertIn("3.", result)
+        self.assertIn("Verify Login works", result)
+
 
 class TestRenderXlsx(unittest.TestCase):
     def setUp(self):
@@ -214,13 +229,14 @@ class TestRenderXlsx(unittest.TestCase):
 
         wb = load_workbook(str(output_path))
         ws = wb.active
-        headers = [ws.cell(row=1, column=c).value for c in range(1, 15)]
+        headers = [ws.cell(row=1, column=c).value for c in range(1, 16)]
         self.assertEqual(headers[0], "Test Case ID")
         self.assertEqual(headers[1], "Test Case Title")
-        self.assertEqual(headers[2], "Module")
-        self.assertEqual(headers[3], "User Story ID")
-        self.assertEqual(headers[7], "Expected Result")
-        self.assertEqual(headers[13], "Remarks")
+        self.assertEqual(headers[2], "Test Type")
+        self.assertEqual(headers[3], "Module")
+        self.assertEqual(headers[4], "User Story ID")
+        self.assertEqual(headers[8], "Expected Result")
+        self.assertEqual(headers[14], "Remarks")
 
     def test_renderXlsx_sampleFile_hasCorrectRowCount(self):
         from openpyxl import load_workbook
@@ -258,7 +274,7 @@ class TestRenderXlsx(unittest.TestCase):
         ws = wb.active
         story_ids = set()
         for row in range(2, ws.max_row + 1):
-            story_ids.add(ws.cell(row=row, column=4).value)
+            story_ids.add(ws.cell(row=row, column=5).value)
         self.assertIn("US-100", story_ids)
         self.assertIn("US-101", story_ids)
 
@@ -271,8 +287,36 @@ class TestRenderXlsx(unittest.TestCase):
 
         wb = load_workbook(str(output_path))
         ws = wb.active
-        actual_result = ws.cell(row=2, column=9).value
+        actual_result = ws.cell(row=2, column=10).value
         self.assertEqual(actual_result, "To be filled during ITQA")
+
+    def test_renderXlsx_sampleFile_containsTestType(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        test_types = set()
+        for row in range(2, ws.max_row + 1):
+            test_types.add(ws.cell(row=row, column=3).value)
+        self.assertIn("Positive", test_types)
+
+    def test_renderXlsx_sampleFile_testStepsNotEmpty(self):
+        from openpyxl import load_workbook
+        classes = parse_test_file(self.test_file)
+        grouped = group_by_user_story(classes)
+        output_path = Path(self.tmpdir) / "report.xlsx"
+        render_xlsx(grouped, output_path)
+
+        wb = load_workbook(str(output_path))
+        ws = wb.active
+        for row in range(2, ws.max_row + 1):
+            steps = ws.cell(row=row, column=8).value
+            self.assertIsNotNone(steps, f"Test Steps is empty at row {row}")
+            self.assertIn("1.", steps)
 
 
 if __name__ == "__main__":
