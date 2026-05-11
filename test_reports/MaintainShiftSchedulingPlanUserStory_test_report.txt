@@ -1,0 +1,718 @@
+================================================================================
+UNIT TEST CASES REPORT
+Generated from Python test files
+================================================================================
+
+--------------------------------------------------------------------------------
+USER STORY: US-032
+--------------------------------------------------------------------------------
+
+  Test Class: TestUS032_NavigateToShiftSchedulingPlan
+  Description: US-032: Navigate to 'Maintain Shift Scheduling Plan' from
+'Attendance Management' menu and verify page display.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_navigateToShiftPlan_fromAttendanceMenu_displaysPage Selecting 'Maintain Shift Scheduling Plan' sub-menu from
+'Attendance Management' menu displays the page successfully.
+  2    Positive       test_pageAttributes_displaysShiftCodeFromToDate         Page displays attributes – Shift Code, From date, To date.
+  3    Positive       test_shiftCodeSelection_autoPopulatesFromToDate         Selecting a shift code auto-populates the From and To
+date fields based on the week of the selected shift code.
+  4    Negative       test_navigateToShiftPlan_unauthorizedRole_denied        A user without IR role cannot access the
+Maintain Shift Scheduling Plan page.
+  5    Negative       test_shiftCodeSelection_invalidCode_returnsError        Selecting an invalid shift code returns an error and
+does not populate From/To date.
+  6    Boundary       test_shiftCodeSelection_noCodeSelected_fieldsEmpty      When no shift code is selected, From and To date
+fields remain empty.
+
+  Test Class: TestUS032_DataGridColumns
+  Description: US-032: Verify the data grid displays all required columns.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  7    Positive       test_dataGrid_displaysAllRequiredColumns                Data grid displays all 17 required columns including
+Employee, Dept code, Cadre, Category, Shift, Mon-Sun shift plan,
+Supervisor, TPT user, Last modified by, Action, and Select checkbox.
+  8    Positive       test_dataGrid_shiftPlanDays_allSevenDaysPresent         Shift plan columns include all 7 days Monday through Sunday.
+  9    Positive       test_dataGrid_supervisorAutoPopulated_basedOnDeptCode   Supervisor column is auto-populated based on Dept Code.
+  10   Positive       test_dataGrid_tptUserField_displaysYesOrNo              TPT User column displays 'Yes' or 'No' fetched from
+workforce info.
+  11   Positive       test_dataGrid_lastModifiedBy_displaysPsNoNameDate       'Last Modified By' column shows PS No, Name, and Date
+of the shop person who last modified the shift.
+  12   Boundary       test_dataGrid_emptyData_displaysNoRecordsMessage        When no employees match the shift code, the grid displays
+an empty state / 'No records found' message.
+
+  Test Class: TestUS032_ButtonsAndActions
+  Description: US-032: Verify buttons (Save, Export) and Action column (edit icon).
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  13   Positive       test_page_displaysSaveAndExportButtons                  Page displays 'Save' and 'Export' buttons for IR role.
+  14   Positive       test_editIcon_clickMakesShiftAndShiftPlanEditable       Clicking the edit icon makes the Shift and Shift Plan
+(Mon-Sun) fields editable in that row.
+  15   Positive       test_multiSelectCheckbox_selectsMultipleEmployees       Multi-select checkbox allows selecting multiple employees
+for bulk shift scheduling.
+  16   Boundary       test_multiSelectCheckbox_noSelection_returnsZero        When no employees are selected, selected_count is 0.
+
+  Test Class: TestUS032_ShiftValidation
+  Description: US-032: Validation – shift change propagation, shift rotation
+restriction, and lock-in period logic.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  17   Positive       test_changeShiftColumn_propagatesAllDays                Changing the 'Shift' column value from 'II' to 'I'
+automatically updates all day columns (Mon-Sun) to the new shift.
+  18   Positive       test_changeShiftForSelectedDate_onlySelectedDayChanges  User can change the shift for a specific selected date
+only, leaving other days unchanged.
+  19   Negative       test_changeShift_nonApplicableRotation_rejected         Changing to a shift not in the employee's applicable
+shift rotation is restricted.
+  20   Negative       test_lockInPeriod_editRestricted                        During the lock-in period, the IR cannot edit the shift
+plan or schedule any pattern for any workman.
+  21   Positive       test_lockInPeriod_autoRelease_shiftPlanReleasedToShop   System automatically releases the shift plan to shop
+users based on the lock-in period scheduled by admin.
+  22   Positive       test_editOutsideLockIn_allowed                          IR can make changes to the shift plan on any day
+outside the scheduled lock-in period.
+
+  Test Class: TestUS032_SaveAndSearch
+  Description: US-032: Save changes, search bar, and page navigation.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  23   Positive       test_saveButton_displaysSuccessPopup                    Clicking 'Save' after editing displays popup message
+'Changes have been saved successfully'.
+  24   Boundary       test_saveButton_noChanges_noAction                      Clicking 'Save' without making any edits shows
+an appropriate message or takes no action.
+  25   Positive       test_searchBar_columnSearch_filtersResults              Column search bar filters data grid results by
+the specified column value.
+  26   Positive       test_searchBar_globalSearch_filtersResults              Global search bar searches across all columns.
+  27   Boundary       test_searchBar_noMatch_returnsEmpty                     Search with a term that matches nothing returns
+an empty result set.
+  28   Positive       test_pageNavigation_navigatesToSelectedPage             Page navigation moves to the selected page.
+  29   Boundary       test_pageNavigation_beyondLastPage_returnsLastPage      Navigating beyond the last page returns the last
+page instead of an error.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: Cross-cutting tests: Verify role-based access differences between
+IR and IR Admin roles for Maintain Shift Scheduling Plan.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  30   Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role does not have access to 'Configure Shift Plan'
+functionality (only IR Admin does).
+  31   Positive       test_irAdminRole_hasConfigureShiftPlanAccess            IR Admin role has access to 'Configure Shift Plan'.
+  32   Negative       test_unauthenticatedUser_cannotAccessPage               An unauthenticated user cannot access the Maintain
+Shift Scheduling Plan page.
+  33   Positive       test_irRole_canEditDuringNonLockInPeriod                IR user can edit shift plans outside the lock-in period.
+  34   Negative       test_irRole_cannotEditDuringLockInPeriod                IR user cannot edit shift plans during the lock-in period.
+
+  Test Class: TestShiftSchedulePageDisplay
+  Description: US-032: Verify Maintain Shift Scheduling Plan page displays correctly.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  35   Positive       test_navigation_selectAttendanceMenu_displaysShiftSchedulePage Selecting Maintain Shift Scheduling Plan from Attendance Management opens the page.
+  36   Positive       test_page_load_displaysShiftCodeAttribute               Page displays Shift Code attribute field.
+  37   Positive       test_page_load_displaysFromAndToDateAttributes          Page displays From and To date attributes.
+  38   Positive       test_page_load_displaysAllGridColumns                   Page grid displays all 17 required columns.
+  39   Positive       test_page_load_displaysShiftPlanDayColumns              Grid includes shift plan columns for all seven days.
+  40   Positive       test_page_load_displaysSaveAndExportButtons             Page displays Save and Export buttons.
+  41   Negative       test_page_unauthorizedRole_deniesAccess                 Non-IR user is denied access to the page.
+  42   Boundary       test_page_noData_showsEmptyGrid                         Page with no shift data shows empty grid message.
+
+  Test Class: TestShiftCodeSelection
+  Description: US-032: Verify shift code selection auto-populates dates.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  43   Positive       test_shiftCode_validSelection_autoPopulatesFromAndToDates Selecting a valid shift code auto-populates From and To dates.
+  44   Negative       test_shiftCode_invalidCode_returnsError                 Invalid shift code returns an error.
+  45   Boundary       test_shiftCode_noSelection_datesRemainEmpty             No shift code selected leaves date fields empty.
+
+  Test Class: TestShiftScheduleGridData
+  Description: US-032: Verify grid data population and employee details.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  46   Positive       test_grid_employeeRow_displaysAllFields                 Employee row displays all required data fields.
+  47   Positive       test_grid_supervisor_autoPopulatedFromDeptCode          Supervisor field is auto-populated based on dept code.
+  48   Positive       test_grid_lastModifiedBy_showsPSNoNameDate              Last Modified By shows PS No, Name, and Date.
+  49   Positive       test_grid_multiSelect_selectsMultipleEmployees          Multi-select checkbox selects multiple employees.
+  50   Boundary       test_grid_multiSelect_noSelection_returnsEmpty          No employee selected returns empty list.
+
+  Test Class: TestShiftEditAndValidation
+  Description: US-032: Verify shift editing, validation, and lock-in logic.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  51   Positive       test_editIcon_click_makesShiftAndDaysEditable           Clicking edit icon makes Shift and day columns editable.
+  52   Positive       test_shiftChange_changeShiftColumn_updatesAllDays       Changing shift column updates shift for all applicable days.
+  53   Negative       test_shiftChange_nonApplicableRotation_rejected         Changing to a shift not in employee rotation is rejected.
+  54   Negative       test_edit_duringLockInPeriod_restricted                 IR cannot edit shifts during the lock-in period.
+  55   Positive       test_edit_outsideLockInPeriod_allowed                   IR can edit shifts outside the lock-in period.
+  56   Positive       test_autoRelease_afterLockIn_releasesToShopUsers        System auto-releases shift plan after lock-in period expires.
+  57   Positive       test_save_validChanges_showsSuccessPopup                Saving valid changes displays success message.
+  58   Boundary       test_save_noChanges_showsInfoMessage                    Saving with no changes shows informational message.
+
+  Test Class: TestShiftScheduleSearch
+  Description: US-032: Verify column and global search functionality.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  59   Positive       test_columnSearch_byEmployeeName_filtersResults         Column search by employee name filters the grid.
+  60   Positive       test_globalSearch_byDeptCode_findsResults               Global search by department code returns matching records.
+  61   Boundary       test_search_noMatch_returnsEmptyList                    Search with no matching term returns empty list.
+  62   Positive       test_pageNavigation_navigateToPage_displaysCorrectData  Page navigation navigates to specified page.
+  63   Boundary       test_pageNavigation_beyondLastPage_returnsLastPage      Navigating beyond last page returns last page.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: US-032 / US-035: Verify role-based access controls for shift scheduling.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  64   Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role cannot access Configure Shift Plan feature.
+  65   Positive       test_irAdminRole_hasConfigureAccess                     IR Admin role has access to Configure Shift Plan.
+  66   Negative       test_unauthenticatedUser_redirectedToLogin              Unauthenticated user is redirected to the login page.
+  67   Positive       test_irRole_canEditOutsideLockIn                        IR role can edit shifts outside lock-in period.
+  68   Negative       test_irRole_cannotEditDuringLockIn                      IR role cannot edit shifts during lock-in period.
+
+  Total test cases for US-032: 68
+
+--------------------------------------------------------------------------------
+USER STORY: US-033
+--------------------------------------------------------------------------------
+
+  Test Class: TestUS033_ScheduleShiftPopup
+  Description: US-033: Clicking 'Schedule Shift' button displays popup with
+employee list, shift pattern, date fields, and pattern week dropdown.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_scheduleShiftButton_displaysPopup                  Clicking 'Schedule Shift' button opens a popup with
+the correct fields and selected employee list.
+  2    Positive       test_popupDisplays_selectedEmployeeList                 Popup displays the list of employees (PS No and Name)
+that were selected before clicking 'Schedule Shift'.
+  3    Positive       test_popupFields_shiftPattern_fetchedFromMaster         Shift pattern dropdown is fetched from the shift
+rotation master based on the employee's shift type.
+  4    Positive       test_popupFields_patternWeekDropdown_displaysWeeks      Pattern Week dropdown displays the list of pattern
+weeks for the current month (e.g., Week 1 through Week 5).
+  5    Positive       test_popupDataGrid_displaysRotationTypeAndDays          Popup data grid shows Rotation Type and Monday-Sunday
+shift plan columns.
+  6    Negative       test_scheduleShiftButton_noEmployeesSelected_showsError Clicking 'Schedule Shift' without selecting any
+employees shows an error message.
+  7    Negative       test_shiftPattern_noPatternAvailable_showsEmpty         If no shift pattern is available for the employee type,
+the dropdown is empty and user is notified.
+  8    Boundary       test_patternWeek_monthWith4Weeks_shows4Weeks            For a month with exactly 4 weeks, the Pattern Week
+dropdown shows 4 entries.
+
+  Test Class: TestUS033_ScheduleShiftOptions
+  Description: US-033: Three options for shift change – one day, date range
+(current week), and forever. Verify success messages.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  9    Positive       test_option1_shiftChangeOneDay_successMessage           Option 1 – changing shift for one day displays
+'Shift plan successfully changed for one day'.
+  10   Positive       test_option2_shiftChangeDateRange_successMessage        Option 2 – changing shift for current week (date range)
+displays 'Shift plan successfully changed for current week only
+from DD-MM-YYYY to DD-MM-YYYY'.
+  11   Positive       test_option3_shiftChangeForever_successMessage          Option 3 – changing shift 'forever' displays
+'New shift rotation will be carried forward for the workman
+from DD-MM-YYYY to "Forever"'.
+  12   Positive       test_cancelButton_revertsChanges                        Clicking 'Cancel' reverts all changes and closes
+the popup without saving.
+  13   Positive       test_scheduleShift_saveButton_savesAndCloses            Clicking 'Schedule Shift' button in the popup saves
+the shift plan and closes the popup.
+  14   Negative       test_dateRange_startDateAfterEndDate_rejected           Specifying a start date after end date is rejected
+with a validation error.
+  15   Negative       test_dateRange_missingStartDate_rejected                Omitting start date when using date range option
+returns a validation error.
+  16   Negative       test_forever_missingStartDate_rejected                  Selecting 'Forever' without a start date is rejected.
+  17   Boundary       test_dateRange_sameStartAndEndDate_treatedAsOneDay      When start date equals end date in date range mode,
+it is treated as a single-day change.
+  18   Boundary       test_scheduleShift_multipleEmployees_appliedToAll       Scheduling shift for a large number of employees
+applies the change to all selected employees.
+  19   Boundary       test_dateRange_spanningMultipleWeeks_accepted           System allows date range spanning multiple weeks
+(not restricted to only one week) based on start and end date.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: Cross-cutting tests: Verify role-based access differences between
+IR and IR Admin roles for Maintain Shift Scheduling Plan.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  20   Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role does not have access to 'Configure Shift Plan'
+functionality (only IR Admin does).
+  21   Positive       test_irAdminRole_hasConfigureShiftPlanAccess            IR Admin role has access to 'Configure Shift Plan'.
+  22   Negative       test_unauthenticatedUser_cannotAccessPage               An unauthenticated user cannot access the Maintain
+Shift Scheduling Plan page.
+  23   Positive       test_irRole_canEditDuringNonLockInPeriod                IR user can edit shift plans outside the lock-in period.
+  24   Negative       test_irRole_cannotEditDuringLockInPeriod                IR user cannot edit shift plans during the lock-in period.
+
+  Test Class: TestScheduleShiftPopup
+  Description: US-033: Verify schedule shift popup displays correctly.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  25   Positive       test_scheduleShiftButton_click_opensPopupWithFields     Clicking schedule shift button opens popup with all required fields.
+  26   Positive       test_popup_displaysSelectedEmployeeList                 Popup displays the list of employees selected before clicking.
+  27   Positive       test_popup_shiftPatternFetchedFromMaster                Shift pattern is fetched from shift rotation master.
+  28   Positive       test_popup_patternWeekDropdown_displaysWeeks            Pattern week dropdown shows correct number of weeks.
+  29   Positive       test_popup_dataGrid_displaysRotationAndDays             Data grid in popup shows rotation type and day columns.
+  30   Negative       test_popup_noEmployeesSelected_showsError               Opening schedule shift without selecting employees shows error.
+  31   Boundary       test_popup_monthWith4Weeks_shows4PatternWeeks           Month with 4 weeks shows only 4 entries in pattern week dropdown.
+
+  Test Class: TestScheduleShiftActions
+  Description: US-033: Verify schedule shift save/cancel and option messages.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  32   Positive       test_option1_changeOneDayShift_showsSuccessMessage      Option 1 – change for one day shows correct success message.
+  33   Positive       test_option2_changeCurrentWeek_showsDateRangeMessage    Option 2 – change for current week shows date range message.
+  34   Positive       test_option3_changeForever_showsForeverMessage          Option 3 – change forever shows forever message.
+  35   Positive       test_cancelButton_revertsChanges                        Clicking cancel button reverts changes and closes popup.
+  36   Positive       test_scheduleShift_savesAndClosesPopup                  Clicking schedule shift saves and closes the popup.
+  37   Negative       test_startDateAfterEndDate_rejected                     Start date after end date is rejected.
+  38   Negative       test_missingStartDate_rejected                          Missing start date for date range option is rejected.
+  39   Negative       test_foreverWithoutStartDate_rejected                   Forever option without start date is rejected.
+  40   Boundary       test_sameStartAndEndDate_treatedAsSingleDay             Same start and end date is treated as a single day change.
+  41   Boundary       test_dateRangeSpanningMultipleWeeks_accepted            Date range spanning multiple weeks is accepted.
+  42   Boundary       test_bulkSchedule_100Employees_succeeds                 Scheduling shift for 100 employees at once succeeds.
+
+  Total test cases for US-033: 42
+
+--------------------------------------------------------------------------------
+USER STORY: US-034
+--------------------------------------------------------------------------------
+
+  Test Class: TestUS034_IRExport
+  Description: US-034: IR clicks 'Export' button to export shift scheduling
+details to an Excel file.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_exportButton_exportsAllDataToExcel                 Clicking 'Export' without any date filter exports
+all existing shift plan data to an Excel file.
+  2    Positive       test_exportButton_withDateFilter_exportsFilteredData    When From and To dates are selected, clicking 'Export'
+exports only the filtered data to Excel.
+  3    Positive       test_exportButton_withoutDateFilter_exportsAllData      When user does not filter, all existing data is exported.
+  4    Positive       test_export_userCanSaveFileToLocation                   After export, user can save the file to a location.
+  5    Negative       test_exportButton_noData_showsMessage                   Exporting when no data is available (empty grid)
+returns an appropriate message.
+  6    Negative       test_exportButton_serviceError_showsErrorMessage        If export service fails, an error message is shown.
+  7    Boundary       test_export_veryLargeDataset_succeeds                   Exporting a very large dataset (10,000+ records)
+completes successfully.
+  8    Boundary       test_export_filterDateRange_onlyFromDate_exportsFromDateOnwards If only 'From' date is selected without 'To' date,
+system exports from that date to the latest available record.
+
+  Test Class: TestUS036_IRAdminExport
+  Description: US-036: IR Admin clicks 'Export' button to export shift scheduling
+details to an Excel file. Same behavior as US-034 (IR Export).
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  9    Positive       test_irAdmin_exportButton_exportsAllDataToExcel         IR Admin clicking 'Export' without date filter exports
+all data to an Excel file.
+  10   Positive       test_irAdmin_exportButton_withDateFilter_exportsFiltered IR Admin clicking 'Export' with From/To date filter
+exports only the filtered data.
+  11   Positive       test_irAdmin_exportButton_withoutFilter_exportsAll      IR Admin clicking 'Export' without any filter exports
+all existing data.
+  12   Positive       test_irAdmin_export_saveFileToLocation                  IR Admin can save the exported Excel file to a location.
+  13   Negative       test_irAdmin_export_noRecords_showsMessage              Exporting when no data is available displays
+'No data available to export' message.
+  14   Negative       test_irAdmin_export_serviceFailure_raisesException      If the export service encounters a failure,
+an appropriate exception is raised.
+  15   Boundary       test_irAdmin_export_largeDataset_succeeds               Exporting a very large dataset (50,000+ records)
+completes without timeout.
+  16   Boundary       test_irAdmin_export_specialCharactersInData_handledGracefully Data containing special characters (accents, symbols)
+is exported correctly without corruption.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: Cross-cutting tests: Verify role-based access differences between
+IR and IR Admin roles for Maintain Shift Scheduling Plan.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  17   Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role does not have access to 'Configure Shift Plan'
+functionality (only IR Admin does).
+  18   Positive       test_irAdminRole_hasConfigureShiftPlanAccess            IR Admin role has access to 'Configure Shift Plan'.
+  19   Negative       test_unauthenticatedUser_cannotAccessPage               An unauthenticated user cannot access the Maintain
+Shift Scheduling Plan page.
+  20   Positive       test_irRole_canEditDuringNonLockInPeriod                IR user can edit shift plans outside the lock-in period.
+  21   Negative       test_irRole_cannotEditDuringLockInPeriod                IR user cannot edit shift plans during the lock-in period.
+
+  Test Class: TestIRExportData
+  Description: US-034: Verify IR can export shift schedule data to Excel.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  22   Positive       test_export_allData_generatesExcelFile                  Export without filter generates Excel file with all records.
+  23   Positive       test_export_withDateFilter_exportsFilteredData          Export with from/to date filter exports only filtered records.
+  24   Positive       test_export_withoutFilter_exportsAllData                Export without date filter exports all existing data.
+  25   Positive       test_export_saveFileToLocation                          User can save the exported file to a chosen location.
+  26   Negative       test_export_noData_showsInfoMessage                     Export with no data available shows info message.
+  27   Negative       test_export_serviceFailure_raisesException              Export service failure raises an exception.
+  28   Boundary       test_export_largeDataset_succeeds                       Export with very large dataset (10K records) succeeds.
+  29   Boundary       test_export_onlyFromDateFilter_exportsFiltered          Export with only from date filter applied exports filtered data.
+
+  Total test cases for US-034: 29
+
+--------------------------------------------------------------------------------
+USER STORY: US-035
+--------------------------------------------------------------------------------
+
+  Test Class: TestUS035_IRAdminViewPage
+  Description: US-035: IR Admin views 'Maintain Shift Scheduling Plan' page
+with additional 'Configure Shift Plan' button.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_irAdminPage_displaysConfigureShiftPlanButton       IR Admin page displays 'Save', 'Export', and
+'Configure shift plan' buttons (3 buttons, unlike IR which has 2).
+  2    Positive       test_irAdminPage_displaysAllGridColumns                 IR Admin page displays the same data grid columns as
+the IR view (all 17 columns).
+  3    Positive       test_irAdminPage_attributesSameAsIR                     IR Admin page displays the same attributes –
+Shift Code, From date, To date.
+  4    Positive       test_irAdminPage_editIconFunctionsSameAsIR              Edit icon on IR Admin page makes Shift and Shift Plan
+(Mon-Sun) editable, same as IR role.
+  5    Positive       test_irAdminPage_saveButton_displaysSuccessPopup        Clicking 'Save' on IR Admin page displays popup
+'Changes have been saved successfully'.
+  6    Negative       test_nonAdminUser_cannotSeeConfigureButton              A regular IR user (non-admin) cannot see the
+'Configure shift plan' button.
+  7    Negative       test_irAdminPage_searchBarNoMatch_emptyGrid             Search with no matching results returns empty data.
+
+  Test Class: TestUS035_ConfigureShiftPlan
+  Description: US-035: IR Admin 'Configure Shift Plan' popup – fields for
+From day, To day, Start time, End time, and Schedule Shift button.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  8    Positive       test_configureShiftPlan_displaysCorrectFields           'Configure Shift Plan' popup displays fields:
+From day, To day, Start time, End time.
+  9    Positive       test_configureShiftPlan_fromToDayDropdown_mondayToSunday 'From day' and 'To day' dropdowns contain all days
+Monday through Sunday.
+  10   Positive       test_configureShiftPlan_scheduleShiftButton_setsLockInPeriod Clicking 'Schedule Shift' in configure popup sets
+the lock-in period for the shift plan release to shop users.
+  11   Positive       test_configureShiftPlan_autoRelease_basedOnScheduledDayTime System automatically releases shift plans to shop
+users based on the configured day and time.
+  12   Negative       test_configureShiftPlan_missingFromDay_rejected         Submitting configure form without 'From day' is rejected.
+  13   Negative       test_configureShiftPlan_missingStartTime_rejected       Submitting configure form without 'Start time' is rejected.
+  14   Negative       test_configureShiftPlan_endTimeBeforeStartTime_rejected End time before start time (on the same day) is rejected.
+  15   Boundary       test_configureShiftPlan_sameFromAndToDay_singleDayLockIn Setting From day and To day to the same day creates
+a single-day lock-in period.
+  16   Boundary       test_configureShiftPlan_fullWeekLockIn_accepted         Setting From day = Monday and To day = Sunday creates
+a full-week lock-in period.
+  17   Boundary       test_configureShiftPlan_midnightBoundary_timePickers    Setting start time to 00:00 and end time to 23:59
+covers the full day without error.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: Cross-cutting tests: Verify role-based access differences between
+IR and IR Admin roles for Maintain Shift Scheduling Plan.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  18   Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role does not have access to 'Configure Shift Plan'
+functionality (only IR Admin does).
+  19   Positive       test_irAdminRole_hasConfigureShiftPlanAccess            IR Admin role has access to 'Configure Shift Plan'.
+  20   Negative       test_unauthenticatedUser_cannotAccessPage               An unauthenticated user cannot access the Maintain
+Shift Scheduling Plan page.
+  21   Positive       test_irRole_canEditDuringNonLockInPeriod                IR user can edit shift plans outside the lock-in period.
+  22   Negative       test_irRole_cannotEditDuringLockInPeriod                IR user cannot edit shift plans during the lock-in period.
+
+  Test Class: TestIRAdminPageDisplay
+  Description: US-035: Verify IR Admin page displays Configure Shift Plan button.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  23   Positive       test_adminPage_displaysConfigureShiftPlanButton         IR Admin page displays Configure Shift Plan button.
+  24   Positive       test_adminPage_displaysAllGridColumns                   IR Admin grid displays all 17 columns same as IR.
+  25   Positive       test_adminPage_displaysAttributes                       IR Admin page displays same attributes as IR.
+  26   Positive       test_adminPage_editIcon_makesFieldsEditable             Edit icon makes Shift and day columns editable for admin.
+  27   Positive       test_adminPage_save_showsSuccessPopup                   Admin saving changes shows success popup.
+  28   Negative       test_nonAdminRole_cannotSeeConfigureButton              Non-admin IR user does not see Configure Shift Plan button.
+
+  Test Class: TestConfigureShiftPlan
+  Description: US-035: Verify Configure Shift Plan popup and scheduling.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  29   Positive       test_configurePopup_displaysFourFields                  Configure Shift Plan popup shows 4 required fields.
+  30   Positive       test_configureDayDropdown_showsMondayToSunday           From/To day dropdowns contain Monday through Sunday.
+  31   Positive       test_scheduleShift_setsLockInPeriod                     Clicking Schedule Shift configures the lock-in period.
+  32   Positive       test_autoRelease_basedOnSchedule_releasesShifts         System auto-releases shifts based on configured schedule.
+  33   Negative       test_configure_missingFromDay_rejected                  Missing From Day field is rejected.
+  34   Negative       test_configure_missingStartTime_rejected                Missing Start Time field is rejected.
+  35   Negative       test_configure_endTimeBeforeStartTime_rejected          End time before start time is rejected.
+  36   Boundary       test_configure_sameFromAndToDay_singleDayLockIn         Same From and To day creates a single day lock-in.
+  37   Boundary       test_configure_fullWeekLockIn_mondayToSunday            Full week lock-in from Monday to Sunday covers 7 days.
+  38   Boundary       test_configure_midnightBoundaryTimes_accepted           Midnight boundary times (00:00 to 23:59) are accepted.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: US-032 / US-035: Verify role-based access controls for shift scheduling.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  39   Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role cannot access Configure Shift Plan feature.
+  40   Positive       test_irAdminRole_hasConfigureAccess                     IR Admin role has access to Configure Shift Plan.
+  41   Negative       test_unauthenticatedUser_redirectedToLogin              Unauthenticated user is redirected to the login page.
+  42   Positive       test_irRole_canEditOutsideLockIn                        IR role can edit shifts outside lock-in period.
+  43   Negative       test_irRole_cannotEditDuringLockIn                      IR role cannot edit shifts during lock-in period.
+
+  Total test cases for US-035: 43
+
+--------------------------------------------------------------------------------
+USER STORY: US-036
+--------------------------------------------------------------------------------
+
+  Test Class: TestUS036_IRAdminExport
+  Description: US-036: IR Admin clicks 'Export' button to export shift scheduling
+details to an Excel file. Same behavior as US-034 (IR Export).
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_irAdmin_exportButton_exportsAllDataToExcel         IR Admin clicking 'Export' without date filter exports
+all data to an Excel file.
+  2    Positive       test_irAdmin_exportButton_withDateFilter_exportsFiltered IR Admin clicking 'Export' with From/To date filter
+exports only the filtered data.
+  3    Positive       test_irAdmin_exportButton_withoutFilter_exportsAll      IR Admin clicking 'Export' without any filter exports
+all existing data.
+  4    Positive       test_irAdmin_export_saveFileToLocation                  IR Admin can save the exported Excel file to a location.
+  5    Negative       test_irAdmin_export_noRecords_showsMessage              Exporting when no data is available displays
+'No data available to export' message.
+  6    Negative       test_irAdmin_export_serviceFailure_raisesException      If the export service encounters a failure,
+an appropriate exception is raised.
+  7    Boundary       test_irAdmin_export_largeDataset_succeeds               Exporting a very large dataset (50,000+ records)
+completes without timeout.
+  8    Boundary       test_irAdmin_export_specialCharactersInData_handledGracefully Data containing special characters (accents, symbols)
+is exported correctly without corruption.
+
+  Test Class: TestRoleBasedAccessControl
+  Description: Cross-cutting tests: Verify role-based access differences between
+IR and IR Admin roles for Maintain Shift Scheduling Plan.
+  Source File: test_us032_to_us036_maintain_shift_scheduling.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  9    Negative       test_irRole_cannotAccessConfigureShiftPlan              IR role does not have access to 'Configure Shift Plan'
+functionality (only IR Admin does).
+  10   Positive       test_irAdminRole_hasConfigureShiftPlanAccess            IR Admin role has access to 'Configure Shift Plan'.
+  11   Negative       test_unauthenticatedUser_cannotAccessPage               An unauthenticated user cannot access the Maintain
+Shift Scheduling Plan page.
+  12   Positive       test_irRole_canEditDuringNonLockInPeriod                IR user can edit shift plans outside the lock-in period.
+  13   Negative       test_irRole_cannotEditDuringLockInPeriod                IR user cannot edit shift plans during the lock-in period.
+
+  Test Class: TestIRAdminExportData
+  Description: US-036: Verify IR Admin can export shift schedule data to Excel.
+  Source File: test_us032_to_us036_shift_schedule_ir.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  14   Positive       test_adminExport_allData_generatesExcelFile             IR Admin export without filter generates Excel file.
+  15   Positive       test_adminExport_withDateFilter_exportsFilteredData     IR Admin export with date filter exports filtered records.
+  16   Positive       test_adminExport_withoutFilter_exportsAll               IR Admin export without filter exports all data.
+  17   Positive       test_adminExport_saveFileToLocation                     Admin can save the exported file to a chosen location.
+  18   Negative       test_adminExport_noRecords_showsInfoMessage             Export with no records shows informational message.
+  19   Negative       test_adminExport_serviceFailure_raisesException         Export service failure raises an exception.
+  20   Boundary       test_adminExport_largeDataset_succeeds                  Export with very large dataset (50K records) succeeds.
+  21   Boundary       test_adminExport_specialCharactersInData_noCorruption   Export with special characters in data does not corrupt file.
+
+  Total test cases for US-036: 21
+
+--------------------------------------------------------------------------------
+USER STORY: US-037
+--------------------------------------------------------------------------------
+
+  Test Class: TestShopShiftSchedulePageDisplay
+  Description: US-037: Verify Shop user can view Maintain Shift Scheduling Plan page.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_navigation_selectAttendanceMenu_displaysShiftSchedulePage Shop user navigates to Maintain Shift Scheduling Plan from Attendance Management.
+  2    Positive       test_page_load_displaysShiftCodeAttribute               Page displays Shift Code attribute (non-editable).
+  3    Positive       test_page_load_displaysAutoFetchedDates                 From and To dates are auto-fetched based on shift code.
+  4    Positive       test_page_load_displaysGridColumns                      Page grid displays all required columns for shop user.
+  5    Positive       test_page_load_displaysShiftPlanDayColumns              Grid includes shift plan columns for all seven days.
+  6    Positive       test_page_load_displaysSaveAndExportButtons             Page displays Save and Export buttons.
+  7    Negative       test_page_unauthorizedRole_deniesAccess                 Unauthorized user is denied access to the page.
+  8    Boundary       test_page_noData_showsEmptyGrid                         Page with no shift data shows empty grid.
+
+  Test Class: TestShopShiftEditAndValidation
+  Description: US-037: Verify Shop user shift editing and validation.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  9    Positive       test_editIcon_click_makesShiftAndDaysEditable           Clicking edit icon makes only Shift and day columns editable.
+  10   Negative       test_shiftChange_restrictedToApplicableRotation         Shop user cannot change shift to one outside employee rotation.
+  11   Positive       test_singleDayChange_onlyAffectsSelectedDay             Single day shift change only affects the selected day.
+  12   Positive       test_edit_duringReleasedPeriod_allowed                  Shop user can edit shifts after release from admin.
+  13   Positive       test_autoRelease_basedOnLockIn_releasesShiftPlan        System auto-releases shift plan to shop users after lock-in.
+  14   Positive       test_save_validChanges_showsSuccessPopup                Saving valid changes shows success popup message.
+  15   Boundary       test_save_noChanges_showsInfoMessage                    Saving with no changes shows informational message.
+
+  Test Class: TestShopShiftScheduleSearch
+  Description: US-037: Verify column and global search functionality for shop user.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_columnSearch_byEmployeeName_filtersResults         Column search by employee name filters the grid.
+  17   Positive       test_globalSearch_byDeptCode_findsResults               Global search by department code returns matching records.
+  18   Boundary       test_search_noMatch_returnsEmptyList                    Search with no matching term returns empty list.
+  19   Positive       test_pageNavigation_navigateToPage_displaysCorrectData  Page navigation shows correct data for specified page.
+
+  Total test cases for US-037: 19
+
+--------------------------------------------------------------------------------
+USER STORY: US-038
+--------------------------------------------------------------------------------
+
+  Test Class: TestShopScheduleShiftPopup
+  Description: US-038: Verify Shop user schedule shift popup functionality.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_scheduleShiftButton_click_opensPopup               Clicking schedule shift or edit icon opens the shift rotation popup.
+  2    Positive       test_popup_displaysAllEmployeeList                      Popup displays list of all employees.
+  3    Positive       test_popup_shiftPatternFetchedFromMaster                Shift pattern is fetched from shift rotation master and workforce info.
+  4    Positive       test_popup_patternWeekDropdown_displaysWeeks            Pattern week dropdown shows weeks based on shift rotation pattern.
+  5    Positive       test_popup_dataGrid_displaysRotationTypeAndDays         Data grid in popup shows rotation type and Mon-Sun columns.
+  6    Negative       test_popup_noPatternAvailable_showsEmptyList            No shift patterns available shows empty list.
+
+  Test Class: TestShopScheduleShiftActions
+  Description: US-038: Verify Shop user schedule shift save/cancel and change options.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  7    Positive       test_option_changeSelectedDate_showsSuccessMessage      Changing shift for the selected date shows success message.
+  8    Positive       test_option_carryForward_showsForeverMessage            Carry shift rotational change forever shows correct message.
+  9    Positive       test_cancelButton_revertsChanges                        Clicking cancel button reverts all changes.
+  10   Positive       test_scheduleShift_savesChanges                         Clicking schedule shift button saves the changes.
+  11   Positive       test_dateRangeChange_onlySelectedWeek                   Date range change only applies to the selected week.
+  12   Negative       test_startDateAfterEndDate_rejected                     Start date after end date is rejected.
+  13   Negative       test_missingStartDate_rejected                          Missing start date for date range option is rejected.
+  14   Boundary       test_sameStartAndEndDate_treatedAsSingleDay             Same start and end date is treated as a single day change.
+  15   Boundary       test_anyNumberOfDays_notRestrictedToWeek                System allows shift change for any number of days, not restricted to a week.
+  16   Negative       test_foreverWithoutStartDate_rejected                   Forever option without start date is rejected.
+
+  Total test cases for US-038: 16
+
+--------------------------------------------------------------------------------
+USER STORY: US-039
+--------------------------------------------------------------------------------
+
+  Test Class: TestShopExportData
+  Description: US-039: Verify Shop user can export shift schedule data to Excel.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_export_allData_generatesExcelFile                  Export without filter generates Excel file with all records.
+  2    Positive       test_export_withDateFilter_exportsFilteredData          Export with from/to date filter exports only filtered records.
+  3    Positive       test_export_withoutFilter_exportsAllData                Export without date filter exports all existing data.
+  4    Positive       test_export_saveFileToLocation                          User can save the exported file to a chosen location.
+  5    Negative       test_export_noData_showsInfoMessage                     Export with no data available shows info message.
+  6    Negative       test_export_serviceFailure_raisesException              Export service failure raises an exception.
+  7    Boundary       test_export_largeDataset_succeeds                       Export with large dataset succeeds.
+
+  Total test cases for US-039: 7
+
+--------------------------------------------------------------------------------
+USER STORY: US-040
+--------------------------------------------------------------------------------
+
+  Test Class: TestShopHeadPageDisplay
+  Description: US-040: Verify Shop Head can view Maintain Shift Scheduling Plan (view only).
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_navigation_selectAttendanceMenu_displaysPage       Shop Head navigates to Maintain Shift Scheduling Plan.
+  2    Positive       test_page_load_displaysShiftCodeWithDatePickers         Page displays Shift Code, From date picker, and To date picker.
+  3    Positive       test_page_load_displaysGridColumnsForShopHead           Grid displays correct columns for Shop Head view.
+  4    Positive       test_page_load_displaysShiftPlanDayColumnsWithDates     Grid includes day columns (Monday to Sunday) with date format.
+  5    Positive       test_page_load_displaysOnlyExportButton                 Shop Head page only displays Export button (no Save or Edit).
+  6    Negative       test_page_viewOnly_noEditIconAvailable                  Shop Head view does not include edit action icon.
+  7    Positive       test_page_alteredShiftType_displaysCorrectTypes         Altered Shift Type column shows correct change types.
+  8    Boundary       test_page_noData_showsEmptyGrid                         Page with no shift data shows empty grid.
+
+  Test Class: TestShopHeadSearchAndNavigation
+  Description: US-040: Verify search and page navigation for Shop Head.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  9    Positive       test_columnSearch_filtersGrid                           Column search filters the grid for Shop Head.
+  10   Positive       test_globalSearch_returnsResults                        Global search returns matching results.
+  11   Boundary       test_search_noMatch_returnsEmpty                        Search with no matches returns empty list.
+  12   Positive       test_pageNavigation_navigateToPage                      Page navigation displays correct page.
+  13   Positive       test_shiftPlan_fetchedFromRotationMaster                Shift plan is fetched from shift rotation master and displayed correctly.
+
+  Total test cases for US-040: 13
+
+--------------------------------------------------------------------------------
+USER STORY: US-041
+--------------------------------------------------------------------------------
+
+  Test Class: TestShopHeadExportData
+  Description: US-041: Verify Shop Head / Location Head / BU Head can export data.
+  Source File: test_us037_to_us041_shift_schedule_shop.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_export_allData_generatesExcelFile                  Export without filter generates Excel file with all records.
+  2    Positive       test_export_withDateFilter_exportsFilteredData          Export with from/to date filter exports only filtered records.
+  3    Positive       test_export_withoutFilter_exportsAllData                Export without date filter exports all existing data.
+  4    Positive       test_export_saveFileToLocation                          User can save the exported file to a chosen location.
+  5    Negative       test_export_noData_showsInfoMessage                     Export with no data available shows info message.
+  6    Negative       test_export_serviceFailure_raisesException              Export service failure raises an exception.
+  7    Boundary       test_export_largeDataset_succeeds                       Export with large dataset succeeds.
+  8    Boundary       test_export_specialCharactersInData_noCorruption        Export with special characters in data does not corrupt file.
+
+  Total test cases for US-041: 8
+
+================================================================================
+SUMMARY
+================================================================================
+  US-032: 68 test case(s)
+  US-033: 42 test case(s)
+  US-034: 29 test case(s)
+  US-035: 43 test case(s)
+  US-036: 21 test case(s)
+  US-037: 19 test case(s)
+  US-038: 16 test case(s)
+  US-039: 7 test case(s)
+  US-040: 13 test case(s)
+  US-041: 8 test case(s)
+
+  TOTAL TEST CASES: 266

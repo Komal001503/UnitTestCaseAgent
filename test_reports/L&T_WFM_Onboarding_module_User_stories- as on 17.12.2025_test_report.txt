@@ -1,0 +1,1216 @@
+================================================================================
+UNIT TEST CASES REPORT
+Generated from Python test files
+================================================================================
+
+--------------------------------------------------------------------------------
+USER STORY: US-001
+--------------------------------------------------------------------------------
+
+  Test Class: TestLoginPageDisplay
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login screen displays all required UI elements.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_loginPage_render_displaysUsernameTextbox           Login screen displays a username textbox.
+  2    Positive       test_loginPage_render_displaysPasswordTextbox           Login screen displays a password textbox.
+  3    Positive       test_loginPage_render_displaysLoginButton               Login screen displays a Log In button.
+  4    Positive       test_loginPage_render_displaysSSOButton                 Login screen displays a Login with SSO button.
+
+  Test Class: TestLoginPageForgotPassword
+  Description: US-004 / US-007 / US-012 / US-016 / US-027:
+Verify Forgot Password hyperlink is displayed (not in US-001).
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_loginPage_render_displaysForgotPasswordLink        Login screen displays Forgot Password hyperlink.
+
+  Test Class: TestLoginWithCredentials
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login with valid and invalid credentials.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_login_validCredentials_returnsSuccess              Valid username and password logs into WFM application.
+  7    Negative       test_login_invalidPassword_returnsError                 Invalid password returns authentication error.
+  8    Negative       test_login_invalidUsername_returnsError                 Non-existent username returns authentication error.
+  9    Boundary       test_login_emptyUsername_returnsValidationError         Empty username returns validation error.
+  10   Boundary       test_login_emptyPassword_returnsValidationError         Empty password returns validation error.
+  11   Boundary       test_login_bothFieldsEmpty_returnsValidationError       Both fields empty returns validation error.
+  12   Boundary       test_login_specialCharactersInUsername_handledCorrectly Special characters in username are handled.
+  13   Boundary       test_login_sqlInjectionInUsername_handledSafely         SQL injection in username is safely handled.
+  14   Boundary       test_login_maxLengthUsername_handledCorrectly           Very long username is handled properly.
+  15   Boundary       test_login_whitespacesOnlyUsername_returnsError         Username with only whitespace returns error.
+
+  Test Class: TestSSOLogin
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify SSO login functionality.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_ssoLogin_validSSOToken_redirectsToDashboard        Valid SSO token redirects to dashboard.
+  17   Negative       test_ssoLogin_invalidSSOToken_returnsError              Invalid SSO token returns error.
+  18   Negative       test_ssoLogin_expiredSSOToken_returnsError              Expired SSO token returns error.
+
+  Test Class: TestLoginRedirectByRole
+  Description: US-001 / US-027: Verify correct dashboard redirect after login.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Positive       test_login_irRole_redirectsToIRDashboard                IR user is redirected to IR dashboard after login.
+  20   Positive       test_login_irApproverRole_redirectsToApproverDashboard  IR Approver is redirected to approver dashboard.
+
+  Test Class: TestLoginServiceIntegration
+  Description: Integration tests: Login service with external authentication.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  21   Integration    test_login_authServiceTimeout_returnsServiceUnavailable Auth service timeout returns appropriate error.
+  22   Integration    test_login_authServiceDown_returnsServiceError          Auth service down returns service error.
+
+  Total test cases for US-001: 22
+
+--------------------------------------------------------------------------------
+USER STORY: US-002
+--------------------------------------------------------------------------------
+
+  Test Class: TestSideNavigationMenu
+  Description: US-002: Verify side navigation displays correct sub menus.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_sideNavigation_onboardingMenu_displaysAllSubMenus  Onboarding menu displays all four sub menus.
+  2    Positive       test_sideNavigation_hamburgerClick_opensNavigation      Clicking hamburger menu opens side navigation.
+
+  Test Class: TestQuickOnboardingMenuPage
+  Description: US-002: Verify Quick Onboarding selection page.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  3    Positive       test_quickOnboardingPage_employeeTypeDropdown_displaysAllOptions Employee Type dropdown shows all valid options.
+  4    Positive       test_quickOnboardingPage_buttons_displaysContinueAndCancel Page displays Continue and Cancel buttons.
+  5    Positive       test_quickOnboardingPage_continueWithSelection_navigatesToOnboardingPage Continue with valid selection navigates to Quick Onboarding page.
+  6    Positive       test_quickOnboardingPage_cancel_navigatesToPreviousPage Cancel navigates to the previous page.
+  7    Negative       test_quickOnboardingPage_continueWithoutSelection_showsError Continue without selecting employee type shows error.
+
+  Total test cases for US-002: 7
+
+--------------------------------------------------------------------------------
+USER STORY: US-003
+--------------------------------------------------------------------------------
+
+  Test Class: TestQuickOnboardingNameInformation
+  Description: US-003 AC-2, AC-16: Verify Name Information fields and validations.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_nameInfo_allMandatoryFieldsFilled_validationPasses All mandatory name fields filled passes validation.
+  2    Negative       test_nameInfo_missingFirstName_validationFails          Missing First Name fails validation.
+  3    Negative       test_nameInfo_missingLastName_validationFails           Missing Last Name fails validation.
+  4    Positive       test_nameInfo_middleNameOptional_validationPasses       Middle Name is optional - passes without it.
+  5    Boundary       test_nameInfo_specialCharactersInName_handledCorrectly  Special characters in name are handled properly.
+
+  Test Class: TestQuickOnboardingBiographicalInfo
+  Description: US-003 AC-3, AC-17: Verify Biographical Information fields.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_bioInfo_validDOB_calculatesAgeCorrectly            Valid DOB auto-calculates age.
+  7    Negative       test_bioInfo_futureDOB_validationFails                  Future date of birth fails validation.
+  8    Boundary       test_bioInfo_invalidDOBFormat_validationFails           Invalid DOB format returns error.
+  9    Negative       test_bioInfo_missingPlaceOfBirth_validationFails        Missing Place of Birth fails validation.
+
+  Test Class: TestQuickOnboardingPersonalInfo
+  Description: US-003 AC-5, AC-22, AC-23, AC-29: Personal Information validations.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  10   Positive       test_personalInfo_maritalStatusSingle_hidesMaritalFields Selecting 'Single' hides 'Marital Status Since' and 'No. of children'.
+  11   Positive       test_personalInfo_maritalStatusMarried_showsMaritalFields Selecting 'Married' displays 'Marital Status Since' and 'No. of children'.
+  12   Boundary       test_personalInfo_numberOfChildrenMax5_validationFails  Number of children exceeding 5 fails validation.
+  13   Boundary       test_personalInfo_numberOfChildrenZero_validationPasses Zero children is a valid value.
+  14   Boundary       test_personalInfo_numberOfChildrenNegative_validationFails Negative number of children fails validation.
+  15   Boundary       test_personalInfo_numberOfChildren5_validationPasses    Exactly 5 children is valid (max limit).
+
+  Test Class: TestQuickOnboardingNationalIDInfo
+  Description: US-003 AC-6, AC-18, AC-19, AC-20, AC-30: National ID validations.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_nationalID_aadhaarMasking_masksFirst8Digits        Aadhaar number masks first 8 digits, shows last 4.
+  17   Positive       test_nationalID_aadhaarEncryption_storesEncryptedData   Aadhaar number is encrypted before storage.
+  18   Positive       test_nationalID_aadhaarVerification_notRequiredForOnboarding Aadhaar verification is NOT required for onboarding.
+  19   Positive       test_nationalID_documentTypeSelected_documentIDMandatory When document type is selected, document ID becomes mandatory.
+  20   Boundary       test_nationalID_invalidAadhaarFormat_validationFails    Invalid Aadhaar format returns error.
+  21   Positive       test_nationalID_addMultipleDocuments_succeeds           User can add multiple documents.
+  22   Positive       test_nationalID_removeDocument_succeeds                 User can remove a document.
+
+  Test Class: TestQuickOnboardingDocumentUpload
+  Description: US-003 AC-21, AC-24, AC-25: Document upload validations.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  23   Positive       test_documentUpload_validFile_uploadsSuccessfully       Valid file under 5MB uploads successfully.
+  24   Boundary       test_documentUpload_fileExceeds5MB_validationFails      File exceeding 5MB size limit fails.
+  25   Boundary       test_documentUpload_fileExactly5MB_uploadsSuccessfully  File exactly at 5MB limit uploads successfully.
+  26   Boundary       test_documentUpload_zeroSizeFile_validationFails        Zero-size file fails validation.
+  27   Positive       test_documentUpload_multipleDocuments_uploadsAll        Multiple documents can be uploaded with name and icon.
+  28   Positive       test_documentUpload_previewOption_available             Document preview option is available after upload.
+
+  Test Class: TestQuickOnboardingDepartmentInfo
+  Description: US-003 AC-26, AC-27, AC-28: Department code and supervisor validations.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  29   Positive       test_deptCode_validAlphanumericCode_fetchesDeptName     Valid alphanumeric dept code auto-fetches department name.
+  30   Positive       test_deptCode_validCode_autoFillsSupervisors            Valid dept code auto-fills IS, NS, DH, CS.
+  31   Negative       test_deptCode_invalidCode_returnsError                  Invalid dept code returns error.
+  32   Positive       test_deptCode_manualISSelection_updatesNSAndDH          Manual IS selection auto-populates NS and DH.
+
+  Test Class: TestQuickOnboardingSubmission
+  Description: US-003 AC-11, AC-12, AC-13, AC-14, AC-15: Submit and validation.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  33   Positive       test_submit_allMandatoryFieldsFilled_submitsSuccessfully All mandatory fields filled submits successfully.
+  34   Negative       test_submit_mandatoryFieldsMissing_showsErrorPopup      Missing mandatory fields shows error popup.
+  35   Positive       test_submit_successPopupOkay_redirectsToOverviewPage    Clicking Okay on success popup redirects to overview page.
+  36   Positive       test_submit_triggersEmailToIRUsers_emailSent            Submit triggers email notification to all IR users.
+  37   Positive       test_cancel_navigatesToPreviousPage                     Cancel navigates to the previous page.
+  38   Integration    test_submit_emailServiceDown_handlesGracefully          Email service down does not block submission.
+
+  Test Class: TestQuickOnboardingImageUpload
+  Description: US-003 AC-10: Right side pane - image upload.
+  Source File: test_us002_us003_quick_onboarding.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  39   Positive       test_imageUpload_validImage_uploadsSuccessfully         Valid image uploads successfully.
+  40   Negative       test_imageUpload_invalidFormat_returnsError             Non-image file format returns error.
+
+  Total test cases for US-003: 40
+
+--------------------------------------------------------------------------------
+USER STORY: US-004
+--------------------------------------------------------------------------------
+
+  Test Class: TestLoginPageDisplay
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login screen displays all required UI elements.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_loginPage_render_displaysUsernameTextbox           Login screen displays a username textbox.
+  2    Positive       test_loginPage_render_displaysPasswordTextbox           Login screen displays a password textbox.
+  3    Positive       test_loginPage_render_displaysLoginButton               Login screen displays a Log In button.
+  4    Positive       test_loginPage_render_displaysSSOButton                 Login screen displays a Login with SSO button.
+
+  Test Class: TestLoginPageForgotPassword
+  Description: US-004 / US-007 / US-012 / US-016 / US-027:
+Verify Forgot Password hyperlink is displayed (not in US-001).
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_loginPage_render_displaysForgotPasswordLink        Login screen displays Forgot Password hyperlink.
+
+  Test Class: TestLoginWithCredentials
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login with valid and invalid credentials.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_login_validCredentials_returnsSuccess              Valid username and password logs into WFM application.
+  7    Negative       test_login_invalidPassword_returnsError                 Invalid password returns authentication error.
+  8    Negative       test_login_invalidUsername_returnsError                 Non-existent username returns authentication error.
+  9    Boundary       test_login_emptyUsername_returnsValidationError         Empty username returns validation error.
+  10   Boundary       test_login_emptyPassword_returnsValidationError         Empty password returns validation error.
+  11   Boundary       test_login_bothFieldsEmpty_returnsValidationError       Both fields empty returns validation error.
+  12   Boundary       test_login_specialCharactersInUsername_handledCorrectly Special characters in username are handled.
+  13   Boundary       test_login_sqlInjectionInUsername_handledSafely         SQL injection in username is safely handled.
+  14   Boundary       test_login_maxLengthUsername_handledCorrectly           Very long username is handled properly.
+  15   Boundary       test_login_whitespacesOnlyUsername_returnsError         Username with only whitespace returns error.
+
+  Test Class: TestSSOLogin
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify SSO login functionality.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_ssoLogin_validSSOToken_redirectsToDashboard        Valid SSO token redirects to dashboard.
+  17   Negative       test_ssoLogin_invalidSSOToken_returnsError              Invalid SSO token returns error.
+  18   Negative       test_ssoLogin_expiredSSOToken_returnsError              Expired SSO token returns error.
+
+  Test Class: TestLoginServiceIntegration
+  Description: Integration tests: Login service with external authentication.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Integration    test_login_authServiceTimeout_returnsServiceUnavailable Auth service timeout returns appropriate error.
+  20   Integration    test_login_authServiceDown_returnsServiceError          Auth service down returns service error.
+
+  Total test cases for US-004: 20
+
+--------------------------------------------------------------------------------
+USER STORY: US-005
+--------------------------------------------------------------------------------
+
+  Test Class: TestRehiringMenuPage
+  Description: US-005: Verify Rehiring selection page fields and navigation.
+  Source File: test_us005_us006_rehire.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_rehiringPage_employeeTypeDropdown_displaysAllOptions Employee Type dropdown shows all valid options.
+  2    Positive       test_rehiringPage_displaysOldPSNoField                  Page displays Old PS No text field and dropdown.
+  3    Positive       test_rehiringPage_displaysAadhaarNumberField            Page displays Aadhaar Number text field.
+  4    Positive       test_rehiringPage_buttons_displaysContinueAndCancel     Page displays Continue and Cancel buttons.
+  5    Positive       test_rehiringPage_continueWithValidData_navigatesToRehiringPage Continue with valid selections navigates to Rehiring page.
+  6    Positive       test_rehiringPage_cancel_navigatesToPreviousPage        Cancel navigates to the previous page.
+
+  Test Class: TestOldPSNoValidation
+  Description: US-005 AC-7, AC-8: Old PS No field validations.
+  Source File: test_us005_us006_rehire.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  7    Positive       test_oldPSNo_typeValidPSNo_displaysEmployeeName         Typing valid old PS No displays linked employee name.
+  8    Negative       test_oldPSNo_typeInvalidPSNo_returnsNoMatch             Invalid old PS No returns no match.
+  9    Positive       test_oldPSNo_selectDropdown_displaysInactiveEmployees   Old PS No dropdown displays all inactive employees.
+  10   Boundary       test_oldPSNo_emptyPSNo_returnsError                     Empty PS No returns validation error.
+  11   Boundary       test_oldPSNo_specialCharacters_returnsNoMatch           Special characters in PS No returns no match.
+
+  Total test cases for US-005: 11
+
+--------------------------------------------------------------------------------
+USER STORY: US-006
+--------------------------------------------------------------------------------
+
+  Test Class: TestRehirePageDataPopulation
+  Description: US-006 AC-1, AC-3: Historical data auto-population from old PS No.
+  Source File: test_us005_us006_rehire.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_rehirePage_validOldPSNo_autoPopulatesHistoricalData Valid Old PS No auto-populates historical onboarding data.
+  2    Positive       test_rehirePage_dataFetchedFromWorkforceInfo_allFieldsPresent All data is fetched from workforce information.
+
+  Test Class: TestRehirePageEditableFields
+  Description: US-006 AC-2, AC-4: Editable fields and section edit functionality.
+  Source File: test_us005_us006_rehire.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  3    Positive       test_rehirePage_requiredEditableFields_displayed        All required editable fields are displayed.
+  4    Positive       test_rehirePage_clickEditIcon_makesSectionEditable      Clicking edit icon makes only that section editable.
+  5    Positive       test_rehirePage_editOneSection_otherSectionsRemainReadOnly Editing one section keeps others non-editable.
+
+  Test Class: TestRehirePageSubmission
+  Description: US-006 AC-5, AC-6, AC-7: Submit and Cancel functionality.
+  Source File: test_us005_us006_rehire.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_rehireSubmit_allFieldsFilled_submitsSuccessfully   All required and mandatory fields filled - submits.
+  7    Negative       test_rehireSubmit_mandatoryFieldsMissing_showsError     Missing mandatory fields prevents submission.
+  8    Positive       test_rehireSubmit_successPopupOkay_redirectsToOverview  Clicking 'Okay' on success popup redirects to overview.
+  9    Positive       test_rehireCancel_navigatesToPreviousPage               Cancel navigates to the previous page.
+  10   Boundary       test_rehireSubmit_negativeBasicValue_validationFails    Negative basic value fails validation.
+  11   Boundary       test_rehireSubmit_zeroBasicValue_validationFails        Zero basic value fails validation.
+  12   Positive       test_rehireSubmit_futureRejoiningDate_validationPasses  Future rejoining date is valid.
+  13   Negative       test_rehireSubmit_pastRejoiningDate_validationFails     Past rejoining date fails validation.
+
+  Total test cases for US-006: 13
+
+--------------------------------------------------------------------------------
+USER STORY: US-007
+--------------------------------------------------------------------------------
+
+  Test Class: TestLoginPageDisplay
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login screen displays all required UI elements.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_loginPage_render_displaysUsernameTextbox           Login screen displays a username textbox.
+  2    Positive       test_loginPage_render_displaysPasswordTextbox           Login screen displays a password textbox.
+  3    Positive       test_loginPage_render_displaysLoginButton               Login screen displays a Log In button.
+  4    Positive       test_loginPage_render_displaysSSOButton                 Login screen displays a Login with SSO button.
+
+  Test Class: TestLoginPageForgotPassword
+  Description: US-004 / US-007 / US-012 / US-016 / US-027:
+Verify Forgot Password hyperlink is displayed (not in US-001).
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_loginPage_render_displaysForgotPasswordLink        Login screen displays Forgot Password hyperlink.
+
+  Test Class: TestLoginWithCredentials
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login with valid and invalid credentials.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_login_validCredentials_returnsSuccess              Valid username and password logs into WFM application.
+  7    Negative       test_login_invalidPassword_returnsError                 Invalid password returns authentication error.
+  8    Negative       test_login_invalidUsername_returnsError                 Non-existent username returns authentication error.
+  9    Boundary       test_login_emptyUsername_returnsValidationError         Empty username returns validation error.
+  10   Boundary       test_login_emptyPassword_returnsValidationError         Empty password returns validation error.
+  11   Boundary       test_login_bothFieldsEmpty_returnsValidationError       Both fields empty returns validation error.
+  12   Boundary       test_login_specialCharactersInUsername_handledCorrectly Special characters in username are handled.
+  13   Boundary       test_login_sqlInjectionInUsername_handledSafely         SQL injection in username is safely handled.
+  14   Boundary       test_login_maxLengthUsername_handledCorrectly           Very long username is handled properly.
+  15   Boundary       test_login_whitespacesOnlyUsername_returnsError         Username with only whitespace returns error.
+
+  Test Class: TestSSOLogin
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify SSO login functionality.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_ssoLogin_validSSOToken_redirectsToDashboard        Valid SSO token redirects to dashboard.
+  17   Negative       test_ssoLogin_invalidSSOToken_returnsError              Invalid SSO token returns error.
+  18   Negative       test_ssoLogin_expiredSSOToken_returnsError              Expired SSO token returns error.
+
+  Test Class: TestLoginServiceIntegration
+  Description: Integration tests: Login service with external authentication.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Integration    test_login_authServiceTimeout_returnsServiceUnavailable Auth service timeout returns appropriate error.
+  20   Integration    test_login_authServiceDown_returnsServiceError          Auth service down returns service error.
+
+  Total test cases for US-007: 20
+
+--------------------------------------------------------------------------------
+USER STORY: US-008
+--------------------------------------------------------------------------------
+
+  Test Class: TestOnboardingOverviewNavigation
+  Description: US-008 AC-1, AC-2, AC-3: Navigate to Onboarding Overview page.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_onboardingOverview_selectFromMenu_displaysPage     Selecting Onboarding Overview from menu displays the page.
+  2    Positive       test_onboardingOverview_displaysTabs_allFourPresent     Page displays all four tabs.
+
+  Test Class: TestOnboardingOverviewAllTab
+  Description: US-008 AC-4, AC-5, AC-6: All tab data grid and functionality.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  3    Positive       test_allTab_dataGrid_displaysAllRequiredColumns         All tab grid displays all required columns.
+  4    Positive       test_allTab_clickPSNoHyperlink_navigatesToWorkforceInfo Clicking PS No hyperlink navigates to workforce details.
+  5    Positive       test_allTab_clickNameHyperlink_navigatesToWorkforceInfo Clicking Name hyperlink navigates to workforce details.
+
+  Test Class: TestOnboardingOverviewAllTabSearch
+  Description: US-008 AC-7, AC-8: Search and pagination.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_allTab_searchBar_returnsMatchingResults            Search returns matching requests.
+  7    Negative       test_allTab_searchBar_noMatch_returnsEmptyList          Search with no matching results returns empty list.
+  8    Boundary       test_allTab_searchBar_emptyQuery_returnsAllResults      Empty search query returns all results.
+  9    Positive       test_allTab_pageNavigation_navigatesToNextPage          Page navigation works correctly.
+
+  Test Class: TestOnboardingOverviewPSNoByStatus
+  Description: US-008 AC-9: PS No display varies by status.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  10   Positive       test_psNoDisplay_statusPending_psNoNotDisplayed         PS No is NOT displayed for Pending status.
+  11   Positive       test_psNoDisplay_statusApproved_psNoDisplayed           PS No IS displayed for Approved status.
+  12   Positive       test_psNoDisplay_statusCompleted_psNoDisplayed          PS No IS displayed for Completed status.
+  13   Positive       test_psNoDisplay_statusReturned_psNoNotDisplayed        PS No is NOT displayed for Returned status.
+
+  Test Class: TestOnboardingOverviewSubmittedOn
+  Description: US-008 AC-10, AC-11: Submitted On date validations.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  14   Positive       test_submittedOn_quickOnboarding_showsIRSubmissionDate  Quick Onboarding shows date IR submitted for approval.
+  15   Positive       test_submittedOn_fullOnboarding_showsIRFieldSubmissionDate Full Onboarding shows date IR submitted all required fields.
+
+  Total test cases for US-008: 15
+
+--------------------------------------------------------------------------------
+USER STORY: US-009
+--------------------------------------------------------------------------------
+
+  Test Class: TestQuickOnboardingTab
+  Description: US-009: Verify Quick Onboarding tab data grid.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_quickOnboardingTab_dataGrid_displaysRequiredColumns Quick Onboarding tab displays all required columns.
+  2    Positive       test_quickOnboardingTab_nameHyperlink_navigatesToDetails Name hyperlink navigates to workforce info details.
+  3    Positive       test_quickOnboardingTab_psNoNotDisplayed_pendingStatus  PS No NOT displayed for Pending status.
+  4    Positive       test_quickOnboardingTab_psNoDisplayed_approvedStatus    PS No displayed once IR approves.
+  5    Positive       test_quickOnboardingTab_psNoNotDisplayed_returnedStatus PS No NOT displayed for Returned status.
+  6    Positive       test_quickOnboardingTab_searchBar_works                 Search bar returns matching results.
+  7    Positive       test_quickOnboardingTab_pageNavigation_works            Page navigation works correctly.
+
+  Total test cases for US-009: 7
+
+--------------------------------------------------------------------------------
+USER STORY: US-010
+--------------------------------------------------------------------------------
+
+  Test Class: TestRehiringTab
+  Description: US-010: Verify Rehiring tab data grid.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_rehiringTab_dataGrid_displaysRequiredColumns       Rehiring tab displays all required columns including Old PS No.
+  2    Positive       test_rehiringTab_nameHyperlink_navigatesToDetails       Name hyperlink navigates to workforce info details.
+  3    Positive       test_rehiringTab_searchBar_works                        Search bar returns matching results.
+
+  Total test cases for US-010: 3
+
+--------------------------------------------------------------------------------
+USER STORY: US-011
+--------------------------------------------------------------------------------
+
+  Test Class: TestFullOnboardingTab
+  Description: US-011: Verify Full Onboarding tab data grid.
+  Source File: test_us008_to_us011_onboarding_overview.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_fullOnboardingTab_dataGrid_displaysRequiredColumns Full Onboarding tab displays all required columns including Due Date.
+  2    Positive       test_fullOnboardingTab_psNoByStatus_pendingAndCompleted PS No display follows Pending & Completed rules.
+  3    Positive       test_fullOnboardingTab_dueDate_showsEndDate             Due Date shows end date for IR to complete full onboarding.
+  4    Positive       test_fullOnboardingTab_disciplinaryAction_fieldsPresent Disciplinary Action fields are present after onboarding.
+  5    Positive       test_fullOnboardingTab_nameHyperlink_navigatesToDetails Name hyperlink navigates to workforce info details.
+  6    Positive       test_fullOnboardingTab_searchBar_works                  Search bar returns matching results.
+  7    Positive       test_fullOnboardingTab_pageNavigation_works             Page navigation works correctly.
+
+  Total test cases for US-011: 7
+
+--------------------------------------------------------------------------------
+USER STORY: US-012
+--------------------------------------------------------------------------------
+
+  Test Class: TestLoginPageDisplay
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login screen displays all required UI elements.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_loginPage_render_displaysUsernameTextbox           Login screen displays a username textbox.
+  2    Positive       test_loginPage_render_displaysPasswordTextbox           Login screen displays a password textbox.
+  3    Positive       test_loginPage_render_displaysLoginButton               Login screen displays a Log In button.
+  4    Positive       test_loginPage_render_displaysSSOButton                 Login screen displays a Login with SSO button.
+
+  Test Class: TestLoginPageForgotPassword
+  Description: US-004 / US-007 / US-012 / US-016 / US-027:
+Verify Forgot Password hyperlink is displayed (not in US-001).
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_loginPage_render_displaysForgotPasswordLink        Login screen displays Forgot Password hyperlink.
+
+  Test Class: TestLoginWithCredentials
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login with valid and invalid credentials.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_login_validCredentials_returnsSuccess              Valid username and password logs into WFM application.
+  7    Negative       test_login_invalidPassword_returnsError                 Invalid password returns authentication error.
+  8    Negative       test_login_invalidUsername_returnsError                 Non-existent username returns authentication error.
+  9    Boundary       test_login_emptyUsername_returnsValidationError         Empty username returns validation error.
+  10   Boundary       test_login_emptyPassword_returnsValidationError         Empty password returns validation error.
+  11   Boundary       test_login_bothFieldsEmpty_returnsValidationError       Both fields empty returns validation error.
+  12   Boundary       test_login_specialCharactersInUsername_handledCorrectly Special characters in username are handled.
+  13   Boundary       test_login_sqlInjectionInUsername_handledSafely         SQL injection in username is safely handled.
+  14   Boundary       test_login_maxLengthUsername_handledCorrectly           Very long username is handled properly.
+  15   Boundary       test_login_whitespacesOnlyUsername_returnsError         Username with only whitespace returns error.
+
+  Test Class: TestSSOLogin
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify SSO login functionality.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_ssoLogin_validSSOToken_redirectsToDashboard        Valid SSO token redirects to dashboard.
+  17   Negative       test_ssoLogin_invalidSSOToken_returnsError              Invalid SSO token returns error.
+  18   Negative       test_ssoLogin_expiredSSOToken_returnsError              Expired SSO token returns error.
+
+  Test Class: TestLoginServiceIntegration
+  Description: Integration tests: Login service with external authentication.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Integration    test_login_authServiceTimeout_returnsServiceUnavailable Auth service timeout returns appropriate error.
+  20   Integration    test_login_authServiceDown_returnsServiceError          Auth service down returns service error.
+
+  Total test cases for US-012: 20
+
+--------------------------------------------------------------------------------
+USER STORY: US-013
+--------------------------------------------------------------------------------
+
+  Test Class: TestBulkUploadPageDisplay
+  Description: US-013 AC-1 to AC-5: Verify Bulk Upload page display.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_bulkUploadPage_displaysUploadCards                 Page displays Bulk Onboarding and Bulk Update cards.
+  2    Positive       test_bulkUploadPage_displaysDownloadTemplateButton      Page displays Download Template button.
+  3    Positive       test_bulkUploadPage_dropdownOptions_displaysQuickOnboardingAndRehiring Dropdown displays Quick Onboarding and Rehiring options.
+
+  Test Class: TestBulkUploadDropdownSelection
+  Description: US-013 AC-7, AC-8, AC-9, AC-10: Dropdown selection behavior.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  4    Positive       test_dropdown_selectQuickOnboarding_displaysQuickOnboardingFields Selecting Quick Onboarding displays respective fields.
+  5    Positive       test_dropdown_selectRehiring_displaysFullOnboardingFields Selecting Rehiring displays full onboarding entities.
+  6    Positive       test_dropdown_quickOnboarding_mandatoryFieldsAutoSelected Quick Onboarding mandatory fields are auto-selected and immutable.
+  7    Positive       test_dropdown_rehiring_mandatoryFieldsAutoSelected      Rehiring mandatory fields are auto-selected and immutable.
+
+  Test Class: TestBulkUploadFileUpload
+  Description: US-013 AC-6, AC-11: File upload functionality.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  8    Positive       test_fileUpload_validExcelFile_uploadsSuccessfully      Valid Excel file uploads successfully.
+  9    Positive       test_fileUpload_dragAndDrop_uploadsSuccessfully         File uploaded via drag and drop succeeds.
+  10   Negative       test_fileUpload_nonExcelFile_returnsError               Non-Excel file returns error.
+  11   Boundary       test_fileUpload_emptyFile_returnsError                  Empty Excel file returns error.
+
+  Test Class: TestBulkUploadValidation
+  Description: US-013 AC-12: Upload error validation.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  12   Negative       test_validation_fieldExceedsMaxLength_showsErrorPopup   Field exceeding max character limit shows error.
+  13   Negative       test_validation_invalidFieldValues_showsErrorPopup      Invalid field values show error in popup.
+  14   Negative       test_validation_mandatoryFieldsMissing_showsErrorPopup  Missing mandatory fields show error in popup.
+  15   Positive       test_validation_allFieldsValid_passesValidation         All valid fields pass validation.
+
+  Test Class: TestBulkUploadPSNumberAssignment
+  Description: US-013 AC-13: Sequential PS Number assignment.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_psNumberAssignment_30Employees_assignsSequentialNumbers 30 employees get sequential PS numbers starting after last.
+  17   Boundary       test_psNumberAssignment_singleEmployee_assignsNextNumber Single employee gets the next PS number.
+  18   Boundary       test_psNumberAssignment_zeroEmployees_noAssignment      Zero employees results in no PS number assignment.
+
+  Test Class: TestBulkUploadDownloadOutput
+  Description: US-013 AC-14: Downloadable output Excel after upload.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Positive       test_downloadOutput_afterUpload_generatesExcelFile      After upload, downloadable Excel with PS numbers is generated.
+
+  Total test cases for US-013: 19
+
+--------------------------------------------------------------------------------
+USER STORY: US-014
+--------------------------------------------------------------------------------
+
+  Test Class: TestDownloadTemplate
+  Description: US-014: Verify Download Template functionality.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_downloadTemplate_clickButton_displaysTemplatePage  Clicking Download Template displays template page.
+  2    Positive       test_downloadTemplate_selectEntity_displaysAssociatedFields Selecting entity displays all associated fields.
+  3    Positive       test_downloadTemplate_selectFieldsAndDownload_downloadsTemplate Selecting fields and clicking Download downloads the template.
+  4    Negative       test_downloadTemplate_noFieldsSelected_showsError       No fields selected shows error or empty template.
+  5    Positive       test_downloadTemplate_cancel_navigatesToPreviousPage    Cancel navigates to the previous page.
+  6    Positive       test_downloadTemplate_allSectionsDisplayed              All sections of employee details page are displayed.
+
+  Total test cases for US-014: 6
+
+--------------------------------------------------------------------------------
+USER STORY: US-015
+--------------------------------------------------------------------------------
+
+  Test Class: TestBulkImageUpload
+  Description: US-015: Verify Bulk Image Upload functionality.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_bulkImageUpload_displaysPSNoDropdown               Displays PS No dropdown with all employees.
+  2    Positive       test_bulkImageUpload_uploadURL_savesInFileDirectory     Uploading URL saves data in the file directory.
+  3    Positive       test_bulkImageUpload_clickSave_savesData                Clicking Save saves the data.
+  4    Positive       test_bulkImageUpload_clickCancel_navigatesToPreviousPage Clicking Cancel navigates to previous page.
+
+  Test Class: TestBulkPhotoUploadValidation
+  Description: US-015 AC-8: Bulk photo upload naming validation.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_bulkPhotoUpload_correctNaming_associatesPhoto      Photo named with PS number (e.g., 123456.JPG) is associated correctly.
+  6    Negative       test_bulkPhotoUpload_incorrectNaming_returnsError       Photo not named with PS number returns error.
+  7    Negative       test_bulkPhotoUpload_nonImageFile_returnsError          Non-image file returns error.
+
+  Test Class: TestBulkDocumentUploadValidation
+  Description: US-015 AC-9: Bulk document upload naming validation.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  8    Positive       test_bulkDocUpload_correctNaming_associatesDocument     Document named PS_number_document_code is associated correctly.
+  9    Negative       test_bulkDocUpload_incorrectNaming_returnsError         Incorrectly named document returns error.
+
+  Test Class: TestBulkPhotoDownload
+  Description: US-015 AC-10: Photos download functionality.
+  Source File: test_us013_to_us015_bulk_upload.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  10   Positive       test_photoDownload_byDepartment_downloadsAsZip          Download photos by department as zip folder.
+  11   Positive       test_photoDownload_allPhotos_downloadsAsZip             Download all photos as zip folder.
+  12   Positive       test_photoDownload_byUploadedPSNumbers_downloadsAsZip   Download photos via uploaded PS numbers through Excel.
+  13   Boundary       test_photoDownload_noPhotosFound_returnsEmpty           No matching photos returns empty/error.
+
+  Total test cases for US-015: 13
+
+--------------------------------------------------------------------------------
+USER STORY: US-016
+--------------------------------------------------------------------------------
+
+  Test Class: TestLoginPageDisplay
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login screen displays all required UI elements.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_loginPage_render_displaysUsernameTextbox           Login screen displays a username textbox.
+  2    Positive       test_loginPage_render_displaysPasswordTextbox           Login screen displays a password textbox.
+  3    Positive       test_loginPage_render_displaysLoginButton               Login screen displays a Log In button.
+  4    Positive       test_loginPage_render_displaysSSOButton                 Login screen displays a Login with SSO button.
+
+  Test Class: TestLoginPageForgotPassword
+  Description: US-004 / US-007 / US-012 / US-016 / US-027:
+Verify Forgot Password hyperlink is displayed (not in US-001).
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_loginPage_render_displaysForgotPasswordLink        Login screen displays Forgot Password hyperlink.
+
+  Test Class: TestLoginWithCredentials
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login with valid and invalid credentials.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_login_validCredentials_returnsSuccess              Valid username and password logs into WFM application.
+  7    Negative       test_login_invalidPassword_returnsError                 Invalid password returns authentication error.
+  8    Negative       test_login_invalidUsername_returnsError                 Non-existent username returns authentication error.
+  9    Boundary       test_login_emptyUsername_returnsValidationError         Empty username returns validation error.
+  10   Boundary       test_login_emptyPassword_returnsValidationError         Empty password returns validation error.
+  11   Boundary       test_login_bothFieldsEmpty_returnsValidationError       Both fields empty returns validation error.
+  12   Boundary       test_login_specialCharactersInUsername_handledCorrectly Special characters in username are handled.
+  13   Boundary       test_login_sqlInjectionInUsername_handledSafely         SQL injection in username is safely handled.
+  14   Boundary       test_login_maxLengthUsername_handledCorrectly           Very long username is handled properly.
+  15   Boundary       test_login_whitespacesOnlyUsername_returnsError         Username with only whitespace returns error.
+
+  Test Class: TestSSOLogin
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify SSO login functionality.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_ssoLogin_validSSOToken_redirectsToDashboard        Valid SSO token redirects to dashboard.
+  17   Negative       test_ssoLogin_invalidSSOToken_returnsError              Invalid SSO token returns error.
+  18   Negative       test_ssoLogin_expiredSSOToken_returnsError              Expired SSO token returns error.
+
+  Test Class: TestLoginServiceIntegration
+  Description: Integration tests: Login service with external authentication.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Integration    test_login_authServiceTimeout_returnsServiceUnavailable Auth service timeout returns appropriate error.
+  20   Integration    test_login_authServiceDown_returnsServiceError          Auth service down returns service error.
+
+  Total test cases for US-016: 20
+
+--------------------------------------------------------------------------------
+USER STORY: US-017
+--------------------------------------------------------------------------------
+
+  Test Class: TestWorkforceInfoNavigation
+  Description: US-017 AC-1, AC-2, AC-3: Navigation to Workforce Information.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_sideNavigation_workforceMenu_displaysSubMenus      Workforce Information menu shows all sub menus.
+
+  Test Class: TestWorkforceInfoDataGrid
+  Description: US-017 AC-4, AC-5: Workforce Information data grid.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  2    Positive       test_dataGrid_displaysAllRequiredColumns                Data grid displays all required columns.
+  3    Positive       test_dataGrid_nameHyperlink_navigatesToDetails          Name hyperlink navigates to workforce info details page.
+  4    Positive       test_dataGrid_currentStatus_showsProbationOrConfirmed   Current Status shows Probation or Confirmed.
+
+  Test Class: TestWorkforceInfoDetailsPage
+  Description: US-017 AC-6 to AC-28: Workforce Information details page sections.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_detailsPage_personalInfoBiographical_displaysFields Biographical section displays PS#, DOB, Age, Birth Place.
+  6    Positive       test_detailsPage_personalInfo_displaysAllFields         Personal Info section displays all required fields.
+  7    Positive       test_detailsPage_contactInfo_displaysFields             Contact Info section displays required fields.
+  8    Positive       test_detailsPage_emergencyContact_displaysFields        Emergency Contact section displays required fields.
+  9    Positive       test_detailsPage_dependents_displaysAllFields           Dependents section displays all required fields.
+  10   Positive       test_detailsPage_nationalID_displaysAllFields           National ID section displays all document fields.
+  11   Positive       test_detailsPage_bankDetails_displaysAllFields          Bank Details section displays all fields.
+  12   Positive       test_detailsPage_jobRelationship_autoPopulatedFromDeptCode Job Relationship fields are auto-populated from dept code.
+
+  Test Class: TestWorkforceInfoButtons
+  Description: US-017 AC-29, AC-30, AC-31: Buttons, search, and navigation.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  13   Positive       test_buttons_displaysEditSaveDraftCancel                Page displays Edit, Save Draft, Cancel buttons.
+  14   Positive       test_searchBar_searchesWorkmen                          Search bar finds matching workmen.
+  15   Positive       test_pageNavigation_navigatesCorrectly                  Page navigation works.
+
+  Total test cases for US-017: 15
+
+--------------------------------------------------------------------------------
+USER STORY: US-018
+--------------------------------------------------------------------------------
+
+  Test Class: TestEventHistoryPage
+  Description: US-018: Verify Event History page data grid and navigation.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_eventHistory_dataGrid_displaysAllColumns           Event History grid displays all required columns.
+  2    Positive       test_eventHistory_buttons_displaysEditAndAddNew         Page displays Edit and Add New Event buttons.
+  3    Positive       test_eventHistory_oldPSNumber_displayedBasedOnCadre     Old PS number assigned based on cadre is visible.
+  4    Positive       test_eventHistory_searchBar_works                       Search bar finds workmen.
+
+  Total test cases for US-018: 4
+
+--------------------------------------------------------------------------------
+USER STORY: US-019
+--------------------------------------------------------------------------------
+
+  Test Class: TestEditEventHistory
+  Description: US-019: Verify Edit Event History functionality.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_editEventHistory_clickEdit_displaysEditPage        Clicking edit button displays Edit Event History page.
+  2    Positive       test_editEventHistory_fillAndSave_savesChanges          Filling mandatory fields and saving succeeds.
+  3    Negative       test_editEventHistory_missingMandatoryFields_returnsError Missing mandatory fields returns error.
+  4    Positive       test_editEventHistory_cancel_navigatesToPreviousPage    Cancel navigates to previous page.
+  5    Positive       test_editEventHistory_functionAutoFilled_basedOnDeptCode Function field is auto-filled based on dept code.
+
+  Total test cases for US-019: 5
+
+--------------------------------------------------------------------------------
+USER STORY: US-020
+--------------------------------------------------------------------------------
+
+  Test Class: TestAddEventHistory
+  Description: US-020: Verify Add Event History functionality.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_addEventHistory_clickAdd_displaysAddPage           Clicking add button displays Add Event History page.
+  2    Positive       test_addEventHistory_fillAndSave_addsToGrid             Filling fields and saving adds event to grid view.
+  3    Positive       test_addEventHistory_cancel_navigatesToPreviousPage     Cancel navigates to previous page.
+  4    Positive       test_addEventHistory_firstEvent_autoFilledAsJoining     First event is auto-filled as 'Joining event' from onboarding.
+  5    Positive       test_addEventHistory_apprentice_onlyTwoEventsDisplayed  Apprentice/AT/Temp Workman shows only Joining and Separation.
+  6    Positive       test_addEventHistory_permanentWorkman_newPSNoAndJoiningEvent Becoming permanent generates new PS No and new Joining event.
+
+  Total test cases for US-020: 6
+
+--------------------------------------------------------------------------------
+USER STORY: US-021
+--------------------------------------------------------------------------------
+
+  Test Class: TestDisciplinaryActionPage
+  Description: US-021: Verify Disciplinary Action page data grid.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_disciplinaryAction_dataGrid_displaysAllColumns     Data grid displays all required columns.
+  2    Positive       test_disciplinaryAction_buttons_displaysImportExportAdd Page displays Import, Export, Add buttons.
+  3    Positive       test_disciplinaryAction_searchBar_works                 Search bar finds matching workmen.
+
+  Total test cases for US-021: 3
+
+--------------------------------------------------------------------------------
+USER STORY: US-022
+--------------------------------------------------------------------------------
+
+  Test Class: TestImportDisciplinaryAction
+  Description: US-022: Verify Import Disciplinary Action functionality.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_import_clickButton_importsData                     Clicking Import imports disciplinary action details.
+  2    Negative       test_import_columnMismatch_returnsError                 Import with mismatched columns returns error.
+  3    Boundary       test_import_emptyFile_returnsError                      Import of empty file returns error.
+  4    Positive       test_import_importedColumns_matchExpected               Imported data has all expected columns.
+
+  Total test cases for US-022: 4
+
+--------------------------------------------------------------------------------
+USER STORY: US-023
+--------------------------------------------------------------------------------
+
+  Test Class: TestExportDisciplinaryAction
+  Description: US-023: Verify Export Disciplinary Action functionality.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_export_clickButton_exportsToExcel                  Clicking Export exports data to Excel file.
+  2    Boundary       test_export_noData_exportsEmptyFile                     Export with no data creates file with headers only.
+  3    Positive       test_export_exportedColumns_matchExpected               Exported data contains all expected columns.
+  4    Positive       test_export_saveToLocation_succeeds                     User can save export file to a location.
+
+  Total test cases for US-023: 4
+
+--------------------------------------------------------------------------------
+USER STORY: US-024
+--------------------------------------------------------------------------------
+
+  Test Class: TestAddDisciplinaryAction
+  Description: US-024: Verify Add Disciplinary Action functionality.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_addDA_clickAdd_displaysAddPage                     Clicking add button displays Add Disciplinary Action page.
+  2    Positive       test_addDA_fillAndSave_addsToGrid                       Filling all fields and saving adds to grid.
+  3    Negative       test_addDA_missingMandatoryFields_returnsError          Missing mandatory fields returns error.
+  4    Positive       test_addDA_cancel_navigatesToPreviousPage               Cancel navigates to previous page.
+  5    Boundary       test_addDA_futureIncidentDate_validationFails           Future incident date may fail validation.
+
+  Total test cases for US-024: 5
+
+--------------------------------------------------------------------------------
+USER STORY: US-025
+--------------------------------------------------------------------------------
+
+  Test Class: TestWorkforceInfoCTCWRole
+  Description: US-025: Verify Workforce Information for CTCW role.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_ctcwRole_dataGrid_displaysRequiredColumns          CTCW data grid displays correct columns.
+  2    Integration    test_ctcwRole_contractorData_fetchedFromAPI             Contractor workman data is fetched from API.
+  3    Integration    test_ctcwRole_apiTimeout_handledGracefully              API timeout returns appropriate error.
+  4    Positive       test_ctcwRole_nameHyperlink_navigatesToDetails          Name hyperlink navigates to details page.
+  5    Positive       test_ctcwRole_closeButton_navigatesBack                 Close button navigates to previous page.
+  6    Positive       test_ctcwRole_rightSidePane_displaysProfilePhoto        Right side pane displays employee photo, PS No, Name.
+
+  Total test cases for US-025: 6
+
+--------------------------------------------------------------------------------
+USER STORY: US-026
+--------------------------------------------------------------------------------
+
+  Test Class: TestWorkforceInfoMultipleRoles
+  Description: US-026: Verify Workforce Information for Admin and Supervisor roles.
+  Source File: test_us017_to_us026_workforce_info.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_multipleRoles_dataGrid_displaysRequiredColumns     Data grid displays standard columns for admin/supervisor roles.
+  2    Positive       test_multipleRoles_nameHyperlink_navigatesToDetails     Name hyperlink navigates to details page.
+  3    Positive       test_multipleRoles_closeButton_navigatesBack            Close button navigates to previous page.
+  4    Positive       test_multipleRoles_rightSidePane_displaysInfo           Right side pane shows photo, PS Number, Employee Name.
+  5    Positive       test_multipleRoles_searchBar_works                      Search bar finds workmen.
+  6    Positive       test_multipleRoles_pageNavigation_works                 Page navigation works.
+
+  Total test cases for US-026: 6
+
+--------------------------------------------------------------------------------
+USER STORY: US-027
+--------------------------------------------------------------------------------
+
+  Test Class: TestLoginPageDisplay
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login screen displays all required UI elements.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_loginPage_render_displaysUsernameTextbox           Login screen displays a username textbox.
+  2    Positive       test_loginPage_render_displaysPasswordTextbox           Login screen displays a password textbox.
+  3    Positive       test_loginPage_render_displaysLoginButton               Login screen displays a Log In button.
+  4    Positive       test_loginPage_render_displaysSSOButton                 Login screen displays a Login with SSO button.
+
+  Test Class: TestLoginPageForgotPassword
+  Description: US-004 / US-007 / US-012 / US-016 / US-027:
+Verify Forgot Password hyperlink is displayed (not in US-001).
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  5    Positive       test_loginPage_render_displaysForgotPasswordLink        Login screen displays Forgot Password hyperlink.
+
+  Test Class: TestLoginWithCredentials
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify login with valid and invalid credentials.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  6    Positive       test_login_validCredentials_returnsSuccess              Valid username and password logs into WFM application.
+  7    Negative       test_login_invalidPassword_returnsError                 Invalid password returns authentication error.
+  8    Negative       test_login_invalidUsername_returnsError                 Non-existent username returns authentication error.
+  9    Boundary       test_login_emptyUsername_returnsValidationError         Empty username returns validation error.
+  10   Boundary       test_login_emptyPassword_returnsValidationError         Empty password returns validation error.
+  11   Boundary       test_login_bothFieldsEmpty_returnsValidationError       Both fields empty returns validation error.
+  12   Boundary       test_login_specialCharactersInUsername_handledCorrectly Special characters in username are handled.
+  13   Boundary       test_login_sqlInjectionInUsername_handledSafely         SQL injection in username is safely handled.
+  14   Boundary       test_login_maxLengthUsername_handledCorrectly           Very long username is handled properly.
+  15   Boundary       test_login_whitespacesOnlyUsername_returnsError         Username with only whitespace returns error.
+
+  Test Class: TestSSOLogin
+  Description: US-001 / US-004 / US-007 / US-012 / US-016 / US-027:
+Verify SSO login functionality.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  16   Positive       test_ssoLogin_validSSOToken_redirectsToDashboard        Valid SSO token redirects to dashboard.
+  17   Negative       test_ssoLogin_invalidSSOToken_returnsError              Invalid SSO token returns error.
+  18   Negative       test_ssoLogin_expiredSSOToken_returnsError              Expired SSO token returns error.
+
+  Test Class: TestLoginRedirectByRole
+  Description: US-001 / US-027: Verify correct dashboard redirect after login.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  19   Positive       test_login_irRole_redirectsToIRDashboard                IR user is redirected to IR dashboard after login.
+  20   Positive       test_login_irApproverRole_redirectsToApproverDashboard  IR Approver is redirected to approver dashboard.
+
+  Test Class: TestLoginServiceIntegration
+  Description: Integration tests: Login service with external authentication.
+  Source File: test_us001_us004_us007_us012_us016_us027_login.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  21   Integration    test_login_authServiceTimeout_returnsServiceUnavailable Auth service timeout returns appropriate error.
+  22   Integration    test_login_authServiceDown_returnsServiceError          Auth service down returns service error.
+
+  Total test cases for US-027: 22
+
+--------------------------------------------------------------------------------
+USER STORY: US-028
+--------------------------------------------------------------------------------
+
+  Test Class: TestOnboardingApprovalNavigation
+  Description: US-028 AC-1, AC-2, AC-3: Navigate to Onboarding Approval page.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_approvalOverview_selectFromMenu_displaysPage       Selecting Onboarding Approval from menu displays the page.
+  2    Positive       test_approvalOverview_displaysTabs_allThreePresent      Page displays All, Pending, Approved tabs.
+
+  Test Class: TestApprovalAllTab
+  Description: US-028 AC-4 to AC-12: All tab data grid and actions.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  3    Positive       test_allTab_dataGrid_displaysAllRequiredColumns         All tab grid displays all required columns.
+  4    Positive       test_allTab_buttons_displaysApproveRejectExport         Page displays Approve, Reject, Export buttons.
+  5    Positive       test_allTab_selectAllCheckbox_selectsAllRows            All Select checkbox selects all rows.
+  6    Positive       test_allTab_clickApprove_displaysSuccessMessage         Clicking Approve displays 'Data approved successful'.
+  7    Positive       test_allTab_clickExport_displaysSuccessMessage          Clicking Export displays 'Data Exported Successfully'.
+  8    Positive       test_allTab_psNoHyperlink_navigatesToApprovalPage       PS No/Name hyperlink navigates to approval details page.
+  9    Positive       test_allTab_searchBar_works                             Search bar returns matching results.
+  10   Positive       test_allTab_pageNavigation_works                        Page navigation works correctly.
+
+  Test Class: TestApprovalPSNumberGeneration
+  Description: US-028 AC-13, AC-14: PS Number generation and bulk approve.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  11   Positive       test_psNumber_generatedOnlyAfterApproval                PS number generated for Quick Onboarding/Rehiring only after approval.
+  12   Negative       test_psNumber_notGeneratedBeforeApproval                PS number is NOT generated before approval.
+  13   Positive       test_bulkApprove_multipleRequests_approvesAll           Multiple requests can be selected and approved in bulk.
+  14   Negative       test_bulkApprove_noRequestsSelected_returnsError        No requests selected for bulk approve returns error.
+
+  Test Class: TestApprovalStatusDisplay
+  Description: US-028 AC-15, AC-16: Status display and Submitted On validation.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  15   Positive       test_status_pending_waitingForApproval                  Pending status means waiting for IR Approver approval.
+  16   Positive       test_status_approved_irApproverApproved                 Approved status means IR Approver approved.
+  17   Positive       test_status_returned_irApproverReturned                 Returned status means IR Approver returned the process.
+  18   Positive       test_submittedOn_showsIRSubmissionDate                  Submitted On shows when IR submitted for approval.
+
+  Total test cases for US-028: 18
+
+--------------------------------------------------------------------------------
+USER STORY: US-029
+--------------------------------------------------------------------------------
+
+  Test Class: TestApprovalRequestDetails
+  Description: US-029: Verify workmen details approval page.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_requestDetails_navigateByPSNo_displaysDetailsPage  Clicking PS No navigates to request view page.
+  2    Positive       test_requestDetails_displaysAllEmployeeDetails          All employee details from onboarding are displayed.
+  3    Positive       test_requestDetails_clickApprove_displaysSuccessPopup   Approve button shows 'Approval successful' popup.
+  4    Positive       test_requestDetails_clickReject_displaysConfirmationPopup Reject button shows 'Do you want to reject employee onboarding?'.
+  5    Positive       test_requestDetails_rejectConfirmYes_returnsOnboarding  Clicking Yes on reject confirmation returns onboarding.
+  6    Positive       test_requestDetails_rejectConfirmNo_staysOnPage         Clicking No on reject keeps user on details page.
+
+  Total test cases for US-029: 6
+
+--------------------------------------------------------------------------------
+USER STORY: US-030
+--------------------------------------------------------------------------------
+
+  Test Class: TestApprovalPendingTab
+  Description: US-030: Verify Pending tab data grid and actions.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_pendingTab_dataGrid_displaysRequiredColumns        Pending tab displays required columns (no PS No).
+  2    Positive       test_pendingTab_buttons_displaysApproveRejectExport     Pending tab displays Approve, Reject, Export buttons.
+  3    Positive       test_pendingTab_selectAll_works                         All Select checkbox works in Pending tab.
+  4    Positive       test_pendingTab_clickApprove_displaysSuccess            Approve shows 'Data approved successful'.
+  5    Positive       test_pendingTab_clickExport_displaysSuccess             Export shows 'Data Exported Successfully'.
+  6    Positive       test_pendingTab_nameHyperlink_navigatesToApproval       Name hyperlink navigates to approval details.
+  7    Positive       test_pendingTab_searchBar_works                         Search bar works in Pending tab.
+  8    Positive       test_pendingTab_submittedOn_showsIRSubmissionDate       Submitted On shows the date IR submitted for approval.
+
+  Total test cases for US-030: 8
+
+--------------------------------------------------------------------------------
+USER STORY: US-031
+--------------------------------------------------------------------------------
+
+  Test Class: TestApprovalApprovedTab
+  Description: US-031: Verify Approved tab data grid and actions.
+  Source File: test_us028_to_us031_ir_approver.py
+
+  #    Type           Test Method                                             Description
+  ──── ────────────── ─────────────────────────────────────────────────────── ────────────────────────────────────────
+  1    Positive       test_approvedTab_dataGrid_displaysRequiredColumns       Approved tab displays all required columns including PS No.
+  2    Positive       test_approvedTab_button_displaysExportOnly              Approved tab displays only Export button.
+  3    Positive       test_approvedTab_selectAll_works                        All Select checkbox works in Approved tab.
+  4    Positive       test_approvedTab_clickExport_displaysSuccess            Export shows 'Data Exported Successful'.
+  5    Positive       test_approvedTab_nameHyperlink_navigatesToDetails       PS No/Name hyperlink navigates to details page.
+  6    Positive       test_approvedTab_searchBar_works                        Search bar works in Approved tab.
+  7    Positive       test_approvedTab_pageNavigation_works                   Page navigation works in Approved tab.
+  8    Negative       test_approvedTab_noApproveRejectButtons                 Approved tab does NOT display Approve or Reject buttons.
+
+  Total test cases for US-031: 8
+
+================================================================================
+SUMMARY
+================================================================================
+  US-001: 22 test case(s)
+  US-002: 7 test case(s)
+  US-003: 40 test case(s)
+  US-004: 20 test case(s)
+  US-005: 11 test case(s)
+  US-006: 13 test case(s)
+  US-007: 20 test case(s)
+  US-008: 15 test case(s)
+  US-009: 7 test case(s)
+  US-010: 3 test case(s)
+  US-011: 7 test case(s)
+  US-012: 20 test case(s)
+  US-013: 19 test case(s)
+  US-014: 6 test case(s)
+  US-015: 13 test case(s)
+  US-016: 20 test case(s)
+  US-017: 15 test case(s)
+  US-018: 4 test case(s)
+  US-019: 5 test case(s)
+  US-020: 6 test case(s)
+  US-021: 3 test case(s)
+  US-022: 4 test case(s)
+  US-023: 4 test case(s)
+  US-024: 5 test case(s)
+  US-025: 6 test case(s)
+  US-026: 6 test case(s)
+  US-027: 22 test case(s)
+  US-028: 18 test case(s)
+  US-029: 6 test case(s)
+  US-030: 8 test case(s)
+  US-031: 8 test case(s)
+
+  TOTAL TEST CASES: 363
