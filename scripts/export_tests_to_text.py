@@ -69,10 +69,25 @@ def _extract_test_type(docstring: str) -> str:
 
 _US_PATTERN = re.compile(r"US-\d+", re.IGNORECASE)
 
+_SOURCE_STORY_PATTERN = re.compile(
+    r"""^SOURCE_STORY_FILE\s*=\s*(?:"|')(.+?)(?:"|')""",
+    re.MULTILINE,
+)
+
 
 def _extract_user_stories(text: str) -> list[str]:
     """Return a sorted unique list of user story IDs found in *text*."""
     return sorted(set(m.group().upper() for m in _US_PATTERN.finditer(text)))
+
+
+def _extract_source_story_file(filepath: Path) -> str | None:
+    """Extract the SOURCE_STORY_FILE module-level constant from a test file.
+
+    Returns the value if found, or ``None``.
+    """
+    source = filepath.read_text(encoding="utf-8")
+    m = _SOURCE_STORY_PATTERN.search(source)
+    return m.group(1) if m else None
 
 
 def _extract_string_literals(node: ast.AST) -> list[str]:
@@ -179,7 +194,8 @@ def parse_test_file(filepath: Path) -> list[dict]:
     """Parse a single test file and return a list of test-class dicts.
 
     Each dict has keys:
-        class_name, class_docstring, user_stories, setup_info, tests
+        class_name, class_docstring, user_stories, source_file,
+        source_story_file, setup_info, tests
     where ``tests`` is a list of dicts with:
         method_name, docstring, test_type, call_args, mock_returns, assertions
     """
@@ -189,6 +205,9 @@ def parse_test_file(filepath: Path) -> list[dict]:
     # Also extract user stories mentioned in the module docstring.
     module_docstring = _extract_docstring(tree)
     module_stories = _extract_user_stories(module_docstring)
+
+    # Extract the optional SOURCE_STORY_FILE constant.
+    source_story_file = _extract_source_story_file(filepath)
 
     classes: list[dict] = []
     for node in ast.walk(tree):
@@ -217,6 +236,7 @@ def parse_test_file(filepath: Path) -> list[dict]:
                 "class_docstring": cls_doc,
                 "user_stories": cls_stories,
                 "source_file": filepath.name,
+                "source_story_file": source_story_file,
                 "setup_info": setup_info,
                 "tests": methods,
             })
@@ -235,6 +255,19 @@ def group_by_user_story(all_classes: list[dict]) -> dict[str, list[dict]]:
         for story_id in cls["user_stories"]:
             grouped.setdefault(story_id, []).append(cls)
     return dict(sorted(grouped.items(), key=lambda kv: kv[0]))
+
+
+def group_by_source_story(all_classes: list[dict]) -> dict[str | None, list[dict]]:
+    """Return {source_story_file: [class_dict, ...]} mapping.
+
+    Classes whose ``source_story_file`` is ``None`` are grouped under the
+    ``None`` key, which represents the default (un-attributed) bucket.
+    """
+    grouped: dict[str | None, list[dict]] = {}
+    for cls in all_classes:
+        key = cls.get("source_story_file")
+        grouped.setdefault(key, []).append(cls)
+    return grouped
 
 
 # ---------------------------------------------------------------------------
@@ -914,6 +947,22 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
     wb.save(str(output_path))
 
 
+def _report_basename(source_story_file: str | None) -> str:
+    """Derive a report base name from the source user-story filename.
+
+    If *source_story_file* is ``None``, returns the legacy default name
+    ``"unit_test_cases_report"``.
+
+    Otherwise the extension is stripped from the source filename and a
+    ``_test_report`` suffix is appended.
+    Example: ``"MaintainShiftSchedulingPlanUserStory.xlsx"``
+             → ``"MaintainShiftSchedulingPlanUserStory_test_report"``
+    """
+    if source_story_file is None:
+        return "unit_test_cases_report"
+    return Path(source_story_file).stem + "_test_report"
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -940,22 +989,27 @@ def main():
     for tf in test_files:
         all_classes.extend(parse_test_file(tf))
 
-    # Group by user story
-    grouped = group_by_user_story(all_classes)
+    # Group test classes by their source user-story file so that each
+    # user-story file gets its own report.
+    story_groups = group_by_source_story(all_classes)
 
-    if args.format == "txt":
-        report = render_text(grouped)
-        out_file = output_dir / "unit_test_cases_report.txt"
-        out_file.write_text(report, encoding="utf-8")
-        print(f"Text report written to {out_file}")
-    elif args.format == "docx":
-        out_file = output_dir / "unit_test_cases_report.docx"
-        render_docx(grouped, out_file)
-        print(f"Word document written to {out_file}")
-    elif args.format == "xlsx":
-        out_file = output_dir / "unit_test_cases_report.xlsx"
-        render_xlsx(grouped, out_file)
-        print(f"Excel spreadsheet written to {out_file}")
+    for source_story_file, classes_for_story in story_groups.items():
+        grouped = group_by_user_story(classes_for_story)
+        basename = _report_basename(source_story_file)
+
+        if args.format == "txt":
+            report = render_text(grouped)
+            out_file = output_dir / f"{basename}.txt"
+            out_file.write_text(report, encoding="utf-8")
+            print(f"Text report written to {out_file}")
+        elif args.format == "docx":
+            out_file = output_dir / f"{basename}.docx"
+            render_docx(grouped, out_file)
+            print(f"Word document written to {out_file}")
+        elif args.format == "xlsx":
+            out_file = output_dir / f"{basename}.xlsx"
+            render_xlsx(grouped, out_file)
+            print(f"Excel spreadsheet written to {out_file}")
 
 
 if __name__ == "__main__":
