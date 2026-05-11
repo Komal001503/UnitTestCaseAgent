@@ -31,25 +31,26 @@ jobs:
           mkdir -p test_reports
           python -m pytest tests/ -v --tb=short --junitxml=test_reports/test_results.xml || true
 
-      - name: Generate Word document report
+      - name: Generate Word document report(s)
         run: |
           python scripts/export_tests_to_text.py --format docx --output-dir test_reports
 
-      - name: Generate Excel spreadsheet report
+      - name: Generate Excel spreadsheet report(s)
         run: |
           python scripts/export_tests_to_text.py --format xlsx --output-dir test_reports
 
-      - name: Upload Word report as artifact
+      - name: Upload test reports as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: unit-test-cases-report
-          path: test_reports/unit_test_cases_report.docx
+          name: unit-test-cases-reports
+          path: test_reports/*_test_report.*
 
-      - name: Upload Excel report as artifact
+      - name: Upload legacy report as artifact (if present)
         uses: actions/upload-artifact@v4
+        if: hashFiles('test_reports/unit_test_cases_report.*') != ''
         with:
-          name: unit-test-cases-excel-report
-          path: test_reports/unit_test_cases_report.xlsx
+          name: unit-test-cases-report-legacy
+          path: test_reports/unit_test_cases_report.*
 
       - name: Commit report to repository
         run: |

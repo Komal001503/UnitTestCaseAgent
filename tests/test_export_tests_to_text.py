@@ -6,9 +6,11 @@ from pathlib import Path
 from scripts.export_tests_to_text import (
     parse_test_file,
     group_by_user_story,
+    group_by_source_story,
     render_text,
     render_xlsx,
     _extract_user_stories,
+    _extract_source_story_file,
     _extract_test_type,
     _build_test_case_id,
     _extract_module_from_source,
@@ -20,6 +22,7 @@ from scripts.export_tests_to_text import (
     _extract_call_args,
     _extract_mock_return_values,
     _extract_assertions,
+    _report_basename,
 )
 
 
@@ -56,6 +59,27 @@ SAMPLE_TEST_FILE = textwrap.dedent('''\
 
         def test_another_serviceDown_raisesTimeout(self):
             """Integration: Service timeout raises error."""
+            pass
+''')
+
+
+SAMPLE_TEST_FILE_WITH_SOURCE = textwrap.dedent('''\
+    """
+    Unit Tests for Sample Module
+    User Stories: US-200
+    """
+
+    SOURCE_STORY_FILE = "MyUserStory.xlsx"
+
+    import unittest
+    from unittest.mock import MagicMock
+
+
+    class TestSourcedFeature(unittest.TestCase):
+        """US-200: Verify sourced feature."""
+
+        def test_sourced_validInput_returnsSuccess(self):
+            """Positive: Valid input returns success."""
             pass
 ''')
 
@@ -477,6 +501,76 @@ class TestExtractASTHelpers(unittest.TestCase):
         classes = parse_test_file(self.test_file)
         for test in classes[0]["tests"]:
             self.assertIn("assertions", test)
+
+
+class TestExtractSourceStoryFile(unittest.TestCase):
+    def setUp(self):
+        self.tmpdir = tempfile.mkdtemp()
+
+    def test_extractSourceStoryFile_present_returnsValue(self):
+        tf = Path(self.tmpdir) / "test_with_source.py"
+        tf.write_text(SAMPLE_TEST_FILE_WITH_SOURCE, encoding="utf-8")
+        result = _extract_source_story_file(tf)
+        self.assertEqual(result, "MyUserStory.xlsx")
+
+    def test_extractSourceStoryFile_absent_returnsNone(self):
+        tf = Path(self.tmpdir) / "test_no_source.py"
+        tf.write_text(SAMPLE_TEST_FILE, encoding="utf-8")
+        result = _extract_source_story_file(tf)
+        self.assertIsNone(result)
+
+    def test_parseTestFile_withSource_includesSourceStoryFile(self):
+        tf = Path(self.tmpdir) / "test_with_source.py"
+        tf.write_text(SAMPLE_TEST_FILE_WITH_SOURCE, encoding="utf-8")
+        classes = parse_test_file(tf)
+        self.assertEqual(classes[0]["source_story_file"], "MyUserStory.xlsx")
+
+    def test_parseTestFile_withoutSource_sourceStoryFileIsNone(self):
+        tf = Path(self.tmpdir) / "test_no_source.py"
+        tf.write_text(SAMPLE_TEST_FILE, encoding="utf-8")
+        classes = parse_test_file(tf)
+        self.assertIsNone(classes[0]["source_story_file"])
+
+
+class TestGroupBySourceStory(unittest.TestCase):
+    def test_groupBySourceStory_mixedSources_groupsCorrectly(self):
+        classes = [
+            {"class_name": "A", "source_story_file": "StoryA.xlsx",
+             "user_stories": ["US-100"], "tests": [{"m": 1}]},
+            {"class_name": "B", "source_story_file": "StoryB.xlsx",
+             "user_stories": ["US-200"], "tests": [{"m": 2}]},
+            {"class_name": "C", "source_story_file": None,
+             "user_stories": ["US-300"], "tests": [{"m": 3}]},
+        ]
+        grouped = group_by_source_story(classes)
+        self.assertEqual(len(grouped), 3)
+        self.assertIn("StoryA.xlsx", grouped)
+        self.assertIn("StoryB.xlsx", grouped)
+        self.assertIn(None, grouped)
+
+    def test_groupBySourceStory_sameSource_combined(self):
+        classes = [
+            {"class_name": "A", "source_story_file": "Story.xlsx",
+             "user_stories": ["US-100"], "tests": [{"m": 1}]},
+            {"class_name": "B", "source_story_file": "Story.xlsx",
+             "user_stories": ["US-200"], "tests": [{"m": 2}]},
+        ]
+        grouped = group_by_source_story(classes)
+        self.assertEqual(len(grouped), 1)
+        self.assertEqual(len(grouped["Story.xlsx"]), 2)
+
+
+class TestReportBasename(unittest.TestCase):
+    def test_reportBasename_none_returnsDefault(self):
+        self.assertEqual(_report_basename(None), "unit_test_cases_report")
+
+    def test_reportBasename_xlsxFile_returnsNameWithSuffix(self):
+        result = _report_basename("MaintainShiftSchedulingPlanUserStory.xlsx")
+        self.assertEqual(result, "MaintainShiftSchedulingPlanUserStory_test_report")
+
+    def test_reportBasename_noExtension_returnsNameWithSuffix(self):
+        result = _report_basename("MyStory")
+        self.assertEqual(result, "MyStory_test_report")
 
 
 if __name__ == "__main__":

@@ -11,6 +11,10 @@ This repository hosts a GitHub Copilot agent for generating unit test cases from
 - Mock all external dependencies (APIs, databases, file systems).
 - Aim for 80%+ code coverage.
 - Include both positive and negative test cases for every function.
+- **Source tracking**: Every generated Python test file **must** include a module-level constant
+  `SOURCE_STORY_FILE = "<filename>.xlsx"` (placed after the module docstring and before the
+  imports) that records the user-story file the tests were generated from. This enables the
+  export pipeline to produce a separate test-case report for each user-story file.
 
 ## User Story Format
 User stories should include:

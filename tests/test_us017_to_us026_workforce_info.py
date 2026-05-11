@@ -13,6 +13,8 @@ Test Categories:
 - Integration Points
 """
 
+SOURCE_STORY_FILE = "L&T_WFM_Onboarding_module_User_stories- as on 17.12.2025.xlsx"
+
 import unittest
 from unittest.mock import MagicMock, patch
 
