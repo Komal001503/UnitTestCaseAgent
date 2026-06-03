@@ -7,18 +7,84 @@ on:
         description: Azure DevOps organization
         required: false
         default: LnT-HeavyEngineering-IEMQS
+        type: string
       project:
         description: Azure DevOps project
         required: false
         default: Workforce Management by MX Techies
+        type: string
       team:
         description: Azure DevOps team (optional)
         required: false
         default: Workforce Management by MX Techies Team
+        type: string
+      filter_mode:
+        description: 'How to pick stories'
+        required: true
+        type: choice
+        default: All
+        options:
+          - All
+          - ByIteration
+          - ByArea
+          - ByAssignee
+          - ByTags
+          - ByIds
+      iteration_path:
+        description: 'Iteration path (used when filter_mode=ByIteration). E.g. "Workforce Management by MX Techies\\Sprint 12"'
+        required: false
+        type: string
+      area_path:
+        description: 'Area path (used when filter_mode=ByArea)'
+        required: false
+        type: string
+      assigned_to:
+        description: 'Assignee email or display name (used when filter_mode=ByAssignee)'
+        required: false
+        type: string
+      tags:
+        description: 'Comma-separated tags (used when filter_mode=ByTags). Story must contain ALL.'
+        required: false
+        type: string
+      ids:
+        description: 'Comma-separated work item IDs (used when filter_mode=ByIds)'
+        required: false
+        type: string
+      states:
+        description: 'Comma-separated states (e.g. New,Active,Resolved). Leave blank for all except Removed.'
+        required: false
+        type: string
+      work_item_type:
+        description: 'Work item type'
+        required: false
+        type: choice
+        default: User Story
+        options:
+          - User Story
+          - Product Backlog Item
+          - Issue
+          - Requirement
+      from_date:
+        description: 'Start date (YYYY-MM-DD). Inclusive.'
+        required: false
+        type: string
+      to_date:
+        description: 'End date (YYYY-MM-DD). Inclusive.'
+        required: false
+        type: string
+      date_field:
+        description: 'Which date field the from/to dates apply to'
+        required: false
+        type: choice
+        default: ChangedDate
+        options:
+          - ChangedDate
+          - CreatedDate
       output_path:
         description: Output markdown file path
         required: false
         default: azure_devops_user_stories.md
+        type: string
   schedule:
     - cron: '0 2 * * *'
 
@@ -43,14 +109,41 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Resolve filters
+        id: resolve
+        shell: bash
+        env:
+          MODE: ${{ inputs.filter_mode || 'All' }}
+        run: |
+          set -euo pipefail
+          case "$MODE" in
+            All)         echo "Using no scope filter (all stories)";;
+            ByIteration) echo "iteration_path=${{ inputs.iteration_path }}" >> "$GITHUB_OUTPUT";;
+            ByArea)      echo "area_path=${{ inputs.area_path }}" >> "$GITHUB_OUTPUT";;
+            ByAssignee)  echo "assigned_to=${{ inputs.assigned_to }}" >> "$GITHUB_OUTPUT";;
+            ByTags)      echo "tags=${{ inputs.tags }}" >> "$GITHUB_OUTPUT";;
+            ByIds)       echo "ids=${{ inputs.ids }}" >> "$GITHUB_OUTPUT";;
+            *) echo "Unknown filter_mode '$MODE'" >&2; exit 1;;
+          esac
+
       - name: Pull Azure DevOps user stories
         env:
           AZURE_DEVOPS_ORG: ${{ inputs.org || 'LnT-HeavyEngineering-IEMQS' }}
           AZURE_DEVOPS_PROJECT: ${{ inputs.project || 'Workforce Management by MX Techies' }}
           AZURE_DEVOPS_TEAM: ${{ inputs.team || 'Workforce Management by MX Techies Team' }}
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
+          AZURE_DEVOPS_WORK_ITEM_TYPE: ${{ inputs.work_item_type }}
+          AZURE_DEVOPS_STATES: ${{ inputs.states }}
+          AZURE_DEVOPS_ITERATION_PATH: ${{ steps.resolve.outputs.iteration_path }}
+          AZURE_DEVOPS_AREA_PATH: ${{ steps.resolve.outputs.area_path }}
+          AZURE_DEVOPS_ASSIGNED_TO: ${{ steps.resolve.outputs.assigned_to }}
+          AZURE_DEVOPS_TAGS: ${{ steps.resolve.outputs.tags }}
+          AZURE_DEVOPS_IDS: ${{ steps.resolve.outputs.ids }}
+          AZURE_DEVOPS_FROM_DATE: ${{ inputs.from_date }}
+          AZURE_DEVOPS_TO_DATE: ${{ inputs.to_date }}
+          AZURE_DEVOPS_DATE_FIELD: ${{ inputs.date_field }}
           OUTPUT_PATH: ${{ inputs.output_path || 'azure_devops_user_stories.md' }}
-        run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH"
+        run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH" --verbose
 
       - name: Commit synced Markdown
         env:
