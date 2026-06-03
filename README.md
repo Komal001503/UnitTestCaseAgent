@@ -56,6 +56,16 @@ You can invoke the agent with Azure DevOps markdown the same way as Excel-genera
 
 End-to-end flow: **Azure DevOps User Story → `azure_devops_user_stories.md` → `@unit-test-generator` → tests in `tests/`**.
 
+#### Troubleshooting: Only seeing certain types?
+
+The script filters strictly by `--work-item-type` (default `User Story`). If your Azure DevOps project uses a different process template, override it:
+
+- Scrum → `--work-item-type "Product Backlog Item"`
+- Basic → `--work-item-type "Issue"`
+- CMMI → `--work-item-type "Requirement"`
+
+Bugs, Tasks, and other types are always excluded.
+
 ### Excel Format
 
 Your Excel file should have these columns:

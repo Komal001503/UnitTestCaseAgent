@@ -134,7 +134,7 @@ def build_wiql(config: AzureDevOpsConfig) -> str:
 
     where_clause = "\n  AND ".join(filters)
     return (
-        "SELECT [System.Id], [System.Title], [System.State], [System.AssignedTo], "
+        "SELECT [System.Id], [System.Title], [System.WorkItemType], [System.State], [System.AssignedTo], "
         "[Microsoft.VSTS.Common.Priority], [System.Description], "
         "[Microsoft.VSTS.Common.AcceptanceCriteria], [System.Tags], [System.AreaPath], "
         "[System.IterationPath]\n"
@@ -214,6 +214,14 @@ def query_work_item_ids(config: AzureDevOpsConfig, verbose: bool = False) -> lis
             file=sys.stderr,
         )
 
+    if not ids:
+        print(
+            f"No work items matched type='{config.work_item_type}'. "
+            "If your project uses a different process template, try "
+            '--work-item-type "Product Backlog Item" (Scrum), "Issue" (Basic), or "Requirement" (CMMI).',
+            file=sys.stderr,
+        )
+
     return ids
 
 
@@ -224,6 +232,7 @@ def fetch_work_items(config: AzureDevOpsConfig, ids: list[int], verbose: bool = 
     fields = [
         "System.Id",
         "System.Title",
+        "System.WorkItemType",
         "System.State",
         "System.AssignedTo",
         "Microsoft.VSTS.Common.Priority",
@@ -258,6 +267,35 @@ def fetch_work_items(config: AzureDevOpsConfig, ids: list[int], verbose: bool = 
     return work_items
 
 
+def _filter_to_type(work_items: list[dict[str, Any]], work_item_type: str) -> list[dict[str, Any]]:
+    """Drop any work items whose type does not match *work_item_type* (case-insensitive, trimmed).
+
+    Logs a warning to stderr for every work item that is dropped, grouped by type.
+    """
+    target = work_item_type.strip().lower()
+    kept: list[dict[str, Any]] = []
+    dropped_by_type: dict[str, int] = {}
+
+    for item in work_items:
+        fields = item.get("fields", {}) if isinstance(item.get("fields"), dict) else {}
+        actual = str(fields.get("System.WorkItemType", "")).strip()
+        if actual.lower() == target:
+            kept.append(item)
+        else:
+            dropped_by_type[actual] = dropped_by_type.get(actual, 0) + 1
+
+    if dropped_by_type:
+        total = sum(dropped_by_type.values())
+        detail = ", ".join(f"{k}={v}" for k, v in sorted(dropped_by_type.items()))
+        print(
+            f"Warning: dropped {total} work item(s) whose type did not match "
+            f"'{work_item_type}' (found: {detail}).",
+            file=sys.stderr,
+        )
+
+    return kept
+
+
 def _html_to_markdown(value: str | None) -> str:
     if not value:
         return "_Not provided._"
@@ -287,9 +325,18 @@ def _assigned_to_display(assigned_to: Any) -> str:
     return "Unassigned"
 
 
-def render_markdown(work_items: list[dict[str, Any]], org: str, project: str) -> str:
+def render_markdown(
+    work_items: list[dict[str, Any]],
+    org: str,
+    project: str,
+    work_item_type: str = "User Story",
+    states: list[str] | None = None,
+) -> str:
+    states_label = ", ".join(states) if states else "all except Removed"
     lines: list[str] = [
         "# User Stories",
+        "",
+        f"_Filtered to work item type: **{work_item_type}** (states: {states_label})._",
         "",
         f"Total stories: {len(work_items)}",
         "",
@@ -328,6 +375,7 @@ def render_markdown(work_items: list[dict[str, Any]], org: str, project: str) ->
                 "| Field | Value |",
                 "|-------|-------|",
                 f"| ID | US-{story_id} |",
+                f"| Work Item Type | {_clean_cell(fields.get('System.WorkItemType'))} |",
                 f"| State | {state} |",
                 f"| Priority | {priority} |",
                 f"| Assigned To | {assigned_to} |",
@@ -353,7 +401,14 @@ def run(args: argparse.Namespace, env: Mapping[str, str]) -> tuple[Path | None, 
     config = resolve_config(args, env)
     ids = query_work_item_ids(config, verbose=args.verbose)
     work_items = fetch_work_items(config, ids, verbose=args.verbose)
-    markdown = render_markdown(work_items, config.org, config.project)
+    work_items = _filter_to_type(work_items, config.work_item_type)
+    markdown = render_markdown(
+        work_items,
+        config.org,
+        config.project,
+        work_item_type=config.work_item_type,
+        states=config.states,
+    )
 
     if args.dry_run:
         return None, markdown
