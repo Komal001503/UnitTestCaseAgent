@@ -5,6 +5,8 @@ from unittest.mock import patch
 
 from scripts import azure_devops_to_md
 
+SOURCE_STORY_FILE = "azure_devops_user_stories.md"
+
 
 class AzureDevOpsToMarkdownTests(unittest.TestCase):
     def test_parse_args_includes_expected_flags(self):
@@ -105,6 +107,9 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertIn("| ADO URL | https://dev.azure.com/org/project/_workitems/edit/101 |", markdown)
         self.assertIn("### Description", markdown)
         self.assertIn("### Acceptance Criteria", markdown)
+
+    def test_safe_cell_normalizes_table_breaking_characters(self):
+        self.assertEqual(azure_devops_to_md._safe_cell("a|b\nc\rd"), "a\\|b c d")
 
 
 if __name__ == "__main__":

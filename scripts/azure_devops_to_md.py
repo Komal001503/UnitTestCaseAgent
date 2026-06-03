@@ -89,10 +89,10 @@ def resolve_config(args: argparse.Namespace) -> Config:
         raise ValueError(f"Missing required configuration: {', '.join(missing)}")
 
     return Config(
-        org=org or "",
-        project=project or "",
+        org=org,
+        project=project,
         team=team,
-        pat=pat or "",
+        pat=pat,
         work_item_type=work_item_type,
         states=states,
         area_path=area_path,
@@ -216,7 +216,7 @@ def _assigned_to(value: Any) -> str:
 
 def _safe_cell(value: Any) -> str:
     text = str(value or "").strip()
-    return text.replace("|", "\\|")
+    return text.replace("\r", " ").replace("\n", " ").replace("|", "\\|")
 
 
 def render_markdown(config: Config, items: list[dict[str, Any]]) -> str:
