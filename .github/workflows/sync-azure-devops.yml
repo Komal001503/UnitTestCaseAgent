@@ -1,0 +1,68 @@
+name: Sync Azure DevOps User Stories
+
+on:
+  workflow_dispatch:
+    inputs:
+      org:
+        description: Azure DevOps organization
+        required: false
+        default: LnT-HeavyEngineering-IEMQS
+      project:
+        description: Azure DevOps project
+        required: false
+        default: Workforce Management by MX Techies
+      team:
+        description: Azure DevOps team
+        required: false
+        default: Workforce Management by MX Techies Team
+      output_path:
+        description: Output Markdown file path
+        required: false
+        default: azure_devops_user_stories.md
+  schedule:
+    - cron: '0 2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      OUTPUT_PATH: ${{ github.event.inputs.output_path || 'azure_devops_user_stories.md' }}
+      AZURE_DEVOPS_ORG: ${{ github.event.inputs.org || 'LnT-HeavyEngineering-IEMQS' }}
+      AZURE_DEVOPS_PROJECT: ${{ github.event.inputs.project || 'Workforce Management by MX Techies' }}
+      AZURE_DEVOPS_TEAM: ${{ github.event.inputs.team || 'Workforce Management by MX Techies Team' }}
+      AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Sync Azure DevOps user stories
+        run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH"
+
+      - name: Commit generated Markdown
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- "$OUTPUT_PATH"; then
+            echo "No Azure DevOps markdown changes to commit."
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$OUTPUT_PATH"
+          git commit -m 'Sync Azure DevOps user stories'
+          git push
