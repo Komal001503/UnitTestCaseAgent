@@ -1,10 +1,12 @@
 import argparse
+from datetime import date
 import unittest
 from unittest.mock import Mock, patch
 
 from scripts.azure_devops_to_md import (
     AzureDevOpsConfig,
     MissingPATError,
+    _csv_to_int_list,
     _filter_to_type,
     build_wiql,
     fetch_work_items,
@@ -55,9 +57,9 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         config = AzureDevOpsConfig(
             org="org",
             project="project",
-            team="team",
             pat="pat",
             work_item_type="User Story",
+            team="team",
             states=None,
             area_path="Main Area",
         )
@@ -67,6 +69,96 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertIn("[System.State] <> 'Removed'", wiql)
         self.assertIn("[System.AreaPath] UNDER 'Main Area'", wiql)
         self.assertIn("ORDER BY [System.Id] ASC", wiql)
+
+    def test_buildWiql_appendsAllNewOptionalFilters(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            iteration_path="Project\\Sprint 12",
+            assigned_to="O'Connor",
+            tags=["API", "Regression"],
+            ids=[1234, 1240, 1255],
+            from_date=date(2025, 10, 1),
+            to_date=date(2025, 12, 31),
+            date_field="CreatedDate",
+        )
+
+        wiql = build_wiql(config)
+
+        self.assertIn("[System.IterationPath] UNDER 'Project\\Sprint 12'", wiql)
+        self.assertIn("[System.AssignedTo] = 'O''Connor'", wiql)
+        self.assertIn("[System.Tags] CONTAINS 'API'", wiql)
+        self.assertIn("[System.Tags] CONTAINS 'Regression'", wiql)
+        self.assertIn("[System.Id] IN (1234, 1240, 1255)", wiql)
+        self.assertIn("[System.CreatedDate] >= '2025-10-01'", wiql)
+        self.assertIn("[System.CreatedDate] <= '2025-12-31T23:59:59'", wiql)
+        self.assertIn("[System.CreatedDate]", wiql)
+        self.assertIn("[System.ChangedDate]", wiql)
+
+    def test_buildWiql_withoutOptionalFilters_omitsNewClauses(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+        )
+
+        wiql = build_wiql(config)
+
+        self.assertNotIn("[System.IterationPath] UNDER", wiql)
+        self.assertNotIn("[System.AssignedTo] =", wiql)
+        self.assertNotIn("[System.Tags] CONTAINS", wiql)
+        self.assertNotIn("[System.Id] IN", wiql)
+        self.assertNotIn("T23:59:59", wiql)
+
+    def test_resolveConfig_invalidFromDate_raisesValueError(self):
+        args = argparse.Namespace(
+            org="org",
+            project="project",
+            team=None,
+            work_item_type="User Story",
+            states=None,
+            area_path=None,
+            from_date="2025/11/01",
+            to_date=None,
+            date_field=None,
+            output="out.md",
+            dry_run=False,
+            verbose=False,
+        )
+
+        with self.assertRaises(ValueError) as context:
+            resolve_config(args, env={"AZURE_DEVOPS_PAT": "pat"})
+
+        self.assertEqual("Invalid date '2025/11/01': expected YYYY-MM-DD", str(context.exception))
+
+    def test_resolveConfig_fromDateAfterToDate_raisesValueError(self):
+        args = argparse.Namespace(
+            org="org",
+            project="project",
+            team=None,
+            work_item_type="User Story",
+            states=None,
+            area_path=None,
+            from_date="2025-12-31",
+            to_date="2025-01-01",
+            date_field="ChangedDate",
+            output="out.md",
+            dry_run=False,
+            verbose=False,
+        )
+
+        with self.assertRaises(ValueError) as context:
+            resolve_config(args, env={"AZURE_DEVOPS_PAT": "pat"})
+
+        self.assertIn("Invalid date range", str(context.exception))
+
+    def test_csvToIntList_toleratesWhitespaceAndDropsNonIntegers(self):
+        ids = _csv_to_int_list(" 1234, xyz, 1240, ,12a,1255 ")
+
+        self.assertEqual([1234, 1240, 1255], ids)
 
     @patch("scripts.azure_devops_to_md.requests.post")
     def test_fetchWorkItems_batchesInChunksOf200(self, post_mock):
@@ -264,27 +356,56 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
             }
         ]
 
-        markdown = render_markdown(work_items, org="org", project="proj", work_item_type="User Story")
-
-        self.assertIn("_Filtered to work item type: **User Story**", markdown)
-
-    def test_renderMarkdown_statesLabelInFilterNote(self):
-        work_items: list = []
-
         markdown = render_markdown(
-            work_items, org="org", project="proj",
+            work_items,
+            org="org",
+            project="proj",
             work_item_type="User Story",
-            states=["Active", "In Progress"],
+            iteration_path="Proj\\Sprint 1",
+            ids=[10],
+            from_date=date(2025, 11, 1),
+            to_date=date(2025, 11, 30),
+            date_field="ChangedDate",
         )
 
-        self.assertIn("states: Active, In Progress", markdown)
+        self.assertIn(
+            "_Filters: type=User Story · iteration=Proj\\Sprint 1 · ids=10 · changed between 2025-11-01 and 2025-11-30._",
+            markdown,
+        )
 
-    def test_renderMarkdown_defaultStatesLabelAllExceptRemoved(self):
+    def test_renderMarkdown_filterNote_onlyIncludesAppliedParts(self):
         work_items: list = []
 
         markdown = render_markdown(work_items, org="org", project="proj")
 
-        self.assertIn("states: all except Removed", markdown)
+        self.assertIn("_Filters: type=User Story._", markdown)
+
+    def test_renderMarkdown_includesCreatedAndChangedDateRows(self):
+        work_items: list = []
+        work_items.append(
+            {
+                "id": 500,
+                "fields": {
+                    "System.Title": "Story",
+                    "System.WorkItemType": "User Story",
+                    "System.State": "Active",
+                    "Microsoft.VSTS.Common.Priority": 1,
+                    "System.AssignedTo": None,
+                    "System.Description": None,
+                    "Microsoft.VSTS.Common.AcceptanceCriteria": None,
+                    "System.Tags": "",
+                    "System.AreaPath": "",
+                    "System.IterationPath": "",
+                    "System.ChangedDate": "2025-11-30T10:15:00Z",
+                    "System.CreatedDate": "2025-11-01T09:00:00Z",
+                },
+            }
+        )
+
+        markdown = render_markdown(work_items, org="org", project="proj", work_item_type="User Story")
+
+        self.assertIn("| Changed Date | 2025-11-30T10:15:00Z |", markdown)
+        self.assertIn("| Created Date | 2025-11-01T09:00:00Z |", markdown)
 
 
 if __name__ == "__main__":

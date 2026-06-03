@@ -39,6 +39,24 @@ When you push a new or updated `.xlsx` file anywhere in the repository, `.github
 2. Run `.github/workflows/sync-azure-devops.yml` manually from **Actions** (workflow_dispatch), or let the daily `0 2 * * *` UTC schedule sync stories automatically.
 3. The workflow pulls `User Story` items and writes Markdown (default: `azure_devops_user_stories.md`) that the agent can consume directly.
 
+#### Filtering which stories to fetch
+
+Use `filter_mode` in the workflow **Run workflow** dialog:
+
+- `All` → no extra scope filter (all stories of selected work item type)
+- `ByIteration` → use `iteration_path` (example: `Workforce Management by MX Techies\\Sprint 12`)
+- `ByArea` → use `area_path` (example: `Workforce Management by MX Techies\\Payroll`)
+- `ByAssignee` → use `assigned_to` (example: `alice@example.com` or `Alice Smith`)
+- `ByTags` → use `tags` as comma-separated values (story must contain all tags)
+- `ByIds` → use `ids` as comma-separated work item IDs (example: `1234,1240`)
+
+You can also apply date filtering in the same run:
+
+- `from_date` and `to_date` use `YYYY-MM-DD` (inclusive)
+- `date_field` chooses whether those dates apply to `ChangedDate` or `CreatedDate`
+
+Example: To fetch only stories changed in November 2025, set `from_date=2025-11-01`, `to_date=2025-11-30`, and leave `date_field=ChangedDate`.
+
 Local usage:
 
 ```bash
@@ -48,6 +66,15 @@ export AZURE_DEVOPS_PROJECT="Workforce Management by MX Techies"
 export AZURE_DEVOPS_TEAM="Workforce Management by MX Techies Team"
 export AZURE_DEVOPS_PAT="***"
 python scripts/azure_devops_to_md.py --output azure_devops_user_stories.md
+```
+
+The same filters are available as CLI flags/environment variables for local runs:
+
+```bash
+python scripts/azure_devops_to_md.py \
+  --iteration-path "Workforce Management by MX Techies\\Sprint 12" \
+  --from-date 2025-11-01 --to-date 2025-11-30 \
+  --output azure_devops_user_stories.md
 ```
 
 You can invoke the agent with Azure DevOps markdown the same way as Excel-generated markdown:

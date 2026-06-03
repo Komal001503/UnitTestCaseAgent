@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 from dataclasses import dataclass
+from datetime import date
 import os
 from pathlib import Path
 import sys
@@ -27,11 +28,18 @@ class MissingPATError(ValueError):
 class AzureDevOpsConfig:
     org: str
     project: str
-    team: str | None
     pat: str
     work_item_type: str
-    states: list[str] | None
-    area_path: str | None
+    team: str | None = None
+    states: list[str] | None = None
+    area_path: str | None = None
+    iteration_path: str | None = None
+    assigned_to: str | None = None
+    tags: list[str] | None = None
+    ids: list[int] | None = None
+    from_date: date | None = None
+    to_date: date | None = None
+    date_field: str = "ChangedDate"
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -61,6 +69,35 @@ def build_parser() -> argparse.ArgumentParser:
         "--area-path",
         help="Optional area path filter (or AZURE_DEVOPS_AREA_PATH)",
     )
+    parser.add_argument(
+        "--iteration-path",
+        help="Optional iteration path filter (or AZURE_DEVOPS_ITERATION_PATH)",
+    )
+    parser.add_argument(
+        "--assigned-to",
+        help="Optional assignee filter (or AZURE_DEVOPS_ASSIGNED_TO)",
+    )
+    parser.add_argument(
+        "--tags",
+        help="CSV of tags; item must contain all tags (or AZURE_DEVOPS_TAGS)",
+    )
+    parser.add_argument(
+        "--ids",
+        help="CSV of work item IDs (or AZURE_DEVOPS_IDS)",
+    )
+    parser.add_argument(
+        "--from-date",
+        help="Lower bound date in YYYY-MM-DD (or AZURE_DEVOPS_FROM_DATE)",
+    )
+    parser.add_argument(
+        "--to-date",
+        help="Upper bound date in YYYY-MM-DD (or AZURE_DEVOPS_TO_DATE)",
+    )
+    parser.add_argument(
+        "--date-field",
+        choices=["ChangedDate", "CreatedDate"],
+        help="Date field for from/to date filters (or AZURE_DEVOPS_DATE_FIELD, default: ChangedDate)",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Print Markdown instead of writing file")
     parser.add_argument("--verbose", action="store_true", help="Print progress details")
     return parser
@@ -75,6 +112,38 @@ def _csv_to_list(value: str | None) -> list[str] | None:
         return None
     items = [item.strip() for item in value.split(",") if item.strip()]
     return items or None
+
+
+def _csv_to_int_list(value: str | None, *, verbose: bool = False) -> list[int] | None:
+    if value is None:
+        return None
+
+    valid_ids: list[int] = []
+    dropped: list[str] = []
+    for item in value.split(","):
+        token = item.strip()
+        if not token:
+            continue
+        try:
+            valid_ids.append(int(token))
+        except ValueError:
+            dropped.append(token)
+
+    if dropped and verbose:
+        print(
+            f"Warning: ignored non-integer IDs: {', '.join(dropped)}",
+            file=sys.stderr,
+        )
+    return valid_ids or None
+
+
+def _parse_iso_date(value: str | None) -> date | None:
+    if value is None:
+        return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError as error:
+        raise ValueError(f"Invalid date '{value}': expected YYYY-MM-DD") from error
 
 
 def _pick_arg_or_env(arg_value: str | None, env: Mapping[str, str], env_name: str) -> str | None:
@@ -95,6 +164,22 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
     ) or "User Story"
     states = _csv_to_list(_pick_arg_or_env(args.states, env, "AZURE_DEVOPS_STATES"))
     area_path = _pick_arg_or_env(args.area_path, env, "AZURE_DEVOPS_AREA_PATH")
+    iteration_path = _pick_arg_or_env(
+        getattr(args, "iteration_path", None), env, "AZURE_DEVOPS_ITERATION_PATH"
+    )
+    assigned_to = _pick_arg_or_env(getattr(args, "assigned_to", None), env, "AZURE_DEVOPS_ASSIGNED_TO")
+    tags = _csv_to_list(_pick_arg_or_env(getattr(args, "tags", None), env, "AZURE_DEVOPS_TAGS"))
+    ids = _csv_to_int_list(
+        _pick_arg_or_env(getattr(args, "ids", None), env, "AZURE_DEVOPS_IDS"),
+        verbose=bool(getattr(args, "verbose", False)),
+    )
+    from_date = _parse_iso_date(
+        _pick_arg_or_env(getattr(args, "from_date", None), env, "AZURE_DEVOPS_FROM_DATE")
+    )
+    to_date = _parse_iso_date(_pick_arg_or_env(getattr(args, "to_date", None), env, "AZURE_DEVOPS_TO_DATE"))
+    date_field = (
+        _pick_arg_or_env(getattr(args, "date_field", None), env, "AZURE_DEVOPS_DATE_FIELD") or "ChangedDate"
+    )
 
     if not org:
         raise ValueError("Missing Azure DevOps organization. Set --org or AZURE_DEVOPS_ORG.")
@@ -103,6 +188,12 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
     if not pat:
         raise MissingPATError(
             "Missing AZURE_DEVOPS_PAT. Provide a PAT with Work Items: Read scope."
+        )
+    if date_field not in {"ChangedDate", "CreatedDate"}:
+        raise ValueError("Invalid date field. Expected ChangedDate or CreatedDate.")
+    if from_date and to_date and from_date > to_date:
+        raise ValueError(
+            f"Invalid date range: from-date {from_date.isoformat()} is after to-date {to_date.isoformat()}."
         )
 
     return AzureDevOpsConfig(
@@ -113,6 +204,13 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
         work_item_type=work_item_type,
         states=states,
         area_path=area_path,
+        iteration_path=iteration_path,
+        assigned_to=assigned_to,
+        tags=tags,
+        ids=ids,
+        from_date=from_date,
+        to_date=to_date,
+        date_field=date_field,
     )
 
 
@@ -131,13 +229,27 @@ def build_wiql(config: AzureDevOpsConfig) -> str:
 
     if config.area_path:
         filters.append(f"[System.AreaPath] UNDER '{_escape_wiql_value(config.area_path)}'")
+    if config.iteration_path:
+        filters.append(f"[System.IterationPath] UNDER '{_escape_wiql_value(config.iteration_path)}'")
+    if config.assigned_to:
+        filters.append(f"[System.AssignedTo] = '{_escape_wiql_value(config.assigned_to)}'")
+    if config.tags:
+        for tag in config.tags:
+            filters.append(f"[System.Tags] CONTAINS '{_escape_wiql_value(tag)}'")
+    if config.ids:
+        joined_ids = ", ".join(str(work_item_id) for work_item_id in config.ids)
+        filters.append(f"[System.Id] IN ({joined_ids})")
+    if config.from_date:
+        filters.append(f"[System.{config.date_field}] >= '{config.from_date.isoformat()}'")
+    if config.to_date:
+        filters.append(f"[System.{config.date_field}] <= '{config.to_date.isoformat()}T23:59:59'")
 
     where_clause = "\n  AND ".join(filters)
     return (
         "SELECT [System.Id], [System.Title], [System.WorkItemType], [System.State], [System.AssignedTo], "
         "[Microsoft.VSTS.Common.Priority], [System.Description], "
         "[Microsoft.VSTS.Common.AcceptanceCriteria], [System.Tags], [System.AreaPath], "
-        "[System.IterationPath]\n"
+        "[System.IterationPath], [System.ChangedDate], [System.CreatedDate]\n"
         "FROM WorkItems\n"
         f"WHERE {where_clause}\n"
         "ORDER BY [System.Id] ASC"
@@ -241,6 +353,8 @@ def fetch_work_items(config: AzureDevOpsConfig, ids: list[int], verbose: bool = 
         "System.Tags",
         "System.AreaPath",
         "System.IterationPath",
+        "System.ChangedDate",
+        "System.CreatedDate",
     ]
 
     work_items: list[dict[str, Any]] = []
@@ -331,12 +445,41 @@ def render_markdown(
     project: str,
     work_item_type: str = "User Story",
     states: list[str] | None = None,
+    area_path: str | None = None,
+    iteration_path: str | None = None,
+    assigned_to: str | None = None,
+    tags: list[str] | None = None,
+    ids: list[int] | None = None,
+    from_date: date | None = None,
+    to_date: date | None = None,
+    date_field: str = "ChangedDate",
 ) -> str:
-    states_label = ", ".join(states) if states else "all except Removed"
+    filter_parts = [f"type={work_item_type}"]
+    if states:
+        filter_parts.append(f"states={', '.join(states)}")
+    if iteration_path:
+        filter_parts.append(f"iteration={iteration_path}")
+    if area_path:
+        filter_parts.append(f"area={area_path}")
+    if assigned_to:
+        filter_parts.append(f"assigned_to={assigned_to}")
+    if tags:
+        filter_parts.append(f"tags={','.join(tags)}")
+    if ids:
+        filter_parts.append(f"ids={','.join(str(item_id) for item_id in ids)}")
+    if from_date and to_date:
+        filter_parts.append(
+            f"{date_field.replace('Date', '').lower()} between {from_date.isoformat()} and {to_date.isoformat()}"
+        )
+    elif from_date:
+        filter_parts.append(f"{date_field.replace('Date', '').lower()} on/after {from_date.isoformat()}")
+    elif to_date:
+        filter_parts.append(f"{date_field.replace('Date', '').lower()} on/before {to_date.isoformat()}")
+
     lines: list[str] = [
         "# User Stories",
         "",
-        f"_Filtered to work item type: **{work_item_type}** (states: {states_label})._",
+        f"_Filters: {' · '.join(filter_parts)}._",
         "",
         f"Total stories: {len(work_items)}",
         "",
@@ -363,6 +506,8 @@ def render_markdown(
         area_path = _clean_cell(fields.get("System.AreaPath") or "")
         iteration_path = _clean_cell(fields.get("System.IterationPath") or "")
         tags = _clean_cell(fields.get("System.Tags") or "")
+        changed_date = _clean_cell(fields.get("System.ChangedDate") or "")
+        created_date = _clean_cell(fields.get("System.CreatedDate") or "")
         ado_url = (
             f"https://dev.azure.com/{quote(org, safe='')}/{quote(project, safe='')}/_workitems/edit/{story_id}"
         )
@@ -381,6 +526,8 @@ def render_markdown(
                 f"| Assigned To | {assigned_to} |",
                 f"| Area Path | {area_path} |",
                 f"| Iteration Path | {iteration_path} |",
+                f"| Changed Date | {changed_date} |",
+                f"| Created Date | {created_date} |",
                 f"| Tags | {tags} |",
                 f"| ADO URL | [Open in ADO]({ado_url}) |",
                 "",
@@ -399,7 +546,13 @@ def render_markdown(
 
 def run(args: argparse.Namespace, env: Mapping[str, str]) -> tuple[Path | None, str]:
     config = resolve_config(args, env)
+    wiql = build_wiql(config)
+    if args.dry_run:
+        print("Resolved WIQL:", file=sys.stderr)
+        print(wiql, file=sys.stderr)
     ids = query_work_item_ids(config, verbose=args.verbose)
+    if args.dry_run:
+        print(f"Matching work item IDs: {len(ids)}", file=sys.stderr)
     work_items = fetch_work_items(config, ids, verbose=args.verbose)
     work_items = _filter_to_type(work_items, config.work_item_type)
     markdown = render_markdown(
@@ -408,6 +561,14 @@ def run(args: argparse.Namespace, env: Mapping[str, str]) -> tuple[Path | None, 
         config.project,
         work_item_type=config.work_item_type,
         states=config.states,
+        area_path=config.area_path,
+        iteration_path=config.iteration_path,
+        assigned_to=config.assigned_to,
+        tags=config.tags,
+        ids=config.ids,
+        from_date=config.from_date,
+        to_date=config.to_date,
+        date_field=config.date_field,
     )
 
     if args.dry_run:
