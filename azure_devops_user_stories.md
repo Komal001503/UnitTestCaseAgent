@@ -1,5 +1,7 @@
 # User Stories
 
+_Filtered to work item type: **User Story** (states: all except Removed)._
+
 Total stories: 2372
 
 | Story ID | Title | State | Priority | Assigned To |
@@ -2382,6 +2384,7 @@ Total stories: 2372
 | Field | Value |
 |-------|-------|
 | ID | US-24 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -2434,6 +2437,7 @@ Code Review:
 | Field | Value |
 |-------|-------|
 | ID | US-28 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -2479,6 +2483,7 @@ Unit test cases:
 | Field | Value |
 |-------|-------|
 | ID | US-36 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -2530,6 +2535,7 @@ Unit test cases:
 | Field | Value |
 |-------|-------|
 | ID | US-44 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -2565,6 +2571,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-45 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2590,6 +2597,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-48 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Shaik.Basha9 |
@@ -2614,6 +2622,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-56 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2638,6 +2647,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-60 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -2661,6 +2671,7 @@ Fixes needs to be applied for the simple build errors which are missed by the mi
 | Field | Value |
 |-------|-------|
 | ID | US-64 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -2685,6 +2696,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-66 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -2714,6 +2726,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-74 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -2738,6 +2751,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-78 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -2762,6 +2776,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-88 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2798,6 +2813,7 @@ Service Connection should be created on the Azure DevOps for SonarQube Integrati
 | Field | Value |
 |-------|-------|
 | ID | US-90 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -2819,6 +2835,7 @@ MS Build should be installed as part of the build server configuration.
 | Field | Value |
 |-------|-------|
 | ID | US-92 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2840,6 +2857,7 @@ Testing related task should be added to build pipeline and should be passed.
 | Field | Value |
 |-------|-------|
 | ID | US-93 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2861,6 +2879,7 @@ The build artifacts should be published successfully.
 | Field | Value |
 |-------|-------|
 | ID | US-94 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2882,6 +2901,7 @@ Build pipeline should be succeeded with all the configured tasks.
 | Field | Value |
 |-------|-------|
 | ID | US-96 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2910,6 +2930,7 @@ Deploy Template should be configured in release pipeline.
 | Field | Value |
 |-------|-------|
 | ID | US-97 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2931,6 +2952,7 @@ Artifact should be download from the Build Pipeline and add to Release Pipeline.
 | Field | Value |
 |-------|-------|
 | ID | US-98 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -2957,6 +2979,7 @@ Pipeline should have File transformation task to transform values from web.confi
 | Field | Value |
 |-------|-------|
 | ID | US-99 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -2989,6 +3012,7 @@ Analyze the current solution to find the unused project references or packages.
 | Field | Value |
 |-------|-------|
 | ID | US-103 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -3010,6 +3034,7 @@ Sanity Testing
 | Field | Value |
 |-------|-------|
 | ID | US-107 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -3033,6 +3058,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-119 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -3055,6 +3081,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-121 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -3078,6 +3105,7 @@ All the test cases should be created and executed.
 | Field | Value |
 |-------|-------|
 | ID | US-122 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -3101,6 +3129,7 @@ All the test cases should be created and executed.
 | Field | Value |
 |-------|-------|
 | ID | US-123 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -3123,6 +3152,7 @@ All the test cases should be created, and execution should be complete.
 | Field | Value |
 |-------|-------|
 | ID | US-124 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3144,6 +3174,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-125 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3165,6 +3196,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-126 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3186,6 +3218,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-127 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3209,6 +3242,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-128 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -3232,6 +3266,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-150 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -3256,6 +3291,7 @@ I know I am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-177 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -3282,6 +3318,7 @@ Migrate source code to Azure GIT
 | Field | Value |
 |-------|-------|
 | ID | US-528 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -3303,6 +3340,7 @@ Code should be copied from TFS to AzureDevOps
 | Field | Value |
 |-------|-------|
 | ID | US-561 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -3324,6 +3362,7 @@ Local account needs to be created to configure the build & deploy pipeline
 | Field | Value |
 |-------|-------|
 | ID | US-562 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -3351,6 +3390,7 @@ The on-premises servers should be added to the created deployment groups.
 | Field | Value |
 |-------|-------|
 | ID | US-575 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -3373,6 +3413,7 @@ Existing Architecture: Configuration cleanup - password encryption
 | Field | Value |
 |-------|-------|
 | ID | US-576 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -3395,6 +3436,7 @@ Config transformation for environments
 | Field | Value |
 |-------|-------|
 | ID | US-578 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -3416,6 +3458,7 @@ This spike is helping to find a solution for using Radis Cache in the existing a
 | Field | Value |
 |-------|-------|
 | ID | US-580 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -3438,6 +3481,7 @@ Moving this feature to sprint 3 as it is spike activity.
 | Field | Value |
 |-------|-------|
 | ID | US-584 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -3459,6 +3503,7 @@ SonarQube should be installed on all the servers and should be up and running.
 | Field | Value |
 |-------|-------|
 | ID | US-1506 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3481,6 +3526,7 @@ All the test cases should be created and executed.
 | Field | Value |
 |-------|-------|
 | ID | US-1507 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -3503,6 +3549,7 @@ All test cases creation and execution should be completed.
 | Field | Value |
 |-------|-------|
 | ID | US-1509 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -3526,6 +3573,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-1519 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3549,6 +3597,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-1521 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3571,6 +3620,7 @@ All the Test case preparation and execution should be completed.
 | Field | Value |
 |-------|-------|
 | ID | US-1576 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -3594,6 +3644,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-1578 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -3617,6 +3668,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-1962 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -3640,6 +3692,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-1963 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -3663,6 +3716,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-2121 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3684,6 +3738,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-2124 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -3705,6 +3760,7 @@ Source code should be moved to Azure Devops
 | Field | Value |
 |-------|-------|
 | ID | US-2291 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -3760,6 +3816,7 @@ NA​
 | Field | Value |
 |-------|-------|
 | ID | US-2296 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -3783,6 +3840,7 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Field | Value |
 |-------|-------|
 | ID | US-2298 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -3868,6 +3926,7 @@ Usability - NA
 | Field | Value |
 |-------|-------|
 | ID | US-2318 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -3895,6 +3954,7 @@ This user story is to collect all the tasks required for IEMQS upgrade to .net 6
 | Field | Value |
 |-------|-------|
 | ID | US-2408 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -3926,6 +3986,7 @@ Note: No data available in new window.
 | Field | Value |
 |-------|-------|
 | ID | US-2409 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -3961,6 +4022,7 @@ As a WE2 user, I want to select Project No. and Joint type so that it is used to
 | Field | Value |
 |-------|-------|
 | ID | US-2411 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -4017,6 +4079,7 @@ Navigation Details: WE2 Login--> IEMQS Dashboard--> Select Project no.-->Click "
 | Field | Value |
 |-------|-------|
 | ID | US-2412 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -4058,6 +4121,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-2481 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Shaik.Basha9 |
@@ -4090,6 +4154,7 @@ Improve performance of maintain PTR user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2482 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -4122,6 +4187,7 @@ Improve performance of In Process Inspection > Token List user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2483 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -4153,6 +4219,7 @@ Improve performance of maintain PTR user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2484 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Shaik.Basha9 |
@@ -4182,6 +4249,7 @@ Improve performance of maintain PTR user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2485 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -4212,6 +4280,7 @@ Improve performance of maintain PTR user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2486 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -4242,6 +4311,7 @@ Improve performance of maintain PTR user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2487 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -4270,6 +4340,7 @@ Improve performance of maintain PTR user flow
 | Field | Value |
 |-------|-------|
 | ID | US-2499 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -4315,6 +4386,7 @@ Navigation Details Here...: IEMQS Dashboard--> In process Inspection--> Test Res
 | Field | Value |
 |-------|-------|
 | ID | US-2525 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -4369,6 +4441,7 @@ Usability - NA
 | Field | Value |
 |-------|-------|
 | ID | US-2526 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -4426,6 +4499,7 @@ Usability - NA
 | Field | Value |
 |-------|-------|
 | ID | US-2531 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -4488,6 +4562,7 @@ _
 | Field | Value |
 |-------|-------|
 | ID | US-2536 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -4537,6 +4612,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-2572 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -4606,6 +4682,7 @@ Performance: NA
 | Field | Value |
 |-------|-------|
 | ID | US-2574 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4630,6 +4707,7 @@ As a WE3 user, I want to mark favourite to the number of projects, so that I can
 | Field | Value |
 |-------|-------|
 | ID | US-2634 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -4655,6 +4733,7 @@ i know i am done when,
 | Field | Value |
 |-------|-------|
 | ID | US-2637 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -4708,6 +4787,7 @@ Under the section "Upload documents" for a given Seam,**
 | Field | Value |
 |-------|-------|
 | ID | US-2643 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -4757,6 +4837,7 @@ Navigation Details: WE2 Login--> IEMQS Dashboard--> Select Project no.-->Click "
 | Field | Value |
 |-------|-------|
 | ID | US-2644 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4790,6 +4871,7 @@ Project Details will have -
 | Field | Value |
 |-------|-------|
 | ID | US-2645 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4816,6 +4898,7 @@ The reference documents are -
 | Field | Value |
 |-------|-------|
 | ID | US-2646 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4840,6 +4923,7 @@ Reference standard documents -
 | Field | Value |
 |-------|-------|
 | ID | US-2647 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4867,6 +4951,7 @@ Quick links -
 | Field | Value |
 |-------|-------|
 | ID | US-2648 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4894,6 +4979,7 @@ To do list consists of -
 | Field | Value |
 |-------|-------|
 | ID | US-2649 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4922,6 +5008,7 @@ Notification list -
 | Field | Value |
 |-------|-------|
 | ID | US-2650 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4943,6 +5030,7 @@ Project heath Pie chart indicating Completion %, In progress % & Not started %
 | Field | Value |
 |-------|-------|
 | ID | US-2651 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4964,6 +5052,7 @@ As a WE3 user, I want to view all project health, so that I get an holistic heal
 | Field | Value |
 |-------|-------|
 | ID | US-2652 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -4992,6 +5081,7 @@ Training hub -
 | Field | Value |
 |-------|-------|
 | ID | US-2654 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -5036,6 +5126,7 @@ Upon clicking "Lock Upload" button as displayed in the screen "Lock Upload", bel
 | Field | Value |
 |-------|-------|
 | ID | US-2661 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5060,6 +5151,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2663 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5081,6 +5173,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2673 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -5117,6 +5210,7 @@ Navigation details here : IEMQS Dashboard--> In-process inspection --> Test resu
 | Field | Value |
 |-------|-------|
 | ID | US-2688 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -5162,6 +5256,7 @@ Navigation details here ..: IEMQS Dashboard--> In-process inspection --> Test re
 | Field | Value |
 |-------|-------|
 | ID | US-2689 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -5206,6 +5301,7 @@ Upon clicking "Lock Upload" button as displayed in the screen "Lock Upload", bel
 | Field | Value |
 |-------|-------|
 | ID | US-2698 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -5232,6 +5328,7 @@ Ancillary Applications -
 | Field | Value |
 |-------|-------|
 | ID | US-2699 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -5268,6 +5365,7 @@ Navigation details here : IEMQS Dashboard--> In-process inspection --> Test resu
 | Field | Value |
 |-------|-------|
 | ID | US-2700 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5295,6 +5393,7 @@ Following details have to be captured
 | Field | Value |
 |-------|-------|
 | ID | US-2701 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5323,6 +5422,7 @@ Maintain TPI details sub flow not considered - Using as is flow
 | Field | Value |
 |-------|-------|
 | ID | US-2720 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -5344,6 +5444,7 @@ Allow users to fetch Stages from existing Quality ID and create a new quality ID
 | Field | Value |
 |-------|-------|
 | ID | US-2722 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -5369,6 +5470,7 @@ For checking the feasibility of those solutions
 | Field | Value |
 |-------|-------|
 | ID | US-2727 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -5401,6 +5503,7 @@ Authentication
 | Field | Value |
 |-------|-------|
 | ID | US-2734 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -5422,6 +5525,7 @@ Enable users to apply filters, compare stages in different Quality IDs and fetch
 | Field | Value |
 |-------|-------|
 | ID | US-2735 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -5445,6 +5549,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2771 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -5466,6 +5571,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2777 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -5489,6 +5595,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2781 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -5512,6 +5619,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2783 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -5560,6 +5668,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-2789 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -5581,6 +5690,7 @@ A build Pipeline should be create/Updated to support net.6 api and angular then 
 | Field | Value |
 |-------|-------|
 | ID | US-2790 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -5602,6 +5712,7 @@ A release Pipeline should be create/Updated in DEV/QA/UAT/PROD to support net.6 
 | Field | Value |
 |-------|-------|
 | ID | US-2791 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -5623,6 +5734,7 @@ The pipeline should deploy the artifacts to the TEST region by creating project 
 | Field | Value |
 |-------|-------|
 | ID | US-2792 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -5644,6 +5756,7 @@ The pipeline should deploy the artifacts to the Staging/UAT region by creating p
 | Field | Value |
 |-------|-------|
 | ID | US-2793 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -5665,6 +5778,7 @@ The pipeline should deploy the artifacts to the PROD region by creating project 
 | Field | Value |
 |-------|-------|
 | ID | US-2804 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -5690,6 +5804,7 @@ Landing page reviewed has following inputs -
 | Field | Value |
 |-------|-------|
 | ID | US-2807 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5713,6 +5828,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-2811 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -5737,6 +5853,7 @@ Map joint type with Weld Seam No.
 | Field | Value |
 |-------|-------|
 | ID | US-2818 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -5763,6 +5880,7 @@ Create theme/visual designs for IEMQS application following L&THE brand guidelin
 | Field | Value |
 |-------|-------|
 | ID | US-2823 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5786,6 +5904,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3019 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -5810,6 +5929,7 @@ Application URL should be in working status.
 | Field | Value |
 |-------|-------|
 | ID | US-3032 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -5848,6 +5968,7 @@ Navigation details here : IEMQS Dashboard--> In-process inspection --> Test resu
 | Field | Value |
 |-------|-------|
 | ID | US-3033 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -5889,6 +6010,7 @@ _Functional:_
 | Field | Value |
 |-------|-------|
 | ID | US-3158 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -5910,6 +6032,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3178 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -5931,6 +6054,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3259 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -5953,6 +6077,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3307 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -5975,6 +6100,7 @@ When a PR raised corresponding changes where built if there are errors then  bui
 | Field | Value |
 |-------|-------|
 | ID | US-3354 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -5996,6 +6122,7 @@ TBD
 | Field | Value |
 |-------|-------|
 | ID | US-3360 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -6017,6 +6144,7 @@ Create the best navigation system with the help of Card sorting workshops.
 | Field | Value |
 |-------|-------|
 | ID | US-3408 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -6066,6 +6194,7 @@ _Functional:_
 | Field | Value |
 |-------|-------|
 | ID | US-3472 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -6089,6 +6218,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3654 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 3 |
 | Assigned To | Souvik Das |
@@ -6112,6 +6242,7 @@ As a L2/L3 user, I want to navigate a system which offers unified & consistent e
 | Field | Value |
 |-------|-------|
 | ID | US-3658 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -6139,6 +6270,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3719 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -6164,6 +6296,7 @@ Deployment on QA server.
 | Field | Value |
 |-------|-------|
 | ID | US-3729 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -6190,6 +6323,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-3854 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | chandrasen.ingawale |
@@ -6270,6 +6404,7 @@ Note: Refer attached document for detailed information.
 | Field | Value |
 |-------|-------|
 | ID | US-3855 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -6335,6 +6470,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-3856 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -6373,6 +6509,7 @@ __Note: Refer attached document for detailed information.
 | Field | Value |
 |-------|-------|
 | ID | US-3871 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -6424,6 +6561,7 @@ _**Note:**_ For DB Table description, please refer attachement
 | Field | Value |
 |-------|-------|
 | ID | US-3882 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -6484,6 +6622,7 @@ Functionality should be supported in the below:
 | Field | Value |
 |-------|-------|
 | ID | US-3883 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -6519,6 +6658,7 @@ Functionality should be supported in the below:
 | Field | Value |
 |-------|-------|
 | ID | US-3884 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -6562,6 +6702,7 @@ Functional:_
 | Field | Value |
 |-------|-------|
 | ID | US-3886 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -6598,6 +6739,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-3897 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -6632,6 +6774,7 @@ Functionality should be supported in the below:
 | Field | Value |
 |-------|-------|
 | ID | US-4001 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -6659,6 +6802,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-4020 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -6705,6 +6849,7 @@ Desktop browser-Chrome latest version
 | Field | Value |
 |-------|-------|
 | ID | US-4021 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -6732,6 +6877,7 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Field | Value |
 |-------|-------|
 | ID | US-4076 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -6759,6 +6905,7 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Field | Value |
 |-------|-------|
 | ID | US-4077 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Shaik.Basha9 |
@@ -6784,6 +6931,7 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Field | Value |
 |-------|-------|
 | ID | US-4078 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -6810,6 +6958,7 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Field | Value |
 |-------|-------|
 | ID | US-4079 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -6836,6 +6985,7 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Field | Value |
 |-------|-------|
 | ID | US-4080 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -6865,6 +7015,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4081 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -6891,6 +7042,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4082 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -6917,6 +7069,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4083 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -6943,6 +7096,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4084 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -6969,6 +7123,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4085 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -6995,6 +7150,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4086 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -7021,6 +7177,7 @@ Click View Icon for a DCR under Action Column
 | Field | Value |
 |-------|-------|
 | ID | US-4562 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | Souvik Das |
@@ -7051,6 +7208,7 @@ Utility features documented -
 | Field | Value |
 |-------|-------|
 | ID | US-4564 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | s.gayathri4 |
@@ -7093,6 +7251,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-4566 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -7148,6 +7307,7 @@ Functionality should be supported for the below device:
 | Field | Value |
 |-------|-------|
 | ID | US-4567 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -7187,6 +7347,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-4568 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 3 |
 | Assigned To | Anudeep.Sett |
@@ -7237,6 +7398,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-4578 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -7270,6 +7432,7 @@ Acceptance criteria do not include Left nav bar (Side bar) and IPad
 | Field | Value |
 |-------|-------|
 | ID | US-4580 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -7294,6 +7457,7 @@ User enters his/her login credentials to login to the new 'Smart Factory' applic
 | Field | Value |
 |-------|-------|
 | ID | US-4595 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -7317,6 +7481,7 @@ Need not be designed. SMEs said they will be using existing screen layout.
 | Field | Value |
 |-------|-------|
 | ID | US-4599 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -7348,6 +7513,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4601 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -7372,6 +7538,7 @@ We need to fix any more build errors found and run time issues which might occur
 | Field | Value |
 |-------|-------|
 | ID | US-4670 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -7393,6 +7560,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4751 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -7421,6 +7589,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4752 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -7470,6 +7639,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-4789 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -7513,6 +7683,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-4819 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -7554,6 +7725,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-4820 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -7575,6 +7747,7 @@ Build API Contract
 | Field | Value |
 |-------|-------|
 | ID | US-4821 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -7623,6 +7796,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-4822 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -7656,6 +7830,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-4823 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -7695,6 +7870,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-4824 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -7732,6 +7908,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-4825 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -7753,6 +7930,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4826 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -7774,6 +7952,7 @@ Environment readiness for implementation of PartList API and service
 | Field | Value |
 |-------|-------|
 | ID | US-4829 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -7802,6 +7981,7 @@ Send the response back to 3d Automation application.
 | Field | Value |
 |-------|-------|
 | ID | US-4831 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -7823,6 +8003,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4832 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -7844,6 +8025,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4841 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -7905,6 +8087,7 @@ _**Usability requirements: NA**_
 | Field | Value |
 |-------|-------|
 | ID | US-4842 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -7938,6 +8121,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4845 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -7998,6 +8182,7 @@ _**Usability requirements: NA**_
 | Field | Value |
 |-------|-------|
 | ID | US-4850 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -8057,6 +8242,7 @@ _**Usability requirements: NA**_
 | Field | Value |
 |-------|-------|
 | ID | US-4862 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -8098,6 +8284,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-4863 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -8149,6 +8336,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4864 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -8188,6 +8376,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-4865 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -8225,6 +8414,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-4874 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -8272,6 +8462,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4875 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -8315,6 +8506,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-4878 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -8361,6 +8553,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4879 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Dhanshree.pawar |
@@ -8399,6 +8592,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4880 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -8446,6 +8640,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4881 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -8485,6 +8680,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4882 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -8526,6 +8722,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4883 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -8562,6 +8759,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4886 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -8597,6 +8795,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4891 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -8622,6 +8821,7 @@ User wants to enter details & upload Joint image in PQR & publish as .pdf/.xls
 | Field | Value |
 |-------|-------|
 | ID | US-4903 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -8662,6 +8862,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-4904 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -8703,6 +8904,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-4905 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -8736,6 +8938,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-4930 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -8777,6 +8980,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4953 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -8817,6 +9021,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4977 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -8858,6 +9063,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-4978 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -8879,6 +9085,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-4979 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | aarthi |
@@ -8921,6 +9128,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5014 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -8958,6 +9166,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-5018 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Payala.Chandana |
@@ -8996,6 +9205,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-5030 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Dhanshree.pawar |
@@ -9035,6 +9245,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5031 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -9097,6 +9308,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5032 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Dhanshree.pawar |
@@ -9144,6 +9356,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5033 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -9188,6 +9401,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5034 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | aarthi |
@@ -9231,6 +9445,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5037 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -9257,6 +9472,7 @@ Visual design options with color suggestion desired by customer
 | Field | Value |
 |-------|-------|
 | ID | US-5040 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -9288,6 +9504,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5050 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -9310,6 +9527,7 @@ The new functionalities which are developed in 4.8 version should work as it in 
 | Field | Value |
 |-------|-------|
 | ID | US-5053 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -9334,6 +9552,7 @@ This user story will capture the visual design part of Procedure master workflow
 | Field | Value |
 |-------|-------|
 | ID | US-5054 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -9358,6 +9577,7 @@ This user story will capture the visual design part of Project wise maintain Pro
 | Field | Value |
 |-------|-------|
 | ID | US-5076 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | Lahu.Kumbhar |
@@ -9390,6 +9610,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-5077 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | s.gayathri4 |
@@ -9422,6 +9643,7 @@ Functionality should be supported in the below
 | Field | Value |
 |-------|-------|
 | ID | US-5144 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -9448,6 +9670,7 @@ Get business signoff for performance fixes for all flows which were taking 90per
 | Field | Value |
 |-------|-------|
 | ID | US-5219 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | s.gayathri4 |
@@ -9481,6 +9704,7 @@ Users should be able to view the feature on Chrom browsers of Laptop and Tablets
 | Field | Value |
 |-------|-------|
 | ID | US-5224 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -9508,6 +9732,7 @@ When the API is requested OR Responded then the request and response of the API 
 | Field | Value |
 |-------|-------|
 | ID | US-5225 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -9536,6 +9761,7 @@ We might need to create DEV2 & QA2 deployment groups
 | Field | Value |
 |-------|-------|
 | ID | US-5239 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -9579,6 +9805,7 @@ For Shop weld plan(From Souvik):
 | Field | Value |
 |-------|-------|
 | ID | US-5392 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -9601,6 +9828,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-5425 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -9624,6 +9852,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-5446 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -9656,6 +9885,7 @@ PFB the details:
 | Field | Value |
 |-------|-------|
 | ID | US-5516 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -9702,6 +9932,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5541 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -9727,6 +9958,7 @@ All the critical workflow test cases are supposed to be created and reviewed
 | Field | Value |
 |-------|-------|
 | ID | US-5542 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -9750,6 +9982,7 @@ All the critical workflow test cases are supposed to be created and reviewed
 | Field | Value |
 |-------|-------|
 | ID | US-5543 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -9771,6 +10004,7 @@ Execution test cases for Migration fixes
 | Field | Value |
 |-------|-------|
 | ID | US-5566 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -9881,6 +10115,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-5574 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -9992,6 +10227,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-5575 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -10036,6 +10272,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-5577 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -10061,6 +10298,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-5579 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | Rajesh.Lanka |
@@ -10084,6 +10322,7 @@ Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-5730 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | Anudeep.Sett |
@@ -10111,6 +10350,7 @@ Ref [https://xd.adobe.com/view/f0a78b9b-599a-4886-9c80-24d6a40bbc60-a5f4/](https
 | Field | Value |
 |-------|-------|
 | ID | US-5737 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -10132,6 +10372,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-6831 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -10153,6 +10394,7 @@ publish a sample API from Dev to SIT successfully
 | Field | Value |
 |-------|-------|
 | ID | US-6832 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -10174,6 +10416,7 @@ should be able to transform request body as per the requirement
 | Field | Value |
 |-------|-------|
 | ID | US-6833 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -10195,6 +10438,7 @@ Additional Requirement to validate junk character in the request body of 3 use c
 | Field | Value |
 |-------|-------|
 | ID | US-7358 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -10216,6 +10460,7 @@ update the prototype with feedback comments in XD link
 | Field | Value |
 |-------|-------|
 | ID | US-7360 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -10237,6 +10482,7 @@ Create prototype and validate with stakeholder
 | Field | Value |
 |-------|-------|
 | ID | US-7370 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 1 |
 | Assigned To | Anudeep.Sett |
@@ -10258,6 +10504,7 @@ When searched for a project ID which is not in the 50, the project should be vis
 | Field | Value |
 |-------|-------|
 | ID | US-7383 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -10287,6 +10534,7 @@ A single multi-stage Pipeline should be created to build and deploy IEMQS API in
 | Field | Value |
 |-------|-------|
 | ID | US-7384 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -10335,6 +10583,7 @@ As a QI3 user, I want to view system generated Part ICS, so that it will save my
 | Field | Value |
 |-------|-------|
 | ID | US-7387 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10400,6 +10649,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7388 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10434,6 +10684,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7389 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10463,6 +10714,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-7390 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -10509,6 +10761,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7392 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10548,6 +10801,7 @@ Landing Page-> Mega Menu->e-Signature & Digital Dossier->Return Records Tab
 | Field | Value |
 |-------|-------|
 | ID | US-7393 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -10584,6 +10838,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7394 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -10627,6 +10882,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7395 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -10675,6 +10931,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7396 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -10737,6 +10994,7 @@ Should be compatible with Android and iPad tabs chrome browsers
 | Field | Value |
 |-------|-------|
 | ID | US-7471 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -10802,6 +11060,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7472 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -10823,6 +11082,7 @@ Close all the defects identified in UAT
 | Field | Value |
 |-------|-------|
 | ID | US-7475 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10877,6 +11137,7 @@ Usability -**
 | Field | Value |
 |-------|-------|
 | ID | US-7476 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10913,6 +11174,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7477 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -10964,6 +11226,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7490 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -11028,6 +11291,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7496 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -11064,6 +11328,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-7501 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -11107,6 +11372,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7502 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -11163,6 +11429,7 @@ Android and iPad chrome browsers compatibility should be present
 | Field | Value |
 |-------|-------|
 | ID | US-7506 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -11216,6 +11483,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7507 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -11268,6 +11536,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7508 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -11329,6 +11598,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-7509 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -11402,6 +11672,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7513 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -11463,6 +11734,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7570 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -11488,6 +11760,7 @@ REST API development to fetch enquiry and equipment details from EMS.
 | Field | Value |
 |-------|-------|
 | ID | US-7571 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -11513,6 +11786,7 @@ REST API development to fetch project, contract, contract lines and contract del
 | Field | Value |
 |-------|-------|
 | ID | US-7572 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -11541,6 +11815,7 @@ Append UI Component library in order to define design patterns & style.
 | Field | Value |
 |-------|-------|
 | ID | US-7573 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -11564,6 +11839,7 @@ Design documentation which captures color pallets, Typography, iconography used 
 | Field | Value |
 |-------|-------|
 | ID | US-7574 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -11589,6 +11865,7 @@ Creating digital assets with frontend development team -
 | Field | Value |
 |-------|-------|
 | ID | US-7575 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -11610,6 +11887,7 @@ Visual design/Theme incorporation
 | Field | Value |
 |-------|-------|
 | ID | US-7578 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -11634,6 +11912,7 @@ new requirements
 | Field | Value |
 |-------|-------|
 | ID | US-7593 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -11682,6 +11961,7 @@ Bearer <https://codepedia.info/jwt-authentication-in-aspnet-core-web-api-token>
 | Field | Value |
 |-------|-------|
 | ID | US-7623 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -11703,6 +11983,7 @@ Pipeline set up for  Azure API management APIs and Logic App workflows are compl
 | Field | Value |
 |-------|-------|
 | ID | US-7627 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -11724,6 +12005,7 @@ Build and Deployment of Azure API management APIs and Logic App workflows are pe
 | Field | Value |
 |-------|-------|
 | ID | US-7628 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -11745,6 +12027,7 @@ CI/CD pipelines to be enhanced for  achieving  seamless incremental deployment
 | Field | Value |
 |-------|-------|
 | ID | US-7630 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -11772,6 +12055,7 @@ Analysis of ECOM services is completed with below outcome:
 | Field | Value |
 |-------|-------|
 | ID | US-7631 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -11810,6 +12094,7 @@ below mentioned connectivity should be working post fix
 | Field | Value |
 |-------|-------|
 | ID | US-7632 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -11847,6 +12132,7 @@ Components provisioned the production environment are verified and outcome is as
 | Field | Value |
 |-------|-------|
 | ID | US-7636 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -11876,6 +12162,7 @@ A single multi-stage Pipeline should be created to build and deploy IEMQS WEB in
 | Field | Value |
 |-------|-------|
 | ID | US-7637 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -11897,6 +12184,7 @@ API and Interface design Document for ISD002 should be ready for client Review
 | Field | Value |
 |-------|-------|
 | ID | US-7644 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -11918,6 +12206,7 @@ Client should should and give the sign off for ISD002 and ISD003  documents
 | Field | Value |
 |-------|-------|
 | ID | US-7645 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -11943,6 +12232,7 @@ API need to be developed and ready for Sanity testing
 | Field | Value |
 |-------|-------|
 | ID | US-7652 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -11986,6 +12276,7 @@ Below mentioned services should be available in SIT environment
 | Field | Value |
 |-------|-------|
 | ID | US-7658 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -12027,6 +12318,7 @@ Below services in  SIT environment should be working fine with wrapper service:
 | Field | Value |
 |-------|-------|
 | ID | US-7661 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -12060,6 +12352,7 @@ Field level mapping sheet
 | Field | Value |
 |-------|-------|
 | ID | US-7690 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -12085,6 +12378,7 @@ Produce Unit Test Report sheets with the expected and actual results for both Us
 | Field | Value |
 |-------|-------|
 | ID | US-7695 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -12110,6 +12404,7 @@ Demo for UTR is arranged with Track Lead and Seek for sign off.
 | Field | Value |
 |-------|-------|
 | ID | US-7702 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -12147,6 +12442,7 @@ As a end user, I need the new changes to be implemented on landing page, so the 
 | Field | Value |
 |-------|-------|
 | ID | US-7737 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -12172,6 +12468,7 @@ Calculator widget should be visible on Scientific icon click.
 | Field | Value |
 |-------|-------|
 | ID | US-7830 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -12203,6 +12500,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7904 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -12239,6 +12537,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-7905 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -12273,6 +12572,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7907 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -12306,6 +12606,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-7909 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -12361,6 +12662,7 @@ Desktop browser-Chrome latest version
 | Field | Value |
 |-------|-------|
 | ID | US-7914 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -12395,6 +12697,7 @@ As a NDE3, QA3 & QI3, I want to capture photo from mobile/tablet/ipad and back c
 | Field | Value |
 |-------|-------|
 | ID | US-7938 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -12428,6 +12731,7 @@ L3 user should be able to view the word file after entering the parameter values
 | Field | Value |
 |-------|-------|
 | ID | US-8009 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -12452,6 +12756,7 @@ User should be able to filter as per status of records.
 | Field | Value |
 |-------|-------|
 | ID | US-8016 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -12498,6 +12803,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8017 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -12551,6 +12857,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8018 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -12594,6 +12901,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8021 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Dhanshree.pawar |
@@ -12643,6 +12951,7 @@ Technical: Please refer attached document for technical specifications
 | Field | Value |
 |-------|-------|
 | ID | US-8022 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -12691,6 +13000,7 @@ Technical: Please refer attached document for technical specifications
 | Field | Value |
 |-------|-------|
 | ID | US-8023 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -12721,6 +13031,7 @@ Improve performance of select welder in token list flow
 | Field | Value |
 |-------|-------|
 | ID | US-8024 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -12752,6 +13063,7 @@ Improve performance of search in offer/re-offer flow
 | Field | Value |
 |-------|-------|
 | ID | US-8025 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -12780,6 +13092,7 @@ Improve performance of search in NDE test Result Seam flow
 | Field | Value |
 |-------|-------|
 | ID | US-8026 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -12808,6 +13121,7 @@ Improve performance of search in offer/re-offer flow
 | Field | Value |
 |-------|-------|
 | ID | US-8027 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -12836,6 +13150,7 @@ Improve performance of Offer for inspection flow
 | Field | Value |
 |-------|-------|
 | ID | US-8028 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -12867,6 +13182,7 @@ Improve performance of Offer for inspection flow
 | Field | Value |
 |-------|-------|
 | ID | US-8029 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -12895,6 +13211,7 @@ Improve performance of Seam/Part/Assembly - LTFPS  flow
 | Field | Value |
 |-------|-------|
 | ID | US-8034 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -12916,6 +13233,7 @@ Update the entire screens in prototype with approved visual theme.
 | Field | Value |
 |-------|-------|
 | ID | US-8036 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -12937,6 +13255,7 @@ Design all screens from approved userflow to High fidelity screens and clickable
 | Field | Value |
 |-------|-------|
 | ID | US-8067 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -12961,6 +13280,7 @@ Provide assistance to create Visual design/theme for 'Maintain Standard QID' flo
 | Field | Value |
 |-------|-------|
 | ID | US-8070 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -13032,6 +13352,7 @@ Seam details
 | Field | Value |
 |-------|-------|
 | ID | US-8074 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -13087,6 +13408,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-8077 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jatin.Prusty |
@@ -13109,6 +13431,7 @@ As part of this story we need to create a POC which would allow the users to sig
 | Field | Value |
 |-------|-------|
 | ID | US-8079 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -13187,6 +13510,7 @@ NDE Test Result - Part: https://vhzdigiiemqsqa1.lthed.com/IPI/PartlistNDEInspect
 | Field | Value |
 |-------|-------|
 | ID | US-8111 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -13214,6 +13538,7 @@ The POC application should
 | Field | Value |
 |-------|-------|
 | ID | US-8128 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -13238,6 +13563,7 @@ Landing Page HTML refinement
 | Field | Value |
 |-------|-------|
 | ID | US-8148 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -13274,6 +13600,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8149 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -13308,6 +13635,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8151 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -13343,6 +13671,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8152 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -13378,6 +13707,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8155 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -13403,6 +13733,7 @@ User should be logged in to the Landing Page
 | Field | Value |
 |-------|-------|
 | ID | US-8168 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -13448,6 +13779,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-8185 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -13484,6 +13816,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-8187 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -13519,6 +13852,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-8206 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -13562,6 +13896,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8262 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -13585,6 +13920,7 @@ High Fidelity components to be delivered
 | Field | Value |
 |-------|-------|
 | ID | US-8263 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -13608,6 +13944,7 @@ Latest components to be delivered
 | Field | Value |
 |-------|-------|
 | ID | US-8264 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -13634,6 +13971,7 @@ Screens till document signing
 | Field | Value |
 |-------|-------|
 | ID | US-8265 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -13659,6 +13997,7 @@ Latest components to be delivered
 | Field | Value |
 |-------|-------|
 | ID | US-8266 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -13684,6 +14023,7 @@ Latest components to be delivered
 | Field | Value |
 |-------|-------|
 | ID | US-8273 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -13727,6 +14067,7 @@ Technical: Please refer attached document for technical specifications
 | Field | Value |
 |-------|-------|
 | ID | US-8276 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -13774,6 +14115,7 @@ Technical: Please refer attached document for technical specifications
 | Field | Value |
 |-------|-------|
 | ID | US-8280 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -13800,6 +14142,7 @@ WE3 user should be able to view QID, TP and SWP in same screen with resizable se
 | Field | Value |
 |-------|-------|
 | ID | US-8281 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -13826,6 +14169,7 @@ WE3 user should be able to view QID, TP and SWP in same screen with resizable se
 | Field | Value |
 |-------|-------|
 | ID | US-8284 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -13852,6 +14196,7 @@ REST API development to fetch project list from ERP LN.
 | Field | Value |
 |-------|-------|
 | ID | US-8306 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -13887,6 +14232,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-8314 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -13915,6 +14261,7 @@ Improve performance of Maintain PQR flow
 | Field | Value |
 |-------|-------|
 | ID | US-8315 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -13943,6 +14290,7 @@ Improve performance of Offer for inspection flow
 | Field | Value |
 |-------|-------|
 | ID | US-8323 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -13989,6 +14337,7 @@ Please use lthead id and the password which we used to connect to forticlient
 | Field | Value |
 |-------|-------|
 | ID | US-8324 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -14021,6 +14370,7 @@ RefreshToken : 60 minuets
 | Field | Value |
 |-------|-------|
 | ID | US-8330 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14047,6 +14397,7 @@ As a WE3 user I want to upload & validate Test Certificate
 | Field | Value |
 |-------|-------|
 | ID | US-8337 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -14074,6 +14425,7 @@ There will be 3 sections:
 | Field | Value |
 |-------|-------|
 | ID | US-8341 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -14102,6 +14454,7 @@ Improve performance of Offer for inspection flow
 | Field | Value |
 |-------|-------|
 | ID | US-8343 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -14123,6 +14476,7 @@ Create page layout style guide for dev team and update component library for IEM
 | Field | Value |
 |-------|-------|
 | ID | US-8344 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -14148,6 +14502,7 @@ POC to create generic upload control in angular.
 | Field | Value |
 |-------|-------|
 | ID | US-8352 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -14176,6 +14531,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-8353 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -14216,6 +14572,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8354 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Dhanshree.pawar |
@@ -14253,6 +14610,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8355 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -14295,6 +14653,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8356 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -14334,6 +14693,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-8373 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -14379,6 +14739,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8374 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -14401,6 +14762,7 @@ Sonarqube is static code analysis tool which needs to be used to check the quali
 | Field | Value |
 |-------|-------|
 | ID | US-8375 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14424,6 +14786,7 @@ Add the getProjectList API into Design document
 | Field | Value |
 |-------|-------|
 | ID | US-8377 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14451,6 +14814,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-8379 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14474,6 +14838,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-8380 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14500,6 +14865,7 @@ Unit Testing for below services  are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-8381 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14523,6 +14889,7 @@ Unit Testing for below services  are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-8382 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -14544,6 +14911,7 @@ There are missing unit tests for API, Repository and services projects.It needs 
 | Field | Value |
 |-------|-------|
 | ID | US-8384 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14567,6 +14935,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-8385 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -14594,6 +14963,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-8390 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -14615,6 +14985,7 @@ _CI-CD pipeline should be enhanced for seamless deployment to various environmen
 | Field | Value |
 |-------|-------|
 | ID | US-8394 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -14647,6 +15018,7 @@ X-IEMQS-CorrelationID = GUID
 | Field | Value |
 |-------|-------|
 | ID | US-8424 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -14668,6 +15040,7 @@ I know i am done, when a sql tool runs on iemqs db servers to monitor the freque
 | Field | Value |
 |-------|-------|
 | ID | US-8429 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -14689,6 +15062,7 @@ I know i am done when PoC for caching in MVC is done
 | Field | Value |
 |-------|-------|
 | ID | US-8461 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -14710,6 +15084,7 @@ Demo and Review for CICD Improvement and closure the feedbacks
 | Field | Value |
 |-------|-------|
 | ID | US-8464 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14735,6 +15110,7 @@ Digital assets comprises of -
 | Field | Value |
 |-------|-------|
 | ID | US-8473 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14773,6 +15149,7 @@ Ux team will deliver UI components comprises of -
 | Field | Value |
 |-------|-------|
 | ID | US-8477 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14798,6 +15175,7 @@ Append brand guidelines with -
 | Field | Value |
 |-------|-------|
 | ID | US-8483 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14821,6 +15199,7 @@ Review, developed UI to ensure, it perfectly renders in tablet -
 | Field | Value |
 |-------|-------|
 | ID | US-8486 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14844,6 +15223,7 @@ Progressive internal review of visual designs for approved flows.
 | Field | Value |
 |-------|-------|
 | ID | US-8492 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -14866,6 +15246,7 @@ TECH: Implement Automapper for API, Infrastructure and application projects
 | Field | Value |
 |-------|-------|
 | ID | US-8802 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -14892,6 +15273,7 @@ As an HEIC portal user, I want to view Mega Menu with all the latest user experi
 | Field | Value |
 |-------|-------|
 | ID | US-8807 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -14916,6 +15298,7 @@ TECH: POC on Maintain Procedure Screen Grid with Sub grid elements
 | Field | Value |
 |-------|-------|
 | ID | US-8815 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -14946,6 +15329,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-8816 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jatin.Prusty |
@@ -14975,6 +15359,7 @@ A single multi-stage Pipeline should be created to build and deploy IEMQS Angula
 | Field | Value |
 |-------|-------|
 | ID | US-8846 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -14997,6 +15382,7 @@ Update the low fidelity based on new updates provided
 | Field | Value |
 |-------|-------|
 | ID | US-8914 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jatin.Prusty |
@@ -15018,6 +15404,7 @@ We have a POC showcasing that merged documents retain the digital signatures.
 | Field | Value |
 |-------|-------|
 | ID | US-8927 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -15052,6 +15439,7 @@ Landing Page Descoped Items Issues and Tasks for Production release
 | Field | Value |
 |-------|-------|
 | ID | US-8932 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -15073,6 +15461,7 @@ This story is to track effort spent by team for code merge to release branch and
 | Field | Value |
 |-------|-------|
 | ID | US-8943 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -15126,6 +15515,7 @@ _**Certificate binder:**_
 | Field | Value |
 |-------|-------|
 | ID | US-8953 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -15160,6 +15550,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8955 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -15195,6 +15586,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-8956 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | aarthi |
@@ -15221,6 +15613,7 @@ As a WE3/WE2 user, I want to view "WPQ uploaded" column in Maintain WML session,
 | Field | Value |
 |-------|-------|
 | ID | US-8982 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -15252,6 +15645,7 @@ There will be one more tab for accessing compiled docs for PMG named "Final Doss
 | Field | Value |
 |-------|-------|
 | ID | US-8986 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -15275,6 +15669,7 @@ Critical workflow for seam
 | Field | Value |
 |-------|-------|
 | ID | US-9002 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -15297,6 +15692,7 @@ As a ENGG3/PMG3/PLNG3/WE3/QI3/QA3/NDE3/AUX3/LOG3 user, I want to access Maintain
 | Field | Value |
 |-------|-------|
 | ID | US-9003 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -15319,6 +15715,7 @@ As a ENGG2/PMG2/PLNG2/WE2/QI2/QA2/NDE2/AUX2/LOG2 user, I want to approve/return 
 | Field | Value |
 |-------|-------|
 | ID | US-9004 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -15381,6 +15778,7 @@ As a Key User, I want to Maintain 3D automation configuration to get data from P
 | Field | Value |
 |-------|-------|
 | ID | US-9006 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -15467,6 +15865,7 @@ Notes
 | Field | Value |
 |-------|-------|
 | ID | US-9016 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo |
@@ -15518,6 +15917,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9017 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -15607,6 +16007,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9019 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -15664,6 +16065,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9020 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -15762,6 +16164,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9052 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -15793,6 +16196,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-9053 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -15827,6 +16231,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-9054 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -15856,6 +16261,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-9105 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -15882,6 +16288,7 @@ Urgent changes required for R1 release
 | Field | Value |
 |-------|-------|
 | ID | US-9106 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -15931,6 +16338,7 @@ Prerequisites -
 | Field | Value |
 |-------|-------|
 | ID | US-9135 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -15990,6 +16398,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9143 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rupesh.Sharma |
@@ -16023,6 +16432,7 @@ Note: For technical details please refer attached doc
 | Field | Value |
 |-------|-------|
 | ID | US-9176 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -16115,6 +16525,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-9185 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -16151,6 +16562,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-9186 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -16187,6 +16599,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-9187 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -16218,6 +16631,7 @@ For details on modules, submodules, please refer attached excel
 | Field | Value |
 |-------|-------|
 | ID | US-9198 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -16263,6 +16677,7 @@ Refer Table: QMS055
 | Field | Value |
 |-------|-------|
 | ID | US-9199 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -16319,6 +16734,7 @@ Refer Table: QMS055
 | Field | Value |
 |-------|-------|
 | ID | US-9202 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -16378,6 +16794,7 @@ Refer Table: QMS050
 | Field | Value |
 |-------|-------|
 | ID | US-9203 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sadineni.Navya |
@@ -16435,6 +16852,7 @@ Refer Table: QMS050
 | Field | Value |
 |-------|-------|
 | ID | US-9206 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -16480,6 +16898,7 @@ Refer Table: QMS050
 | Field | Value |
 |-------|-------|
 | ID | US-9207 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sadineni.Navya |
@@ -16526,6 +16945,7 @@ Refer Table: QMS050
 | Field | Value |
 |-------|-------|
 | ID | US-9208 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -16579,6 +16999,7 @@ Refer Table: QMS060
 | Field | Value |
 |-------|-------|
 | ID | US-9209 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -16621,6 +17042,7 @@ Refer Table: QMS060
 | Field | Value |
 |-------|-------|
 | ID | US-9212 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -16673,6 +17095,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-9213 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -16731,6 +17154,7 @@ Refer Table: QMS050
 | Field | Value |
 |-------|-------|
 | ID | US-9226 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -16759,6 +17183,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9230 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -16809,6 +17234,7 @@ Three records need to create in DES060 (Per document listed in JEP).****
 | Field | Value |
 |-------|-------|
 | ID | US-9235 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -16832,6 +17258,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-9239 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -16864,6 +17291,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9240 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -16902,6 +17330,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9258 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -16923,6 +17352,7 @@ a ML model to identify the tables in the TC
 | Field | Value |
 |-------|-------|
 | ID | US-9261 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | palamakulamanikanth.goud |
@@ -16947,6 +17377,7 @@ Label-studio for annotating, local machine for training
 | Field | Value |
 |-------|-------|
 | ID | US-9269 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17002,6 +17433,7 @@ As a WE3 user, I want to view quality ID, so that I can attach the stages in mul
 | Field | Value |
 |-------|-------|
 | ID | US-9270 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -17054,6 +17486,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9272 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -17083,6 +17516,7 @@ Send to pmg option for compiled file
 | Field | Value |
 |-------|-------|
 | ID | US-9281 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17145,6 +17579,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9282 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17197,6 +17632,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9284 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17249,6 +17685,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-9287 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -17321,6 +17758,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9292 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -17352,6 +17790,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9298 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17405,6 +17844,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9299 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17456,6 +17896,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9300 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -17513,6 +17954,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9302 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -17566,6 +18008,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9303 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -17624,6 +18067,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9315 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -17735,6 +18179,7 @@ Upon clicking " Configure 3D Automation " button in Mega Menu,
 | Field | Value |
 |-------|-------|
 | ID | US-9317 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17768,6 +18213,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9318 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17799,6 +18245,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9319 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17831,6 +18278,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9320 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17863,6 +18311,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9321 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17894,6 +18343,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9322 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17925,6 +18375,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9323 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17956,6 +18407,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9324 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -17988,6 +18440,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9325 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -18016,6 +18469,7 @@ Improve performance of Offer for inspection flow
 | Field | Value |
 |-------|-------|
 | ID | US-9326 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -18044,6 +18498,7 @@ Improve performance of Offer for inspection flow
 | Field | Value |
 |-------|-------|
 | ID | US-9368 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -18067,6 +18522,7 @@ Tasks raised after splitting story 4601
 | Field | Value |
 |-------|-------|
 | ID | US-9369 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -18090,6 +18546,7 @@ Tasks from 4601
 | Field | Value |
 |-------|-------|
 | ID | US-9370 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -18131,6 +18588,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9371 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18192,6 +18650,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9372 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18252,6 +18711,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9373 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18319,6 +18779,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9374 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18385,6 +18846,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9375 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18451,6 +18913,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9376 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18511,6 +18974,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9377 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -18573,6 +19037,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9379 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -18616,6 +19081,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9380 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -18650,6 +19116,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9381 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -18711,6 +19178,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9382 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -18757,6 +19225,7 @@ Attachment: Please refer attachment for standardized template
 | Field | Value |
 |-------|-------|
 | ID | US-9386 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -18794,6 +19263,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9392 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -18826,6 +19296,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9394 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -18858,6 +19329,7 @@ Steps to create:
 | Field | Value |
 |-------|-------|
 | ID | US-9439 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -18883,6 +19355,7 @@ REST API development to fetch WBMS/Test certificate data from ERP LN.
 | Field | Value |
 |-------|-------|
 | ID | US-9440 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -18912,6 +19385,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-9443 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -18933,6 +19407,7 @@ There are few feedback points in the sprint 8 from Atul captured in the attachme
 | Field | Value |
 |-------|-------|
 | ID | US-9444 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -18963,6 +19438,7 @@ Append UI Components library for the development team support
 | Field | Value |
 |-------|-------|
 | ID | US-9445 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -18984,6 +19460,7 @@ Closely work with UI development team to review developed UI and share review fe
 | Field | Value |
 |-------|-------|
 | ID | US-9446 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -19005,6 +19482,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-9449 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -19026,6 +19504,7 @@ Create & share digital assets with UI development team in order to help developm
 | Field | Value |
 |-------|-------|
 | ID | US-9477 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -19047,6 +19526,7 @@ Add the getWBMSData API into Design document
 | Field | Value |
 |-------|-------|
 | ID | US-9478 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -19070,6 +19550,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-9479 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -19092,6 +19573,7 @@ Complete the View Details Update for priority application
 | Field | Value |
 |-------|-------|
 | ID | US-9480 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -19115,6 +19597,7 @@ Unit Testing for below services  are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-9481 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -19138,6 +19621,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-9482 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -19159,6 +19643,7 @@ Create a Interface Design Document for Ecom Application
 | Field | Value |
 |-------|-------|
 | ID | US-9483 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -19182,6 +19667,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-9484 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -19207,6 +19693,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-9487 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -19232,6 +19719,7 @@ Unit Testing for below services  are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-9504 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -19300,6 +19788,7 @@ Status - Returned, Approved
 | Field | Value |
 |-------|-------|
 | ID | US-9512 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -19321,6 +19810,7 @@ Review developed screens with prototype
 | Field | Value |
 |-------|-------|
 | ID | US-9582 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -19344,6 +19834,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-9721 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -19368,6 +19859,7 @@ The current loader of landing needs to be removed from everywhere from legacy po
 | Field | Value |
 |-------|-------|
 | ID | US-9737 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -19391,6 +19883,7 @@ Reference Link: [Procedure Master - High Fidelity (adobe.com)](https://xd.adobe.
 | Field | Value |
 |-------|-------|
 | ID | US-9758 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -19429,6 +19922,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9899 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -19450,6 +19944,7 @@ Deployment should be given by DEV team
 | Field | Value |
 |-------|-------|
 | ID | US-9963 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -19472,6 +19967,7 @@ Need to add  the usage of the elmah core new implementation to the new net6 app 
 | Field | Value |
 |-------|-------|
 | ID | US-9990 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -19508,6 +20004,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9991 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -19543,6 +20040,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9992 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -19577,6 +20075,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-9995 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -19617,6 +20116,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9996 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -19643,6 +20143,7 @@ Upload TC & View, Modify & Approve
 | Field | Value |
 |-------|-------|
 | ID | US-9998 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -19685,6 +20186,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-9999 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -19718,6 +20220,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10003 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -19749,6 +20252,7 @@ Notification received: "Procedure submitted for approval by L3", Submitted by, t
 | Field | Value |
 |-------|-------|
 | ID | US-10017 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -19770,6 +20274,7 @@ When cropped image of the table is passed on to the developed ML model, model sh
 | Field | Value |
 |-------|-------|
 | ID | US-10023 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | palamakulamanikanth.goud |
@@ -19791,6 +20296,7 @@ model should start the training by passing relevant files and trained model with
 | Field | Value |
 |-------|-------|
 | ID | US-10045 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -19817,6 +20323,7 @@ This User story tracks efforts put in to map general user flow and also efforts 
 | Field | Value |
 |-------|-------|
 | ID | US-10074 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -19859,6 +20366,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10075 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -19908,6 +20416,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10076 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -19958,6 +20467,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10079 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -20000,6 +20510,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10082 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -20041,6 +20552,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10083 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -20090,6 +20602,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10084 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -20133,6 +20646,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10116 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -20166,6 +20680,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10117 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -20207,6 +20722,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10118 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -20243,6 +20759,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10120 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -20264,6 +20781,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10129 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -20289,6 +20807,7 @@ Design Team reviews -
 | Field | Value |
 |-------|-------|
 | ID | US-10131 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -20315,6 +20834,7 @@ QR code responsive mobile prototype
 | Field | Value |
 |-------|-------|
 | ID | US-10133 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -20342,6 +20862,7 @@ Conducting review calls and clarify doubts of developers and testers working on 
 | Field | Value |
 |-------|-------|
 | ID | US-10140 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -20363,6 +20884,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10147 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -20401,6 +20923,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10148 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -20441,6 +20964,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10149 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -20479,6 +21003,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10150 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -20515,6 +21040,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10175 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -20536,6 +21062,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10176 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -20557,6 +21084,7 @@ developers should be able to train/infer the trained models with the dependency 
 | Field | Value |
 |-------|-------|
 | ID | US-10177 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -20578,6 +21106,7 @@ Labelled dataset for 72 tables and python code to finetune the ML model
 | Field | Value |
 |-------|-------|
 | ID | US-10187 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -20665,6 +21194,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-10189 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -20755,6 +21285,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-10207 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -20805,6 +21336,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10208 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -20880,6 +21412,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10209 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo |
@@ -20948,6 +21481,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10210 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -21067,6 +21601,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-10212 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -21185,6 +21720,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10228 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -21278,6 +21814,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10229 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -21318,6 +21855,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10265 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -21375,6 +21913,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10266 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -21426,6 +21965,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10267 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo |
@@ -21478,6 +22018,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10269 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -21548,6 +22089,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10271 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -21594,6 +22136,7 @@ Attachment: Please refer attachment for standardized template
 | Field | Value |
 |-------|-------|
 | ID | US-10272 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -21635,6 +22178,7 @@ Should be compatible with Android and iPad tabs chrome browsers
 | Field | Value |
 |-------|-------|
 | ID | US-10273 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -21656,6 +22200,7 @@ The contract selection drop down should show mapped contracts only and not secon
 | Field | Value |
 |-------|-------|
 | ID | US-10277 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -21730,6 +22275,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10278 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -21800,6 +22346,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10281 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -21866,6 +22413,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-10283 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -21887,6 +22435,7 @@ WE2 user should be able to approve/ reject QIDs, Test Plan and Shop weld plans f
 | Field | Value |
 |-------|-------|
 | ID | US-10286 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -21922,6 +22471,7 @@ Ux - Create prototype for Add TC process
 | Field | Value |
 |-------|-------|
 | ID | US-10288 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -21981,6 +22531,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10289 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -22010,6 +22561,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10291 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -22043,6 +22595,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10292 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -22080,6 +22633,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10293 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -22116,6 +22670,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10301 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -22184,6 +22739,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-10302 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -22236,6 +22792,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10303 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22296,6 +22853,7 @@ _
 | Field | Value |
 |-------|-------|
 | ID | US-10306 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -22339,6 +22897,7 @@ A new table needs to be created
 | Field | Value |
 |-------|-------|
 | ID | US-10326 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22392,6 +22951,7 @@ _**Functional:**_
 | Field | Value |
 |-------|-------|
 | ID | US-10331 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22420,6 +22980,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10333 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22458,6 +23019,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10334 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22498,6 +23060,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10337 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -22563,6 +23126,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10339 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22611,6 +23175,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10340 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22645,6 +23210,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10343 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -22666,6 +23232,7 @@ Development of REST API to fetch the approved WBMS number with respective revisi
 | Field | Value |
 |-------|-------|
 | ID | US-10349 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -22687,6 +23254,7 @@ ClientId and XApiKey should be passed in the form of Header while calling Rest A
 | Field | Value |
 |-------|-------|
 | ID | US-10352 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo |
@@ -22730,6 +23298,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10378 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -22753,6 +23322,7 @@ Initial Table Design for Digital Compilations , Dummy records insert & Store Pro
 | Field | Value |
 |-------|-------|
 | ID | US-10381 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22813,6 +23383,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10384 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22859,6 +23430,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10392 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -22914,6 +23486,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10406 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Komal Chandolure |
@@ -22935,6 +23508,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10429 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sadineni.Navya |
@@ -22956,6 +23530,7 @@ Api endpoint should return the list of TPI consents to be shown in the TPI conse
 | Field | Value |
 |-------|-------|
 | ID | US-10432 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Thenmozhi |
@@ -22987,6 +23562,7 @@ This API will be called whenever the page is opened to sign a record.
 | Field | Value |
 |-------|-------|
 | ID | US-10433 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -23009,6 +23585,7 @@ A particular parameter could be sent to the report viewer and report viewer coul
 | Field | Value |
 |-------|-------|
 | ID | US-10434 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -23042,6 +23619,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10435 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -23073,6 +23651,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10436 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -23105,6 +23684,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10437 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -23129,6 +23709,7 @@ We need to identify the x,y co-ordinates for each document and create a mapping 
 | Field | Value |
 |-------|-------|
 | ID | US-10439 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -23153,6 +23734,7 @@ We need to identify the x,y co-ordinates for each document and create a mapping 
 | Field | Value |
 |-------|-------|
 | ID | US-10440 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -23174,6 +23756,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10447 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Soumil Shah |
@@ -23195,6 +23778,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10459 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -23216,6 +23800,7 @@ ok
 | Field | Value |
 |-------|-------|
 | ID | US-10484 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -23253,6 +23838,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-10487 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -23275,6 +23861,7 @@ User should be able to access pagination functionality as per high fidelity visu
 | Field | Value |
 |-------|-------|
 | ID | US-10499 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -23307,6 +23894,7 @@ Visual: <https://xd.adobe.com/view/6456f117-8e91-4dac-8f40-0846cac6518d-3105/>
 | Field | Value |
 |-------|-------|
 | ID | US-10502 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tejas Patel |
@@ -23328,6 +23916,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10510 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -23349,6 +23938,7 @@ Model should have >90 % accuracy
 | Field | Value |
 |-------|-------|
 | ID | US-10515 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -23370,6 +23960,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10518 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tejas Patel |
@@ -23391,6 +23982,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10519 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -23412,6 +24004,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10530 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Samir shah |
@@ -23469,6 +24062,7 @@ Functional requirements:
 | Field | Value |
 |-------|-------|
 | ID | US-10532 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -23528,6 +24122,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10533 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -23582,6 +24177,7 @@ As a WE3 user, I want to view quality ID, so that I can attach the stages in mul
 | Field | Value |
 |-------|-------|
 | ID | US-10534 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -23603,6 +24199,7 @@ Add the getWBMSList API into Design document
 | Field | Value |
 |-------|-------|
 | ID | US-10536 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -23626,6 +24223,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-10538 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -23651,6 +24249,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-10539 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -23672,6 +24271,7 @@ Unit Testing of UserStory -  ISD004: IIOT-Mentry to be completed
 | Field | Value |
 |-------|-------|
 | ID | US-10540 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -23695,6 +24295,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-10541 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -23716,6 +24317,7 @@ Create a Interface Design Document for IIOT Application
 | Field | Value |
 |-------|-------|
 | ID | US-10545 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -23739,6 +24341,7 @@ Unit Testing for below services are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-10552 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -23762,6 +24365,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-10556 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -23783,6 +24387,7 @@ Testing has to be carried out for the autocomplete feature in WBMS API
 | Field | Value |
 |-------|-------|
 | ID | US-10560 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -23804,6 +24409,7 @@ LayoutLM model to have accuracy of more than 90% for all types of table in scope
 | Field | Value |
 |-------|-------|
 | ID | US-10572 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -23825,6 +24431,7 @@ a valid json output for the api generated.
 | Field | Value |
 |-------|-------|
 | ID | US-10592 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -23846,6 +24453,7 @@ LayoutLM model to have accuracy of more than 90% for all types of table in scope
 | Field | Value |
 |-------|-------|
 | ID | US-10594 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -23867,6 +24475,7 @@ development and testing of devops pipeline and the application be up and running
 | Field | Value |
 |-------|-------|
 | ID | US-10595 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -23893,6 +24502,7 @@ As a WE2, user need to access Approve QID-TP-SWP module to
 | Field | Value |
 |-------|-------|
 | ID | US-10598 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -23925,6 +24535,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-10603 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -23976,6 +24587,7 @@ _**Certificate binder:**_
 | Field | Value |
 |-------|-------|
 | ID | US-10631 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -23997,6 +24609,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-10924 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -24018,6 +24631,7 @@ Release 2 features should work as is without any unexpected behaviour
 | Field | Value |
 |-------|-------|
 | ID | US-10933 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Muralikrishna.P |
@@ -24044,6 +24658,7 @@ CI?CD pipeline of reports should build and deploy the reports website
 | Field | Value |
 |-------|-------|
 | ID | US-11104 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24072,6 +24687,7 @@ Design prototype for Planning dept which enable user to calculate
 | Field | Value |
 |-------|-------|
 | ID | US-11111 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -24098,6 +24714,7 @@ Update the pending user flows in digital dossier and updations in e-signature (p
 | Field | Value |
 |-------|-------|
 | ID | US-11114 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24125,6 +24742,7 @@ Share digital assets with UI development team -
 | Field | Value |
 |-------|-------|
 | ID | US-11140 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24146,6 +24764,7 @@ Re-development of Predictive Planning Shrinkage & Distortion Module
 | Field | Value |
 |-------|-------|
 | ID | US-11141 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24167,6 +24786,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11142 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -24213,6 +24833,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11143 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24237,6 +24858,7 @@ Append library with new components -
 | Field | Value |
 |-------|-------|
 | ID | US-11144 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24261,6 +24883,7 @@ Internal review by Ux team -
 | Field | Value |
 |-------|-------|
 | ID | US-11145 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24285,6 +24908,7 @@ Development of Document control applications through Scan with DCR intimation to
 | Field | Value |
 |-------|-------|
 | ID | US-11149 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -24308,6 +24932,7 @@ Maintain Milestone Activity flow – QI2/QI3
 | Field | Value |
 |-------|-------|
 | ID | US-11156 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -24336,6 +24961,7 @@ Regression testing for Sprint 9 user stories
 | Field | Value |
 |-------|-------|
 | ID | US-11195 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -24383,6 +25009,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11234 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -24405,6 +25032,7 @@ Re test the UAT Bugs
 | Field | Value |
 |-------|-------|
 | ID | US-11249 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -24426,6 +25054,7 @@ Simplify weld supervisor's work on shop floor.
 | Field | Value |
 |-------|-------|
 | ID | US-11296 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -24447,6 +25076,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11301 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -24474,6 +25104,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11308 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -24520,6 +25151,7 @@ WE3 user should be able to view QID, TP and SWP in same screen with resizable se
 | Field | Value |
 |-------|-------|
 | ID | US-11320 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -24541,6 +25173,7 @@ excel/word document for each of the testcase scenarios for all pass/fail conditi
 | Field | Value |
 |-------|-------|
 | ID | US-11360 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -24562,6 +25195,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11361 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -24583,6 +25217,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11401 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -24604,6 +25239,7 @@ The model to have accuracy of >90%
 | Field | Value |
 |-------|-------|
 | ID | US-11435 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -24625,6 +25261,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11473 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -24670,6 +25307,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11481 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -24691,6 +25329,7 @@ Manu to update the activities
 | Field | Value |
 |-------|-------|
 | ID | US-11491 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -24730,6 +25369,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-11492 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -24763,6 +25403,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11495 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -24804,6 +25445,7 @@ Note: Please refer attachment for PDF doc format
 | Field | Value |
 |-------|-------|
 | ID | US-11496 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -24837,6 +25479,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-11497 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -24886,6 +25529,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11499 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -24928,6 +25572,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11501 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -24964,6 +25609,7 @@ If the results are Unsafe, then user can again enter the input fields and should
 | Field | Value |
 |-------|-------|
 | ID | US-11504 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25004,6 +25650,7 @@ Cancel, Reset, Save, Save as Draft
 | Field | Value |
 |-------|-------|
 | ID | US-11505 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -25028,6 +25675,7 @@ User should be able to view and access the Lifting Lug calculations on Android o
 | Field | Value |
 |-------|-------|
 | ID | US-11506 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25059,6 +25707,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11520 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25087,6 +25736,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11522 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25122,6 +25772,7 @@ Navigation: Landing Screen-> Mega Menu-> Planning Calculation-> Lifting Trunnion
 | Field | Value |
 |-------|-------|
 | ID | US-11523 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25152,6 +25803,7 @@ As a PLNG2,3, I want to partially save data for Lifting Lug calculations, so tha
 | Field | Value |
 |-------|-------|
 | ID | US-11524 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25179,6 +25831,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11529 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25213,6 +25866,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-11530 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -25273,6 +25927,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11531 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -25329,6 +25984,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11532 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -25365,6 +26021,7 @@ Save - If some of the activity remained to assigned
 | Field | Value |
 |-------|-------|
 | ID | US-11538 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -25403,6 +26060,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11541 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -25434,6 +26092,7 @@ Final verification by QI2/QI3
 | Field | Value |
 |-------|-------|
 | ID | US-11544 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25533,6 +26192,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11570 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -25596,6 +26256,7 @@ Should be compatible with Android and iPad tabs chrome browsers
 | Field | Value |
 |-------|-------|
 | ID | US-11579 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25682,6 +26343,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11585 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -25743,6 +26405,7 @@ _**Functional:**_
 | Field | Value |
 |-------|-------|
 | ID | US-11591 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25771,6 +26434,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11592 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25841,6 +26505,7 @@ Note: **
 | Field | Value |
 |-------|-------|
 | ID | US-11593 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25880,6 +26545,7 @@ Note: This is a reference screenshot taken from Lug
 | Field | Value |
 |-------|-------|
 | ID | US-11594 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25912,6 +26578,7 @@ Note: This below image is for reference purpose, taken from Lifting Lug, the nam
 | Field | Value |
 |-------|-------|
 | ID | US-11595 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25942,6 +26609,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11596 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -25977,6 +26645,7 @@ Please not that in the filter dropdown, if there are more than 5 items to displa
 | Field | Value |
 |-------|-------|
 | ID | US-11597 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -26020,6 +26689,7 @@ Note: Please refer attachment for PDF doc format
 | Field | Value |
 |-------|-------|
 | ID | US-11598 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -26048,6 +26718,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11599 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -26072,6 +26743,7 @@ User should be able to view and access the Lifting Trunnion calculations on Andr
 | Field | Value |
 |-------|-------|
 | ID | US-11611 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -26132,6 +26804,7 @@ As a QI2, I want to maintain Milestone stages and its activity, so that I can ma
 | Field | Value |
 |-------|-------|
 | ID | US-11629 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -26153,6 +26826,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11648 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -26228,6 +26902,7 @@ User should be able to view Action column in Grid as per visuals [Flow 1 (adobe.
 | Field | Value |
 |-------|-------|
 | ID | US-11649 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -26333,6 +27008,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-11650 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -26405,6 +27081,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-11651 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -26452,6 +27129,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-11652 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Soumil Shah |
@@ -26473,6 +27151,7 @@ User Blocking Module.
 | Field | Value |
 |-------|-------|
 | ID | US-11660 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -26527,6 +27206,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-11674 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -26548,6 +27228,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11675 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -26598,6 +27279,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11697 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -26692,6 +27374,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-11699 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -26713,6 +27396,7 @@ Create a Interface Design Document for CREMS Application
 | Field | Value |
 |-------|-------|
 | ID | US-11701 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -26736,6 +27420,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-11703 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -26761,6 +27446,7 @@ Unit Testing for below services  are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-11705 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -26786,6 +27472,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-11707 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -26824,6 +27511,7 @@ Navigation: Landing Screen-> Mega Menu-> Planning Calculation-> Moon Plate Tab
 | Field | Value |
 |-------|-------|
 | ID | US-11712 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -26866,6 +27554,7 @@ For Project No Dropdown, it needs to be fetched from DB table name: COM001
 | Field | Value |
 |-------|-------|
 | ID | US-11717 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tejas Patel |
@@ -26887,6 +27576,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11721 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -26964,6 +27654,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11722 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -26985,6 +27676,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11729 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -27013,6 +27705,7 @@ Create prototype for 5 different calculations for Planning department
 | Field | Value |
 |-------|-------|
 | ID | US-11731 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -27073,6 +27766,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11738 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -27098,6 +27792,7 @@ Update TC Review prototype with new requirements
 | Field | Value |
 |-------|-------|
 | ID | US-11747 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -27146,6 +27841,7 @@ _**Functional:**_
 | Field | Value |
 |-------|-------|
 | ID | US-11751 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -27225,6 +27921,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11752 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -27246,6 +27943,7 @@ Get operator details to fetch the details required PS Number, description and Ca
 | Field | Value |
 |-------|-------|
 | ID | US-11754 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27267,6 +27965,7 @@ Create a Interface Design Document for Sampatti Application
 | Field | Value |
 |-------|-------|
 | ID | US-11757 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -27290,6 +27989,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-11761 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -27313,6 +28013,7 @@ Unit Testing for below services are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-11763 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -27347,6 +28048,7 @@ Note: User can edit below detail any number of times:
 | Field | Value |
 |-------|-------|
 | ID | US-11764 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -27370,6 +28072,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-11766 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -27405,6 +28108,7 @@ Response Parameters - Flux name, batch number and Weld KG Calculation
 | Field | Value |
 |-------|-------|
 | ID | US-11767 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27426,6 +28130,7 @@ Update Interface Design Document ISD003 for getOperatorDetails
 | Field | Value |
 |-------|-------|
 | ID | US-11773 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27449,6 +28154,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-11776 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -27475,6 +28181,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11778 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27498,6 +28205,7 @@ Unit Testing for below services are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-11780 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27521,6 +28229,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-11782 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27542,6 +28251,7 @@ Update Interface Design Document ISD003 for getWeldConsumableData
 | Field | Value |
 |-------|-------|
 | ID | US-11784 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -27565,6 +28275,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-11786 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -27604,6 +28315,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11787 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -27627,6 +28339,7 @@ Unit Testing for below services are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-11789 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -27650,6 +28363,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-11792 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -27680,6 +28394,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11793 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -27708,6 +28423,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11794 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -27754,6 +28470,7 @@ Note: Please refer attachment for PDF doc format
 | Field | Value |
 |-------|-------|
 | ID | US-11795 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -27788,6 +28505,7 @@ Note: Take reference of a line item which is in Draft mode, same UI will should 
 | Field | Value |
 |-------|-------|
 | ID | US-11798 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagaraj Raghunath Revankar |
@@ -27875,6 +28593,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-11807 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -27926,6 +28645,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11821 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -27947,6 +28667,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11824 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -27968,6 +28689,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-11833 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -27989,6 +28711,7 @@ Update Interface Design Document ISD001 for getFTRDetails
 | Field | Value |
 |-------|-------|
 | ID | US-11835 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -28010,6 +28733,7 @@ Update Interface Design Document ISD001 for getOperatorDetails
 | Field | Value |
 |-------|-------|
 | ID | US-11841 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -28035,6 +28759,7 @@ Clickable Prototype
 | Field | Value |
 |-------|-------|
 | ID | US-11853 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -28085,6 +28810,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-11855 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -28116,6 +28842,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-11873 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -28145,6 +28872,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11874 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -28171,6 +28899,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11912 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -28195,6 +28924,7 @@ User should be able to view and access the Moon Plate calculations on Android or
 | Field | Value |
 |-------|-------|
 | ID | US-11913 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | ayasya.mamidala |
@@ -28216,6 +28946,7 @@ TBD
 | Field | Value |
 |-------|-------|
 | ID | US-11915 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -28237,6 +28968,7 @@ model must be able to identify the heading and test values in TC
 | Field | Value |
 |-------|-------|
 | ID | US-11922 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -28258,6 +28990,7 @@ TBD
 | Field | Value |
 |-------|-------|
 | ID | US-11923 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -28279,6 +29012,7 @@ All the reviews and other discussions
 | Field | Value |
 |-------|-------|
 | ID | US-11924 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -28304,6 +29038,7 @@ Design Engineering should be able to Capture photos from manufacturing drawing o
 | Field | Value |
 |-------|-------|
 | ID | US-11925 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -28346,6 +29081,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-11926 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -28390,6 +29126,7 @@ Note: For PNG format of images, please refer attachment
 | Field | Value |
 |-------|-------|
 | ID | US-11927 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -28440,6 +29177,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-11928 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | madhuri.61067123 |
@@ -28495,6 +29233,7 @@ As a QI3/QI2, I want to maintain Milestone stages and its activity, so that I ca
 | Field | Value |
 |-------|-------|
 | ID | US-11929 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | madhuri.61067123 |
@@ -28542,6 +29281,7 @@ As a QI3/QI2, I want to maintain Milestone stages and its activity, so that I ca
 | Field | Value |
 |-------|-------|
 | ID | US-11930 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -28624,6 +29364,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-11931 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -28693,6 +29434,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-11932 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -28772,6 +29514,7 @@ A. \----------->B.
 | Field | Value |
 |-------|-------|
 | ID | US-11933 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -28828,6 +29571,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-11934 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -28891,6 +29635,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-11935 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -28952,6 +29697,7 @@ Filter and Pagination in "Add New Digital Vertical checklist" and all "Maintain 
 | Field | Value |
 |-------|-------|
 | ID | US-11938 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amod Dinesh Lokegaonkar |
@@ -28974,6 +29720,7 @@ Creating High fidelity workflows based on discussion. New requirements are getti
 | Field | Value |
 |-------|-------|
 | ID | US-11992 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -29023,6 +29770,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-11993 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -29069,6 +29817,7 @@ Note: For PNG format of images, please refer attachment
 | Field | Value |
 |-------|-------|
 | ID | US-11994 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -29105,6 +29854,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-12000 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -29127,6 +29877,7 @@ Save functionality should be tested
 | Field | Value |
 |-------|-------|
 | ID | US-12016 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -29164,6 +29915,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-12017 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -29185,6 +29937,7 @@ A backend process need to develop to Compile hundreds of backend documents. The 
 | Field | Value |
 |-------|-------|
 | ID | US-12072 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -29206,6 +29959,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12082 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -29227,6 +29981,7 @@ Algorithm should identify all the tables in TC pdfs.
 | Field | Value |
 |-------|-------|
 | ID | US-12096 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -29248,6 +30003,7 @@ model must be able to identify the heading and test values in TC
 | Field | Value |
 |-------|-------|
 | ID | US-12098 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -29315,6 +30071,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-12099 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -29347,6 +30104,7 @@ For reference: this image shows OD angle, similar way it can be ID Angle
 | Field | Value |
 |-------|-------|
 | ID | US-12104 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -29368,6 +30126,7 @@ PPT with results and accuracy score
 | Field | Value |
 |-------|-------|
 | ID | US-12105 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -29399,6 +30158,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-12106 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -29436,6 +30196,7 @@ This is a reference screenshot, data needs to be referred as per LSR/ISR visual 
 | Field | Value |
 |-------|-------|
 | ID | US-12107 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -29468,6 +30229,7 @@ This is a reference image, data need to be followed as per LSR/ISR visual design
 | Field | Value |
 |-------|-------|
 | ID | US-12108 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -29500,6 +30262,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12109 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -29538,6 +30301,7 @@ Please note that for filters, If the records are exceeding 5 unique values, then
 | Field | Value |
 |-------|-------|
 | ID | US-12155 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Jatin.Prusty |
@@ -29564,6 +30328,7 @@ This user story will be complete when:
 | Field | Value |
 |-------|-------|
 | ID | US-12161 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -29605,6 +30370,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-12162 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -29629,6 +30395,7 @@ User should be able to view and access the LSR/ISR Angle calculations on Android
 | Field | Value |
 |-------|-------|
 | ID | US-12181 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -29650,6 +30417,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12212 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -29671,6 +30439,7 @@ TBD
 | Field | Value |
 |-------|-------|
 | ID | US-12219 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -29780,6 +30549,7 @@ As a IEMQS USER other than QI3/QI2, I want to view and attained all the activity
 | Field | Value |
 |-------|-------|
 | ID | US-12228 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -29840,6 +30610,7 @@ Save button functionality for "Add New Digital Vertical Checklist". [Digital Ver
 | Field | Value |
 |-------|-------|
 | ID | US-12231 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -29909,6 +30680,7 @@ Upon Clicking "View Activity list" eye icon for draft status project row on the 
 | Field | Value |
 |-------|-------|
 | ID | US-12232 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | arunachalam |
@@ -29930,6 +30702,7 @@ Need to test all the UAT Bugs
 | Field | Value |
 |-------|-------|
 | ID | US-12253 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -30003,6 +30776,7 @@ Upon Clicking "View Activity list" eye icon for submitted status project row on 
 | Field | Value |
 |-------|-------|
 | ID | US-12254 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -30086,6 +30860,7 @@ Action button as per status by on Digital Vertical Checklist (Milestone Stages) 
 | Field | Value |
 |-------|-------|
 | ID | US-12255 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -30142,6 +30917,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-12256 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -30169,6 +30945,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12257 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -30204,6 +30981,7 @@ Cancel, Reset, Save, Save as Draft
 | Field | Value |
 |-------|-------|
 | ID | US-12263 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -30236,6 +31014,7 @@ This image is for reference purpose only, please refer data of Ovality Ring
 | Field | Value |
 |-------|-------|
 | ID | US-12264 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -30267,6 +31046,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12265 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -30302,6 +31082,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12266 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -30340,6 +31121,7 @@ Note: Please refer attachment for PDF doc format
 | Field | Value |
 |-------|-------|
 | ID | US-12267 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -30369,6 +31151,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12268 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -30393,6 +31176,7 @@ User should be able to view and access the Ovality Ring calculations on Android 
 | Field | Value |
 |-------|-------|
 | ID | US-12272 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -30414,6 +31198,7 @@ IIOT Integration team should be able to fetch IEMQS data
 | Field | Value |
 |-------|-------|
 | ID | US-12281 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -30435,6 +31220,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12282 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -30515,6 +31301,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12285 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -30551,6 +31338,7 @@ _**
 | Field | Value |
 |-------|-------|
 | ID | US-12286 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -30670,6 +31458,7 @@ Images
 | Field | Value |
 |-------|-------|
 | ID | US-12287 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -30744,6 +31533,7 @@ Capture Button
 | Field | Value |
 |-------|-------|
 | ID | US-12298 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -30801,6 +31591,7 @@ Action button as per status by on Digital Vertical Checklist (Milestone Stages) 
 | Field | Value |
 |-------|-------|
 | ID | US-12300 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -30911,6 +31702,7 @@ For "Submitted" status in Index page of Digital Vertical Checklist (Milestone St
 | Field | Value |
 |-------|-------|
 | ID | US-12303 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -30946,6 +31738,7 @@ Note: These changes needs to be reflected on all tabs, column, export functional
 | Field | Value |
 |-------|-------|
 | ID | US-12304 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -30978,6 +31771,7 @@ Below changes needs to be done in Maintain TPI consent: [Flow 4 (adobe.com)](htt
 | Field | Value |
 |-------|-------|
 | ID | US-12312 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -31019,6 +31813,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-12313 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -31118,6 +31913,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-12314 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -31177,6 +31973,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-12315 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -31199,6 +31996,7 @@ User should be able to access the Document Verification feature in iPad or Andro
 | Field | Value |
 |-------|-------|
 | ID | US-12324 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -31276,6 +32074,7 @@ Upon Clicking "View Activity list" eye icon for "ICS Generated" status project r
 | Field | Value |
 |-------|-------|
 | ID | US-12328 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -31354,6 +32153,7 @@ As a IEMQS USER other than QI3/QI2, I want to view and attained all the activity
 | Field | Value |
 |-------|-------|
 | ID | US-12331 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -31429,6 +32229,7 @@ In Action By Column,
 | Field | Value |
 |-------|-------|
 | ID | US-12348 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -31450,6 +32251,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12349 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -31475,6 +32277,7 @@ Add FTR column in completed tab
 | Field | Value |
 |-------|-------|
 | ID | US-12368 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -31498,6 +32301,7 @@ Add the getFTRDetails API into Design document
 | Field | Value |
 |-------|-------|
 | ID | US-12370 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -31521,6 +32325,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-12372 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -31544,6 +32349,7 @@ Unit Testing for below services are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-12374 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -31567,6 +32373,7 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Field | Value |
 |-------|-------|
 | ID | US-12376 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -31590,6 +32397,7 @@ Development for below services are completed
 | Field | Value |
 |-------|-------|
 | ID | US-12378 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nagarathna Billawa |
@@ -31613,6 +32421,7 @@ Unit Testing for below services are completed with no technical issues
 | Field | Value |
 |-------|-------|
 | ID | US-12380 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aakanksha Gupta |
@@ -31634,6 +32443,7 @@ Addition of two new field in forming the request for IEMQS API in BOM API
 | Field | Value |
 |-------|-------|
 | ID | US-12382 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -31700,6 +32510,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12383 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -31752,6 +32563,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12433 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -31773,6 +32585,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12450 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -31820,6 +32633,7 @@ Note: This "Export" functionality works for each window separately.
 | Field | Value |
 |-------|-------|
 | ID | US-12531 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -31842,6 +32656,7 @@ R2 features
 | Field | Value |
 |-------|-------|
 | ID | US-12534 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -31863,6 +32678,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12552 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -31908,6 +32724,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12553 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -31987,6 +32804,7 @@ Continuous of,
 | Field | Value |
 |-------|-------|
 | ID | US-12562 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -32050,6 +32868,7 @@ For CTQ Doc. No and Rev. No - comes automatically.
 | Field | Value |
 |-------|-------|
 | ID | US-12622 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -32073,6 +32892,7 @@ URL - /IPI/AutoQualityId
 | Field | Value |
 |-------|-------|
 | ID | US-12624 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Madhurima Datta |
@@ -32112,6 +32932,7 @@ _For Annexure Report_
 | Field | Value |
 |-------|-------|
 | ID | US-12628 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -32160,6 +32981,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-12629 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -32210,6 +33032,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-12630 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -32238,6 +33061,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12631 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -32272,6 +33096,7 @@ Mega Menu->Production-> In Process Inspection-> Running Seam Status
 | Field | Value |
 |-------|-------|
 | ID | US-12638 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -32342,6 +33167,7 @@ Upon clicking Save Button shown as per visuals,
 | Field | Value |
 |-------|-------|
 | ID | US-12646 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -32376,6 +33202,7 @@ For reference:
 | Field | Value |
 |-------|-------|
 | ID | US-12656 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -32433,6 +33260,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12662 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -32515,6 +33343,7 @@ Upon Clicking Submit Button, [#11934](https://dev.azure.com/LnT-HeavyEngineering
 | Field | Value |
 |-------|-------|
 | ID | US-12668 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -32587,6 +33416,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-12669 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -32676,6 +33506,7 @@ For Draft status row,  [Digital Vertical Checklist (Milestone Stages) (adobe.com
 | Field | Value |
 |-------|-------|
 | ID | US-12670 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -32744,6 +33575,7 @@ Notes - Maintain ICS page.
 | Field | Value |
 |-------|-------|
 | ID | US-12671 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -32865,6 +33697,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12672 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -32980,6 +33813,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12684 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -33061,6 +33895,7 @@ For activity category "NCR",
 | Field | Value |
 |-------|-------|
 | ID | US-12686 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -33140,6 +33975,7 @@ For activity category "JEP"(Job Engineering Plan),
 | Field | Value |
 |-------|-------|
 | ID | US-12694 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -33217,6 +34053,7 @@ As a IEMQS User other than QI3 User, I want to view and attained all the activit
 | Field | Value |
 |-------|-------|
 | ID | US-12695 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -33283,6 +34120,7 @@ As a IEMQS User other than QI3 User, I want to view and attained all the activit
 | Field | Value |
 |-------|-------|
 | ID | US-12705 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -33307,6 +34145,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-12722 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -33328,6 +34167,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12741 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -33368,6 +34208,7 @@ As a MFG2, PROD3 user, I want to offer the seam, so that they can be sent for In
 | Field | Value |
 |-------|-------|
 | ID | US-12743 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -33405,6 +34246,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12744 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -33436,6 +34278,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12745 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -33459,6 +34302,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-12752 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -33549,6 +34393,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12753 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -33655,6 +34500,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-12754 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -33734,6 +34580,7 @@ As a IEMQS USER other than QI3/QI2, I want to submit all activities assigned to 
 | Field | Value |
 |-------|-------|
 | ID | US-12793 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -33755,6 +34602,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-12796 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -33779,6 +34627,7 @@ Create dashboard for -
 | Field | Value |
 |-------|-------|
 | ID | US-12843 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -33811,6 +34660,7 @@ Please refer attachment
 | Field | Value |
 |-------|-------|
 | ID | US-12845 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -33879,6 +34729,7 @@ User should be able to view "\+ Add New " button in the "Maintain Critical to Qu
 | Field | Value |
 |-------|-------|
 | ID | US-12846 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -33943,6 +34794,7 @@ Continuous of [#12845](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-12847 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34020,6 +34872,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-12848 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34114,6 +34967,7 @@ Upon Clicking "Cancel" /Save Button at NCR/CFAR overlay window. **(Page 7 - canc
 | Field | Value |
 |-------|-------|
 | ID | US-12849 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34202,6 +35056,7 @@ Continuous of [#12848](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-12917 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34254,6 +35109,7 @@ Note: This "Export" functionality works for each window separately.
 | Field | Value |
 |-------|-------|
 | ID | US-12918 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34312,6 +35168,7 @@ As a IEMQS USER other than QI2 user, I want to maintain CTQ identified in projec
 | Field | Value |
 |-------|-------|
 | ID | US-12920 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34374,6 +35231,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-12980 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -34395,6 +35253,7 @@ Technical: Lifting Lug Table structure design and Save&Partial Save
 | Field | Value |
 |-------|-------|
 | ID | US-12981 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -34416,6 +35275,7 @@ Common service should be created with all formulas in angular
 | Field | Value |
 |-------|-------|
 | ID | US-12984 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -34437,6 +35297,7 @@ Use same JSON table structure across all 5 calculations
 | Field | Value |
 |-------|-------|
 | ID | US-13006 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -34458,6 +35319,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13020 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Harsh Vardan K V |
@@ -34479,6 +35341,7 @@ To have accuracy of more than 90%
 | Field | Value |
 |-------|-------|
 | ID | US-13048 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34571,6 +35434,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-13050 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34706,6 +35570,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-13073 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -34727,6 +35592,7 @@ All the reviews and other discussions
 | Field | Value |
 |-------|-------|
 | ID | US-13078 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34838,6 +35704,7 @@ Continuous of [#13050](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13099 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -34920,6 +35787,7 @@ Continuous of [#13078](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13126 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -34941,6 +35809,7 @@ Make certification flow online
 | Field | Value |
 |-------|-------|
 | ID | US-13131 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -34962,6 +35831,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13145 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -34983,6 +35853,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13149 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35058,6 +35929,7 @@ Continuous of [#12849](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13150 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35144,6 +36016,7 @@ In Action column, User should be able to view "Attach", "Delete" and "Timeline" 
 | Field | Value |
 |-------|-------|
 | ID | US-13156 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35206,6 +36079,7 @@ As a IEMQS USER, I want to print functionality in given attach format so that I 
 | Field | Value |
 |-------|-------|
 | ID | US-13157 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -35280,6 +36154,7 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Field | Value |
 |-------|-------|
 | ID | US-13176 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -35358,6 +36233,7 @@ Continuous of [#12920](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13183 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -35379,6 +36255,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13185 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -35400,6 +36277,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13188 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35472,6 +36350,7 @@ Continuous of [#12920](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13193 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -35493,6 +36372,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13194 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -35514,6 +36394,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13196 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -35537,6 +36418,7 @@ All review & dev support
 | Field | Value |
 |-------|-------|
 | ID | US-13214 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35565,6 +36447,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13215 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35592,6 +36475,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13236 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35626,6 +36510,7 @@ Mega Menu->Quality Control-> In Process Inspection-> Running Seam Status
 | Field | Value |
 |-------|-------|
 | ID | US-13241 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35713,6 +36598,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-13242 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35778,6 +36664,7 @@ What are stages of this CTQ at project level
 | Field | Value |
 |-------|-------|
 | ID | US-13261 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35861,6 +36748,7 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Field | Value |
 |-------|-------|
 | ID | US-13264 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -35916,6 +36804,7 @@ User should be able to view "\+ Add New " button in the "Maintain Critical to Qu
 | Field | Value |
 |-------|-------|
 | ID | US-13269 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -35982,6 +36871,7 @@ Upon Clicking "Cancel" /Save Button at NCR/CFAR overlay window.
 | Field | Value |
 |-------|-------|
 | ID | US-13273 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -36003,6 +36893,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13274 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36074,6 +36965,7 @@ For Approved status "{"CTQ Doc. No. "} project row at "Maintain Critical To Qual
 | Field | Value |
 |-------|-------|
 | ID | US-13276 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -36095,6 +36987,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13289 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -36116,6 +37009,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13295 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jatin.Prusty |
@@ -36147,6 +37041,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13298 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36281,6 +37176,7 @@ Continuous of [#13274](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13301 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36345,6 +37241,7 @@ As a QI2 user, I want to maintain CTQ records identified in project so that I ca
 | Field | Value |
 |-------|-------|
 | ID | US-13304 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36394,6 +37291,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-13305 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36454,6 +37352,7 @@ For Reference:
 | Field | Value |
 |-------|-------|
 | ID | US-13306 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36482,6 +37381,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13307 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36526,6 +37426,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13308 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -36601,6 +37502,7 @@ For Draft status "{"CTQ Doc. No. "} project row at "Approve/Close Critical To Qu
 | Field | Value |
 |-------|-------|
 | ID | US-13309 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36637,6 +37539,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13312 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36667,6 +37570,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13313 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36761,6 +37665,7 @@ Continuous of [#13308](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13314 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -36880,6 +37785,7 @@ Continuous of
 | Field | Value |
 |-------|-------|
 | ID | US-13315 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -36901,6 +37807,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13316 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36929,6 +37836,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13317 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -36964,6 +37872,7 @@ Mega Menu->NDE-> In Process Inspection-> Running Seam Status
 | Field | Value |
 |-------|-------|
 | ID | US-13318 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37009,6 +37918,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-13319 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37061,6 +37971,7 @@ For Reference: [NDE Seam Test Details :: IEMQS (lthed.com)](https://vhziemqsstg1
 | Field | Value |
 |-------|-------|
 | ID | US-13320 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37087,6 +37998,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13321 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37124,6 +38036,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13322 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37161,6 +38074,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13323 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37192,6 +38106,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13324 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37248,6 +38163,7 @@ As a QI2 user, I want to maintain CTQ identified in project so that I can Approv
 | Field | Value |
 |-------|-------|
 | ID | US-13325 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -37269,6 +38185,7 @@ R2 - dot net migration issue fixes in production
 | Field | Value |
 |-------|-------|
 | ID | US-13334 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -37290,6 +38207,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13352 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -37311,6 +38229,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13357 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -37335,6 +38254,7 @@ As a Key* user, I want to download the existing or recently added procedure docu
 | Field | Value |
 |-------|-------|
 | ID | US-13361 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -37422,6 +38342,7 @@ Continuous of [#13308](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13365 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajesh.Lanka |
@@ -37526,6 +38447,7 @@ Continuous of [#13308](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13367 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Soumil Shah |
@@ -37547,6 +38469,7 @@ New Changes in Predictive Maintenance Application.
 | Field | Value |
 |-------|-------|
 | ID | US-13373 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -37568,6 +38491,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13395 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37646,6 +38570,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-13396 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37767,6 +38692,7 @@ For "In-Progress" status "{"CTQ Doc. No. "} project row at "Maintain Critical To
 | Field | Value |
 |-------|-------|
 | ID | US-13397 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37884,6 +38810,7 @@ For "In-Progress/Approved" status "{"CTQ Doc. No. "} project row at "Approve Cri
 | Field | Value |
 |-------|-------|
 | ID | US-13398 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -37961,6 +38888,7 @@ For "In-Progress/Approved" status "{"CTQ Doc. No. "} project row at "Approve Cri
 | Field | Value |
 |-------|-------|
 | ID | US-13410 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -38046,6 +38974,7 @@ For Closed status "{"CTQ Doc. No. "} project row at "Maintain Critical To Qualit
 | Field | Value |
 |-------|-------|
 | ID | US-13413 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38067,6 +38996,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13414 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -38116,6 +39046,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-13415 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -38186,6 +39117,7 @@ Feature | Function | Module | Sub Process | Locations | Roles
 | Field | Value |
 |-------|-------|
 | ID | US-13419 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -38283,6 +39215,7 @@ System will send notification to the required user and User should be able to vi
 | Field | Value |
 |-------|-------|
 | ID | US-13435 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38304,6 +39237,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13459 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38325,6 +39259,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13470 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38346,6 +39281,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13483 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -38409,6 +39345,7 @@ QA | CHEMICAL REPORT
 | Field | Value |
 |-------|-------|
 | ID | US-13493 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -38430,6 +39367,7 @@ TBD
 | Field | Value |
 |-------|-------|
 | ID | US-13509 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -38478,6 +39416,7 @@ Feature | Function | Module | Sub Process | Locations | Roles
 | Field | Value |
 |-------|-------|
 | ID | US-13514 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38499,6 +39438,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13515 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -38529,6 +39469,7 @@ Mega Menu->Planning ->Planning Calculations
 | Field | Value |
 |-------|-------|
 | ID | US-13516 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38550,6 +39491,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13517 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38571,6 +39513,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13520 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38592,6 +39535,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13536 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Ulhas Patil |
@@ -38617,6 +39561,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13537 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38638,6 +39583,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13547 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -38664,6 +39610,7 @@ To Combine all positions of same F No and process and to merge and specify in co
 | Field | Value |
 |-------|-------|
 | ID | US-13566 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38685,6 +39632,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13569 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38706,6 +39654,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13570 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38727,6 +39676,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13571 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38748,6 +39698,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13584 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38769,6 +39720,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13585 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -38802,6 +39754,7 @@ Mega Menu->NDE-> NDE Qualification and Certification-> Certification
 | Field | Value |
 |-------|-------|
 | ID | US-13586 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -38846,6 +39799,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13588 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -38884,6 +39838,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13589 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -38905,6 +39860,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13590 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -38952,6 +39908,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-13591 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -38994,6 +39951,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-13592 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -39033,6 +39991,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13593 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Sujata.Parvate |
@@ -39074,6 +40033,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-13594 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -39125,6 +40085,7 @@ If a user's vision test is rescheduled, then the updated email in the above-ment
 | Field | Value |
 |-------|-------|
 | ID | US-13596 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -39172,6 +40133,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13597 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -39209,6 +40171,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13598 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -39254,6 +40217,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-13599 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -39316,6 +40280,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13600 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -39372,6 +40337,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-13601 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -39414,6 +40380,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13602 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -39466,6 +40433,7 @@ If a user's test is rescheduled, then the updated email in the above-mentioned f
 | Field | Value |
 |-------|-------|
 | ID | US-13604 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -39487,6 +40455,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13605 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -39535,6 +40504,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13616 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -39591,6 +40561,7 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Field | Value |
 |-------|-------|
 | ID | US-13617 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -39695,6 +40666,7 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Field | Value |
 |-------|-------|
 | ID | US-13618 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -39798,6 +40770,7 @@ SWRP-Project-NCR-002 | NCR
 | Field | Value |
 |-------|-------|
 | ID | US-13619 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -39923,6 +40896,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Groove/Fille
 | Field | Value |
 |-------|-------|
 | ID | US-13620 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -40067,6 +41041,7 @@ continuous of [#13619](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13621 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -40131,6 +41106,7 @@ continuous of [#13620](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13622 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -40217,6 +41193,7 @@ continuous of [#13621](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13623 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -40276,6 +41253,7 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Field | Value |
 |-------|-------|
 | ID | US-13624 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -40360,6 +41338,7 @@ Continuous of [#13623](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13625 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -40457,6 +41436,7 @@ Continuous of [#13617](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Field | Value |
 |-------|-------|
 | ID | US-13634 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -40516,6 +41496,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13636 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -40554,6 +41535,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-13639 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40575,6 +41557,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13640 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -40600,6 +41583,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13641 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -40625,6 +41609,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13648 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40646,6 +41631,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13656 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -40681,6 +41667,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-13659 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Souvik Das |
@@ -40703,6 +41690,7 @@ WE3 Creates SWRP and sends for approval to WE2 & once WE2 approves WE3 delegates
 | Field | Value |
 |-------|-------|
 | ID | US-13662 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40724,6 +41712,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13663 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40745,6 +41734,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13666 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40766,6 +41756,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13675 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40787,6 +41778,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13683 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -40808,6 +41800,7 @@ Html report of planning calculation should be converted to PDF
 | Field | Value |
 |-------|-------|
 | ID | US-13734 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -40829,6 +41822,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13744 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -40878,6 +41872,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-13807 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rounak.Hasan |
@@ -40907,6 +41902,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13808 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -40934,6 +41930,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13809 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -40965,6 +41962,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13810 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -40993,6 +41991,7 @@ Do check the closed tasks to check the screens that are developed
 | Field | Value |
 |-------|-------|
 | ID | US-13811 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyothi.Cheripally@ltimindtree.com |
@@ -41028,6 +42027,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13812 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyothi.Cheripally@ltimindtree.com |
@@ -41063,6 +42063,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13819 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41088,6 +42089,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13820 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -41117,6 +42119,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-13822 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -41159,6 +42162,7 @@ Note: For technical details, please refer attached document
 | Field | Value |
 |-------|-------|
 | ID | US-13823 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -41180,6 +42184,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-13830 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -41201,6 +42206,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14134 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -41237,6 +42243,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14155 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41276,6 +42283,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14158 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -41310,6 +42318,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14171 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -41356,6 +42365,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14174 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41399,6 +42409,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14175 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41436,6 +42447,7 @@ This is a system generated email. Please refrain from replying
 | Field | Value |
 |-------|-------|
 | ID | US-14177 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -41476,6 +42488,7 @@ For reference:
 | Field | Value |
 |-------|-------|
 | ID | US-14178 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -41546,6 +42559,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-14202 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41585,6 +42599,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-14204 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41637,6 +42652,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14207 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -41688,6 +42704,7 @@ All the popup and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14208 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -41734,6 +42751,7 @@ If a TPE test is rescheduled, then the updated email in the above-mentioned freq
 | Field | Value |
 |-------|-------|
 | ID | US-14211 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -41767,6 +42785,7 @@ All the popups and toast messages to be shown as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14222 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -41798,6 +42817,7 @@ All the popups and toast messages should be followed as per visual
 | Field | Value |
 |-------|-------|
 | ID | US-14223 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -41856,6 +42876,7 @@ If a user's test is rescheduled, then the updated email in the above-mentioned f
 | Field | Value |
 |-------|-------|
 | ID | US-14228 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -41913,6 +42934,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-14267 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -41936,6 +42958,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14272 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -42039,6 +43062,7 @@ _**Functional:**_
 | Field | Value |
 |-------|-------|
 | ID | US-14274 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -42086,6 +43110,7 @@ Valid upto (dd/mm/yyyy)
 | Field | Value |
 |-------|-------|
 | ID | US-14276 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -42136,6 +43161,7 @@ Please note that here, By Active user means, if a user status is "Active", irres
 | Field | Value |
 |-------|-------|
 | ID | US-14277 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -42194,6 +43220,7 @@ Vision Due Date
 | Field | Value |
 |-------|-------|
 | ID | US-14278 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -42283,6 +43310,7 @@ Usability:**
 | Field | Value |
 |-------|-------|
 | ID | US-14284 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -42304,6 +43332,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14285 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -42325,6 +43354,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14311 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -42349,6 +43379,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14312 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -42374,6 +43405,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14313 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -42410,6 +43442,7 @@ Reference Link:
 | Field | Value |
 |-------|-------|
 | ID | US-14333 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -42451,6 +43484,7 @@ Position No dropdown values should load from DES067 & QMS035 table while attachi
 | Field | Value |
 |-------|-------|
 | ID | US-14335 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -42511,6 +43545,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the selected type 
 | Field | Value |
 |-------|-------|
 | ID | US-14336 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sujata.Parvate |
@@ -42622,6 +43657,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Groove/Fille
 | Field | Value |
 |-------|-------|
 | ID | US-14341 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -42643,6 +43679,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14342 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -42664,6 +43701,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14346 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Aduvala.Sai |
@@ -42689,6 +43727,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14358 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -42710,6 +43749,7 @@ Release 2.1 should work as is with FT3838 without any unexpected behaviors.
 | Field | Value |
 |-------|-------|
 | ID | US-14359 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -42743,6 +43783,7 @@ Reference snapshot for Section separator
 | Field | Value |
 |-------|-------|
 | ID | US-14362 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -42777,6 +43818,7 @@ Reference snapshot for Sub-Section separator
 | Field | Value |
 |-------|-------|
 | ID | US-14367 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -42807,6 +43849,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14370 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -42843,6 +43886,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14377 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -42883,6 +43927,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14382 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -42904,6 +43949,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14417 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -42925,6 +43971,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14420 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Rahul.Arjun2 |
@@ -42961,6 +44008,7 @@ Below is the format:
 | Field | Value |
 |-------|-------|
 | ID | US-14421 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -42985,6 +44033,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14424 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -43006,6 +44055,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14436 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43027,6 +44077,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14455 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -43051,6 +44102,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14456 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43072,6 +44124,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14459 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -43093,6 +44146,7 @@ Miscellaneous Activities, Reviews and Dev support
 | Field | Value |
 |-------|-------|
 | ID | US-14502 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43114,6 +44168,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14521 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -43150,6 +44205,7 @@ Mega Menu->Quality Assurance -> Dept. Performance Parameters-> Maintain DPP
 | Field | Value |
 |-------|-------|
 | ID | US-14522 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -43191,6 +44247,7 @@ Values: HZW (HAZIRA WORKS), LTP (PIPING CENTER), PEW (POWAI WORKS), RNW (RANOLI 
 | Field | Value |
 |-------|-------|
 | ID | US-14523 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -43229,6 +44286,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-14524 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -43250,6 +44308,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14525 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43271,6 +44330,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14535 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43292,6 +44352,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14540 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43313,6 +44374,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14541 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Deep |
@@ -43341,6 +44403,7 @@ Do check the closed tasks to check the screens that are developed
 | Field | Value |
 |-------|-------|
 | ID | US-14552 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43362,6 +44425,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14553 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -43395,6 +44459,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14555 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -43474,6 +44539,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-14558 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -43526,6 +44592,7 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Field | Value |
 |-------|-------|
 | ID | US-14580 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -43552,6 +44619,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14581 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -43588,6 +44656,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-14584 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -43629,6 +44698,7 @@ The report should also show a trend line a per the set threshold value in the gr
 | Field | Value |
 |-------|-------|
 | ID | US-14585 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -43666,6 +44736,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14586 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -43697,6 +44768,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14587 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -43747,6 +44819,7 @@ Reference Image: Please refer the image's highlighted item. Also, in the highlig
 | Field | Value |
 |-------|-------|
 | ID | US-14588 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -43785,6 +44858,7 @@ Mega Menu->Quality Assurance -> Dept. Performance Parameters-> DPP Master
 | Field | Value |
 |-------|-------|
 | ID | US-14589 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -43806,6 +44880,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14598 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Ramadass P |
@@ -43879,6 +44954,7 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Field | Value |
 |-------|-------|
 | ID | US-14599 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sujata.Parvate |
@@ -43935,6 +45011,7 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Field | Value |
 |-------|-------|
 | ID | US-14601 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyothi |
@@ -44093,6 +45170,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-14602 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Chamala Jayasankar Reddy |
@@ -44248,6 +45326,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the ****Overlay or
 | Field | Value |
 |-------|-------|
 | ID | US-14603 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -44334,6 +45413,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Overlay, Har
 | Field | Value |
 |-------|-------|
 | ID | US-14604 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sujata.Parvate |
@@ -44490,6 +45570,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-14607 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -44511,6 +45592,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14617 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -44629,6 +45711,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **T#TS  **so t
 | Field | Value |
 |-------|-------|
 | ID | US-14618 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -44752,6 +45835,7 @@ As WE2 User, I want to Approve project wise Shop Weld Repair Plan so that i can 
 | Field | Value |
 |-------|-------|
 | ID | US-14620 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -44805,6 +45889,7 @@ Table Name: Maintain Function Area
 | Field | Value |
 |-------|-------|
 | ID | US-14621 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -44855,6 +45940,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14622 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -44898,6 +45984,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14625 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -44960,6 +46047,7 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Field | Value |
 |-------|-------|
 | ID | US-14626 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -44981,6 +46069,7 @@ Create RCA module and sub userflows
 | Field | Value |
 |-------|-------|
 | ID | US-14634 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -45104,6 +46193,7 @@ User should be able to view "Cancel"/"Approve"/"Return" buttons on "Sent for App
 | Field | Value |
 |-------|-------|
 | ID | US-14635 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -45293,6 +46383,7 @@ Name of person who save/update the Customer Feedback
 | Field | Value |
 |-------|-------|
 | ID | US-14640 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -45316,6 +46407,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14674 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -45337,6 +46429,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14685 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Soumil Shah |
@@ -45358,6 +46451,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14691 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -45477,6 +46571,7 @@ As a WE3/WE2 user, I want to maintain the Shop Weld Plan Master, so that I can c
 | Field | Value |
 |-------|-------|
 | ID | US-14692 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -45498,6 +46593,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14695 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -45519,6 +46615,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14697 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -45561,6 +46658,7 @@ Mega Menu->QA->RCA->Root Cause Analysis
 | Field | Value |
 |-------|-------|
 | ID | US-14698 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -45597,6 +46695,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-14699 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -45635,6 +46734,7 @@ Mega Menu-> Quality Assurance-> RCA -> Corrective Action Implementation
 | Field | Value |
 |-------|-------|
 | ID | US-14707 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -45677,6 +46777,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-14708 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -45705,6 +46806,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-14757 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -45797,6 +46899,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-14871 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -45818,6 +46921,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14876 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -45839,6 +46943,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14884 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -45860,6 +46965,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-14921 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -45908,6 +47014,7 @@ This is system generated email. Do not reply on this email.
 | Field | Value |
 |-------|-------|
 | ID | US-14922 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -45930,6 +47037,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14923 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -45992,6 +47100,7 @@ This is system generated email. Do not reply on this email.
 | Field | Value |
 |-------|-------|
 | ID | US-14942 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -46031,6 +47140,7 @@ Link: (Maintain DPP webpage link)
 | Field | Value |
 |-------|-------|
 | ID | US-14944 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -46071,6 +47181,7 @@ Link: (Webpage link for DPP Approve)
 | Field | Value |
 |-------|-------|
 | ID | US-14945 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -46105,6 +47216,7 @@ Attachments - PDF Reports to be attached
 | Field | Value |
 |-------|-------|
 | ID | US-14952 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -46132,6 +47244,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-14953 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -46162,6 +47275,7 @@ For reference, image of RCA screen from where the data will flow and come in Cor
 | Field | Value |
 |-------|-------|
 | ID | US-14982 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -46230,6 +47344,7 @@ Navigation -
 | Field | Value |
 |-------|-------|
 | ID | US-14984 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -46263,6 +47378,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-14996 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Manu Prasad |
@@ -46289,6 +47405,7 @@ Assessment report
 | Field | Value |
 |-------|-------|
 | ID | US-14997 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -46310,6 +47427,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15044 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -46344,6 +47462,7 @@ Additional Notes:
 | Field | Value |
 |-------|-------|
 | ID | US-15049 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -46379,6 +47498,7 @@ Mega Menu->Quality Assurance -> Dept. Performance Parameters-> Approve DPP
 | Field | Value |
 |-------|-------|
 | ID | US-15050 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -46400,6 +47520,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15051 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -46421,6 +47542,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15052 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -46442,6 +47564,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15053 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -46463,6 +47586,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15089 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -46484,6 +47608,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15115 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -46505,6 +47630,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15127 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -46526,6 +47652,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15143 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -46547,6 +47674,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15156 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo |
@@ -46612,6 +47740,7 @@ Usability:
 | Field | Value |
 |-------|-------|
 | ID | US-15166 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -46640,6 +47769,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15168 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -46670,6 +47800,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15173 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -46743,6 +47874,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-15174 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -46769,6 +47901,7 @@ SIT in QA2 Env for:
 | Field | Value |
 |-------|-------|
 | ID | US-15175 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -46840,6 +47973,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-15176 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -46911,6 +48045,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-15194 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -46932,6 +48067,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15200 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -46963,6 +48099,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15201 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -46987,6 +48124,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15202 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -47010,6 +48148,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15203 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -47034,6 +48173,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15206 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -47058,6 +48198,7 @@ For (Lifting Lug, Lifting Trunnion, Ovality Ring, LSR/ISR) planning calculations
 | Field | Value |
 |-------|-------|
 | ID | US-15210 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -47079,6 +48220,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15228 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -47100,6 +48242,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15230 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -47121,6 +48264,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15234 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -47171,6 +48315,7 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Field | Value |
 |-------|-------|
 | ID | US-15250 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -47192,6 +48337,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15278 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -47213,6 +48359,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15281 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -47234,6 +48381,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15346 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -47308,6 +48456,7 @@ We can provide COPQ field next to "Root Cause Category".
 | Field | Value |
 |-------|-------|
 | ID | US-15347 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -47396,6 +48545,7 @@ As a IEMQS User, I want to maintain project wise Cost of Poor Quality plan and f
 | Field | Value |
 |-------|-------|
 | ID | US-15348 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -47499,6 +48649,7 @@ Quality | 7 | 680 | 0.05
 | Field | Value |
 |-------|-------|
 | ID | US-15349 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -47592,6 +48743,7 @@ Welding  | 20000
 | Field | Value |
 |-------|-------|
 | ID | US-15350 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -47660,6 +48812,7 @@ As **IEMQS**** ** User, I want to maintain project wise Cost of Poor Quality pla
 | Field | Value |
 |-------|-------|
 | ID | US-15357 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -47681,6 +48834,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15427 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -47715,6 +48869,7 @@ User should be able to perform below mentioned functionalities in the grid
 | Field | Value |
 |-------|-------|
 | ID | US-15439 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -47755,6 +48910,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15445 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -47788,6 +48944,7 @@ Note: Please note that all the action button operations can only be applied for 
 | Field | Value |
 |-------|-------|
 | ID | US-15460 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Aritram Ghosh |
@@ -47822,6 +48979,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15467 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -47862,6 +49020,7 @@ Link: [Display Welder Master List :: IEMQS (lthed.com)](https://vhzdigiiemqsqa1.
 | Field | Value |
 |-------|-------|
 | ID | US-15471 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -47906,6 +49065,7 @@ The attachment icon to be shown only for Groove/Fillet and Overlay tabs.
 | Field | Value |
 |-------|-------|
 | ID | US-15472 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -47935,6 +49095,7 @@ Maintain WML Screen: [Maintain Welder Master List :: IEMQS (lthed.com)](https://
 | Field | Value |
 |-------|-------|
 | ID | US-15475 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -47956,6 +49117,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15479 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -47980,6 +49142,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15484 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gopi.Alli |
@@ -48008,6 +49171,7 @@ Sr.No  | Name  | Target  | Target Description  | Measurement  | Function  | Area
 | Field | Value |
 |-------|-------|
 | ID | US-15485 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48029,6 +49193,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15495 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -48052,6 +49217,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15515 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48073,6 +49239,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15516 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -48094,6 +49261,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15519 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48115,6 +49283,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15522 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48136,6 +49305,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15523 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48157,6 +49327,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15524 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -48182,6 +49353,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-15601 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48203,6 +49375,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15720 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48224,6 +49397,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-15751 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -48258,6 +49432,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15757 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -48336,6 +49511,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-15969 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -48382,6 +49558,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15980 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -48432,6 +49609,7 @@ Reference Screenshot:
 | Field | Value |
 |-------|-------|
 | ID | US-15981 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -48503,6 +49681,7 @@ Technical Details:
 | Field | Value |
 |-------|-------|
 | ID | US-15982 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -48572,6 +49751,7 @@ Reference Screenshot:
 | Field | Value |
 |-------|-------|
 | ID | US-15983 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -48630,6 +49810,7 @@ Reference Screenshot:
 | Field | Value |
 |-------|-------|
 | ID | US-15984 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -48683,6 +49864,7 @@ Reference Screenshot:
 | Field | Value |
 |-------|-------|
 | ID | US-15985 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -48715,6 +49897,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15989 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sandhya Rani Yanamala |
@@ -48749,6 +49932,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15990 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -48792,6 +49976,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-15994 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -48813,6 +49998,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16015 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48834,6 +50020,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16018 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -48874,6 +50061,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16021 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48895,6 +50083,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16030 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -48916,6 +50105,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16032 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -48937,6 +50127,7 @@ system will show ll ready to offer seams even token not generated
 | Field | Value |
 |-------|-------|
 | ID | US-16033 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -48958,6 +50149,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16049 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -48979,6 +50171,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16050 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -49005,6 +50198,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16051 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -49046,6 +50240,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16052 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -49084,6 +50279,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16053 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -49134,6 +50330,7 @@ Also, for reference, please see attached PDF for complete page view
 | Field | Value |
 |-------|-------|
 | ID | US-16054 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -49155,6 +50352,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16055 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -49176,6 +50374,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16059 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -49252,6 +50451,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16060 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -49324,6 +50524,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16061 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -49399,6 +50600,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16062 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -49469,6 +50671,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16068 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -49490,6 +50693,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16069 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -49528,6 +50732,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16070 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -49549,6 +50754,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16071 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -49586,6 +50792,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16072 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -49634,6 +50841,7 @@ Reference Image,
 | Field | Value |
 |-------|-------|
 | ID | US-16073 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -49752,6 +50960,7 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Groove/Fille
 | Field | Value |
 |-------|-------|
 | ID | US-16074 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -49829,6 +51038,7 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Field | Value |
 |-------|-------|
 | ID | US-16075 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -49850,6 +51060,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16079 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -49949,6 +51160,7 @@ __
 | Field | Value |
 |-------|-------|
 | ID | US-16080 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -49994,6 +51206,7 @@ Reference Image
 | Field | Value |
 |-------|-------|
 | ID | US-16081 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | shubham.sharma5 |
@@ -50030,6 +51243,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16082 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -50088,6 +51302,7 @@ Reference Screenshot:
 | Field | Value |
 |-------|-------|
 | ID | US-16090 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -50109,6 +51324,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16111 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Bhagyashree.Ghatapandi |
@@ -50156,6 +51372,7 @@ Note: This screen is user specific, the QA person who is assigned to verify and 
 | Field | Value |
 |-------|-------|
 | ID | US-16113 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -50192,6 +51409,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16115 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -50224,6 +51442,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16189 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -50245,6 +51464,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16200 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -50266,6 +51486,7 @@ Surface condition to be auto selected e.g., Nozzle-Flush ground, C/S-as welded, 
 | Field | Value |
 |-------|-------|
 | ID | US-16225 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Mandigiri Krishna Kumar |
@@ -50369,6 +51590,7 @@ SWRP-Project-NCR-002 | NCR
 | Field | Value |
 |-------|-------|
 | ID | US-16270 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -50390,6 +51612,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16307 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -50499,6 +51722,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16314 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -50520,6 +51744,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16326 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -50541,6 +51766,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16338 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -50562,6 +51788,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16339 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -50583,6 +51810,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16350 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -50617,6 +51845,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16353 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -50703,6 +51932,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16355 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -50746,6 +51976,7 @@ Please note that, in case of NCR, CFAR, one the QA approves from MVC, then the s
 | Field | Value |
 |-------|-------|
 | ID | US-16356 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -50776,6 +52007,7 @@ Reference Image: ([RCA (adobe.com)](https://xd.adobe.com/view/8a9b0489-3eb2-4e68
 | Field | Value |
 |-------|-------|
 | ID | US-16357 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -50805,6 +52037,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16358 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -50842,6 +52075,7 @@ Mega Menu->Quality Assurance->Vendor Assessment-> Maintain Assessment Request
 | Field | Value |
 |-------|-------|
 | ID | US-16359 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -50872,6 +52106,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16360 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -50924,6 +52159,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16361 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51008,6 +52244,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16362 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51044,6 +52281,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16363 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51080,6 +52318,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16364 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51135,6 +52374,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16365 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51175,6 +52415,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16366 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51213,6 +52454,7 @@ Mega Menu->Quality Assurance->Vendor Assessment-> Assessment Request Review
 | Field | Value |
 |-------|-------|
 | ID | US-16393 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -51303,6 +52545,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16423 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -51324,6 +52567,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16430 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -51345,6 +52589,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16435 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51382,6 +52627,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16441 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51413,6 +52659,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16442 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51442,6 +52689,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16443 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51486,6 +52734,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16445 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51519,6 +52768,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16446 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51554,6 +52804,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16447 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51630,6 +52881,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16449 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -51672,6 +52924,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16455 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -51701,6 +52954,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16458 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -51722,6 +52976,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16460 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -51743,6 +52998,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16479 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -51764,6 +53020,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16482 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -51785,6 +53042,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16487 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -51806,6 +53064,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16490 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -51827,6 +53086,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16493 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Soumil Shah |
@@ -51848,6 +53108,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16508 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -51934,6 +53195,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16509 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52014,6 +53276,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16511 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52035,6 +53298,7 @@ As a Welding Engineer using the Weld Consumable Receipt (WCR) application, I wan
 | Field | Value |
 |-------|-------|
 | ID | US-16519 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52066,6 +53330,7 @@ As a IEMQS user, Upon entering the "Contract Number", I expect to receive list o
 | Field | Value |
 |-------|-------|
 | ID | US-16527 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52091,6 +53356,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16535 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52112,6 +53378,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16552 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -52133,6 +53400,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16554 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -52165,6 +53433,7 @@ Refer Table: QMS040
 | Field | Value |
 |-------|-------|
 | ID | US-16556 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -52188,6 +53457,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16569 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -52216,6 +53486,7 @@ Clicking on MDCC should open this link in new tab: <https://heintra.lthed.com/Ap
 | Field | Value |
 |-------|-------|
 | ID | US-16581 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52296,6 +53567,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16586 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -52331,6 +53603,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16587 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -52352,6 +53625,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16596 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -52373,6 +53647,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16597 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -52397,6 +53672,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16598 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -52418,6 +53694,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16599 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -52439,6 +53716,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16600 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -52460,6 +53738,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16608 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -52518,6 +53797,7 @@ As a PROD3, MFG3 User, I want to upload handwritten protocol data so that system
 | Field | Value |
 |-------|-------|
 | ID | US-16609 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -52542,6 +53822,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16610 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | parameshwari.babu |
@@ -52587,6 +53868,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16614 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -52613,6 +53895,7 @@ Reference Image
 | Field | Value |
 |-------|-------|
 | ID | US-16615 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -52634,6 +53917,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16620 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -52683,6 +53967,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16630 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -52733,6 +54018,7 @@ CalculateDate
 | Field | Value |
 |-------|-------|
 | ID | US-16644 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -52754,6 +54040,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16649 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | pavitha.61033925 |
@@ -52823,6 +54110,7 @@ Maintain the value of Procedure with Rev No in Sport details DB table
 | Field | Value |
 |-------|-------|
 | ID | US-16651 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -52844,6 +54132,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16652 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -52887,6 +54176,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16653 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | rupalis.10717216 |
@@ -52928,6 +54218,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16655 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -52949,6 +54240,7 @@ Provision to generate and attach PDF in E-mail as per set frequency, and as per 
 | Field | Value |
 |-------|-------|
 | ID | US-16656 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -53027,6 +54319,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16657 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -53108,6 +54401,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16658 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -53188,6 +54482,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16659 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -53267,6 +54562,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16660 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -53346,6 +54642,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16661 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -53424,6 +54721,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16663 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -53469,6 +54767,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16665 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -53490,6 +54789,7 @@ As an IEMQS user, I require the ability to access item code creation data from E
 | Field | Value |
 |-------|-------|
 | ID | US-16689 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -53598,6 +54898,7 @@ __
 | Field | Value |
 |-------|-------|
 | ID | US-16694 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -53632,6 +54933,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16695 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -53653,6 +54955,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16713 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -53674,6 +54977,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16717 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -53695,6 +54999,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16733 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -53722,6 +55027,7 @@ Prod-2 | 30/10/20
 | Field | Value |
 |-------|-------|
 | ID | US-16757 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -53743,6 +55049,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16770 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -53764,6 +55071,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16859 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -53785,6 +55093,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16863 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -53818,6 +55127,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16893 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -53839,6 +55149,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16894 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -53860,6 +55171,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16895 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -53883,6 +55195,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-16896 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jaydeep Tanksale |
@@ -53910,6 +55223,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-16899 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -53931,6 +55245,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16902 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -53961,6 +55276,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16906 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -53982,6 +55298,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16909 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -54124,6 +55441,7 @@ Usability:**
 | Field | Value |
 |-------|-------|
 | ID | US-16910 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -54375,6 +55693,7 @@ Name of person who save/update the Customer Feedback
 | Field | Value |
 |-------|-------|
 | ID | US-16923 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -54396,6 +55715,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16932 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -54511,6 +55831,7 @@ Find attached PDF format **VISUAL & DIMENISON FOR ROLLED SHELL LONGITUDINAL SEAM
 | Field | Value |
 |-------|-------|
 | ID | US-16934 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -54532,6 +55853,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16936 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -54553,6 +55875,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16941 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -54574,6 +55897,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16947 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -54595,6 +55919,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16957 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -54616,6 +55941,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-16975 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -54700,6 +56026,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16978 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -54775,6 +56102,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16979 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -54853,6 +56181,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16980 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -54931,6 +56260,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-16984 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -54960,6 +56290,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17007 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -54981,6 +56312,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17017 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -55002,6 +56334,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17018 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -55023,6 +56356,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17023 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Rajeshwari Ariappan |
@@ -55138,6 +56472,7 @@ As a PROD3, MFG3 User, I want to upload handwritten protocol data so that system
 | Field | Value |
 |-------|-------|
 | ID | US-17024 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -55159,6 +56494,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17057 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -55180,6 +56516,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17058 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -55201,6 +56538,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17061 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -55284,6 +56622,7 @@ Usability:**
 | Field | Value |
 |-------|-------|
 | ID | US-17065 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.ranaware |
@@ -55357,6 +56696,7 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Field | Value |
 |-------|-------|
 | ID | US-17066 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -55428,6 +56768,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17110 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | palamakulamanikanth.goud |
@@ -55449,6 +56790,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17167 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -55472,6 +56814,7 @@ Please refer Sheet-2
 | Field | Value |
 |-------|-------|
 | ID | US-17188 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -55570,6 +56913,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17190 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -55663,6 +57007,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17192 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -55757,6 +57102,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17193 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -55853,6 +57199,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17194 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -55945,6 +57292,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17204 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -55966,6 +57314,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17211 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | palamakulamanikanth.goud |
@@ -55987,6 +57336,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17229 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -56092,6 +57442,7 @@ __
 | Field | Value |
 |-------|-------|
 | ID | US-17242 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -56128,6 +57479,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17243 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -56150,6 +57502,7 @@ Please find attached document for the logic and mapping for QC related DPPs
 | Field | Value |
 |-------|-------|
 | ID | US-17254 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56171,6 +57524,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17258 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56192,6 +57546,7 @@ Ticket_256588_Add_23-24_Year
 | Field | Value |
 |-------|-------|
 | ID | US-17259 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -56213,6 +57568,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17269 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56234,6 +57590,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17270 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -56259,6 +57616,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17299 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -56281,6 +57639,7 @@ Please refer attached excel, for the logic related to Planning DPP (Master, Main
 | Field | Value |
 |-------|-------|
 | ID | US-17304 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -56302,6 +57661,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17317 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -56323,6 +57683,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17318 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56344,6 +57705,7 @@ Ticket_ChangeRequest_256551_Status_InSpareRecord_CustodianRemove
 | Field | Value |
 |-------|-------|
 | ID | US-17329 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -56365,6 +57727,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17334 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -56408,6 +57771,7 @@ Reference Image and URL: [NDE Qualification Certification (adobe.com)](https://x
 | Field | Value |
 |-------|-------|
 | ID | US-17348 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -56446,6 +57810,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17362 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -56475,6 +57840,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17377 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -56496,6 +57862,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17385 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -56520,6 +57887,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17401 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -56548,6 +57916,7 @@ DPP Names:
 | Field | Value |
 |-------|-------|
 | ID | US-17402 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -56641,6 +58010,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17406 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -56662,6 +58032,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17407 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -56683,6 +58054,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17411 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56704,6 +58076,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17414 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -56725,6 +58098,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17429 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56746,6 +58120,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17431 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Harilakshmi.MURUGESAN |
@@ -56781,6 +58156,7 @@ As an IEMQS user, I want to view CTQ dashboard so that I can view the status and
 | Field | Value |
 |-------|-------|
 | ID | US-17435 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -56835,6 +58211,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17448 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -56862,6 +58239,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17449 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -56883,6 +58261,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17450 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Sathish Kumar M |
@@ -56917,6 +58296,7 @@ Refer Existing US : [#3408](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/IEM
 | Field | Value |
 |-------|-------|
 | ID | US-17484 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56938,6 +58318,7 @@ Ticket_182809_SetRackFiledNullableinModel
 | Field | Value |
 |-------|-------|
 | ID | US-17507 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -56959,6 +58340,7 @@ Ticket_257089_MentorshipPortal_MailTriggeronMOMSubmit
 | Field | Value |
 |-------|-------|
 | ID | US-17523 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -56980,6 +58362,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17533 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -57001,6 +58384,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17534 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -57025,6 +58409,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17537 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -57145,6 +58530,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17538 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -57236,6 +58622,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17539 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -57328,6 +58715,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17540 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -57419,6 +58807,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17542 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -57509,6 +58898,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17543 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -57599,6 +58989,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17544 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -57689,6 +59080,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17545 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -57779,6 +59171,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17546 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -57869,6 +59262,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17548 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -57890,6 +59284,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17564 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -57911,6 +59306,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17567 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -57955,6 +59351,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17580 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -57976,6 +59373,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17584 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -58001,6 +59399,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17590 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -58022,6 +59421,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17594 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -58043,6 +59443,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17598 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -58137,6 +59538,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17599 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -58231,6 +59633,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17600 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58303,6 +59706,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17601 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58375,6 +59779,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17602 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58396,6 +59801,7 @@ To retrieve Manual Provision  information from HEIC system to arrive at Manual p
 | Field | Value |
 |-------|-------|
 | ID | US-17603 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58421,6 +59827,7 @@ Retrieve data which are leftout in manual uplod by F&A team
 | Field | Value |
 |-------|-------|
 | ID | US-17604 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58442,6 +59849,7 @@ To retrieve Get Purchase Order  information from HEIC system (FMS >> ERPLN)
 | Field | Value |
 |-------|-------|
 | ID | US-17606 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -58516,6 +59924,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17607 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58590,6 +59999,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17608 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -58611,6 +60021,7 @@ Create Milestone record in Salesforce from ERPLN. (ERPLN=>Salesforce(CRM))
 | Field | Value |
 |-------|-------|
 | ID | US-17609 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58632,6 +60043,7 @@ Update Milestone record in Salesforce from ERPLN. (ERPLN=>Salesforce(CRM))
 | Field | Value |
 |-------|-------|
 | ID | US-17610 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -58708,6 +60120,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17611 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58782,6 +60195,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17612 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -58856,6 +60270,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17613 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58930,6 +60345,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17614 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -58951,6 +60367,7 @@ Update Risk record in Saleforce from ERM. (ERM=>Saleforce(CRM) )
 | Field | Value |
 |-------|-------|
 | ID | US-17619 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -58995,6 +60412,7 @@ As a MFG user, I want to view the MFG related DPPs as per standardized defined f
 | Field | Value |
 |-------|-------|
 | ID | US-17624 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -59032,6 +60450,7 @@ As a MFG user, I want to view the MFG related DPPs as per standardized defined f
 | Field | Value |
 |-------|-------|
 | ID | US-17625 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -59055,6 +60474,7 @@ As a MFG user, I want to view the MFG related DPPs as per standardized defined f
 | Field | Value |
 |-------|-------|
 | ID | US-17643 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -59076,6 +60496,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17647 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -59097,6 +60518,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17653 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59167,6 +60589,7 @@ Refer attached FD file and COPQ Monitoring session excel file.
 | Field | Value |
 |-------|-------|
 | ID | US-17657 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -59188,6 +60611,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17665 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -59209,6 +60633,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17682 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59248,6 +60673,7 @@ DB Table Desc: Cost of Poor Quality
 | Field | Value |
 |-------|-------|
 | ID | US-17683 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59269,6 +60695,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17684 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -59290,6 +60717,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17686 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -59333,6 +60761,7 @@ While downloading RCA, user should be given two options for downloading, word an
 | Field | Value |
 |-------|-------|
 | ID | US-17690 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59380,6 +60809,7 @@ As **QA-1/2/3**** ** User, I want to access the master page for maintaining para
 | Field | Value |
 |-------|-------|
 | ID | US-17691 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59407,6 +60837,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17704 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -59478,6 +60909,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17707 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -59499,6 +60931,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17714 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -59626,6 +61059,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17715 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -59647,6 +61081,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17718 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -59668,6 +61103,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17721 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -59689,6 +61125,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17722 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Lahu.Kumbhar |
@@ -59729,6 +61166,7 @@ Technical Observations by Client:
 | Field | Value |
 |-------|-------|
 | ID | US-17723 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59758,6 +61196,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17734 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -59779,6 +61218,7 @@ Tabs Implementations in Angular for qc and Planning
 | Field | Value |
 |-------|-------|
 | ID | US-17752 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59834,6 +61274,7 @@ Point 8:
 | Field | Value |
 |-------|-------|
 | ID | US-17770 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -59863,6 +61304,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-17771 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -59886,6 +61328,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17772 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo (IN93711) |
@@ -59910,6 +61353,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17773 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo (IN93711) |
@@ -59932,6 +61376,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17774 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo (IN93711) |
@@ -59958,6 +61403,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17775 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo (IN93711) |
@@ -59981,6 +61427,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17776 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Amarjeet Sahoo (IN93711) |
@@ -60003,6 +61450,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17778 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -60024,6 +61472,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17779 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -60045,6 +61494,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17781 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -60066,6 +61516,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17783 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -60087,6 +61538,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17815 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -60116,6 +61568,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17829 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anudeep.Sett |
@@ -60141,6 +61594,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17830 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -60186,6 +61640,7 @@ For Licensor: New global category needs to be introduced in Global DB. (For samp
 | Field | Value |
 |-------|-------|
 | ID | US-17831 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -60229,6 +61684,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17833 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -60259,6 +61715,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17835 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.61084934 |
@@ -60299,6 +61756,7 @@ For read only popups, there will be only one button named "Ok", clicking on it w
 | Field | Value |
 |-------|-------|
 | ID | US-17836 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.61084934 |
@@ -60347,6 +61805,7 @@ Reference Image :<https://xd.adobe.com/view/e21608ee-250f-4df6-9fa2-7e5a8503ed79
 | Field | Value |
 |-------|-------|
 | ID | US-17839 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti.Rani |
@@ -60380,6 +61839,7 @@ Reference Image: Here the Highlighted field is the new field that needs to be ad
 | Field | Value |
 |-------|-------|
 | ID | US-17840 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -60401,6 +61861,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17844 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -60439,6 +61900,7 @@ In case of Vertical Checklist activity edit:
 | Field | Value |
 |-------|-------|
 | ID | US-17845 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -60468,6 +61930,7 @@ Snapshot of ICL approval session as below
 | Field | Value |
 |-------|-------|
 | ID | US-17854 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.61084934 |
@@ -60507,6 +61970,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17855 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -60566,6 +62030,7 @@ Note2**
 | Field | Value |
 |-------|-------|
 | ID | US-17863 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -60587,6 +62052,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17865 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -60679,6 +62145,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17866 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -60771,6 +62238,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17867 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -60865,6 +62333,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17868 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -60957,6 +62426,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17869 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -61049,6 +62519,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17870 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -61139,6 +62610,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17871 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -61231,6 +62703,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17872 |
+| Work Item Type | User Story |
 | State | On Hold |
 | Priority | 2 |
 | Assigned To | gurusupreeth.dwarakanath |
@@ -61303,6 +62776,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17874 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | bharath.m3 |
@@ -61396,6 +62870,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17875 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sambathraj Chitrarasan |
@@ -61468,6 +62943,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17876 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -61561,6 +63037,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17877 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -61667,6 +63144,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17906 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -61695,6 +63173,7 @@ For creation of RCA in case of category is NCR and CFAR, below logic needs to be
 | Field | Value |
 |-------|-------|
 | ID | US-17914 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -61716,6 +63195,7 @@ Ticket_257775_SetLoginUserIC_Insted_OfLastGuestIDRecordIC
 | Field | Value |
 |-------|-------|
 | ID | US-17919 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Saumya Pandey (IN27726) |
@@ -61809,6 +63289,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17920 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -61902,6 +63383,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-17939 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -61923,6 +63405,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17941 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -61945,6 +63428,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17944 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -61966,6 +63450,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17959 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -61987,6 +63472,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17960 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Sambathraj Chitrarasan |
@@ -62009,6 +63495,7 @@ Team will complete the tasks along with API development
 | Field | Value |
 |-------|-------|
 | ID | US-17979 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -62030,6 +63517,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17980 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -62055,6 +63543,7 @@ Reference Image where the data needs to be appended: [RCA (adobe.com)](https://x
 | Field | Value |
 |-------|-------|
 | ID | US-17981 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -62079,6 +63568,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17987 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -62103,6 +63593,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-17990 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -62153,6 +63644,7 @@ Please refer [#16910](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b-
 | Field | Value |
 |-------|-------|
 | ID | US-17991 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -62191,6 +63683,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-17992 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | M Selvakumar |
@@ -62215,6 +63708,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17993 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -62238,6 +63732,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17994 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -62260,6 +63755,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-17999 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -62281,6 +63777,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18010 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -62302,6 +63799,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18013 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -62329,6 +63827,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18020 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -62350,6 +63849,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18021 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -62375,6 +63875,7 @@ Reference Image where the changes needs to be done:[NDE Qualification Certificat
 | Field | Value |
 |-------|-------|
 | ID | US-18023 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -62403,6 +63904,7 @@ Note: ​Refer Attached doc for logic
 | Field | Value |
 |-------|-------|
 | ID | US-18026 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -62460,6 +63962,7 @@ Please refer attachment for reference
 | Field | Value |
 |-------|-------|
 | ID | US-18032 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -62484,6 +63987,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18033 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | rupalis.10717216 |
@@ -62536,6 +64040,7 @@ Reference Image:
 | Field | Value |
 |-------|-------|
 | ID | US-18034 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -62591,6 +64096,7 @@ Values - Examiner, Radiographer
 | Field | Value |
 |-------|-------|
 | ID | US-18037 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -62640,6 +64146,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18042 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -62661,6 +64168,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18043 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | M.Selvakumar |
@@ -62688,6 +64196,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18044 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -62714,6 +64223,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18045 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -62735,6 +64245,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18046 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -62756,6 +64267,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18048 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -62810,6 +64322,7 @@ Note:
 | Field | Value |
 |-------|-------|
 | ID | US-18073 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | komal.61084934 |
@@ -62853,6 +64366,7 @@ Note: In continuation to US#17835
 | Field | Value |
 |-------|-------|
 | ID | US-18075 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -62884,6 +64398,7 @@ This is a system generated email, please refrain from replying.
 | Field | Value |
 |-------|-------|
 | ID | US-18077 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -62922,6 +64437,7 @@ URL: [Add WPS Header :: IEMQS (lthed.com)](https://vhzdigiiemqsqa1.lthed.com:447
 | Field | Value |
 |-------|-------|
 | ID | US-18081 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -62948,6 +64464,7 @@ Digital Vertical Checklist
 | Field | Value |
 |-------|-------|
 | ID | US-18084 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -62969,6 +64486,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18085 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -62990,6 +64508,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18086 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -63011,6 +64530,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18090 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | sandeep.sharma |
@@ -63145,6 +64665,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18092 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -63187,6 +64708,7 @@ Product Form
 | Field | Value |
 |-------|-------|
 | ID | US-18097 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -63215,6 +64737,7 @@ Note: In the attachment, ignore the wording "Submit to TPI" and consider it as "
 | Field | Value |
 |-------|-------|
 | ID | US-18099 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -63250,6 +64773,7 @@ Cosmetic Changes:
 | Field | Value |
 |-------|-------|
 | ID | US-18100 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -63277,6 +64801,7 @@ Refer Attachment for reference
 | Field | Value |
 |-------|-------|
 | ID | US-18101 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -63364,6 +64889,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18105 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -63385,6 +64911,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18116 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -63406,6 +64933,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18128 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -63427,6 +64955,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18131 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -63448,6 +64977,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18136 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ashish Kothari |
@@ -63478,6 +65008,7 @@ Ref Image:
 | Field | Value |
 |-------|-------|
 | ID | US-18139 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | sandeep.sharma |
@@ -63570,6 +65101,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18141 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -63591,6 +65123,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18154 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -63622,6 +65155,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18157 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -63644,6 +65178,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18163 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -63732,6 +65267,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18164 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -63821,6 +65357,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18167 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -63842,6 +65379,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18169 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -63863,6 +65401,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18173 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -63884,6 +65423,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18174 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -63905,6 +65445,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18180 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -63926,6 +65467,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18186 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -63947,6 +65489,7 @@ PFA File for details
 | Field | Value |
 |-------|-------|
 | ID | US-18188 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -63974,6 +65517,7 @@ Refer Attachment for detailed explanation
 | Field | Value |
 |-------|-------|
 | ID | US-18190 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -64065,6 +65609,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18191 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -64178,6 +65723,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18194 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -64199,6 +65745,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18202 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -64220,6 +65767,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18211 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -64241,6 +65789,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18212 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -64293,6 +65842,7 @@ Ref Image:
 | Field | Value |
 |-------|-------|
 | ID | US-18213 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -64314,6 +65864,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18216 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -64343,6 +65894,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18227 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -64371,6 +65923,7 @@ To this new place:
 | Field | Value |
 |-------|-------|
 | ID | US-18233 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | manjulachannabasappa.kadur |
@@ -64395,6 +65948,7 @@ Ref Screen:
 | Field | Value |
 |-------|-------|
 | ID | US-18234 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Madhurima Datta |
@@ -64419,6 +65973,7 @@ Ref Image:
 | Field | Value |
 |-------|-------|
 | ID | US-18235 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | M Selvakumar |
@@ -64441,6 +65996,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18236 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -64462,6 +66018,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18238 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -64483,6 +66040,7 @@ Refer below image for changes required in Lapse Welder List screen.
 | Field | Value |
 |-------|-------|
 | ID | US-18239 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -64505,6 +66063,7 @@ As WE3 & WE2 user I need WPQ dossier with available WPQ certificates.
 | Field | Value |
 |-------|-------|
 | ID | US-18243 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -64526,6 +66085,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18261 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -64547,6 +66107,7 @@ On clicking NCR from the IEMQS homepage, "Maintain NCR" page should be opened in
 | Field | Value |
 |-------|-------|
 | ID | US-18263 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Parameshwari.Babu |
@@ -64575,6 +66136,7 @@ Please note that if the reports contains signatures, then on downloading the rep
 | Field | Value |
 |-------|-------|
 | ID | US-18271 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -64618,6 +66180,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18272 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -64639,6 +66202,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18273 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -64731,6 +66295,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18274 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -64753,6 +66318,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18280 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -64777,6 +66343,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18281 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -64800,6 +66367,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18282 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -64822,6 +66390,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18297 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -64843,6 +66412,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18298 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -64864,6 +66434,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18301 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -64938,6 +66509,7 @@ Here the change needs to be done
 | Field | Value |
 |-------|-------|
 | ID | US-18307 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -65028,6 +66600,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18308 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | sandeep.sharma |
@@ -65124,6 +66697,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18309 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | sandeep.sharma |
@@ -65145,6 +66719,7 @@ No changes at field level, logic changes are updated at Field mapping.
 | Field | Value |
 |-------|-------|
 | ID | US-18310 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -65223,6 +66798,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18318 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -65247,6 +66823,7 @@ Please refer attached FSD document.
 | Field | Value |
 |-------|-------|
 | ID | US-18326 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -65268,6 +66845,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18327 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -65289,6 +66867,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18335 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -65310,6 +66889,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18340 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -65331,6 +66911,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18343 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -65424,6 +67005,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18344 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -65516,6 +67098,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18345 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -65608,6 +67191,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18358 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -65629,6 +67213,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18365 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -65657,6 +67242,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18366 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -65695,6 +67281,7 @@ teset
 | Field | Value |
 |-------|-------|
 | ID | US-18385 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -65716,6 +67303,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18412 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -65808,6 +67396,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18413 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -65829,6 +67418,7 @@ No changes in Original acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18422 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -65850,6 +67440,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18423 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -65871,6 +67462,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18425 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -65920,6 +67512,7 @@ No other changes in the logic, please refer parent US <https://dev.azure.com/LnT
 | Field | Value |
 |-------|-------|
 | ID | US-18426 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -65966,6 +67559,7 @@ No other changes in Acceptance criteria, please refer <https://dev.azure.com/LnT
 | Field | Value |
 |-------|-------|
 | ID | US-18434 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Kishore Kumar C C |
@@ -65991,6 +67585,7 @@ Clicking on revise should create new revision for the JPP Document
 | Field | Value |
 |-------|-------|
 | ID | US-18435 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66012,6 +67607,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18445 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66033,6 +67629,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18449 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | prajwal |
@@ -66125,6 +67722,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18457 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Prakash Narasaraju Bangari |
@@ -66146,6 +67744,7 @@ CTQ Applicable to Part/Assembly, CTQ Applicable to Seam, Is CTQ Applicable to Bl
 | Field | Value |
 |-------|-------|
 | ID | US-18463 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66167,6 +67766,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18468 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66188,6 +67788,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18469 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Ulhas Patil |
@@ -66219,6 +67820,7 @@ Note: Refer Attachment for sample file of .NDE format
 | Field | Value |
 |-------|-------|
 | ID | US-18474 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -66240,6 +67842,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18475 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -66261,6 +67864,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18476 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -66282,6 +67886,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18478 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -66308,6 +67913,7 @@ The nomenclature for Session name will be same as Parameter Name.
 | Field | Value |
 |-------|-------|
 | ID | US-18479 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -66374,6 +67980,7 @@ DPP2 |  Submission of Procedure including Calibration/ validation Block requirem
 | Field | Value |
 |-------|-------|
 | ID | US-18481 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -66395,6 +68002,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18490 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66416,6 +68024,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18500 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -66437,6 +68046,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18502 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -66458,6 +68068,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18505 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -66488,6 +68099,7 @@ Here, the selected favorite project is S041020, so system should append it in th
 | Field | Value |
 |-------|-------|
 | ID | US-18511 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -66509,6 +68121,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18517 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66530,6 +68143,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18522 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66551,6 +68165,7 @@ No changes from original Acceptance Criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18523 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66572,6 +68187,7 @@ No changes from Original acceptance Criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18530 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66593,6 +68209,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18531 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66619,6 +68236,7 @@ No other changes from original Acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18533 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -66640,6 +68258,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18538 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66661,6 +68280,7 @@ no other changes compared to Original user story <https://dev.azure.com/LnT-Heav
 | Field | Value |
 |-------|-------|
 | ID | US-18541 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -66692,6 +68312,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18543 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -66713,6 +68334,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18544 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -66734,6 +68356,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18546 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -66761,6 +68384,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18547 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -66792,6 +68416,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18551 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | anudeep.sett |
@@ -66813,6 +68438,7 @@ Please find attached document with the feedback captured in detail
 | Field | Value |
 |-------|-------|
 | ID | US-18552 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -66834,6 +68460,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18553 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -66855,6 +68482,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18557 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -66876,6 +68504,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18564 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -66897,6 +68526,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18565 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66926,6 +68556,7 @@ No other changes on Acceptance Criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18567 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -66962,6 +68593,7 @@ No other changes in acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18571 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -66987,6 +68619,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18574 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -67015,6 +68648,7 @@ No changes in Acceptance Criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18575 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67036,6 +68670,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18576 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -67057,6 +68692,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18580 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -67089,6 +68725,7 @@ Please refer attach document for detailed explanation
 | Field | Value |
 |-------|-------|
 | ID | US-18585 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -67110,6 +68747,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18588 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67131,6 +68769,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18589 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -67152,6 +68791,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18590 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67173,6 +68813,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18599 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -67194,6 +68835,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18601 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67215,6 +68857,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18610 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67236,6 +68879,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18619 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67257,6 +68901,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18620 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | anudeep.sett |
@@ -67278,6 +68923,7 @@ Refer attached document for detailed requirement
 | Field | Value |
 |-------|-------|
 | ID | US-18621 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67299,6 +68945,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18622 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67320,6 +68967,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18623 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -67412,6 +69060,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18624 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -67504,6 +69153,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18625 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -67531,6 +69181,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18626 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67552,6 +69203,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18627 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -67573,6 +69225,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18637 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -67595,6 +69248,7 @@ Should be working state during testikng
 | Field | Value |
 |-------|-------|
 | ID | US-18648 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -67616,6 +69270,7 @@ Please refer attached FSD for details
 | Field | Value |
 |-------|-------|
 | ID | US-18654 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -67637,6 +69292,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18659 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jyoti Rani |
@@ -67658,6 +69314,7 @@ Please refer attached document for detailed observations
 | Field | Value |
 |-------|-------|
 | ID | US-18660 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -67687,6 +69344,7 @@ No other changes in Acceptance Criteria from main User story <https://dev.azure.
 | Field | Value |
 |-------|-------|
 | ID | US-18662 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67708,6 +69366,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18663 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67729,6 +69388,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18677 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -67756,6 +69416,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18680 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -67777,6 +69438,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18681 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67798,6 +69460,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18688 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -67819,6 +69482,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18689 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -67840,6 +69504,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18691 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -67862,6 +69527,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18692 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67883,6 +69549,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18693 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -67907,6 +69574,7 @@ No other changes on Acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18694 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -67928,6 +69596,7 @@ Please refer attached FSD for detailed explanation
 | Field | Value |
 |-------|-------|
 | ID | US-18701 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -67949,6 +69618,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18703 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -67970,6 +69640,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18704 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -67991,6 +69662,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18708 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -68012,6 +69684,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18709 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -68047,6 +69720,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18719 |
+| Work Item Type | User Story |
 | State | Refined |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68069,6 +69743,7 @@ Should be working state during testikng
 | Field | Value |
 |-------|-------|
 | ID | US-18720 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68104,6 +69779,7 @@ No other changes from original acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18721 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -68139,6 +69815,7 @@ _Please find below snapshot for the list of Approvers to be shown:_
 | Field | Value |
 |-------|-------|
 | ID | US-18722 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68231,6 +69908,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18727 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -68252,6 +69930,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18730 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | s.gayathri4 |
@@ -68277,6 +69956,7 @@ To add following methods in the schedule training window under the Discipline/Me
 | Field | Value |
 |-------|-------|
 | ID | US-18732 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68298,6 +69978,7 @@ No other changes from original Acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18733 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68321,6 +70002,7 @@ In the Mega Menu, under the NDE Tab, the NDE Module and its sub processes needs 
 | Field | Value |
 |-------|-------|
 | ID | US-18734 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68342,6 +70024,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18735 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68450,6 +70133,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18736 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -68471,6 +70155,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18737 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68492,6 +70177,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18739 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -68513,6 +70199,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18740 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68534,6 +70221,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18741 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -68555,6 +70243,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18754 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -68576,6 +70265,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18755 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -68597,6 +70287,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18757 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -68618,6 +70309,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18765 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68664,6 +70356,7 @@ No other changes in input query parameter and search combination.
 | Field | Value |
 |-------|-------|
 | ID | US-18766 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -68685,6 +70378,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18767 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68706,6 +70400,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18778 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68728,6 +70423,7 @@ Should be working state during testing
 | Field | Value |
 |-------|-------|
 | ID | US-18780 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -68750,6 +70446,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18784 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | anudeep.sett |
@@ -68774,6 +70471,7 @@ Please refer attached excel sheet
 | Field | Value |
 |-------|-------|
 | ID | US-18788 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | anudeep.sett |
@@ -68801,6 +70499,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18789 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -68823,6 +70522,7 @@ when the for "Ind. Data Sheet is Enclosed ?" the value should always be "Yes"if 
 | Field | Value |
 |-------|-------|
 | ID | US-18790 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -68846,6 +70546,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18795 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -68940,6 +70641,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18796 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69047,6 +70749,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18818 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -69068,6 +70771,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18819 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69089,6 +70793,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18820 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -69110,6 +70815,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18823 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69131,6 +70837,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18824 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69168,6 +70875,7 @@ No other changes in Acceptance criteria from the original US <https://dev.azure.
 | Field | Value |
 |-------|-------|
 | ID | US-18833 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69189,6 +70897,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18834 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69210,6 +70919,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18835 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -69231,6 +70941,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18838 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -69253,6 +70964,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18840 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69274,6 +70986,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18841 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69295,6 +71008,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18850 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69337,6 +71051,7 @@ No other changes from original user story <https://dev.azure.com/LnT-HeavyEngine
 | Field | Value |
 |-------|-------|
 | ID | US-18853 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69425,6 +71140,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18854 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69514,6 +71230,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18857 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69535,6 +71252,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18858 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | nithish.yenugu |
@@ -69556,6 +71274,7 @@ PFA for detailed explanation
 | Field | Value |
 |-------|-------|
 | ID | US-18861 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -69577,6 +71296,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18863 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69598,6 +71318,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18864 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69619,6 +71340,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18865 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69640,6 +71362,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18866 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69661,6 +71384,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18867 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69707,6 +71431,7 @@ No other changes in input query parameter and search combination.
 | Field | Value |
 |-------|-------|
 | ID | US-18868 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69728,6 +71453,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18870 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69749,6 +71475,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18872 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69770,6 +71497,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18873 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -69791,6 +71519,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18874 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -69819,6 +71548,7 @@ Functional:
 | Field | Value |
 |-------|-------|
 | ID | US-18876 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69840,6 +71570,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18877 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69861,6 +71592,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18878 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -69900,6 +71632,7 @@ No other changes from earlier acceptance criteria
 | Field | Value |
 |-------|-------|
 | ID | US-18879 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69921,6 +71654,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18880 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -69948,6 +71682,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18881 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -69969,6 +71704,7 @@ Please find the attached FSD for detailed explanation
 | Field | Value |
 |-------|-------|
 | ID | US-18884 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -69990,6 +71726,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18885 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -70011,6 +71748,7 @@ Please find attached excel for requirements in NDE DPP
 | Field | Value |
 |-------|-------|
 | ID | US-18886 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70032,6 +71770,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18888 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70053,6 +71792,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18889 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Gautam.Mandal |
@@ -70143,6 +71883,7 @@ NA
 | Field | Value |
 |-------|-------|
 | ID | US-18893 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70164,6 +71905,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18895 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70185,6 +71927,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18902 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70206,6 +71949,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18905 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70246,6 +71990,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18910 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70267,6 +72012,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18911 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70288,6 +72034,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18912 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70309,6 +72056,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18913 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70330,6 +72078,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18914 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70351,6 +72100,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18915 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70372,6 +72122,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18917 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70393,6 +72144,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18918 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -70414,6 +72166,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18919 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70435,6 +72188,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18925 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70488,6 +72242,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18929 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70509,6 +72264,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18935 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70530,6 +72286,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18936 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70551,6 +72308,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18938 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70572,6 +72330,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18945 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70593,6 +72352,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18950 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70620,6 +72380,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18951 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Samir shah |
@@ -70641,6 +72402,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18955 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -70662,6 +72424,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18957 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70683,6 +72446,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18958 |
+| Work Item Type | User Story |
 | State | Approve |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70704,6 +72468,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18959 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70725,6 +72490,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18961 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -70746,6 +72512,7 @@ Test
 | Field | Value |
 |-------|-------|
 | ID | US-18966 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70767,6 +72534,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18967 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70788,6 +72556,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18970 |
+| Work Item Type | User Story |
 | State | Approve |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -70809,6 +72578,7 @@ Test
 | Field | Value |
 |-------|-------|
 | ID | US-18977 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Samir shah |
@@ -70834,6 +72604,7 @@ After successful login, I should be directed to the token entry home page.
 | Field | Value |
 |-------|-------|
 | ID | US-18982 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -70855,6 +72626,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18985 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70876,6 +72648,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18989 |
+| Work Item Type | User Story |
 | State | Approve |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -70897,6 +72670,7 @@ login should be done if password and username is correct.
 | Field | Value |
 |-------|-------|
 | ID | US-18990 |
+| Work Item Type | User Story |
 | State | Approve |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -70918,6 +72692,7 @@ as a admin i want to login to the system,
 | Field | Value |
 |-------|-------|
 | ID | US-18991 |
+| Work Item Type | User Story |
 | State | Approve |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -70939,6 +72714,7 @@ as a admin i want to login to the system,
 | Field | Value |
 |-------|-------|
 | ID | US-18993 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70960,6 +72736,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18994 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -70981,6 +72758,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-18996 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -71002,6 +72780,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19001 |
+| Work Item Type | User Story |
 | State | Approve |
 | Priority | 2 |
 | Assigned To | Samir shah |
@@ -71023,6 +72802,7 @@ REST
 | Field | Value |
 |-------|-------|
 | ID | US-19009 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -71044,6 +72824,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19011 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -71065,6 +72846,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19015 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71106,6 +72888,7 @@ Note: User remember that each day of the week corresponds to a different color, 
 | Field | Value |
 |-------|-------|
 | ID | US-19016 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71135,6 +72918,7 @@ To delete an existing contractor, I select the record and confirm deletion in th
 | Field | Value |
 |-------|-------|
 | ID | US-19017 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71164,6 +72948,7 @@ To delete an existing IC, I select the record and confirm deletion in the popup.
 | Field | Value |
 |-------|-------|
 | ID | US-19018 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71193,6 +72978,7 @@ To delete an existing user, I select the record and confirm deletion in the popu
 | Field | Value |
 |-------|-------|
 | ID | US-19021 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71222,6 +73008,7 @@ Users should also have the option to Issue tokens, Add contractors, search, depo
 | Field | Value |
 |-------|-------|
 | ID | US-19022 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71253,6 +73040,7 @@ User click “Issue” to issue the token after filling all the details.The issu
 | Field | Value |
 |-------|-------|
 | ID | US-19023 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71278,6 +73066,7 @@ The user fills in the Contractor name, and after saving, the contractor becomes 
 | Field | Value |
 |-------|-------|
 | ID | US-19024 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71303,6 +73092,7 @@ User should enter the deposit time and click “Close"" Then the token status up
 | Field | Value |
 |-------|-------|
 | ID | US-19025 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71328,6 +73118,7 @@ If I try to access any authenticated page after logout, I should be redirected t
 | Field | Value |
 |-------|-------|
 | ID | US-19065 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -71349,6 +73140,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19068 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Ganesh Nadipalli |
@@ -71370,6 +73162,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19071 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Prerna Pawar |
@@ -71391,6 +73184,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19073 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -71412,6 +73206,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19076 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -71433,6 +73228,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19079 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71454,6 +73250,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19084 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Kavyasree Kukka |
@@ -71475,6 +73272,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19087 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71496,6 +73294,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19124 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -71517,6 +73316,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19125 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -71538,6 +73338,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19129 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -71559,6 +73360,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19130 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -71581,6 +73383,7 @@ Test 1
 | Field | Value |
 |-------|-------|
 | ID | US-19131 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -71602,6 +73405,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19146 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -71640,6 +73444,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19149 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -71725,6 +73530,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19162 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -71746,6 +73552,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19182 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Dipali Patil |
@@ -71767,6 +73574,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19192 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -71788,6 +73596,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19193 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -71809,6 +73618,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19199 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -71830,6 +73640,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19208 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -71851,6 +73662,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19253 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -71872,6 +73684,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19256 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -71893,6 +73706,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19260 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -71914,6 +73728,7 @@ User story file attached here.
 | Field | Value |
 |-------|-------|
 | ID | US-19268 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -71935,6 +73750,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19273 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -71956,6 +73772,7 @@ User story file attached here.
 | Field | Value |
 |-------|-------|
 | ID | US-19276 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Dhara Gandhi |
@@ -71983,6 +73800,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19277 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Kavyasree Kukka |
@@ -72004,6 +73822,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19279 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -72025,6 +73844,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19283 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -72046,6 +73866,7 @@ File attached here
 | Field | Value |
 |-------|-------|
 | ID | US-19286 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | hemali |
@@ -72067,6 +73888,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19293 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -72088,6 +73910,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19295 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72155,6 +73978,7 @@ EHS Point after demo with user
 | Field | Value |
 |-------|-------|
 | ID | US-19303 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72176,6 +74000,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19308 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72197,6 +74022,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19311 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Tikka Dharani |
@@ -72218,6 +74044,7 @@ Initiator should not see Input type dropdown in both Initiator and Approver page
 | Field | Value |
 |-------|-------|
 | ID | US-19314 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72239,6 +74066,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19319 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72260,6 +74088,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19325 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72329,6 +74158,7 @@ Only for Monthly based
 | Field | Value |
 |-------|-------|
 | ID | US-19342 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Kavyasree Kukka |
@@ -72350,6 +74180,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19354 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -72378,6 +74209,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19366 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -72405,6 +74237,7 @@ Refer attached document for API details.
 | Field | Value |
 |-------|-------|
 | ID | US-19367 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72432,6 +74265,7 @@ Refer attached document for API details.
 | Field | Value |
 |-------|-------|
 | ID | US-19369 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72467,6 +74301,7 @@ STAR DATE  | END DATE  | (MAIL/ONLINE)  |  |  |  |  |  |  |  |  |  |
 | Field | Value |
 |-------|-------|
 | ID | US-19374 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72488,6 +74323,7 @@ Add validation
 | Field | Value |
 |-------|-------|
 | ID | US-19377 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72515,6 +74351,7 @@ Below screenshot is the sample. Actual design will prepare on later stage.
 | Field | Value |
 |-------|-------|
 | ID | US-19378 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72542,6 +74379,7 @@ Download option needs to be removed from system to protect the documents for una
 | Field | Value |
 |-------|-------|
 | ID | US-19379 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72563,6 +74401,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19381 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72584,6 +74423,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19390 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -72605,6 +74445,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19393 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | HIMANSHU CHAUDHARY |
@@ -72627,6 +74468,7 @@ Restrict the direct access of FCS server path from local system to avoid manipul
 | Field | Value |
 |-------|-------|
 | ID | US-19394 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -72649,6 +74491,7 @@ Encrypt the file path in browser link while display document in Universal Viewer
 | Field | Value |
 |-------|-------|
 | ID | US-19397 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -72734,6 +74577,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19398 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -72790,6 +74634,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19399 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -72833,6 +74678,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19400 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -72929,6 +74775,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19404 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -72999,6 +74846,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19405 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -73038,6 +74886,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19409 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73059,6 +74908,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19412 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vijay Lakhani |
@@ -73080,6 +74930,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19422 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vivek Singh Bhadoria |
@@ -73101,6 +74952,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19425 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -73122,6 +74974,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19428 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Ganesh Nadipalli |
@@ -73143,6 +74996,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19436 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -73164,6 +75018,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19441 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -73276,6 +75131,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19457 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73297,6 +75153,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19458 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | hemali |
@@ -73318,6 +75175,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19462 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73339,6 +75197,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19463 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73360,6 +75219,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19465 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -73381,6 +75241,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19467 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vishal Mishra |
@@ -73402,6 +75263,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19470 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 1 |
 | Assigned To | Ganesh Nadipalli |
@@ -73423,6 +75285,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19478 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -73445,6 +75308,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19492 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -73466,6 +75330,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19494 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -73489,6 +75354,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19495 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -73520,6 +75386,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19498 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73541,6 +75408,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19499 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73562,6 +75430,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19508 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vivek Singh Bhadoria |
@@ -73583,6 +75452,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19509 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vivek Singh Bhadoria |
@@ -73604,6 +75474,7 @@ Testcases of Monthly Car Billing
 | Field | Value |
 |-------|-------|
 | ID | US-19530 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -73647,6 +75518,7 @@ We require Listing/Index page for customer to see all customers. Fields to be di
 | Field | Value |
 |-------|-------|
 | ID | US-19532 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -73706,6 +75578,7 @@ Require listing/index page for display all contracts. fields to be displayed on 
 | Field | Value |
 |-------|-------|
 | ID | US-19534 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -73729,6 +75602,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19539 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -73756,6 +75630,7 @@ Remove check of PAM while maintain project parameter
 | Field | Value |
 |-------|-------|
 | ID | US-19542 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Dhara Gandhi |
@@ -73777,6 +75652,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19559 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -73798,6 +75674,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19563 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -73832,6 +75709,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19581 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -73885,6 +75763,7 @@ Fields:
 | Field | Value |
 |-------|-------|
 | ID | US-19595 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -73941,6 +75820,7 @@ Fields:
 | Field | Value |
 |-------|-------|
 | ID | US-19605 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -73962,6 +75842,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19610 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -73983,6 +75864,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19612 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74007,6 +75889,7 @@ Remove check of CPC while creating part from system using single or import parts
 | Field | Value |
 |-------|-------|
 | ID | US-19615 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74042,6 +75925,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19619 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74063,6 +75947,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19625 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -74084,6 +75969,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19627 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -74105,6 +75991,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19629 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -74126,6 +76013,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19634 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74156,6 +76044,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19639 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74177,6 +76066,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19643 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74253,6 +76143,7 @@ S040912-SPROM  | 0  | CWIP00  |  | Operating Spares  | Part  | CRR  | lot  |
 | Field | Value |
 |-------|-------|
 | ID | US-19649 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vivek Singh Bhadoria |
@@ -74274,6 +76165,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19652 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74323,6 +76215,7 @@ Below sample design needs to be followed for maintain issue history for KSA proj
 | Field | Value |
 |-------|-------|
 | ID | US-19655 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74345,6 +76238,7 @@ Import part in bulk shall be worked without dependency of ERPLN data.
 | Field | Value |
 |-------|-------|
 | ID | US-19661 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74370,6 +76264,7 @@ All require details needs to be fetched from COM or internal tables of IEMQS whi
 | Field | Value |
 |-------|-------|
 | ID | US-19664 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74391,6 +76286,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19674 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74412,6 +76308,7 @@ In maintain digital procedure when procedure is uploaded and clicked on 'Submit'
 | Field | Value |
 |-------|-------|
 | ID | US-19676 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74450,6 +76347,7 @@ For pushing data in design system, need to use existing API for create/update pr
 | Field | Value |
 |-------|-------|
 | ID | US-19680 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74471,6 +76369,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19682 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74492,6 +76391,7 @@ Maintain Procedure File size increased to 500 MB
 | Field | Value |
 |-------|-------|
 | ID | US-19685 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74513,6 +76413,7 @@ File size increased to 500 MB
 | Field | Value |
 |-------|-------|
 | ID | US-19686 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -74534,6 +76435,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19692 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74555,6 +76457,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19699 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -74590,6 +76493,7 @@ In application there is 4 role:
 | Field | Value |
 |-------|-------|
 | ID | US-19702 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vijay Lakhani |
@@ -74632,6 +76536,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19703 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vijay Lakhani |
@@ -74663,6 +76568,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19704 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vijay Lakhani |
@@ -74687,6 +76593,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19711 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vijay Lakhani |
@@ -74718,6 +76625,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19713 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74739,6 +76647,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19716 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74760,6 +76669,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19718 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74781,6 +76691,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19719 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Ganesh Nadipalli |
@@ -74802,6 +76713,7 @@ I have added detailed Excel file with Acceptance criteria in attachment
 | Field | Value |
 |-------|-------|
 | ID | US-19722 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -74842,6 +76754,7 @@ We require Listing/Index page for user to see all vendors. Fields to be displaye
 | Field | Value |
 |-------|-------|
 | ID | US-19724 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74863,6 +76776,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19730 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74884,6 +76798,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19737 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74905,6 +76820,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19739 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74926,6 +76842,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19741 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -74947,6 +76864,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19749 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -74968,6 +76886,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19753 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -74989,6 +76908,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19758 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -75010,6 +76930,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19764 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75031,6 +76952,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19766 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75056,6 +76978,7 @@ ERPLN dependency will as it is for projects which will fetched from ERPLN.
 | Field | Value |
 |-------|-------|
 | ID | US-19776 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75077,6 +77000,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19780 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75098,6 +77022,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19781 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75119,6 +77044,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19782 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75140,6 +77066,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19783 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -75167,6 +77094,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19784 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75188,6 +77116,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19785 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75238,6 +77167,7 @@ refer below image:
 | Field | Value |
 |-------|-------|
 | ID | US-19790 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Vijay Lakhani |
@@ -75267,6 +77197,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19792 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75288,6 +77219,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19793 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75309,6 +77241,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19796 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shaik Yusuf |
@@ -75332,6 +77265,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19797 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -75353,6 +77287,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19802 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75374,6 +77309,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19804 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75395,6 +77331,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19805 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75416,6 +77353,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19808 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75437,6 +77375,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19810 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -75458,6 +77397,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19814 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -75479,6 +77419,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19815 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Pralhadsinh Rajpurohit |
@@ -75502,6 +77443,7 @@ so that I should be able to export it in PDF format and share the auto generated
 | Field | Value |
 |-------|-------|
 | ID | US-19817 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75524,6 +77466,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19819 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75546,6 +77489,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19820 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75568,6 +77512,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19824 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75595,6 +77540,7 @@ Capture photo feature needs to be used using camera and direct upload image.
 | Field | Value |
 |-------|-------|
 | ID | US-19827 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -75623,6 +77569,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19830 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | hemali |
@@ -75652,6 +77599,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19834 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75677,6 +77625,7 @@ QR Code of package details shall be exported along with export Packing list in E
 | Field | Value |
 |-------|-------|
 | ID | US-19843 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75710,6 +77659,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19847 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -75731,6 +77681,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19848 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75781,6 +77732,7 @@ CreatedOn  | DATETIME  |
 | Field | Value |
 |-------|-------|
 | ID | US-19849 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75802,6 +77754,7 @@ File not download issue resolve.
 | Field | Value |
 |-------|-------|
 | ID | US-19851 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -75823,6 +77776,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19853 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75844,6 +77798,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19856 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75865,6 +77820,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19859 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Ayushi Jariwala |
@@ -75886,6 +77842,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19863 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75936,6 +77893,7 @@ CreatedOn | DATETIME |
 | Field | Value |
 |-------|-------|
 | ID | US-19865 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -75971,6 +77929,7 @@ Below options of size needs to be displayed:
 | Field | Value |
 |-------|-------|
 | ID | US-19866 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -75992,6 +77951,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19867 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -76028,6 +77988,7 @@ User can upload/capture photos.
 | Field | Value |
 |-------|-------|
 | ID | US-19868 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -76049,6 +78010,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19869 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -76106,6 +78068,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19871 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76127,6 +78090,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19874 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -76148,6 +78112,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19875 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76169,6 +78134,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19876 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76190,6 +78156,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19878 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76211,6 +78178,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19879 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76232,6 +78200,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19880 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76253,6 +78222,7 @@ Change the default Angular version to a specific version: 9.1.15
 | Field | Value |
 |-------|-------|
 | ID | US-19883 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76274,6 +78244,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19885 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76295,6 +78266,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19886 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76316,6 +78288,7 @@ COPQ validation set.
 | Field | Value |
 |-------|-------|
 | ID | US-19887 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -76337,6 +78310,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19888 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76358,6 +78332,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19890 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76379,6 +78354,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19891 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76403,6 +78379,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19893 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76428,6 +78405,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19896 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76449,6 +78427,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19899 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76470,6 +78449,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19902 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76491,6 +78471,7 @@ Dummy code
 | Field | Value |
 |-------|-------|
 | ID | US-19907 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76512,6 +78493,7 @@ COPQ Power BI link not open.
 | Field | Value |
 |-------|-------|
 | ID | US-19918 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76533,6 +78515,7 @@ Angular Maintain Procedure and WPQ Download larger file
 | Field | Value |
 |-------|-------|
 | ID | US-19919 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76554,6 +78537,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19921 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76591,6 +78575,7 @@ Task 69509 - E signature & digital dossier Session
 | Field | Value |
 |-------|-------|
 | ID | US-19922 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Vishal Naykawala |
@@ -76612,6 +78597,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19925 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76633,6 +78619,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19928 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76654,6 +78641,7 @@ Digital signature Capture with generic canvas
 | Field | Value |
 |-------|-------|
 | ID | US-19930 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -76675,6 +78663,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19931 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Pralhadsinh Rajpurohit |
@@ -76703,6 +78692,7 @@ Provision to download the created report and option to save the report draft sho
 | Field | Value |
 |-------|-------|
 | ID | US-19932 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Pralhadsinh Rajpurohit |
@@ -76724,6 +78714,7 @@ Find Excel sheet in attachment
 | Field | Value |
 |-------|-------|
 | ID | US-19936 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -76755,6 +78746,7 @@ Changes shall be done on below page.
 | Field | Value |
 |-------|-------|
 | ID | US-19938 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76776,6 +78768,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19939 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Pralhadsinh Rajpurohit |
@@ -76808,6 +78801,7 @@ Export facility as well as filter activity should be vilable.
 | Field | Value |
 |-------|-------|
 | ID | US-19940 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76829,6 +78823,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19941 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -76851,6 +78846,7 @@ system shall allow to upload document against project like 50032/1, 50032/2, 500
 | Field | Value |
 |-------|-------|
 | ID | US-19960 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76872,6 +78868,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19966 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76893,6 +78890,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-19971 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -76916,6 +78914,7 @@ L&T sign & stamp on report
 | Field | Value |
 |-------|-------|
 | ID | US-19972 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Kunal Shah |
@@ -76937,6 +78936,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20005 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -76958,6 +78958,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20047 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -76979,6 +78980,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20049 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Shrey Shah |
@@ -77005,6 +79007,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20055 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77026,6 +79029,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20056 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77047,6 +79051,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20061 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77068,6 +79073,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20062 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77089,6 +79095,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20065 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77110,6 +79117,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20067 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -77162,6 +79170,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20068 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -77188,6 +79197,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20070 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -77209,6 +79219,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20075 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -77240,6 +79251,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20085 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77261,6 +79273,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20091 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77282,6 +79295,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20094 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77308,6 +79322,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20095 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77329,6 +79344,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20122 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77350,6 +79366,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20286 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77371,6 +79388,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20307 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -77392,6 +79410,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20311 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -77413,6 +79432,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20376 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77434,6 +79454,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20412 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77455,6 +79476,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20424 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77476,6 +79498,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20483 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77497,6 +79520,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20489 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77522,6 +79546,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20496 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77543,6 +79568,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20535 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -77566,6 +79592,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20569 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77587,6 +79614,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20588 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77608,6 +79636,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20613 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77629,6 +79658,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20640 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77650,6 +79680,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20668 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77671,6 +79702,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20717 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77692,6 +79724,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20719 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -77713,6 +79746,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20734 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77734,6 +79768,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20740 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77755,6 +79790,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20747 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77776,6 +79812,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20758 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77797,6 +79834,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20768 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77818,6 +79856,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20769 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77839,6 +79878,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20775 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77860,6 +79900,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20780 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77881,6 +79922,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20788 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77902,6 +79944,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20803 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -77923,6 +79966,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20804 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77944,6 +79988,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20835 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77965,6 +80010,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20848 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -77986,6 +80032,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20857 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78007,6 +80054,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20894 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78028,6 +80076,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20922 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78049,6 +80098,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20923 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78070,6 +80120,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20924 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78091,6 +80142,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20932 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78112,6 +80164,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-20956 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78133,6 +80186,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21039 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78154,6 +80208,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21040 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78175,6 +80230,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21067 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78196,6 +80252,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21071 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78217,6 +80274,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21090 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78238,6 +80296,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21097 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78259,6 +80318,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21108 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Shikha Sharma |
@@ -78280,6 +80340,7 @@ TEST
 | Field | Value |
 |-------|-------|
 | ID | US-21121 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78301,6 +80362,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21135 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Tanushree Shrivas |
@@ -78322,6 +80384,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21286 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Shikha Sharma |
@@ -78343,6 +80406,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21328 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -78364,6 +80428,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21338 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -78390,6 +80455,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21367 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78411,6 +80477,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21368 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78432,6 +80499,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21369 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78453,6 +80521,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21375 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78474,6 +80543,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21382 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78495,6 +80565,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21400 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78516,6 +80587,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21427 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -78541,6 +80613,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21433 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -78562,6 +80635,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21438 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78583,6 +80657,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21449 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78604,6 +80679,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21469 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -78625,6 +80701,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21546 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -78646,6 +80723,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21599 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -78667,6 +80745,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21630 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78688,6 +80767,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21637 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -78709,6 +80789,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21784 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78730,6 +80811,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21791 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -78751,6 +80833,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21795 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78772,6 +80855,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21821 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78793,6 +80877,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21823 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78814,6 +80899,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21826 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -78835,6 +80921,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21830 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tanushree Shrivas |
@@ -78856,6 +80943,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21831 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78877,6 +80965,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21896 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tanushree Shrivas |
@@ -78898,6 +80987,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21899 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -78919,6 +81009,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21902 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tanushree Shrivas |
@@ -78940,6 +81031,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21927 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Tanushree Shrivas |
@@ -78961,6 +81053,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21928 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -78982,6 +81075,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21941 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79003,6 +81097,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21942 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79026,6 +81121,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21985 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79047,6 +81143,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-21990 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79068,6 +81165,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22025 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -79089,6 +81187,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22067 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79110,6 +81209,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22081 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -79131,6 +81231,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22083 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79152,6 +81253,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22113 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -79173,6 +81275,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22139 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -79194,6 +81297,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22144 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79215,6 +81319,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22167 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79236,6 +81341,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22170 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -79257,6 +81363,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22171 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79278,6 +81385,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22172 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79299,6 +81407,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22176 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -79320,6 +81429,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22179 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -79341,6 +81451,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22180 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79362,6 +81473,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22183 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79383,6 +81495,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22187 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79404,6 +81517,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22188 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79425,6 +81539,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22227 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79446,6 +81561,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22230 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -79489,6 +81605,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22234 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79510,6 +81627,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22240 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79531,6 +81649,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22256 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79552,6 +81671,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22261 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79573,6 +81693,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22264 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79594,6 +81715,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22271 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Avinash Singh |
@@ -79615,6 +81737,7 @@ If the role(s) are working as per the requirement with desired result(s).
 | Field | Value |
 |-------|-------|
 | ID | US-22320 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79636,6 +81759,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22356 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79657,6 +81781,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22367 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79690,6 +81815,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22373 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -79711,6 +81837,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22383 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Samir shah |
@@ -79737,6 +81864,7 @@ Add a provision in the App Hub to display a list of apps along with the count of
 | Field | Value |
 |-------|-------|
 | ID | US-22385 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Samir shah |
@@ -79759,6 +81887,7 @@ Add a provision in the App Hub to display all approved requests as well. Current
 | Field | Value |
 |-------|-------|
 | ID | US-22398 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Anjumol Prasad |
@@ -79780,6 +81909,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22408 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79801,6 +81931,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22409 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | UTKARSH BRAHMAPURIKAR |
@@ -79822,6 +81953,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22442 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79843,6 +81975,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22444 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79864,6 +81997,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22446 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79885,6 +82019,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22452 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79906,6 +82041,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22477 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -79927,6 +82063,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22479 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -79948,6 +82085,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22480 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -79969,6 +82107,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22523 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -79990,6 +82129,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22564 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -80011,6 +82151,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22594 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -80041,6 +82182,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22597 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -80063,6 +82205,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22605 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -80084,6 +82227,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22647 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -80105,6 +82249,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22737 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80126,6 +82271,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22748 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80147,6 +82293,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22767 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -80168,6 +82315,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22768 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Saloni Patel |
@@ -80189,6 +82337,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22769 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80210,6 +82359,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22770 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80231,6 +82381,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22772 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80252,6 +82403,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22773 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80273,6 +82425,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22774 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80294,6 +82447,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22777 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80315,6 +82469,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22786 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80336,6 +82491,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22833 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -80357,6 +82513,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22834 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80378,6 +82535,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22835 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Niyant Lad |
@@ -80399,6 +82557,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22876 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80420,6 +82579,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22878 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Komal Chandolure |
@@ -80441,6 +82601,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22881 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | DEEPIKA MEENA |
@@ -80462,6 +82623,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22884 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80483,6 +82645,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22929 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Harsh Adadhiyawala |
@@ -80522,6 +82685,7 @@ Revised document R1 or greeter revision shall be auto added in transmittal which
 | Field | Value |
 |-------|-------|
 | ID | US-22937 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -80569,6 +82733,7 @@ RT report change shall be reflected in PPE and NU as per requirement mentioned.
 | Field | Value |
 |-------|-------|
 | ID | US-22953 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -80590,6 +82755,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22956 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -80611,6 +82777,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22958 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Niyant Lad |
@@ -80632,6 +82799,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-22969 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -80753,6 +82921,7 @@ Below data needs to fetch from Protocol036:
 | Field | Value |
 |-------|-------|
 | ID | US-22998 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Bhumika Sahu |
@@ -80776,6 +82945,7 @@ So that the fields cannot be empty when the session got logged out
 | Field | Value |
 |-------|-------|
 | ID | US-23022 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -80797,6 +82967,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23069 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80818,6 +82989,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23070 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80839,6 +83011,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23095 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -80875,6 +83048,7 @@ As per mentioned in description.
 | Field | Value |
 |-------|-------|
 | ID | US-23112 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -80896,6 +83070,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23172 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Basil Babu |
@@ -80999,6 +83174,7 @@ The Live Balance Activity List (BAL) module streamlines the creation, maintenanc
 | Field | Value |
 |-------|-------|
 | ID | US-23176 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Harsh Adadhiyawala |
@@ -81052,6 +83228,7 @@ _Test:_ Download compiled reports; verify file integrity and completeness.
 | Field | Value |
 |-------|-------|
 | ID | US-23177 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Harsh Adadhiyawala |
@@ -81084,6 +83261,7 @@ The signature must follow this exact format: “e-Signed on [system date] by [di
 | Field | Value |
 |-------|-------|
 | ID | US-23223 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Basil Babu |
@@ -81227,6 +83405,7 @@ As a QC Engineer, I want automated email notifications for AI signed hydrostatic
 | Field | Value |
 |-------|-------|
 | ID | US-23224 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -81317,6 +83496,7 @@ Refer layout design:
 | Field | Value |
 |-------|-------|
 | ID | US-23228 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -81365,6 +83545,7 @@ As per description
 | Field | Value |
 |-------|-------|
 | ID | US-23230 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -81405,6 +83586,7 @@ as per description
 | Field | Value |
 |-------|-------|
 | ID | US-23235 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -81474,6 +83656,7 @@ as per description
 | Field | Value |
 |-------|-------|
 | ID | US-23264 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -81495,6 +83678,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23270 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -81516,6 +83700,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23321 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -81558,6 +83743,7 @@ Mega Menu->QA->RCA->Root Cause Analysis
 | Field | Value |
 |-------|-------|
 | ID | US-23322 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -81725,6 +83911,7 @@ Currently, ASME inspection checklists are prepared in Excel and signed physicall
 | Field | Value |
 |-------|-------|
 | ID | US-23340 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -81746,6 +83933,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23359 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -81767,6 +83955,7 @@ Application - Order Inflow & Enquiry Management Session - Load / Capacity Enquir
 | Field | Value |
 |-------|-------|
 | ID | US-23362 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -81788,6 +83977,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23369 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -81809,6 +83999,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23408 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -81833,6 +84024,7 @@ API shall have require details as per attached response body.
 | Field | Value |
 |-------|-------|
 | ID | US-23414 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -81854,6 +84046,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23415 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -81875,6 +84068,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23426 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -81904,6 +84098,7 @@ As a **QC2 user** , I want the ability to add a new stage to multiple Position N
 | Field | Value |
 |-------|-------|
 | ID | US-23427 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -81930,6 +84125,7 @@ As a **QC2 user** , I want to copy an existing Part ICL from one Position Number
 | Field | Value |
 |-------|-------|
 | ID | US-23428 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -81966,6 +84162,7 @@ As a **QC2 user** , I want to copy Part ICL data from one project to multiple de
 | Field | Value |
 |-------|-------|
 | ID | US-23429 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -81988,6 +84185,7 @@ As a **QC2 user** , I want to view the list of Position Numbers in ascending ord
 | Field | Value |
 |-------|-------|
 | ID | US-23432 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 3 |
 | Assigned To | NIKHIL JAIN |
@@ -82035,6 +84233,7 @@ _“No recent sessions available.”_
 | Field | Value |
 |-------|-------|
 | ID | US-23433 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Mandar Kamde |
@@ -82093,6 +84292,7 @@ Which will show list of all package and after clicking on that particular packag
 | Field | Value |
 |-------|-------|
 | ID | US-23434 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Mandar Kamde |
@@ -82119,6 +84319,7 @@ Add a session in 'Maintain Packing List' module to generate QR code in Summary t
 | Field | Value |
 |-------|-------|
 | ID | US-23438 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -82181,6 +84382,7 @@ Add new section **Job and Saddle Details** in Maintain HTR with the following fi
 | Field | Value |
 |-------|-------|
 | ID | US-23439 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -82215,6 +84417,7 @@ Add the following fields in Review HTR screen (saved in **HTR001** table):
 | Field | Value |
 |-------|-------|
 | ID | US-23440 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -82236,6 +84439,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23454 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -82289,6 +84493,7 @@ the system must update the following labels:
 | Field | Value |
 |-------|-------|
 | ID | US-23461 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -82463,6 +84668,7 @@ Add rights to QI3 for:
 | Field | Value |
 |-------|-------|
 | ID | US-23462 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -82569,6 +84775,7 @@ After each shop acknowledges:
 | Field | Value |
 |-------|-------|
 | ID | US-23469 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -82590,6 +84797,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23470 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 1 |
 | Assigned To | Unassigned |
@@ -82650,6 +84858,7 @@ ID/Blank |  Length |  Resource
 | Field | Value |
 |-------|-------|
 | ID | US-23472 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -82698,6 +84907,7 @@ So that I can work efficiently without delays or performance issues.
 | Field | Value |
 |-------|-------|
 | ID | US-23474 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -82743,6 +84953,7 @@ So that the overlay plan grid reflects updated terminology and provides addition
 | Field | Value |
 |-------|-------|
 | ID | US-23475 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | NIKHIL JAIN |
@@ -82798,6 +85009,7 @@ Machining Resource Selection Logic
 | Field | Value |
 |-------|-------|
 | ID | US-23477 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -82843,6 +85055,7 @@ So that I can plan component timelines accurately and update them when needed.
 | Field | Value |
 |-------|-------|
 | ID | US-23478 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -82887,6 +85100,7 @@ So that I can quickly access procurement timelines without manual lookup.
 | Field | Value |
 |-------|-------|
 | ID | US-23479 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -82932,6 +85146,7 @@ So that I can view only relevant data and maintain a consistent layout across se
 | Field | Value |
 |-------|-------|
 | ID | US-23517 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -82986,6 +85201,7 @@ So that remark entry is restricted to the appropriate role (PLNG2).
 | Field | Value |
 |-------|-------|
 | ID | US-23520 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | DEEPIKA MEENA |
@@ -83012,6 +85228,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23536 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -83033,6 +85250,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23566 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -83054,6 +85272,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23567 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Harsh Adadhiyawala |
@@ -83098,6 +85317,7 @@ As a Quality Control (QC) user, I want enhanced document upload, filtering, and 
 | Field | Value |
 |-------|-------|
 | ID | US-23568 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -83213,6 +85433,7 @@ Remaining protocol list will be provided later.
 | Field | Value |
 |-------|-------|
 | ID | US-23577 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -83239,6 +85460,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23584 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | NIKHIL JAIN |
@@ -83281,6 +85503,7 @@ As a user, I want the system to automatically set the default value of _Grinding
 | Field | Value |
 |-------|-------|
 | ID | US-23595 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -83363,6 +85586,7 @@ Equipment will fetched from Project Details from Design
 | Field | Value |
 |-------|-------|
 | ID | US-23630 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 1 |
 | Assigned To | Harsh Adadhiyawala |
@@ -83444,6 +85668,7 @@ The system should support parallel execution of specific NDE stages after PWHT, 
 | Field | Value |
 |-------|-------|
 | ID | US-23636 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -83522,6 +85747,7 @@ NDE3 Role user want the ability to revise previously  NDE Requests So that user 
 | Field | Value |
 |-------|-------|
 | ID | US-23637 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Praksah Vasaikar |
@@ -83597,6 +85823,7 @@ I want the ability to revise previously submitted Test Result Reports, So that I
 | Field | Value |
 |-------|-------|
 | ID | US-23647 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -83618,6 +85845,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23652 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Aayushi Manikawala |
@@ -83639,6 +85867,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23657 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | NIKHIL JAIN |
@@ -83660,6 +85889,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-23695 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -83777,6 +86007,7 @@ The current Digital Dossier workflow has usability gaps and bugs, such as incons
 | Field | Value |
 |-------|-------|
 | ID | US-23699 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | NIKHIL JAIN |
@@ -83799,6 +86030,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24154 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -83849,6 +86081,7 @@ So that I can remove unnecessary or incorrect entries and keep the data clean
 | Field | Value |
 |-------|-------|
 | ID | US-24155 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -83887,6 +86120,7 @@ So that I can save time and ensure correct station allocation without manual ent
 | Field | Value |
 |-------|-------|
 | ID | US-24156 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -83932,6 +86166,7 @@ So that I can plan resources effectively and anticipate capacity constraints.
 | Field | Value |
 |-------|-------|
 | ID | US-24157 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -83980,6 +86215,7 @@ So that I can organize and manage workload distribution for each month efficient
 | Field | Value |
 |-------|-------|
 | ID | US-24158 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84025,6 +86261,7 @@ So that I can review all necessary details for Quality purposes.
 | Field | Value |
 |-------|-------|
 | ID | US-24159 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | DEEPIKA MEENA |
@@ -84083,6 +86320,7 @@ So that I can review all necessary details for Quality purposes.
 | Field | Value |
 |-------|-------|
 | ID | US-24165 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84128,6 +86366,7 @@ So that I can get the Technique No. in the NDE Part Report
 | Field | Value |
 |-------|-------|
 | ID | US-24175 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 1 |
 | Assigned To | NIKHIL JAIN |
@@ -84169,6 +86408,7 @@ So that I can get the Technique No. in the NDE Part Report
 | Field | Value |
 |-------|-------|
 | ID | US-24182 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -84235,6 +86475,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24183 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -84287,6 +86528,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24218 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84333,6 +86575,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24219 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84379,6 +86622,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24221 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84437,6 +86681,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24226 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84521,6 +86766,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24227 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -84596,6 +86842,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24245 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -84623,6 +86870,7 @@ _“Initials can only contain letters and numbers.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24248 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -84659,6 +86907,7 @@ Update the PTR module’s **Chemical GN** screen by renaming fields, removing un
 | Field | Value |
 |-------|-------|
 | ID | US-24266 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Harsh Adadhiyawala |
@@ -84730,6 +86979,7 @@ _“You can select up to 10 seams only.”_
 | Field | Value |
 |-------|-------|
 | ID | US-24300 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -84771,6 +87021,7 @@ Update the PTR module’s **Chemical Overlay** screen by applying the same field
 | Field | Value |
 |-------|-------|
 | ID | US-24301 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -84808,6 +87059,7 @@ Update **IGC (Practice E & A)** forms/templates to rename identification fields,
 | Field | Value |
 |-------|-------|
 | ID | US-24361 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -84829,6 +87081,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24365 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -84850,6 +87103,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24401 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -84871,6 +87125,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24405 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | NIKHIL JAIN |
@@ -84946,6 +87201,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24411 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Mandar Kamde |
@@ -84984,6 +87240,7 @@ __
 | Field | Value |
 |-------|-------|
 | ID | US-24412 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Mandar Kamde |
@@ -85021,6 +87278,7 @@ When a linked Shop DIN is **revised and released** or **any DCR** is created for
 | Field | Value |
 |-------|-------|
 | ID | US-24413 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Mandar Kamde |
@@ -85056,6 +87314,7 @@ Provide a dedicated **Verify Index Documents** window with **Pending** (default)
 | Field | Value |
 |-------|-------|
 | ID | US-24414 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -85129,6 +87388,7 @@ Provide a dedicated **Verify Index Documents** window with **Pending** (default)
 | Field | Value |
 |-------|-------|
 | ID | US-24416 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -85194,6 +87454,7 @@ Have you offered this stage and obtained clearance from <Customer Representative
 | Field | Value |
 |-------|-------|
 | ID | US-24430 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -85215,6 +87476,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24431 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -85258,6 +87520,7 @@ Update the address displayed in printed reports for all chemical report types (*
 | Field | Value |
 |-------|-------|
 | ID | US-24437 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Bhumika Sahu |
@@ -85337,6 +87600,7 @@ Update the address displayed in printed reports for all chemical report types (*
 | Field | Value |
 |-------|-------|
 | ID | US-24438 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | Bhumika Sahu |
@@ -85385,6 +87649,7 @@ Update the address displayed in printed reports for all chemical report types (*
 | Field | Value |
 |-------|-------|
 | ID | US-24441 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -85406,6 +87671,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24475 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -85427,6 +87693,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24482 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -85455,6 +87722,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24486 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Komal Chandolure |
@@ -85499,6 +87767,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24488 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Sasidaran S |
@@ -85520,6 +87789,7 @@ Login.​
 | Field | Value |
 |-------|-------|
 | ID | US-24506 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -85541,6 +87811,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24507 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -85570,6 +87841,7 @@ Login screen will be displayed with the below details.
 | Field | Value |
 |-------|-------|
 | ID | US-24508 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -85619,6 +87891,7 @@ Buttons:
 | Field | Value |
 |-------|-------|
 | ID | US-24509 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -85846,6 +88119,7 @@ o Department Head (DH)
 | Field | Value |
 |-------|-------|
 | ID | US-24510 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -85915,6 +88189,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-24511 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -85974,6 +88249,7 @@ Fields that will be displayed for the rehiring apart from the four mandatory fie
 | Field | Value |
 |-------|-------|
 | ID | US-24517 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86079,6 +88355,7 @@ o Returned
 | Field | Value |
 |-------|-------|
 | ID | US-24518 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86158,6 +88435,7 @@ o Returned - No no will bed display
 | Field | Value |
 |-------|-------|
 | ID | US-24519 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86239,6 +88517,7 @@ o Returned
 | Field | Value |
 |-------|-------|
 | ID | US-24520 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Karthick Raja S |
@@ -86324,6 +88603,7 @@ Validations:
 | Field | Value |
 |-------|-------|
 | ID | US-24549 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86426,6 +88706,7 @@ Validations:
 | Field | Value |
 |-------|-------|
 | ID | US-24550 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86483,6 +88764,7 @@ Buttons:
 | Field | Value |
 |-------|-------|
 | ID | US-24551 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86535,6 +88817,7 @@ Photos download functionality will be there. Photos can download as per departme
 | Field | Value |
 |-------|-------|
 | ID | US-24552 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -86582,6 +88865,7 @@ When a bulk document upload is triggered, the system will search for document in
 | Field | Value |
 |-------|-------|
 | ID | US-24553 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87065,6 +89349,7 @@ Page Navigation
 | Field | Value |
 |-------|-------|
 | ID | US-24554 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87140,6 +89425,7 @@ Validations:
 | Field | Value |
 |-------|-------|
 | ID | US-24555 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87210,6 +89496,7 @@ Buttons:
 | Field | Value |
 |-------|-------|
 | ID | US-24556 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87231,6 +89518,7 @@ Can use this for other US if needed
 | Field | Value |
 |-------|-------|
 | ID | US-24557 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87314,6 +89602,7 @@ Page Navigation
 | Field | Value |
 |-------|-------|
 | ID | US-24558 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87335,6 +89624,7 @@ Clicking Import button in the Activities - the list of details in the Industrial
 | Field | Value |
 |-------|-------|
 | ID | US-24559 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87356,6 +89646,7 @@ Clicking export button in the Activities - the list of details in the Industrial
 | Field | Value |
 |-------|-------|
 | ID | US-24560 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87416,6 +89707,7 @@ Buttons:
 | Field | Value |
 |-------|-------|
 | ID | US-24561 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87493,6 +89785,7 @@ The list of fields that will be displayed to the the CTWC workmen are attached i
 | Field | Value |
 |-------|-------|
 | ID | US-24562 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87571,6 +89864,7 @@ Page Navigation
 | Field | Value |
 |-------|-------|
 | ID | US-24571 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87680,6 +89974,7 @@ Validations:
 | Field | Value |
 |-------|-------|
 | ID | US-24572 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87769,6 +90064,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-24573 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87856,6 +90152,7 @@ Validations:
 | Field | Value |
 |-------|-------|
 | ID | US-24574 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -87893,6 +90190,7 @@ The user will be navigated to request view page upon clicking the PS no or Name 
 | Field | Value |
 |-------|-------|
 | ID | US-24596 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | NIKHIL JAIN |
@@ -87914,6 +90212,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24606 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Manisha Sheth |
@@ -87942,6 +90241,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24619 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88129,6 +90429,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24625 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -88150,6 +90451,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24626 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -88171,6 +90473,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24627 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -88192,6 +90495,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24635 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -88213,6 +90517,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24637 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -88234,6 +90539,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24644 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -88268,6 +90574,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24654 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -88289,6 +90596,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24657 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -88310,6 +90618,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24660 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88336,6 +90645,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24661 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88364,6 +90674,7 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Field | Value |
 |-------|-------|
 | ID | US-24662 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88391,6 +90702,7 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcmcs001175
 | Field | Value |
 |-------|-------|
 | ID | US-24665 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -88416,6 +90728,7 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcmcs001175
 | Field | Value |
 |-------|-------|
 | ID | US-24666 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -88444,6 +90757,7 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Field | Value |
 |-------|-------|
 | ID | US-24667 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -88472,6 +90786,7 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Field | Value |
 |-------|-------|
 | ID | US-24682 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -88506,6 +90821,7 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Field | Value |
 |-------|-------|
 | ID | US-24686 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -88531,6 +90847,7 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Field | Value |
 |-------|-------|
 | ID | US-24687 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88557,6 +90874,7 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Field | Value |
 |-------|-------|
 | ID | US-24691 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88584,6 +90902,7 @@ I want to fetch **Item Group  **master data from the **MDM** table ******ttcibd0
 | Field | Value |
 |-------|-------|
 | ID | US-24698 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -88605,6 +90924,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-24711 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -88632,6 +90952,7 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcibd001175
 | Field | Value |
 |-------|-------|
 | ID | US-24712 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -88659,6 +90980,7 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcibd002175
 | Field | Value |
 |-------|-------|
 | ID | US-24713 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -88686,6 +91008,7 @@ I want to fetch **Item Unit  **master data from the **MDM** table **tltsas999175
 | Field | Value |
 |-------|-------|
 | ID | US-24715 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88731,6 +91054,7 @@ a.t_ityp in (1) and a.t_cprj ='S040935'
 | Field | Value |
 |-------|-------|
 | ID | US-24716 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88780,6 +91104,7 @@ WHERE    Project = 'S040911'
 | Field | Value |
 |-------|-------|
 | ID | US-24717 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -88807,6 +91132,7 @@ I want to fetch **contract location**  from the **MDM** table **tltctm100175, tt
 | Field | Value |
 |-------|-------|
 | ID | US-24718 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -88863,6 +91189,7 @@ I want to fetch **contract location**  from the **MDM** table **tltctm100175, tt
 | Field | Value |
 |-------|-------|
 | ID | US-24934 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -88905,6 +91232,7 @@ CPC by contract data shall be fetched from SAP Db (Data Warehouse Server).
 | Field | Value |
 |-------|-------|
 | ID | US-24975 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -88936,6 +91264,7 @@ Project milestone data shall be fetched from SAP Db (Data Warehouse Server).
 | Field | Value |
 |-------|-------|
 | ID | US-24976 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -88989,6 +91318,7 @@ Contract milestone data shall be fetched from SAP Db (Data Warehouse Server).
 | Field | Value |
 |-------|-------|
 | ID | US-24990 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89010,6 +91340,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25504 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -89057,6 +91388,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25505 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -89125,6 +91457,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25527 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -89158,6 +91491,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25567 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | TRISHUL TANDEL |
@@ -89179,6 +91513,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25649 |
+| Work Item Type | User Story |
 | State | Closed |
 | Priority | 2 |
 | Assigned To | CHANDRASHEKHAR VENKANNA |
@@ -89263,6 +91598,7 @@ Skirt Assembly |  S040911-SKI0022ASM |  18 |  S040911-SK0022A |  15
 | Field | Value |
 |-------|-------|
 | ID | US-25662 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 1 |
 | Assigned To | Nenshi Patel |
@@ -89330,6 +91666,7 @@ This issue impacts the accuracy and completeness of Manual LTFPS records and may
 | Field | Value |
 |-------|-------|
 | ID | US-25667 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | MAYANK SEHGAL |
@@ -89357,6 +91694,7 @@ The snapshots should work perfectly when pulling the data from SAP
 | Field | Value |
 |-------|-------|
 | ID | US-25684 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89512,6 +91850,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-25685 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89603,6 +91942,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-25686 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89625,6 +91965,7 @@ User need to click on the 'Export' button
 | Field | Value |
 |-------|-------|
 | ID | US-25687 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89766,6 +92107,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-25688 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89789,6 +92131,7 @@ User need to click on the 'Export' button
 | Field | Value |
 |-------|-------|
 | ID | US-25689 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -89914,6 +92257,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-25690 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90001,6 +92345,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-25691 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90024,6 +92369,7 @@ User need to click on the 'Export' button
 | Field | Value |
 |-------|-------|
 | ID | US-25692 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90097,6 +92443,7 @@ Validation:
 | Field | Value |
 |-------|-------|
 | ID | US-25693 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90120,6 +92467,7 @@ User need to click on the 'Export' button
 | Field | Value |
 |-------|-------|
 | ID | US-25695 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90141,6 +92489,7 @@ From the side navigation page user need to select the 'Maintain Timecard' sub me
 | Field | Value |
 |-------|-------|
 | ID | US-25696 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90162,6 +92511,7 @@ Maintain Timecard' page will be displayed with the following tabs such as 'Date 
 | Field | Value |
 |-------|-------|
 | ID | US-25697 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90183,6 +92533,7 @@ User need to click on the 'Export' button - the list of details displayed in the
 | Field | Value |
 |-------|-------|
 | ID | US-25698 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90204,6 +92555,7 @@ From the side navigation page user need to select the 'Maintain Timecard' sub me
 | Field | Value |
 |-------|-------|
 | ID | US-25699 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90225,6 +92577,7 @@ From the side navigation page user need to select the 'Maintain Timecard' sub me
 | Field | Value |
 |-------|-------|
 | ID | US-25700 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90246,6 +92599,7 @@ User need to click on the 'Export' button - the list of details displayed in the
 | Field | Value |
 |-------|-------|
 | ID | US-25708 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Akshay Rajput |
@@ -90267,6 +92621,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25730 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 2 |
 | Assigned To | Nenshi Patel |
@@ -90288,6 +92643,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25763 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -90309,6 +92665,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25784 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Avinash Singh |
@@ -90330,6 +92687,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25838 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -90351,6 +92709,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25870 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -90372,6 +92731,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25916 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Harsh Patel |
@@ -90393,6 +92753,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25963 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 1 |
 | Assigned To | Nenshi Patel |
@@ -90421,6 +92782,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-25968 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -90442,6 +92804,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26040 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Unassigned |
@@ -90463,6 +92826,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26265 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -90484,6 +92848,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26272 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | DEEPIKA MEENA |
@@ -90510,6 +92875,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26273 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | DEEPIKA MEENA |
@@ -90541,6 +92907,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26274 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | DEEPIKA MEENA |
@@ -90564,6 +92931,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26313 |
+| Work Item Type | User Story |
 | State | Resolved |
 | Priority | 1 |
 | Assigned To | Basil Babu |
@@ -90598,6 +92966,7 @@ This requirement is raised to enhance the **Maintain ITP / NDE Summary / Stage D
 | Field | Value |
 |-------|-------|
 | ID | US-26354 |
+| Work Item Type | User Story |
 | State | Active |
 | Priority | 1 |
 | Assigned To | Santosh Soni |
@@ -90756,6 +93125,7 @@ These protocol numbers and descriptions are taken from doc.
 | Field | Value |
 |-------|-------|
 | ID | US-26384 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Uma Laxmi |
@@ -90777,6 +93147,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26386 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Uma Laxmi |
@@ -90798,6 +93169,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26392 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Basil Babu |
@@ -90819,6 +93191,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26394 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
@@ -90840,6 +93213,7 @@ _Not provided._
 | Field | Value |
 |-------|-------|
 | ID | US-26413 |
+| Work Item Type | User Story |
 | State | New |
 | Priority | 2 |
 | Assigned To | Jayraj Desai |
