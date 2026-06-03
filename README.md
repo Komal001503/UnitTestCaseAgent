@@ -4,8 +4,8 @@ A custom GitHub Copilot agent that generates unit test cases from user stories.
 
 ## How It Works
 
-1. **Provide user stories** — Push an `.xlsx` file to the repository or convert one locally with the included script.
-2. **Markdown is generated automatically** — GitHub Actions converts each pushed Excel workbook into a `.md` file with the same name in the same directory.
+1. **Provide user stories** — Push an `.xlsx` file to the repository, convert one locally with the included script, or sync directly from Azure DevOps Boards.
+2. **Markdown is generated automatically** — GitHub Actions converts each pushed Excel workbook into a `.md` file with the same name in the same directory, and can also sync Azure DevOps stories to `azure_devops_user_stories.md`.
 3. **Invoke the agent** — Use `@unit-test-generator` in Copilot Chat.
 4. **Get test cases** — The agent analyzes your user stories, maps them to your codebase, and generates comprehensive unit tests.
 
@@ -32,6 +32,46 @@ When you push a new or updated `.xlsx` file anywhere in the repository, `.github
 2. Run `scripts/excel_to_md.py` with `pandas` and `openpyxl`
 3. Generate a matching `.md` file in the same directory
 4. Commit and push the generated Markdown file back to the same branch automatically
+
+### Pulling User Stories from Azure DevOps
+
+The repository also supports syncing user stories from Azure DevOps Boards to Markdown using:
+- Workflow: `.github/workflows/sync-azure-devops.yml`
+- Script: `scripts/azure_devops_to_md.py`
+
+#### Required Secret
+
+Create a repository secret named `AZURE_DEVOPS_PAT` with Azure DevOps **Work Items: Read** scope.
+
+To create it in Azure DevOps:
+1. Open Azure DevOps profile settings.
+2. Create a new Personal Access Token (PAT).
+3. Set scope to **Work Items → Read**.
+4. Add the token as GitHub repository secret `AZURE_DEVOPS_PAT`.
+
+#### Run the workflow manually
+
+In GitHub:
+1. Go to **Actions**
+2. Select **Sync Azure DevOps User Stories**
+3. Click **Run workflow**
+
+The workflow is also scheduled daily at **02:00 UTC**.
+
+#### Run the script locally
+
+```bash
+pip install -r scripts/requirements.txt
+export AZURE_DEVOPS_ORG="LnT-HeavyEngineering-IEMQS"
+export AZURE_DEVOPS_PROJECT="Workforce Management by MX Techies"
+export AZURE_DEVOPS_TEAM="Workforce Management by MX Techies Team"
+export AZURE_DEVOPS_PAT="***"
+python scripts/azure_devops_to_md.py --output azure_devops_user_stories.md
+```
+
+You can invoke the agent with the generated file exactly like today, for example:
+
+> Read `azure_devops_user_stories.md` and generate unit test cases for the user stories.
 
 ### Excel Format
 
@@ -81,7 +121,9 @@ Each report includes:
 | `.github/agents/unit-test-generator.agent.md` | Agent definition and instructions |
 | `.github/copilot-instructions.md` | Project-level Copilot customization |
 | `.github/workflows/convert-excel.yml` | Auto-converts pushed Excel files to Markdown |
+| `.github/workflows/sync-azure-devops.yml` | Syncs Azure DevOps User Stories to Markdown on demand/schedule |
+| `scripts/azure_devops_to_md.py` | Pulls Azure DevOps work items and renders Markdown user stories |
 | `scripts/excel_to_md.py` | Converts Excel workbooks to Markdown |
 | `scripts/export_tests_to_text.py` | Exports test cases from `.py` files to text or Word documents |
-| `scripts/requirements.txt` | Script dependencies (Excel conversion + Word export) |
+| `scripts/requirements.txt` | Script dependencies (Excel, Azure DevOps, and export tools) |
 | `sample/user_stories_sample.md` | Sample user stories for testing |
