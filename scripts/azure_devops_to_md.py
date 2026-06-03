@@ -125,15 +125,18 @@ def build_wiql(config: Config) -> str:
 
 
 def _wiql_url(config: Config) -> str:
-    base = f"https://dev.azure.com/{quote(config.org, safe='')}/{quote(config.project, safe='')}"
+    base = _ado_project_base_url(config)
     if config.team:
         return f"{base}/{quote(config.team, safe='')}/_apis/wit/wiql?api-version={API_VERSION}"
     return f"{base}/_apis/wit/wiql?api-version={API_VERSION}"
 
 
 def _workitems_batch_url(config: Config) -> str:
-    base = f"https://dev.azure.com/{quote(config.org, safe='')}/{quote(config.project, safe='')}"
-    return f"{base}/_apis/wit/workitemsbatch?api-version={API_VERSION}"
+    return f"{_ado_project_base_url(config)}/_apis/wit/workitemsbatch?api-version={API_VERSION}"
+
+
+def _ado_project_base_url(config: Config) -> str:
+    return f"https://dev.azure.com/{quote(config.org, safe='')}/{quote(config.project, safe='')}"
 
 
 def _request_json(session: requests.Session, method: str, url: str, **kwargs: Any) -> dict[str, Any]:
@@ -161,7 +164,10 @@ def fetch_work_item_ids(session: requests.Session, config: Config, wiql: str) ->
     ids = [int(item["id"]) for item in work_items if "id" in item]
     if len(ids) >= WIQL_LIMIT:
         logging.warning(
-            "WIQL returned %s IDs. Azure DevOps WIQL is limited to %s IDs per query.",
+            (
+                "WIQL returned %s IDs. Azure DevOps WIQL is limited to %s IDs per query; "
+                "some work items may be omitted. Consider narrowing results with --states or --area-path."
+            ),
             len(ids),
             WIQL_LIMIT,
         )
@@ -251,9 +257,7 @@ def to_markdown(config: Config, work_items: list[dict[str, Any]]) -> str:
         tags = fields.get("System.Tags", "")
         description = _html_to_text(fields.get("System.Description"), renderer)
         acceptance = _html_to_text(fields.get("Microsoft.VSTS.Common.AcceptanceCriteria"), renderer)
-        work_item_url = (
-            f"https://dev.azure.com/{quote(config.org, safe='')}/{quote(config.project, safe='')}/_workitems/edit/{story_id}"
-        )
+        work_item_url = f"{_ado_project_base_url(config)}/_workitems/edit/{story_id}"
 
         lines.extend(
             [

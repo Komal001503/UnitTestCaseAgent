@@ -66,6 +66,8 @@ export AZURE_DEVOPS_PAT="***"
 python scripts/azure_devops_to_md.py --output azure_devops_user_stories.md
 ```
 
+> Replace the organization/project/team values above with your own Azure DevOps settings when using another board.
+
 You can invoke the agent against this file exactly like `user_stories.md`, for example:
 
 > Read `azure_devops_user_stories.md` and generate unit test cases for the user stories.

@@ -20,6 +20,7 @@ on:
         required: false
         default: azure_devops_user_stories.md
   schedule:
+    # Daily at 02:00 UTC
     - cron: '0 2 * * *'
 
 permissions:

@@ -1,3 +1,7 @@
+"""Unit tests for scripts/azure_devops_to_md.py."""
+
+SOURCE_STORY_FILE = "azure_devops_user_stories.md"
+
 import os
 import tempfile
 import unittest
@@ -7,7 +11,7 @@ from unittest.mock import patch
 from scripts import azure_devops_to_md
 
 
-class AzureDevOpsToMarkdownTests(unittest.TestCase):
+class TestAzureDevOpsToMd(unittest.TestCase):
     def test_build_wiql_defaults_to_excluding_removed(self):
         config = azure_devops_to_md.Config(
             org="org",
@@ -21,6 +25,9 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
 
         wiql = azure_devops_to_md.build_wiql(config)
 
+        self.assertIn("FROM WorkItems", wiql)
+        self.assertIn("[System.WorkItemType]", wiql)
+        self.assertIn("ORDER BY [System.Id]", wiql)
         self.assertIn("[System.State] <> 'Removed'", wiql)
         self.assertNotIn("[System.State] IN", wiql)
 
@@ -48,8 +55,8 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
 
     def test_to_markdown_includes_required_sections(self):
         config = azure_devops_to_md.Config(
-            org="LnT-HeavyEngineering-IEMQS",
-            project="Workforce Management by MX Techies",
+            org="test-org",
+            project="test project",
             team=None,
             pat="token",
             work_item_type="User Story",
@@ -79,7 +86,7 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertIn("## US-101 — Login story", markdown)
         self.assertIn("### Description", markdown)
         self.assertIn("### Acceptance Criteria", markdown)
-        self.assertIn("https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/101", markdown)
+        self.assertIn("https://dev.azure.com/test-org/test%20project/_workitems/edit/101", markdown)
 
     def test_run_dry_run_does_not_write_file(self):
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -89,12 +96,15 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
             )
             with patch.dict(os.environ, {"AZURE_DEVOPS_PAT": "token"}, clear=True):
                 with patch("scripts.azure_devops_to_md.fetch_work_item_ids", return_value=[1]) as mocked_ids:
-                    with patch("scripts.azure_devops_to_md.fetch_work_items", return_value=[]):
-                        exit_code = azure_devops_to_md.run(args)
+                    with patch("scripts.azure_devops_to_md.fetch_work_items", return_value=[]) as mocked_items:
+                        with patch("scripts.azure_devops_to_md.to_markdown") as mocked_to_markdown:
+                            exit_code = azure_devops_to_md.run(args)
 
             self.assertEqual(exit_code, 0)
             self.assertFalse(output_path.exists())
             mocked_ids.assert_called_once()
+            mocked_items.assert_called_once()
+            mocked_to_markdown.assert_not_called()
 
 
 if __name__ == "__main__":
