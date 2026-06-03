@@ -104,6 +104,7 @@ The workflow also runs automatically **every day at 02:00 UTC** (configurable vi
 ### Local usage
 
 ```bash
+# Replace the values below with your own Azure DevOps organisation, project, and team
 pip install -r scripts/requirements.txt
 export AZURE_DEVOPS_ORG="LnT-HeavyEngineering-IEMQS"
 export AZURE_DEVOPS_PROJECT="Workforce Management by MX Techies"

@@ -202,12 +202,8 @@ def _render_markdown(
 
     # ── Top-of-file summary table ──────────────────────────────────────────
     lines.append("# Azure DevOps User Stories\n")
-    lines.append(
-        f"| Story ID | Title | State | Priority | Assigned To |"
-    )
-    lines.append(
-        f"|----------|-------|-------|----------|-------------|"
-    )
+    lines.append("| Story ID | Title | State | Priority | Assigned To |")
+    lines.append("|---|---|---|---|---|")
     for item in items:
         sid = _field(item, "System.Id")
         title = _field(item, "System.Title").replace("|", "\\|")
@@ -421,7 +417,7 @@ def main(argv: list[str] | None = None) -> None:
     )
 
     # Sort deterministically by Id ascending
-    items.sort(key=lambda it: int(it.get("id", 0)))
+    items.sort(key=lambda item: int(item.get("id", 0)))
 
     # ── Render Markdown ───────────────────────────────────────────────────
     markdown = _render_markdown(items, org=args.org, project=args.project)
