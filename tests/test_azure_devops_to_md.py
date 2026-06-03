@@ -13,7 +13,7 @@ from scripts.azure_devops_to_md import (
 )
 
 
-class AzureDevopsToMarkdownTests(unittest.TestCase):
+class AzureDevOpsToMarkdownTests(unittest.TestCase):
     def test_resolve_config_missingPat_raisesClearError(self):
         args = argparse.Namespace(
             org="org",
