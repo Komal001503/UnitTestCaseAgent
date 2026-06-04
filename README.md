@@ -116,7 +116,7 @@ The agent will:
 
 ## Exporting Test Cases to Text or Word
 
-The agent generates test cases as `.py` files in the `tests/` directory. To export them as a human-readable **text** or **Word** document grouped by user story, use the export script:
+The agent generates test cases as `.py` files in the `tests/` directory. To export them as a human-readable **text**, **Word**, or **Excel** document grouped by user story, use the export script:
 
 ```bash
 # Export as plain text file
@@ -125,9 +125,46 @@ python scripts/export_tests_to_text.py
 # Export as Word document (.docx)
 pip install python-docx
 python scripts/export_tests_to_text.py --format docx
+
+# Export as Excel spreadsheet (.xlsx) — with project name and date in filename
+python scripts/export_tests_to_text.py --format xlsx \
+  --project-name "Workforce Management by MX Techies"
 ```
 
 Output files are saved to `test_reports/` by default. Use `--output-dir` to change the destination, or `--tests-dir` to point at a different test directory.
+
+### Report filename
+
+When `--project-name` is provided the report file is named after the **project** and the **generation date** (UTC):
+
+```
+WorkforceManagementByMXTechies_2026-06-04_test_report.xlsx
+WorkforceManagementByMXTechies_2026-06-04_test_report.docx
+```
+
+The project name is sanitized automatically: whitespace is removed (words joined in CamelCase) and any characters outside `[A-Za-z0-9._-]` are replaced with underscores.
+
+Use `--date-stamp YYYY-MM-DD` to pin the date (useful in CI or reproducible builds):
+
+```bash
+python scripts/export_tests_to_text.py --format xlsx \
+  --project-name "Workforce Management by MX Techies" \
+  --date-stamp 2026-06-04
+```
+
+`--project-name` can also be supplied via the `AZURE_DEVOPS_PROJECT` environment variable so CI workflows pick it up automatically.
+
+Without `--project-name` the script falls back to the legacy `<sourceStoryStem>_test_report.{ext}` or `unit_test_cases_report.{ext}` naming.
+
+### No tests yet?
+
+If no `test_*.py` files exist under `tests/` (or none contain any test methods), the script exits **cleanly with code 0** and prints:
+
+```
+No tests found — skipping report generation. Run the Unit Test Generator agent to create test files in tests/ first.
+```
+
+No empty report files are written. Run the agent first to generate tests, then re-run the export script.
 
 Each report includes:
 - Test cases organized by user story ID (US-001, US-002, etc.)

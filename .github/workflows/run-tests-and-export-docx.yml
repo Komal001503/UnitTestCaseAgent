@@ -14,6 +14,9 @@ jobs:
   run-tests-and-export:
     runs-on: ubuntu-latest
 
+    env:
+      AZURE_DEVOPS_PROJECT: ${{ vars.AZURE_DEVOPS_PROJECT || 'Workforce Management by MX Techies' }}
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -33,16 +36,18 @@ jobs:
 
       - name: Generate Word document report(s)
         run: |
-          python scripts/export_tests_to_text.py --format docx --output-dir test_reports
+          python scripts/export_tests_to_text.py --format docx --output-dir test_reports \
+            --project-name "$AZURE_DEVOPS_PROJECT"
 
       - name: Generate Excel spreadsheet report(s)
         run: |
-          python scripts/export_tests_to_text.py --format xlsx --output-dir test_reports
+          python scripts/export_tests_to_text.py --format xlsx --output-dir test_reports \
+            --project-name "$AZURE_DEVOPS_PROJECT"
 
       - name: Upload test reports as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: unit-test-cases-reports
+          name: unit-test-cases-reports-${{ github.run_id }}
           path: test_reports/*_test_report.*
 
       - name: Upload legacy report as artifact (if present)

@@ -183,3 +183,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Sync Azure DevOps user stories to Markdown'
           git push
+
+      # After the Markdown is committed, trigger the report workflow to generate
+      # the Excel/Word test-case reports named after this project and today's date.
+      # Go to Actions → "Run Tests & Export Word Report" → Run workflow.
