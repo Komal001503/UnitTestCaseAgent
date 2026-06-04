@@ -112,6 +112,60 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertNotIn("[System.Tags] CONTAINS", wiql)
         self.assertNotIn("[System.Id] IN", wiql)
         self.assertNotIn("T23:59:59", wiql)
+        self.assertNotIn("[System.ChangedDate] >=", wiql)
+        self.assertNotIn("[System.ChangedDate] <=", wiql)
+        self.assertNotIn("[System.CreatedDate] >=", wiql)
+        self.assertNotIn("[System.CreatedDate] <=", wiql)
+
+    def test_buildWiql_noneDateFieldWithoutDates_omitsDateClauses(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            date_field=None,
+        )
+
+        wiql = build_wiql(config)
+
+        self.assertNotIn("[System.ChangedDate] >=", wiql)
+        self.assertNotIn("[System.ChangedDate] <=", wiql)
+        self.assertNotIn("[System.CreatedDate] >=", wiql)
+        self.assertNotIn("[System.CreatedDate] <=", wiql)
+
+    def test_buildWiql_noneDateFieldWithDates_fallsBackToChangedDate(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            from_date=date(2025, 11, 1),
+            to_date=date(2025, 11, 30),
+            date_field=None,
+        )
+
+        wiql = build_wiql(config)
+
+        self.assertIn("[System.ChangedDate] >= '2025-11-01'", wiql)
+        self.assertIn("[System.ChangedDate] <= '2025-11-30T23:59:59'", wiql)
+        self.assertNotIn("[System.CreatedDate] >= '2025-11-01'", wiql)
+        self.assertNotIn("[System.CreatedDate] <= '2025-11-30T23:59:59'", wiql)
+
+    def test_buildWiql_changedDateWithoutDates_omitsDateClauses(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            date_field="ChangedDate",
+        )
+
+        wiql = build_wiql(config)
+
+        self.assertNotIn("[System.ChangedDate] >=", wiql)
+        self.assertNotIn("[System.ChangedDate] <=", wiql)
+        self.assertNotIn("[System.CreatedDate] >=", wiql)
+        self.assertNotIn("[System.CreatedDate] <=", wiql)
 
     def test_resolveConfig_invalidFromDate_raisesValueError(self):
         args = argparse.Namespace(
@@ -154,6 +208,62 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
             resolve_config(args, env={"AZURE_DEVOPS_PAT": "pat"})
 
         self.assertIn("Invalid date range", str(context.exception))
+
+    def test_resolveConfig_blankDatesAndNoneDateField_areTreatedAsMissing(self):
+        args = argparse.Namespace(
+            org="org",
+            project="project",
+            team=None,
+            work_item_type="User Story",
+            states=None,
+            area_path=None,
+            from_date=None,
+            to_date=None,
+            date_field=None,
+            output="out.md",
+            dry_run=False,
+            verbose=False,
+        )
+
+        config = resolve_config(
+            args,
+            env={
+                "AZURE_DEVOPS_PAT": "pat",
+                "AZURE_DEVOPS_FROM_DATE": "   ",
+                "AZURE_DEVOPS_TO_DATE": "",
+                "AZURE_DEVOPS_DATE_FIELD": " None ",
+            },
+        )
+
+        self.assertIsNone(config.from_date)
+        self.assertIsNone(config.to_date)
+        self.assertIsNone(config.date_field)
+
+    def test_resolveConfig_dateField_isNormalized_caseInsensitively(self):
+        args = argparse.Namespace(
+            org="org",
+            project="project",
+            team=None,
+            work_item_type="User Story",
+            states=None,
+            area_path=None,
+            from_date="2025-11-01",
+            to_date=None,
+            date_field=None,
+            output="out.md",
+            dry_run=False,
+            verbose=False,
+        )
+
+        config = resolve_config(
+            args,
+            env={
+                "AZURE_DEVOPS_PAT": "pat",
+                "AZURE_DEVOPS_DATE_FIELD": "createddate",
+            },
+        )
+
+        self.assertEqual("CreatedDate", config.date_field)
 
     def test_csvToIntList_toleratesWhitespaceAndDropsNonIntegers(self):
         ids = _csv_to_int_list(" 1234, xyz, 1240, ,12a,1255 ")
@@ -379,6 +489,35 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         markdown = render_markdown(work_items, org="org", project="proj")
 
         self.assertIn("_Filters: type=User Story._", markdown)
+
+    def test_renderMarkdown_noneDateFieldWithoutDates_omitsDateFilterNote(self):
+        markdown = render_markdown(work_items=[], org="org", project="proj", date_field=None)
+
+        self.assertIn("_Filters: type=User Story._", markdown)
+        self.assertNotIn("changed ", markdown)
+        self.assertNotIn("created ", markdown)
+
+    def test_renderMarkdown_noneDateFieldWithDates_usesChangedDateInFilterNote(self):
+        markdown = render_markdown(
+            work_items=[],
+            org="org",
+            project="proj",
+            from_date=date(2025, 11, 1),
+            to_date=date(2025, 11, 30),
+            date_field=None,
+        )
+
+        self.assertIn(
+            "_Filters: type=User Story · changed between 2025-11-01 and 2025-11-30._",
+            markdown,
+        )
+
+    def test_renderMarkdown_changedDateWithoutDates_omitsDateFilterNote(self):
+        markdown = render_markdown(work_items=[], org="org", project="proj", date_field="ChangedDate")
+
+        self.assertIn("_Filters: type=User Story._", markdown)
+        self.assertNotIn("changed ", markdown)
+        self.assertNotIn("created ", markdown)
 
     def test_renderMarkdown_includesCreatedAndChangedDateRows(self):
         work_items: list = []
