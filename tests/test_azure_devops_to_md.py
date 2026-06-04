@@ -8,8 +8,10 @@ from scripts.azure_devops_to_md import (
     MissingPATError,
     _csv_to_int_list,
     _filter_to_type,
+    _is_team_not_found_error,
     build_wiql,
     fetch_work_items,
+    query_work_item_ids,
     render_markdown,
     resolve_config,
     wiql_url,
@@ -547,5 +549,100 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertIn("| Created Date | 2025-11-01T09:00:00Z |", markdown)
 
 
-if __name__ == "__main__":
-    unittest.main()
+    def test_isTeamNotFoundError_returnsTrueForHttp500TeamNotFoundException(self):
+        mock_response = Mock()
+        mock_response.status_code = 500
+        mock_response.json.return_value = {
+            "$id": "1",
+            "typeKey": "TeamNotFoundException",
+            "message": "The team with id 'IEMQS 4.0' does not exist.",
+        }
+
+        self.assertTrue(_is_team_not_found_error(mock_response))
+
+    def test_isTeamNotFoundError_returnsFalseForNon500(self):
+        mock_response = Mock()
+        mock_response.status_code = 404
+        mock_response.json.return_value = {"typeKey": "TeamNotFoundException"}
+
+        self.assertFalse(_is_team_not_found_error(mock_response))
+
+    def test_isTeamNotFoundError_returnsFalseForDifferentTypeKey(self):
+        mock_response = Mock()
+        mock_response.status_code = 500
+        mock_response.json.return_value = {"typeKey": "SomeOtherException"}
+
+        self.assertFalse(_is_team_not_found_error(mock_response))
+
+    def test_isTeamNotFoundError_returnsFalseForNonJsonBody(self):
+        mock_response = Mock()
+        mock_response.status_code = 500
+        mock_response.json.side_effect = ValueError("not json")
+
+        self.assertFalse(_is_team_not_found_error(mock_response))
+
+    @patch("scripts.azure_devops_to_md.requests.post")
+    def test_queryWorkItemIds_retriesWithoutTeamOnTeamNotFoundException(self, post_mock):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="IEMQS 4.0",
+            team="IEMQS 4.0",
+            pat="pat",
+            work_item_type="User Story",
+        )
+
+        team_not_found_response = Mock()
+        team_not_found_response.status_code = 500
+        team_not_found_response.json.return_value = {
+            "typeKey": "TeamNotFoundException",
+            "message": "The team with id 'IEMQS 4.0' does not exist.",
+        }
+        team_not_found_response.raise_for_status.side_effect = None
+
+        fallback_response = Mock()
+        fallback_response.status_code = 200
+        fallback_response.raise_for_status = Mock()
+        fallback_response.json.return_value = {
+            "workItems": [{"id": 10}, {"id": 20}]
+        }
+
+        post_mock.side_effect = [team_not_found_response, fallback_response]
+
+        ids = query_work_item_ids(config)
+
+        self.assertEqual(2, post_mock.call_count)
+        # First call uses team in URL
+        first_url = post_mock.call_args_list[0].args[0]
+        self.assertIn("IEMQS%204.0/IEMQS%204.0", first_url)
+        # Retry call omits team from URL
+        second_url = post_mock.call_args_list[1].args[0]
+        self.assertNotIn("IEMQS%204.0/IEMQS%204.0", second_url)
+        self.assertIn("IEMQS%204.0/_apis/wit/wiql", second_url)
+        self.assertEqual([10, 20], ids)
+
+    @patch("scripts.azure_devops_to_md.requests.post")
+    def test_queryWorkItemIds_doesNotRetryWhenNoTeamSet(self, post_mock):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            team=None,
+            pat="pat",
+            work_item_type="User Story",
+        )
+
+        error_response = Mock()
+        error_response.status_code = 500
+        error_response.text = "internal error"
+        error_response.raise_for_status.side_effect = __import__("requests").HTTPError(
+            response=error_response
+        )
+
+        post_mock.return_value = error_response
+
+        with self.assertRaises(RuntimeError):
+            query_work_item_ids(config)
+
+        self.assertEqual(1, post_mock.call_count)
+
+
+

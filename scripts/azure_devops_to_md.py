@@ -321,6 +321,17 @@ def _raise_for_http_error(response: requests.Response, context: str) -> None:
         ) from error
 
 
+def _is_team_not_found_error(response: requests.Response) -> bool:
+    """Return True when the response is an HTTP 500 TeamNotFoundException."""
+    if response.status_code != 500:
+        return False
+    try:
+        body = response.json()
+        return body.get("typeKey") == "TeamNotFoundException"
+    except Exception:
+        return False
+
+
 def _chunked(values: list[int], size: int) -> Iterable[list[int]]:
     for index in range(0, len(values), size):
         yield values[index : index + size]
@@ -330,12 +341,44 @@ def query_work_item_ids(config: AzureDevOpsConfig, verbose: bool = False) -> lis
     if verbose:
         print("Running WIQL query against Azure DevOps...", file=sys.stderr)
 
+    wiql_query = build_wiql(config)
     response = requests.post(
         wiql_url(config),
-        json={"query": build_wiql(config)},
+        json={"query": wiql_query},
         auth=("", config.pat),
         timeout=30,
     )
+
+    # If the team name is invalid Azure DevOps returns HTTP 500 TeamNotFoundException.
+    # Retry without the team context so the query still runs at the project level.
+    if config.team and _is_team_not_found_error(response):
+        print(
+            f"Warning: team '{config.team}' was not found; retrying WIQL query without team context.",
+            file=sys.stderr,
+        )
+        fallback_config = AzureDevOpsConfig(
+            org=config.org,
+            project=config.project,
+            pat=config.pat,
+            work_item_type=config.work_item_type,
+            team=None,
+            states=config.states,
+            area_path=config.area_path,
+            iteration_path=config.iteration_path,
+            assigned_to=config.assigned_to,
+            tags=config.tags,
+            ids=config.ids,
+            from_date=config.from_date,
+            to_date=config.to_date,
+            date_field=config.date_field,
+        )
+        response = requests.post(
+            wiql_url(fallback_config),
+            json={"query": wiql_query},
+            auth=("", config.pat),
+            timeout=30,
+        )
+
     _raise_for_http_error(response, "WIQL query")
     payload = response.json()
 
