@@ -1,6 +1,7 @@
 import tempfile
 import textwrap
 import unittest
+import unittest.mock
 from pathlib import Path
 
 from scripts.export_tests_to_text import (
@@ -23,6 +24,8 @@ from scripts.export_tests_to_text import (
     _extract_mock_return_values,
     _extract_assertions,
     _report_basename,
+    _sanitize_project_name,
+    main,
 )
 
 
@@ -571,6 +574,112 @@ class TestReportBasename(unittest.TestCase):
     def test_reportBasename_noExtension_returnsNameWithSuffix(self):
         result = _report_basename("MyStory")
         self.assertEqual(result, "MyStory_test_report")
+
+    def test_reportBasename_withProjectAndDate_returnsProjectDateFormat(self):
+        result = _report_basename(
+            None,
+            project_name="Workforce Management by MX Techies",
+            date_stamp="2026-06-04",
+        )
+        self.assertEqual(result, "WorkforceManagementByMXTechies_2026-06-04_test_report")
+
+    def test_reportBasename_withProjectDateAndStory_returnsFullFormat(self):
+        result = _report_basename(
+            "MyStory.xlsx",
+            project_name="X",
+            date_stamp="2026-06-04",
+        )
+        self.assertEqual(result, "X_2026-06-04_MyStory_test_report")
+
+    def test_reportBasename_projectNameOnly_usesDefaultDate(self):
+        result = _report_basename(None, project_name="Proj", date_stamp="2030-01-15")
+        self.assertEqual(result, "Proj_2030-01-15_test_report")
+
+    def test_reportBasename_withoutProjectNoSource_returnsLegacyDefault(self):
+        self.assertEqual(_report_basename(source_story_file=None, project_name=None), "unit_test_cases_report")
+
+
+class TestSanitizeProjectName(unittest.TestCase):
+    def test_sanitize_spacesRemoved_wordsJoined(self):
+        self.assertEqual(
+            _sanitize_project_name("Workforce Management by MX Techies"),
+            "WorkforceManagementByMXTechies",
+        )
+
+    def test_sanitize_slashesReplaced(self):
+        result = _sanitize_project_name("My/Project")
+        self.assertNotIn("/", result)
+
+    def test_sanitize_specialCharsReplaced(self):
+        result = _sanitize_project_name("My Project: Test!")
+        self.assertNotIn(":", result)
+        self.assertNotIn("!", result)
+        self.assertNotIn(" ", result)
+
+    def test_sanitize_consecutiveUnderscoresCollapsed(self):
+        result = _sanitize_project_name("A  B")
+        self.assertNotIn("__", result)
+
+    def test_sanitize_leadingTrailingUnderscoresStripped(self):
+        result = _sanitize_project_name("  !Project!  ")
+        self.assertFalse(result.startswith("_"))
+        self.assertFalse(result.endswith("_"))
+
+    def test_sanitize_preservesUpperCaseInAcronyms(self):
+        result = _sanitize_project_name("MX Techies")
+        self.assertIn("MX", result)
+
+
+class TestMainEmptyTests(unittest.TestCase):
+    def test_main_noTestFiles_printsWarningAndWritesNothing(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tests_dir = Path(tmpdir) / "tests"
+            tests_dir.mkdir()
+            out_dir = Path(tmpdir) / "reports"
+
+            from io import StringIO
+            buf = StringIO()
+            with unittest.mock.patch("sys.argv", [
+                "export_tests_to_text.py",
+                "--tests-dir", str(tests_dir),
+                "--output-dir", str(out_dir),
+            ]):
+                with unittest.mock.patch("sys.stdout", buf):
+                    main()  # must not raise
+
+            # No report files should be written when there are no tests
+            if out_dir.exists():
+                written = list(out_dir.iterdir())
+                self.assertEqual(written, [], msg=f"Unexpected files written: {written}")
+            # A helpful warning must be printed
+            self.assertIn("No tests found", buf.getvalue())
+
+    def test_main_emptyTestFile_printsWarningAndWritesNothing(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tests_dir = Path(tmpdir) / "tests"
+            tests_dir.mkdir()
+            # Create a test_*.py file that has no test methods (empty class)
+            empty_test = tests_dir / "test_empty.py"
+            empty_test.write_text(
+                "import unittest\nclass TestEmpty(unittest.TestCase):\n    pass\n",
+                encoding="utf-8",
+            )
+            out_dir = Path(tmpdir) / "reports"
+
+            from io import StringIO
+            buf = StringIO()
+            with unittest.mock.patch("sys.argv", [
+                "export_tests_to_text.py",
+                "--tests-dir", str(tests_dir),
+                "--output-dir", str(out_dir),
+            ]):
+                with unittest.mock.patch("sys.stdout", buf):
+                    main()
+
+            if out_dir.exists():
+                written = list(out_dir.iterdir())
+                self.assertEqual(written, [], msg=f"Unexpected files written: {written}")
+            self.assertIn("No tests found", buf.getvalue())
 
 
 if __name__ == "__main__":

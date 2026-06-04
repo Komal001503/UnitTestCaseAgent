@@ -12,6 +12,8 @@ By default, output is written to ``test_reports/`` in the repository root.
 
 import argparse
 import ast
+import datetime
+import os
 import re
 import textwrap
 from pathlib import Path
@@ -44,6 +46,23 @@ def parse_args():
         choices=["txt", "docx", "xlsx"],
         default="txt",
         help="Output format: 'txt' (plain text), 'docx' (Word document), or 'xlsx' (Excel spreadsheet). Default: txt",
+    )
+    parser.add_argument(
+        "--project-name",
+        default=None,
+        help=(
+            "Azure DevOps project name used in the report filename. "
+            "Whitespace and special characters are sanitized automatically. "
+            "Can also be set via the AZURE_DEVOPS_PROJECT environment variable."
+        ),
+    )
+    parser.add_argument(
+        "--date-stamp",
+        default=None,
+        help=(
+            "Date stamp for the report filename in YYYY-MM-DD format. "
+            "Defaults to today's UTC date when --project-name is provided."
+        ),
     )
     return parser.parse_args()
 
@@ -947,17 +966,63 @@ def render_xlsx(grouped: dict[str, list[dict]], output_path: Path) -> None:
     wb.save(str(output_path))
 
 
-def _report_basename(source_story_file: str | None) -> str:
-    """Derive a report base name from the source user-story filename.
+def _sanitize_project_name(name: str) -> str:
+    """Sanitize a project name for use in a filename.
 
-    If *source_story_file* is ``None``, returns the legacy default name
-    ``"unit_test_cases_report"``.
+    - Splits on whitespace; each word has its first letter upper-cased (rest unchanged)
+    - Words are joined without separator (CamelCase)
+    - Characters not in ``[A-Za-z0-9._-]`` are replaced with underscores
+    - Consecutive underscores are collapsed; leading/trailing underscores stripped
 
-    Otherwise the extension is stripped from the source filename and a
-    ``_test_report`` suffix is appended.
-    Example: ``"MaintainShiftSchedulingPlanUserStory.xlsx"``
-             → ``"MaintainShiftSchedulingPlanUserStory_test_report"``
+    Example: ``"Workforce Management by MX Techies"``
+             → ``"WorkforceManagementByMXTechies"``
     """
+    name = name.strip()
+    # Capitalize first letter of each word while preserving the rest
+    words = name.split()
+    camel = "".join((w[0].upper() + w[1:]) if w else "" for w in words)
+    # Replace disallowed characters with underscores
+    camel = re.sub(r"[^A-Za-z0-9._-]", "_", camel)
+    # Collapse consecutive underscores
+    camel = re.sub(r"_+", "_", camel)
+    return camel.strip("_")
+
+
+def _report_basename(
+    source_story_file: str | None = None,
+    *,
+    project_name: str | None = None,
+    date_stamp: str | None = None,
+) -> str:
+    """Derive a report base name from the source user-story filename, project name, and date.
+
+    Priority rules:
+
+    - Both *project_name* and *source_story_file* →
+      ``{ProjectName}_{date}_{stem}_test_report``
+    - Only *project_name* →
+      ``{ProjectName}_{date}_test_report``
+    - Only *source_story_file* →
+      ``{stem}_test_report``  (legacy)
+    - Neither →
+      ``"unit_test_cases_report"``  (legacy default)
+
+    When *project_name* is given but *date_stamp* is ``None``, today's UTC date
+    is used automatically.
+
+    Example: ``source_story_file=None``,
+             ``project_name="Workforce Management by MX Techies"``,
+             ``date_stamp="2026-06-04"``
+             → ``"WorkforceManagementByMXTechies_2026-06-04_test_report"``
+    """
+    if project_name:
+        sanitized = _sanitize_project_name(project_name)
+        if date_stamp is None:
+            date_stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+        if source_story_file:
+            stem = Path(source_story_file).stem
+            return f"{sanitized}_{date_stamp}_{stem}_test_report"
+        return f"{sanitized}_{date_stamp}_test_report"
     if source_story_file is None:
         return "unit_test_cases_report"
     return Path(source_story_file).stem + "_test_report"
@@ -982,12 +1047,29 @@ def main():
     # Collect all test files (exclude __init__.py and non-test files)
     test_files = sorted(tests_dir.glob("test_*.py"))
     if not test_files:
-        raise SystemExit(f"No test_*.py files found in {tests_dir}")
+        print(
+            "No tests found — skipping report generation. "
+            "Run the Unit Test Generator agent to create test files in tests/ first."
+        )
+        return
 
     # Parse all files
     all_classes: list[dict] = []
     for tf in test_files:
         all_classes.extend(parse_test_file(tf))
+
+    # Exit gracefully if all parsed classes contain zero test methods
+    total_tests = sum(len(cls["tests"]) for cls in all_classes)
+    if total_tests == 0:
+        print(
+            "No tests found — skipping report generation. "
+            "Run the Unit Test Generator agent to create test files in tests/ first."
+        )
+        return
+
+    # Resolve project name: CLI flag takes priority, then AZURE_DEVOPS_PROJECT env var
+    project_name: str | None = args.project_name or os.environ.get("AZURE_DEVOPS_PROJECT") or None
+    date_stamp: str | None = args.date_stamp  # None means _report_basename will use today's UTC date
 
     # Group test classes by their source user-story file so that each
     # user-story file gets its own report.
@@ -995,7 +1077,7 @@ def main():
 
     for source_story_file, classes_for_story in story_groups.items():
         grouped = group_by_user_story(classes_for_story)
-        basename = _report_basename(source_story_file)
+        basename = _report_basename(source_story_file, project_name=project_name, date_stamp=date_stamp)
 
         if args.format == "txt":
             report = render_text(grouped)
