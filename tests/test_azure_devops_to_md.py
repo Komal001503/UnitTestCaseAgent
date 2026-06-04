@@ -645,4 +645,6 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertEqual(1, post_mock.call_count)
 
 
+if __name__ == "__main__":
+    unittest.main()
 
