@@ -52,10 +52,11 @@ Use `filter_mode` in the workflow **Run workflow** dialog:
 
 You can also apply date filtering in the same run:
 
-- `from_date` and `to_date` use `YYYY-MM-DD` (inclusive)
-- `date_field` chooses whether those dates apply to `ChangedDate` or `CreatedDate`
+- `from_date` and `to_date` are optional and use `YYYY-MM-DD` (inclusive when provided)
+- `date_field` is fully optional — pick `None` (or leave the dates blank) to skip date filtering entirely
+- If you provide a date but leave `date_field` as `None`, the sync falls back to `ChangedDate`
 
-Example: To fetch only stories changed in November 2025, set `from_date=2025-11-01`, `to_date=2025-11-30`, and leave `date_field=ChangedDate`.
+Example: To fetch only stories changed in November 2025, set `from_date=2025-11-01`, `to_date=2025-11-30`, and set `date_field=ChangedDate`. To skip date filtering, leave the dates blank or keep `date_field=None`.
 
 Local usage:
 

@@ -65,19 +65,20 @@ on:
           - Issue
           - Requirement
       from_date:
-        description: 'Start date (YYYY-MM-DD). Inclusive.'
+        description: 'Optional. YYYY-MM-DD. Inclusive start date.'
         required: false
         type: string
       to_date:
-        description: 'End date (YYYY-MM-DD). Inclusive.'
+        description: 'Optional. YYYY-MM-DD. Inclusive end date.'
         required: false
         type: string
       date_field:
-        description: 'Which date field the from/to dates apply to'
+        description: "Optional. Which date field the from/to dates apply to. Leave as 'None' to disable date filtering."
         required: false
         type: choice
-        default: ChangedDate
+        default: None
         options:
+          - None
           - ChangedDate
           - CreatedDate
       output_path:
@@ -114,8 +115,15 @@ jobs:
         shell: bash
         env:
           MODE: ${{ inputs.filter_mode || 'All' }}
+          DATE_FIELD_INPUT: ${{ inputs.date_field }}
+          FROM_DATE_INPUT: ${{ inputs.from_date }}
+          TO_DATE_INPUT: ${{ inputs.to_date }}
         run: |
           set -euo pipefail
+          from_date="$(printf '%s' "$FROM_DATE_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          to_date="$(printf '%s' "$TO_DATE_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          date_field="$(printf '%s' "$DATE_FIELD_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
           case "$MODE" in
             All)         echo "Using no scope filter (all stories)";;
             ByIteration) echo "iteration_path=${{ inputs.iteration_path }}" >> "$GITHUB_OUTPUT";;
@@ -125,6 +133,18 @@ jobs:
             ByIds)       echo "ids=${{ inputs.ids }}" >> "$GITHUB_OUTPUT";;
             *) echo "Unknown filter_mode '$MODE'" >&2; exit 1;;
           esac
+
+          if [[ -n "$from_date" ]]; then
+            echo "from_date=$from_date" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [[ -n "$to_date" ]]; then
+            echo "to_date=$to_date" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [[ -n "$date_field" && "${date_field,,}" != "none" ]]; then
+            echo "date_field=$date_field" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Pull Azure DevOps user stories
         env:
@@ -139,9 +159,9 @@ jobs:
           AZURE_DEVOPS_ASSIGNED_TO: ${{ steps.resolve.outputs.assigned_to }}
           AZURE_DEVOPS_TAGS: ${{ steps.resolve.outputs.tags }}
           AZURE_DEVOPS_IDS: ${{ steps.resolve.outputs.ids }}
-          AZURE_DEVOPS_FROM_DATE: ${{ inputs.from_date }}
-          AZURE_DEVOPS_TO_DATE: ${{ inputs.to_date }}
-          AZURE_DEVOPS_DATE_FIELD: ${{ inputs.date_field }}
+          AZURE_DEVOPS_FROM_DATE: ${{ steps.resolve.outputs.from_date }}
+          AZURE_DEVOPS_TO_DATE: ${{ steps.resolve.outputs.to_date }}
+          AZURE_DEVOPS_DATE_FIELD: ${{ steps.resolve.outputs.date_field }}
           OUTPUT_PATH: ${{ inputs.output_path || 'azure_devops_user_stories.md' }}
         run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH" --verbose
 

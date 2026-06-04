@@ -39,7 +39,7 @@ class AzureDevOpsConfig:
     ids: list[int] | None = None
     from_date: date | None = None
     to_date: date | None = None
-    date_field: str = "ChangedDate"
+    date_field: str | None = None
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -95,8 +95,8 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--date-field",
-        choices=["ChangedDate", "CreatedDate"],
-        help="Date field for from/to date filters (or AZURE_DEVOPS_DATE_FIELD, default: ChangedDate)",
+        choices=["None", "ChangedDate", "CreatedDate"],
+        help="Optional date field for from/to date filters (or AZURE_DEVOPS_DATE_FIELD)",
     )
     parser.add_argument("--dry-run", action="store_true", help="Print Markdown instead of writing file")
     parser.add_argument("--verbose", action="store_true", help="Print progress details")
@@ -140,10 +140,36 @@ def _csv_to_int_list(value: str | None, *, verbose: bool = False) -> list[int] |
 def _parse_iso_date(value: str | None) -> date | None:
     if value is None:
         return None
+    value = value.strip()
+    if not value:
+        return None
     try:
         return date.fromisoformat(value)
     except ValueError as error:
         raise ValueError(f"Invalid date '{value}': expected YYYY-MM-DD") from error
+
+
+def _normalize_date_field(value: str | None) -> str | None:
+    if value is None:
+        return None
+
+    normalized = value.strip()
+    normalized_lower = normalized.lower()
+    if not normalized or normalized_lower == "none":
+        return None
+    if normalized_lower == "changeddate":
+        return "ChangedDate"
+    if normalized_lower == "createddate":
+        return "CreatedDate"
+    raise ValueError("Invalid date field. Expected None, ChangedDate or CreatedDate.")
+
+
+def _effective_date_field(
+    from_date: date | None, to_date: date | None, date_field: str | None
+) -> str | None:
+    if not from_date and not to_date:
+        return None
+    return date_field or "ChangedDate"
 
 
 def _pick_arg_or_env(arg_value: str | None, env: Mapping[str, str], env_name: str) -> str | None:
@@ -177,8 +203,8 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
         _pick_arg_or_env(getattr(args, "from_date", None), env, "AZURE_DEVOPS_FROM_DATE")
     )
     to_date = _parse_iso_date(_pick_arg_or_env(getattr(args, "to_date", None), env, "AZURE_DEVOPS_TO_DATE"))
-    date_field = (
-        _pick_arg_or_env(getattr(args, "date_field", None), env, "AZURE_DEVOPS_DATE_FIELD") or "ChangedDate"
+    date_field = _normalize_date_field(
+        _pick_arg_or_env(getattr(args, "date_field", None), env, "AZURE_DEVOPS_DATE_FIELD")
     )
 
     if not org:
@@ -189,8 +215,6 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
         raise MissingPATError(
             "Missing AZURE_DEVOPS_PAT. Provide a PAT with Work Items: Read scope."
         )
-    if date_field not in {"ChangedDate", "CreatedDate"}:
-        raise ValueError("Invalid date field. Expected ChangedDate or CreatedDate.")
     if from_date and to_date and from_date > to_date:
         raise ValueError(
             f"Invalid date range: from-date {from_date.isoformat()} is after to-date {to_date.isoformat()}."
@@ -219,6 +243,7 @@ def _escape_wiql_value(value: str) -> str:
 
 
 def build_wiql(config: AzureDevOpsConfig) -> str:
+    date_field = _effective_date_field(config.from_date, config.to_date, config.date_field)
     filters = [f"[System.WorkItemType] = '{_escape_wiql_value(config.work_item_type)}'"]
 
     if config.states:
@@ -239,10 +264,10 @@ def build_wiql(config: AzureDevOpsConfig) -> str:
     if config.ids:
         joined_ids = ", ".join(str(work_item_id) for work_item_id in config.ids)
         filters.append(f"[System.Id] IN ({joined_ids})")
-    if config.from_date:
-        filters.append(f"[System.{config.date_field}] >= '{config.from_date.isoformat()}'")
-    if config.to_date:
-        filters.append(f"[System.{config.date_field}] <= '{config.to_date.isoformat()}T23:59:59'")
+    if config.from_date and date_field:
+        filters.append(f"[System.{date_field}] >= '{config.from_date.isoformat()}'")
+    if config.to_date and date_field:
+        filters.append(f"[System.{date_field}] <= '{config.to_date.isoformat()}T23:59:59'")
 
     where_clause = "\n  AND ".join(filters)
     return (
@@ -452,8 +477,9 @@ def render_markdown(
     ids: list[int] | None = None,
     from_date: date | None = None,
     to_date: date | None = None,
-    date_field: str = "ChangedDate",
+    date_field: str | None = None,
 ) -> str:
+    effective_date_field = _effective_date_field(from_date, to_date, date_field)
     filter_parts = [f"type={work_item_type}"]
     if states:
         filter_parts.append(f"states={', '.join(states)}")
@@ -467,14 +493,18 @@ def render_markdown(
         filter_parts.append(f"tags={','.join(tags)}")
     if ids:
         filter_parts.append(f"ids={','.join(str(item_id) for item_id in ids)}")
-    if from_date and to_date:
+    if from_date and to_date and effective_date_field:
         filter_parts.append(
-            f"{date_field.replace('Date', '').lower()} between {from_date.isoformat()} and {to_date.isoformat()}"
+            f"{effective_date_field.replace('Date', '').lower()} between {from_date.isoformat()} and {to_date.isoformat()}"
         )
-    elif from_date:
-        filter_parts.append(f"{date_field.replace('Date', '').lower()} on/after {from_date.isoformat()}")
-    elif to_date:
-        filter_parts.append(f"{date_field.replace('Date', '').lower()} on/before {to_date.isoformat()}")
+    elif from_date and effective_date_field:
+        filter_parts.append(
+            f"{effective_date_field.replace('Date', '').lower()} on/after {from_date.isoformat()}"
+        )
+    elif to_date and effective_date_field:
+        filter_parts.append(
+            f"{effective_date_field.replace('Date', '').lower()} on/before {to_date.isoformat()}"
+        )
 
     lines: list[str] = [
         "# User Stories",
