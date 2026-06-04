@@ -1,6 +1,6 @@
 # User Stories
 
-_Filtered to work item type: **User Story** (states: all except Removed)._
+_Filters: type=User Story._
 
 Total stories: 2372
 
@@ -2390,6 +2390,8 @@ Total stories: 2372
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2022-12-29T14:15:41.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24) |
 
@@ -2443,6 +2445,8 @@ Code Review:
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-16T04:24:00.283Z |
+| Created Date | 2022-12-29T14:16:44.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/28) |
 
@@ -2489,6 +2493,8 @@ Unit test cases:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-16T04:24:26.727Z |
+| Created Date | 2022-12-29T14:19:07.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/36) |
 
@@ -2541,6 +2547,8 @@ Unit test cases:
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-03-15T07:27:41.367Z |
+| Created Date | 2022-12-29T14:21:08.337Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/44) |
 
@@ -2577,6 +2585,8 @@ I know I am done when,
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-01T05:12:56.627Z |
+| Created Date | 2022-12-29T14:21:38.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/45) |
 
@@ -2603,6 +2613,8 @@ _Not provided._
 | Assigned To | Shaik.Basha9 |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-17T08:34:19.463Z |
+| Created Date | 2022-12-29T14:24:20.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/48) |
 
@@ -2628,6 +2640,8 @@ I know I am done when,
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-20T12:15:16.53Z |
+| Created Date | 2022-12-29T14:27:01.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/56) |
 
@@ -2653,6 +2667,8 @@ I know I am done when,
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-05-02T10:51:18.647Z |
+| Created Date | 2022-12-29T14:28:44.107Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/60) |
 
@@ -2677,6 +2693,8 @@ Fixes needs to be applied for the simple build errors which are missed by the mi
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2022-12-29T14:29:41.087Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/64) |
 
@@ -2702,6 +2720,8 @@ I know I am done when,
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-01T02:50:50.753Z |
+| Created Date | 2022-12-29T14:30:10.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/66) |
 
@@ -2732,6 +2752,8 @@ _Not provided._
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-20T14:35:17.647Z |
+| Created Date | 2022-12-29T14:32:09.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/74) |
 
@@ -2757,6 +2779,8 @@ I know I am done when,
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-20T14:16:09.297Z |
+| Created Date | 2022-12-29T14:33:17.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/78) |
 
@@ -2782,6 +2806,8 @@ I know I am done when,
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2022-12-29T14:36:52.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/88) |
 
@@ -2819,6 +2845,8 @@ Service Connection should be created on the Azure DevOps for SonarQube Integrati
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-01-30T08:59:14.837Z |
+| Created Date | 2022-12-29T14:37:14.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/90) |
 
@@ -2841,6 +2869,8 @@ MS Build should be installed as part of the build server configuration.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-01T07:17:40.283Z |
+| Created Date | 2022-12-29T14:37:31.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/92) |
 
@@ -2863,6 +2893,8 @@ Testing related task should be added to build pipeline and should be passed.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-08T09:27:20.617Z |
+| Created Date | 2022-12-29T14:37:40.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/93) |
 
@@ -2885,6 +2917,8 @@ The build artifacts should be published successfully.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-08T09:24:31.77Z |
+| Created Date | 2022-12-29T14:37:50.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/94) |
 
@@ -2907,6 +2941,8 @@ Build pipeline should be succeeded with all the configured tasks.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-20T15:46:06.34Z |
+| Created Date | 2022-12-29T14:38:42.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/96) |
 
@@ -2936,6 +2972,8 @@ Deploy Template should be configured in release pipeline.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-20T15:46:47.15Z |
+| Created Date | 2022-12-29T14:38:54.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/97) |
 
@@ -2958,6 +2996,8 @@ Artifact should be download from the Build Pipeline and add to Release Pipeline.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-20T15:46:31.58Z |
+| Created Date | 2022-12-29T14:39:04.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/98) |
 
@@ -2985,6 +3025,8 @@ Pipeline should have File transformation task to transform values from web.confi
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-16T04:27:17.06Z |
+| Created Date | 2022-12-29T14:39:30.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/99) |
 
@@ -3018,6 +3060,8 @@ Analyze the current solution to find the unused project references or packages.
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2022-12-29T14:40:35.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/103) |
 
@@ -3040,6 +3084,8 @@ Sanity Testing
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:24:57.773Z |
+| Created Date | 2022-12-29T14:42:05.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/107) |
 
@@ -3064,6 +3110,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:33:41.38Z |
+| Created Date | 2023-01-02T06:01:08.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/119) |
 
@@ -3087,6 +3135,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:41:03.417Z |
+| Created Date | 2023-01-02T06:39:14.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/121) |
 
@@ -3111,6 +3161,8 @@ All the test cases should be created and executed.
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2024-08-23T12:23:29.73Z |
+| Created Date | 2023-01-02T06:40:37.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/122) |
 
@@ -3135,6 +3187,8 @@ All the test cases should be created and executed.
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:37:02.26Z |
+| Created Date | 2023-01-02T06:41:09.843Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/123) |
 
@@ -3158,6 +3212,8 @@ All the test cases should be created, and execution should be complete.
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:31:30.557Z |
+| Created Date | 2023-01-02T06:43:09.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/124) |
 
@@ -3180,6 +3236,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:44:54.167Z |
+| Created Date | 2023-01-02T06:43:45.227Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/125) |
 
@@ -3202,6 +3260,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:44:01.173Z |
+| Created Date | 2023-01-02T06:44:17.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/126) |
 
@@ -3224,6 +3284,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-02-28T04:29:54.523Z |
+| Created Date | 2023-01-02T06:44:38.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/127) |
 
@@ -3248,6 +3310,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-22T08:38:35.937Z |
+| Created Date | 2023-01-02T06:45:07.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/128) |
 
@@ -3272,6 +3336,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-02T09:05:36.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/150) |
 
@@ -3297,6 +3363,8 @@ I know I am done when,
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-16T04:50:51.9Z |
+| Created Date | 2023-01-02T09:21:46.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/177) |
 
@@ -3324,6 +3392,8 @@ Migrate source code to Azure GIT
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-20T14:38:59.137Z |
+| Created Date | 2023-01-02T13:57:15.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/528) |
 
@@ -3346,6 +3416,8 @@ Code should be copied from TFS to AzureDevOps
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-20T14:38:17.06Z |
+| Created Date | 2023-01-03T04:30:39.877Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/561) |
 
@@ -3368,6 +3440,8 @@ Local account needs to be created to configure the build & deploy pipeline
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-20T14:37:46.07Z |
+| Created Date | 2023-01-03T04:32:58.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/562) |
 
@@ -3396,6 +3470,8 @@ The on-premises servers should be added to the created deployment groups.
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-20T15:12:29.727Z |
+| Created Date | 2023-01-03T04:45:51.857Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/575) |
 
@@ -3419,6 +3495,8 @@ Existing Architecture: Configuration cleanup - password encryption
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-20T15:13:25.643Z |
+| Created Date | 2023-01-03T04:46:19.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/576) |
 
@@ -3442,6 +3520,8 @@ Config transformation for environments
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-11T12:40:43.163Z |
+| Created Date | 2023-01-03T04:47:27.227Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/578) |
 
@@ -3464,6 +3544,8 @@ This spike is helping to find a solution for using Radis Cache in the existing a
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-05-05T05:13:55.187Z |
+| Created Date | 2023-01-03T04:48:25.127Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/580) |
 
@@ -3487,6 +3569,8 @@ Moving this feature to sprint 3 as it is spike activity.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-02-20T14:37:57.82Z |
+| Created Date | 2023-01-03T04:57:31.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/584) |
 
@@ -3509,6 +3593,8 @@ SonarQube should be installed on all the servers and should be up and running.
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-11T06:09:22.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1506) |
 
@@ -3532,6 +3618,8 @@ All the test cases should be created and executed.
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-11T06:12:40.003Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1507) |
 
@@ -3555,6 +3643,8 @@ All test cases creation and execution should be completed.
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-11T06:13:53.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1509) |
 
@@ -3579,6 +3669,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-06-15T04:32:48.98Z |
+| Created Date | 2023-01-11T06:21:43.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1519) |
 
@@ -3603,6 +3695,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-04T13:46:59.2Z |
+| Created Date | 2023-01-11T06:22:52.673Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1521) |
 
@@ -3626,6 +3720,8 @@ All the Test case preparation and execution should be completed.
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-11T08:31:44.203Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1576) |
 
@@ -3650,6 +3746,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-11T08:35:32.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1578) |
 
@@ -3674,6 +3772,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-12T11:36:38.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1962) |
 
@@ -3698,6 +3798,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-12T11:39:36.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/1963) |
 
@@ -3722,6 +3824,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-13T04:56:00.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2121) |
 
@@ -3744,6 +3848,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 2 |
+| Changed Date | 2023-04-17T13:31:51.93Z |
+| Created Date | 2023-01-13T05:10:49.097Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2124) |
 
@@ -3766,6 +3872,8 @@ Source code should be moved to Azure Devops
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Welding\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-20T02:22:12.947Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2291) |
 
@@ -3822,6 +3930,8 @@ NA​
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-20T06:52:21.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2296) |
 
@@ -3846,6 +3956,8 @@ All the tests identified for the migration are supposed to be passed. The tests 
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-20T07:47:32.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2298) |
 
@@ -3932,6 +4044,8 @@ Usability - NA
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-02-13T15:11:24.837Z |
+| Created Date | 2023-01-23T05:24:54.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2318) |
 
@@ -3960,6 +4074,8 @@ This user story is to collect all the tasks required for IEMQS upgrade to .net 6
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Welding\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-01-24T17:23:20.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2408) |
 
@@ -3992,6 +4108,8 @@ Note: No data available in new window.
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Welding\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-01-24T17:26:12.207Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2409) |
 
@@ -4028,6 +4146,8 @@ As a WE2 user, I want to select Project No. and Joint type so that it is used to
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-01-24T17:33:15.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2411) |
 
@@ -4085,6 +4205,8 @@ Navigation Details: WE2 Login--> IEMQS Dashboard--> Select Project no.-->Click "
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-01-24T17:35:31.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2412) |
 
@@ -4127,6 +4249,8 @@ _**
 | Assigned To | Shaik.Basha9 |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-27T13:37:23.103Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2481) |
 
@@ -4160,6 +4284,8 @@ Improve performance of maintain PTR user flow
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-03T05:18:57.74Z |
+| Created Date | 2023-01-27T13:39:24.737Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2482) |
 
@@ -4193,6 +4319,8 @@ Improve performance of In Process Inspection > Token List user flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-03T05:18:57.74Z |
+| Created Date | 2023-01-27T13:40:25.443Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2483) |
 
@@ -4225,6 +4353,8 @@ Improve performance of maintain PTR user flow
 | Assigned To | Shaik.Basha9 |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-04T16:10:37.903Z |
+| Created Date | 2023-01-27T13:43:03.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2484) |
 
@@ -4255,6 +4385,8 @@ Improve performance of maintain PTR user flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-03-22T05:05:01.95Z |
+| Created Date | 2023-01-27T13:46:08.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2485) |
 
@@ -4286,6 +4418,8 @@ Improve performance of maintain PTR user flow
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-27T13:47:09.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2486) |
 
@@ -4317,6 +4451,8 @@ Improve performance of maintain PTR user flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-07-05T12:25:02.557Z |
+| Created Date | 2023-01-27T13:48:11.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2487) |
 
@@ -4346,6 +4482,8 @@ Improve performance of maintain PTR user flow
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-30T10:57:13.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2499) |
 
@@ -4392,6 +4530,8 @@ Navigation Details Here...: IEMQS Dashboard--> In process Inspection--> Test Res
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-31T07:00:54.797Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2525) |
 
@@ -4447,6 +4587,8 @@ Usability - NA
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-31T07:08:25.227Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2526) |
 
@@ -4505,6 +4647,8 @@ Usability - NA
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-31T08:05:10.107Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2531) |
 
@@ -4568,6 +4712,8 @@ _
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-01-31T09:29:46.79Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2536) |
 
@@ -4618,6 +4764,8 @@ _**
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Welding\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-02-01T06:28:29.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2572) |
 
@@ -4688,6 +4836,8 @@ Performance: NA
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-01T09:24:54.203Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2574) |
 
@@ -4713,6 +4863,8 @@ As a WE3 user, I want to mark favourite to the number of projects, so that I can
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-03-19T12:52:04.857Z |
+| Created Date | 2023-02-02T04:50:53.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2634) |
 
@@ -4739,6 +4891,8 @@ i know i am done when,
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-02T05:36:08.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2637) |
 
@@ -4793,6 +4947,8 @@ Under the section "Upload documents" for a given Seam,**
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Welding\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-02-02T09:39:04.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2643) |
 
@@ -4843,6 +4999,8 @@ Navigation Details: WE2 Login--> IEMQS Dashboard--> Select Project no.-->Click "
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:17:12.607Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2644) |
 
@@ -4877,6 +5035,8 @@ Project Details will have -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:18:08.157Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2645) |
 
@@ -4904,6 +5064,8 @@ The reference documents are -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:18:36.04Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2646) |
 
@@ -4929,6 +5091,8 @@ Reference standard documents -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:19:09.933Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2647) |
 
@@ -4957,6 +5121,8 @@ Quick links -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:19:35.16Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2648) |
 
@@ -4985,6 +5151,8 @@ To do list consists of -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:19:59.953Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2649) |
 
@@ -5014,6 +5182,8 @@ Notification list -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:20:28.097Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2650) |
 
@@ -5036,6 +5206,8 @@ Project heath Pie chart indicating Completion %, In progress % & Not started %
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:20:59.6Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2651) |
 
@@ -5058,6 +5230,8 @@ As a WE3 user, I want to view all project health, so that I get an holistic heal
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-02T10:21:30.73Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2652) |
 
@@ -5087,6 +5261,8 @@ Training hub -
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-03T03:57:04.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2654) |
 
@@ -5132,6 +5308,8 @@ Upon clicking "Lock Upload" button as displayed in the screen "Lock Upload", bel
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-03T09:11:07.003Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2661) |
 
@@ -5157,6 +5335,8 @@ _Not provided._
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-03T09:22:55.49Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2663) |
 
@@ -5179,6 +5359,8 @@ _Not provided._
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-03T11:11:28.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2673) |
 
@@ -5216,6 +5398,8 @@ Navigation details here : IEMQS Dashboard--> In-process inspection --> Test resu
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-06T03:04:10.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2688) |
 
@@ -5262,6 +5446,8 @@ Navigation details here ..: IEMQS Dashboard--> In-process inspection --> Test re
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-06T03:28:40.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2689) |
 
@@ -5307,6 +5493,8 @@ Upon clicking "Lock Upload" button as displayed in the screen "Lock Upload", bel
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-06T09:05:52.683Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2698) |
 
@@ -5334,6 +5522,8 @@ Ancillary Applications -
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-06T11:21:52.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2699) |
 
@@ -5371,6 +5561,8 @@ Navigation details here : IEMQS Dashboard--> In-process inspection --> Test resu
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-06T11:26:19.163Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2700) |
 
@@ -5399,6 +5591,8 @@ Following details have to be captured
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-06T11:32:00.347Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2701) |
 
@@ -5428,6 +5622,8 @@ Maintain TPI details sub flow not considered - Using as is flow
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-07T11:11:33.6Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2720) |
 
@@ -5450,6 +5646,8 @@ Allow users to fetch Stages from existing Quality ID and create a new quality ID
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-05T04:11:39.34Z |
+| Created Date | 2023-02-07T12:28:33.62Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2722) |
 
@@ -5476,6 +5674,8 @@ For checking the feasibility of those solutions
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-14T11:29:07.22Z |
+| Created Date | 2023-02-08T04:08:59.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2727) |
 
@@ -5509,6 +5709,8 @@ Authentication
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-08T04:49:01.89Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2734) |
 
@@ -5531,6 +5733,8 @@ Enable users to apply filters, compare stages in different Quality IDs and fetch
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-08T04:58:08.97Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2735) |
 
@@ -5555,6 +5759,8 @@ _Not provided._
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-10T04:30:05.673Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2771) |
 
@@ -5577,6 +5783,8 @@ _Not provided._
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 3 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-10T05:07:06.687Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2777) |
 
@@ -5601,6 +5809,8 @@ _Not provided._
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-10T05:17:01.18Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2781) |
 
@@ -5625,6 +5835,8 @@ _Not provided._
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Welding\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-02-10T06:07:22.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2783) |
 
@@ -5674,6 +5886,8 @@ _**
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T04:20:40.527Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2789) |
 
@@ -5696,6 +5910,8 @@ A build Pipeline should be create/Updated to support net.6 api and angular then 
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-05-04T15:58:03.16Z |
+| Created Date | 2023-02-13T04:21:04.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2790) |
 
@@ -5718,6 +5934,8 @@ A release Pipeline should be create/Updated in DEV/QA/UAT/PROD to support net.6 
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T04:23:23.273Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2791) |
 
@@ -5740,6 +5958,8 @@ The pipeline should deploy the artifacts to the TEST region by creating project 
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T04:23:53.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2792) |
 
@@ -5762,6 +5982,8 @@ The pipeline should deploy the artifacts to the Staging/UAT region by creating p
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T04:24:55.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2793) |
 
@@ -5784,6 +6006,8 @@ The pipeline should deploy the artifacts to the PROD region by creating project 
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T05:07:13.33Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2804) |
 
@@ -5810,6 +6034,8 @@ Landing page reviewed has following inputs -
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T05:09:35.76Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2807) |
 
@@ -5834,6 +6060,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-14T13:28:13.923Z |
+| Created Date | 2023-02-13T05:12:56.22Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2811) |
 
@@ -5859,6 +6087,8 @@ Map joint type with Weld Seam No.
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T05:23:11.223Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2818) |
 
@@ -5886,6 +6116,8 @@ Create theme/visual designs for IEMQS application following L&THE brand guidelin
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T05:31:53.443Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/2823) |
 
@@ -5910,6 +6142,8 @@ _Not provided._
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-13T11:06:07.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3019) |
 
@@ -5935,6 +6169,8 @@ Application URL should be in working status.
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-13T11:34:03.973Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3032) |
 
@@ -5974,6 +6210,8 @@ Navigation details here : IEMQS Dashboard--> In-process inspection --> Test resu
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-13T12:06:30.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3033) |
 
@@ -6016,6 +6254,8 @@ _Functional:_
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-14T04:37:05.457Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3158) |
 
@@ -6038,6 +6278,8 @@ _Not provided._
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-14T05:17:22.317Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3178) |
 
@@ -6060,6 +6302,8 @@ _Not provided._
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-15T09:07:56.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3259) |
 
@@ -6083,6 +6327,8 @@ _Not provided._
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-16T04:01:12.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3307) |
 
@@ -6106,6 +6352,8 @@ When a PR raised corresponding changes where built if there are errors then  bui
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-17T05:17:45.507Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3354) |
 
@@ -6128,6 +6376,8 @@ TBD
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-17T06:58:07.643Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3360) |
 
@@ -6150,6 +6400,8 @@ Create the best navigation system with the help of Card sorting workshops.
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-02-20T07:47:12.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3408) |
 
@@ -6200,6 +6452,8 @@ _Functional:_
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-21T07:47:51.893Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3472) |
 
@@ -6224,6 +6478,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-24T04:19:49.047Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3654) |
 
@@ -6248,6 +6504,8 @@ As a L2/L3 user, I want to navigate a system which offers unified & consistent e
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-24T05:00:24.993Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3658) |
 
@@ -6276,6 +6534,8 @@ _Not provided._
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 4 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-27T04:07:19.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3719) |
 
@@ -6302,6 +6562,8 @@ Deployment on QA server.
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-02-27T06:06:47.32Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3729) |
 
@@ -6329,6 +6591,8 @@ _Not provided._
 | Assigned To | chandrasen.ingawale |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-02-28T12:59:29.157Z |
 | Tags | removed |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3854) |
 
@@ -6410,6 +6674,8 @@ Note: Refer attached document for detailed information.
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-28T13:02:18.847Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3855) |
 
@@ -6476,6 +6742,8 @@ Functionality should be supported in the below
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-02-28T13:05:00.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3856) |
 
@@ -6515,6 +6783,8 @@ __Note: Refer attached document for detailed information.
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-03-01T08:01:49.527Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3871) |
 
@@ -6567,6 +6837,8 @@ _**Note:**_ For DB Table description, please refer attachement
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-01T10:28:18.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3882) |
 
@@ -6628,6 +6900,8 @@ Functionality should be supported in the below:
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-01T10:29:06.35Z |
 | Tags | At risk |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3883) |
 
@@ -6664,6 +6938,8 @@ Functionality should be supported in the below:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-01T10:29:20.35Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3884) |
 
@@ -6708,6 +6984,8 @@ Functional:_
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-01T10:48:48.42Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3886) |
 
@@ -6745,6 +7023,8 @@ Functionality should be supported in the below
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-02T03:35:38.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/3897) |
 
@@ -6780,6 +7060,8 @@ Functionality should be supported in the below:
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-02T09:07:45.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4001) |
 
@@ -6808,6 +7090,8 @@ Note:
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-07T03:18:02.48Z |
+| Created Date | 2023-03-03T04:11:26.21Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4020) |
 
@@ -6855,6 +7139,8 @@ Desktop browser-Chrome latest version
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-12T06:13:56.747Z |
+| Created Date | 2023-03-03T04:11:38.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4021) |
 
@@ -6883,6 +7169,8 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-03T05:18:57.74Z |
+| Created Date | 2023-03-06T05:50:54.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4076) |
 
@@ -6911,6 +7199,8 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Assigned To | Shaik.Basha9 |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-04T16:10:37.903Z |
+| Created Date | 2023-03-06T05:58:37.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4077) |
 
@@ -6937,6 +7227,8 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-03-22T05:02:24.807Z |
+| Created Date | 2023-03-06T06:03:56.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4078) |
 
@@ -6964,6 +7256,8 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-03-22T05:02:10.573Z |
+| Created Date | 2023-03-06T06:06:37.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4079) |
 
@@ -6991,6 +7285,8 @@ As a HEIC user*, I want to access my favorite items using quicklinks, so that It
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-04T16:10:37.903Z |
+| Created Date | 2023-03-06T06:09:05.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4080) |
 
@@ -7021,6 +7317,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-04T16:10:37.903Z |
+| Created Date | 2023-03-06T06:10:20.653Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4081) |
 
@@ -7048,6 +7346,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-03-22T05:03:10.157Z |
+| Created Date | 2023-03-06T06:19:45.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4082) |
 
@@ -7075,6 +7375,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-03-06T06:20:56.913Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4083) |
 
@@ -7102,6 +7404,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-04-04T16:10:37.903Z |
+| Created Date | 2023-03-06T06:23:41.323Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4084) |
 
@@ -7129,6 +7433,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-03-06T06:24:47.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4085) |
 
@@ -7156,6 +7462,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-03-06T06:25:56.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4086) |
 
@@ -7183,6 +7491,8 @@ Click View Icon for a DCR under Action Column
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T05:04:49.84Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4562) |
 
@@ -7214,6 +7524,8 @@ Utility features documented -
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T06:04:50.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4564) |
 
@@ -7257,6 +7569,8 @@ Functionality should be supported in the below
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T06:17:27.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4566) |
 
@@ -7313,6 +7627,8 @@ Functionality should be supported for the below device:
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T06:20:07.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4567) |
 
@@ -7353,6 +7669,8 @@ Functionality should be supported in the below
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T06:23:34.383Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4568) |
 
@@ -7404,6 +7722,8 @@ Functionality should be supported in the below
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T10:26:23.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4578) |
 
@@ -7438,6 +7758,8 @@ Acceptance criteria do not include Left nav bar (Side bar) and IPad
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T10:29:40.797Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4580) |
 
@@ -7463,6 +7785,8 @@ User enters his/her login credentials to login to the new 'Smart Factory' applic
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T12:06:40.52Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4595) |
 
@@ -7487,6 +7811,8 @@ Need not be designed. SMEs said they will be using existing screen layout.
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-08T12:21:21.35Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4599) |
 
@@ -7519,6 +7845,8 @@ _Not provided._
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T13:06:06.663Z |
+| Created Date | 2023-03-08T12:26:18.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4601) |
 
@@ -7544,6 +7872,8 @@ We need to fix any more build errors found and run time issues which might occur
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-09T04:05:02.29Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4670) |
 
@@ -7566,6 +7896,8 @@ _Not provided._
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-10T04:57:02.787Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4751) |
 
@@ -7595,6 +7927,8 @@ _Not provided._
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-12T06:13:56.747Z |
+| Created Date | 2023-03-10T05:02:31.843Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4752) |
 
@@ -7645,6 +7979,8 @@ Functionality should be supported in the below
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-25T10:36:25.653Z |
+| Created Date | 2023-03-12T07:05:51.763Z |
 | Tags | At risk |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4789) |
 
@@ -7689,6 +8025,8 @@ Functionality should be supported in the below
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-14T09:38:10.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4819) |
 
@@ -7731,6 +8069,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2024-01-03T12:43:22.057Z |
+| Created Date | 2023-03-14T09:49:20.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4820) |
 
@@ -7753,6 +8093,8 @@ Build API Contract
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2024-01-03T12:43:45.56Z |
+| Created Date | 2023-03-14T09:55:38.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4821) |
 
@@ -7802,6 +8144,8 @@ NA
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-14T09:57:40.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4822) |
 
@@ -7836,6 +8180,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-14T09:58:58.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4823) |
 
@@ -7876,6 +8222,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-14T10:20:43.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4824) |
 
@@ -7914,6 +8262,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2024-01-03T12:43:33.69Z |
+| Created Date | 2023-03-14T11:00:21.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4825) |
 
@@ -7936,6 +8286,8 @@ _Not provided._
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-03-29T04:29:43.057Z |
+| Created Date | 2023-03-14T11:02:00.983Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4826) |
 
@@ -7958,6 +8310,8 @@ Environment readiness for implementation of PartList API and service
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2024-01-03T12:43:52.233Z |
+| Created Date | 2023-03-14T11:15:33.157Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4829) |
 
@@ -7987,6 +8341,8 @@ Send the response back to 3d Automation application.
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2023-03-28T03:12:49.787Z |
+| Created Date | 2023-03-14T11:20:23.73Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4831) |
 
@@ -8009,6 +8365,8 @@ _Not provided._
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-03-29T04:29:16.497Z |
+| Created Date | 2023-03-14T11:26:06.527Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4832) |
 
@@ -8031,6 +8389,8 @@ _Not provided._
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-04-18T04:44:20.45Z |
+| Created Date | 2023-03-14T12:25:38.037Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4841) |
 
@@ -8093,6 +8453,8 @@ _**Usability requirements: NA**_
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-07-18T17:44:25.117Z |
+| Created Date | 2023-03-14T12:58:15.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4842) |
 
@@ -8127,6 +8489,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-04-18T04:44:36.727Z |
+| Created Date | 2023-03-14T16:43:51.523Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4845) |
 
@@ -8188,6 +8552,8 @@ _**Usability requirements: NA**_
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-04-18T04:44:54.12Z |
+| Created Date | 2023-03-14T18:05:41.013Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4850) |
 
@@ -8248,6 +8614,8 @@ _**Usability requirements: NA**_
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T06:51:15.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4862) |
 
@@ -8290,6 +8658,8 @@ Note: For technical details, please refer attached document
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T07:31:30.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4863) |
 
@@ -8342,6 +8712,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T07:40:27.933Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4864) |
 
@@ -8382,6 +8754,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T07:45:07.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4865) |
 
@@ -8420,6 +8794,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T11:31:17.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4874) |
 
@@ -8468,6 +8844,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T11:40:10.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4875) |
 
@@ -8512,6 +8890,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-15T12:30:07.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4878) |
 
@@ -8559,6 +8939,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Dhanshree.pawar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-15T13:11:01.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4879) |
 
@@ -8598,6 +8980,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-15T13:13:40.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4880) |
 
@@ -8646,6 +9030,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-15T13:23:35.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4881) |
 
@@ -8686,6 +9072,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T13:54:45.877Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4882) |
 
@@ -8728,6 +9116,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T14:03:15.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4883) |
 
@@ -8765,6 +9155,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-15T14:27:18.553Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4886) |
 
@@ -8801,6 +9193,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-03-15T18:52:28.56Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4891) |
 
@@ -8827,6 +9221,8 @@ User wants to enter details & upload Joint image in PQR & publish as .pdf/.xls
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T03:55:10.783Z |
+| Created Date | 2023-03-16T06:02:26.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4903) |
 
@@ -8868,6 +9264,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-16T06:16:56.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4904) |
 
@@ -8910,6 +9308,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-16T06:23:21.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4905) |
 
@@ -8944,6 +9344,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-17T05:19:26.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4930) |
 
@@ -8986,6 +9388,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-18T02:47:21.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4953) |
 
@@ -9027,6 +9431,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-20T05:16:58.35Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4977) |
 
@@ -9069,6 +9475,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2024-01-03T12:43:59.39Z |
+| Created Date | 2023-03-20T05:24:16.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4978) |
 
@@ -9091,6 +9499,8 @@ _Not provided._
 | Assigned To | aarthi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-20T05:27:56.843Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/4979) |
 
@@ -9134,6 +9544,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-22T04:12:44.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5014) |
 
@@ -9172,6 +9584,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Payala.Chandana |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-03-22T07:27:56.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5018) |
 
@@ -9211,6 +9625,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Dhanshree.pawar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-23T04:25:54.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5030) |
 
@@ -9251,6 +9667,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-23T04:26:56.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5031) |
 
@@ -9314,6 +9732,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Dhanshree.pawar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-23T04:27:41.327Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5032) |
 
@@ -9362,6 +9782,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-23T04:36:35.983Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5033) |
 
@@ -9407,6 +9829,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | aarthi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-23T04:38:21.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5034) |
 
@@ -9451,6 +9875,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-23T05:03:22.427Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5037) |
 
@@ -9478,6 +9904,8 @@ Visual design options with color suggestion desired by customer
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-23T05:25:58.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5040) |
 
@@ -9510,6 +9938,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-16T12:35:20.657Z |
+| Created Date | 2023-03-23T11:19:50.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5050) |
 
@@ -9533,6 +9963,8 @@ The new functionalities which are developed in 4.8 version should work as it in 
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-24T04:27:46.353Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5053) |
 
@@ -9558,6 +9990,8 @@ This user story will capture the visual design part of Procedure master workflow
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-24T04:29:17.46Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5054) |
 
@@ -9583,6 +10017,8 @@ This user story will capture the visual design part of Project wise maintain Pro
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-25T14:16:36Z |
+| Created Date | 2023-03-24T08:44:46.39Z |
 | Tags | Descoped from R1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5076) |
 
@@ -9616,6 +10052,8 @@ Functionality should be supported in the below
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-25T11:16:30.077Z |
+| Created Date | 2023-03-24T08:51:10.823Z |
 | Tags | Descoped from R1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5077) |
 
@@ -9649,6 +10087,8 @@ Functionality should be supported in the below
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-03-27T09:03:45.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5144) |
 
@@ -9676,6 +10116,8 @@ Get business signoff for performance fixes for all flows which were taking 90per
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-27T10:37:53.58Z |
 | Tags | Descoped from R1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5219) |
 
@@ -9710,6 +10152,8 @@ Users should be able to view the feature on Chrom browsers of Laptop and Tablets
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-03-27T11:12:38.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5224) |
 
@@ -9738,6 +10182,8 @@ When the API is requested OR Responded then the request and response of the API 
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-27T11:18:24.547Z |
 | Tags | At risk |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5225) |
 
@@ -9767,6 +10213,8 @@ We might need to create DEV2 & QA2 deployment groups
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-27T12:05:14.72Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5239) |
 
@@ -9811,6 +10259,8 @@ For Shop weld plan(From Souvik):
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-28T05:46:51.17Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5392) |
 
@@ -9834,6 +10284,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-10T15:12:33.44Z |
+| Created Date | 2023-03-28T11:22:49.05Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5425) |
 
@@ -9858,6 +10310,8 @@ _Not provided._
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-28T11:56:45.71Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5446) |
 
@@ -9891,6 +10345,8 @@ PFB the details:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-29T12:24:41.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5516) |
 
@@ -9938,6 +10394,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-04-05T15:06:24.977Z |
+| Created Date | 2023-03-30T10:42:25.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5541) |
 
@@ -9964,6 +10422,8 @@ All the critical workflow test cases are supposed to be created and reviewed
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-29T08:49:38.213Z |
+| Created Date | 2023-03-30T10:42:54.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5542) |
 
@@ -9988,6 +10448,8 @@ All the critical workflow test cases are supposed to be created and reviewed
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-16T06:42:45.76Z |
+| Created Date | 2023-03-30T10:43:37.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5543) |
 
@@ -10010,6 +10472,8 @@ Execution test cases for Migration fixes
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2024-01-03T12:45:49.787Z |
+| Created Date | 2023-03-30T17:05:43.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5566) |
 
@@ -10121,6 +10585,8 @@ _**
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-09-01T07:11:35.663Z |
+| Created Date | 2023-03-31T04:10:11.07Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5574) |
 
@@ -10233,6 +10699,8 @@ _**
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-03-31T04:23:12.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5575) |
 
@@ -10278,6 +10746,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-31T04:49:19.723Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5577) |
 
@@ -10304,6 +10774,8 @@ _Not provided._
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-03-31T04:58:16.957Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5579) |
 
@@ -10328,6 +10800,8 @@ Reference:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-04T05:31:54.097Z |
 | Tags | At risk |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5730) |
 
@@ -10356,6 +10830,8 @@ Ref [https://xd.adobe.com/view/f0a78b9b-599a-4886-9c80-24d6a40bbc60-a5f4/](https
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-04-04T11:57:41.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/5737) |
 
@@ -10378,6 +10854,8 @@ _Not provided._
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-04-14T15:12:09.9Z |
+| Created Date | 2023-04-05T13:11:55.263Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/6831) |
 
@@ -10400,6 +10878,8 @@ publish a sample API from Dev to SIT successfully
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-04-14T15:11:07.593Z |
+| Created Date | 2023-04-06T03:03:52.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/6832) |
 
@@ -10422,6 +10902,8 @@ should be able to transform request body as per the requirement
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 2 |
+| Changed Date | 2023-04-14T15:09:06.137Z |
+| Created Date | 2023-04-06T03:46:58.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/6833) |
 
@@ -10444,6 +10926,8 @@ Additional Requirement to validate junk character in the request body of 3 use c
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 6 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-10T05:54:20.59Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7358) |
 
@@ -10466,6 +10950,8 @@ update the prototype with feedback comments in XD link
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-10T05:57:58.347Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7360) |
 
@@ -10488,6 +10974,8 @@ Create prototype and validate with stakeholder
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-10T09:27:45.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7370) |
 
@@ -10510,6 +10998,8 @@ When searched for a project ID which is not in the 50, the project should be vis
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T05:31:56.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7383) |
 
@@ -10540,6 +11030,8 @@ A single multi-stage Pipeline should be created to build and deploy IEMQS API in
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-11T05:43:26.337Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7384) |
 
@@ -10589,6 +11081,8 @@ As a QI3 user, I want to view system generated Part ICS, so that it will save my
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T06:53:13.257Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7387) |
 
@@ -10655,6 +11149,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T06:55:11.673Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7388) |
 
@@ -10690,6 +11186,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T06:56:28.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7389) |
 
@@ -10720,6 +11218,8 @@ Functional:
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T06:56:51.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7390) |
 
@@ -10767,6 +11267,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T07:04:00.763Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7392) |
 
@@ -10807,6 +11309,8 @@ Landing Page-> Mega Menu->e-Signature & Digital Dossier->Return Records Tab
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T07:04:29.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7393) |
 
@@ -10844,6 +11348,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-11T07:05:03.42Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7394) |
 
@@ -10888,6 +11394,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-11T07:45:48.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7395) |
 
@@ -10937,6 +11445,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-11T07:46:38.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7396) |
 
@@ -11000,6 +11510,8 @@ Should be compatible with Android and iPad tabs chrome browsers
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-12T04:50:18.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7471) |
 
@@ -11066,6 +11578,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-12T04:58:48.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7472) |
 
@@ -11088,6 +11602,8 @@ Close all the defects identified in UAT
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-12T05:25:40.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7475) |
 
@@ -11143,6 +11659,8 @@ Usability -**
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-12T05:28:02.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7476) |
 
@@ -11180,6 +11698,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-12T05:57:01.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7477) |
 
@@ -11232,6 +11752,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-12T09:59:45.68Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7490) |
 
@@ -11297,6 +11819,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-12T10:11:34.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7496) |
 
@@ -11334,6 +11858,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-08-22T04:44:36.897Z |
+| Created Date | 2023-04-12T10:44:05.353Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7501) |
 
@@ -11378,6 +11904,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-12T10:57:18.787Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7502) |
 
@@ -11435,6 +11963,8 @@ Android and iPad chrome browsers compatibility should be present
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-13T03:34:01.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7506) |
 
@@ -11489,6 +12019,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:24:35.853Z |
+| Created Date | 2023-04-13T04:05:17.957Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7507) |
 
@@ -11542,6 +12074,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-13T04:08:58.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7508) |
 
@@ -11604,6 +12138,8 @@ Usability:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-09T10:53:24.963Z |
+| Created Date | 2023-04-13T04:15:42.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7509) |
 
@@ -11678,6 +12214,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-13T05:37:30.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7513) |
 
@@ -11740,6 +12278,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-06-20T11:46:22.33Z |
+| Created Date | 2023-04-14T04:11:18.35Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7570) |
 
@@ -11766,6 +12306,8 @@ REST API development to fetch enquiry and equipment details from EMS.
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-06-20T11:46:22.33Z |
+| Created Date | 2023-04-14T04:15:31.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7571) |
 
@@ -11792,6 +12334,8 @@ REST API development to fetch project, contract, contract lines and contract del
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-14T07:53:43.087Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7572) |
 
@@ -11821,6 +12365,8 @@ Append UI Component library in order to define design patterns & style.
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-14T07:55:09.96Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7573) |
 
@@ -11845,6 +12391,8 @@ Design documentation which captures color pallets, Typography, iconography used 
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-14T07:58:47.997Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7574) |
 
@@ -11871,6 +12419,8 @@ Creating digital assets with frontend development team -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-14T08:00:25.64Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7575) |
 
@@ -11893,6 +12443,8 @@ Visual design/Theme incorporation
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-04-14T08:04:52.153Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7578) |
 
@@ -11918,6 +12470,8 @@ new requirements
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-08T12:23:22.823Z |
+| Created Date | 2023-04-14T10:24:33.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7593) |
 
@@ -11967,6 +12521,8 @@ Bearer <https://codepedia.info/jwt-authentication-in-aspnet-core-web-api-token>
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-04T09:33:43.96Z |
+| Created Date | 2023-04-17T06:37:25.057Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7623) |
 
@@ -11989,6 +12545,8 @@ Pipeline set up for  Azure API management APIs and Logic App workflows are compl
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2024-01-03T12:51:21.263Z |
+| Created Date | 2023-04-17T06:40:00.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7627) |
 
@@ -12011,6 +12569,8 @@ Build and Deployment of Azure API management APIs and Logic App workflows are pe
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-06-20T11:46:22.33Z |
+| Created Date | 2023-04-17T06:40:06.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7628) |
 
@@ -12033,6 +12593,8 @@ CI/CD pipelines to be enhanced for  achieving  seamless incremental deployment
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-04-28T08:34:30.69Z |
+| Created Date | 2023-04-17T06:41:39.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7630) |
 
@@ -12061,6 +12623,8 @@ Analysis of ECOM services is completed with below outcome:
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-04-24T03:40:32.803Z |
+| Created Date | 2023-04-17T06:42:59.653Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7631) |
 
@@ -12100,6 +12664,8 @@ below mentioned connectivity should be working post fix
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-04-24T03:46:58.463Z |
+| Created Date | 2023-04-17T06:43:10.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7632) |
 
@@ -12138,6 +12704,8 @@ Components provisioned the production environment are verified and outcome is as
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-17T06:46:47.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7636) |
 
@@ -12168,6 +12736,8 @@ A single multi-stage Pipeline should be created to build and deploy IEMQS WEB in
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-04-21T03:50:39.687Z |
+| Created Date | 2023-04-17T06:46:54.947Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7637) |
 
@@ -12190,6 +12760,8 @@ API and Interface design Document for ISD002 should be ready for client Review
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-04T10:15:02.943Z |
+| Created Date | 2023-04-17T06:48:27.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7644) |
 
@@ -12212,6 +12784,8 @@ Client should should and give the sign off for ISD002 and ISD003  documents
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-03T10:48:34.063Z |
+| Created Date | 2023-04-17T06:49:13.253Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7645) |
 
@@ -12238,6 +12812,8 @@ API need to be developed and ready for Sanity testing
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-03T10:55:44.12Z |
+| Created Date | 2023-04-17T06:50:49.833Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7652) |
 
@@ -12282,6 +12858,8 @@ Below mentioned services should be available in SIT environment
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-03T16:22:09.077Z |
+| Created Date | 2023-04-17T06:53:26.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7658) |
 
@@ -12324,6 +12902,8 @@ Below services in  SIT environment should be working fine with wrapper service:
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2024-01-03T12:50:35.437Z |
+| Created Date | 2023-04-17T06:55:53.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7661) |
 
@@ -12358,6 +12938,8 @@ Field level mapping sheet
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-03T10:09:59.25Z |
+| Created Date | 2023-04-17T07:26:25.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7690) |
 
@@ -12384,6 +12966,8 @@ Produce Unit Test Report sheets with the expected and actual results for both Us
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-05-05T05:09:08.28Z |
+| Created Date | 2023-04-17T07:38:33.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7695) |
 
@@ -12410,6 +12994,8 @@ Demo for UTR is arranged with Track Lead and Seek for sign off.
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-17T07:46:22.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7702) |
 
@@ -12448,6 +13034,8 @@ As a end user, I need the new changes to be implemented on landing page, so the 
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-17T09:55:17.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7737) |
 
@@ -12474,6 +13062,8 @@ Calculator widget should be visible on Scientific icon click.
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-17T11:57:57.047Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7830) |
 
@@ -12506,6 +13096,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-18T04:47:30.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7904) |
 
@@ -12543,6 +13135,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-18T05:02:00.68Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7905) |
 
@@ -12578,6 +13172,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-18T05:09:24.087Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7907) |
 
@@ -12612,6 +13208,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-18T05:24:45.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7909) |
 
@@ -12668,6 +13266,8 @@ Desktop browser-Chrome latest version
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 5 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-18T06:08:31.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7914) |
 
@@ -12703,6 +13303,8 @@ As a NDE3, QA3 & QI3, I want to capture photo from mobile/tablet/ipad and back c
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-18T11:36:33.323Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/7938) |
 
@@ -12737,6 +13339,8 @@ L3 user should be able to view the word file after entering the parameter values
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-20T04:57:11.007Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8009) |
 
@@ -12762,6 +13366,8 @@ User should be able to filter as per status of records.
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-20T08:04:39.337Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8016) |
 
@@ -12809,6 +13415,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-20T08:14:11.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8017) |
 
@@ -12863,6 +13471,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-20T08:33:45.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8018) |
 
@@ -12907,6 +13517,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Dhanshree.pawar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-20T09:11:21.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8021) |
 
@@ -12957,6 +13569,8 @@ Technical: Please refer attached document for technical specifications
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-20T09:37:46.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8022) |
 
@@ -13006,6 +13620,8 @@ Technical: Please refer attached document for technical specifications
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-25T14:16:36Z |
+| Created Date | 2023-04-20T11:35:14.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8023) |
 
@@ -13037,6 +13653,8 @@ Improve performance of select welder in token list flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-04-20T11:58:31.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8024) |
 
@@ -13069,6 +13687,8 @@ Improve performance of search in offer/re-offer flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-04-20T12:03:00.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8025) |
 
@@ -13098,6 +13718,8 @@ Improve performance of search in NDE test Result Seam flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-04-20T12:04:56.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8026) |
 
@@ -13127,6 +13749,8 @@ Improve performance of search in offer/re-offer flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T07:01:24.44Z |
+| Created Date | 2023-04-20T12:07:23.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8027) |
 
@@ -13156,6 +13780,8 @@ Improve performance of Offer for inspection flow
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-12T08:57:36.513Z |
+| Created Date | 2023-04-20T12:13:44.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8028) |
 
@@ -13188,6 +13814,8 @@ Improve performance of Offer for inspection flow
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T07:01:24.44Z |
+| Created Date | 2023-04-20T12:16:35.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8029) |
 
@@ -13217,6 +13845,8 @@ Improve performance of Seam/Part/Assembly - LTFPS  flow
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-21T04:28:49.443Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8034) |
 
@@ -13239,6 +13869,8 @@ Update the entire screens in prototype with approved visual theme.
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-21T05:31:46.93Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8036) |
 
@@ -13261,6 +13893,8 @@ Design all screens from approved userflow to High fidelity screens and clickable
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-21T07:10:44.933Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8067) |
 
@@ -13286,6 +13920,8 @@ Provide assistance to create Visual design/theme for 'Maintain Standard QID' flo
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:21:59.393Z |
+| Created Date | 2023-04-21T09:38:06.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8070) |
 
@@ -13358,6 +13994,8 @@ Seam details
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-04-24T03:04:37.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8074) |
 
@@ -13414,6 +14052,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Jatin.Prusty |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-04-24T05:50:32.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8077) |
 
@@ -13437,6 +14077,8 @@ As part of this story we need to create a POC which would allow the users to sig
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-24T06:29:55.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8079) |
 
@@ -13516,6 +14158,8 @@ NDE Test Result - Part: https://vhzdigiiemqsqa1.lthed.com/IPI/PartlistNDEInspect
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-31T12:34:19.993Z |
+| Created Date | 2023-04-25T05:05:34.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8111) |
 
@@ -13544,6 +14188,8 @@ The POC application should
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-25T11:33:18.983Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8128) |
 
@@ -13569,6 +14215,8 @@ Landing Page HTML refinement
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-26T09:09:54.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8148) |
 
@@ -13606,6 +14254,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-26T09:23:18.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8149) |
 
@@ -13641,6 +14291,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-26T09:32:39.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8151) |
 
@@ -13677,6 +14329,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-04-26T09:37:09.363Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8152) |
 
@@ -13713,6 +14367,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-26T12:11:17.763Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8155) |
 
@@ -13739,6 +14395,8 @@ User should be logged in to the Landing Page
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:37:40.01Z |
+| Created Date | 2023-04-27T04:19:21.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8168) |
 
@@ -13785,6 +14443,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-06-15T03:50:46.013Z |
+| Created Date | 2023-04-27T07:09:27.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8185) |
 
@@ -13822,6 +14482,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-24T09:09:56.877Z |
+| Created Date | 2023-04-27T07:40:33.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8187) |
 
@@ -13858,6 +14520,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-27T10:53:11.537Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8206) |
 
@@ -13902,6 +14566,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-16T11:44:23.86Z |
+| Created Date | 2023-04-28T07:28:55.013Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8262) |
 
@@ -13926,6 +14592,8 @@ High Fidelity components to be delivered
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-28T07:31:19.193Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8263) |
 
@@ -13950,6 +14618,8 @@ Latest components to be delivered
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-28T07:34:25.807Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8264) |
 
@@ -13977,6 +14647,8 @@ Screens till document signing
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-28T07:35:10.82Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8265) |
 
@@ -14003,6 +14675,8 @@ Latest components to be delivered
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-04-28T07:35:53.853Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8266) |
 
@@ -14029,6 +14703,8 @@ Latest components to be delivered
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-04-28T08:52:08.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8273) |
 
@@ -14073,6 +14749,8 @@ Technical: Please refer attached document for technical specifications
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-04-28T08:59:35.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8276) |
 
@@ -14121,6 +14799,8 @@ Technical: Please refer attached document for technical specifications
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-04-28T09:42:54.55Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8280) |
 
@@ -14148,6 +14828,8 @@ WE3 user should be able to view QID, TP and SWP in same screen with resizable se
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-04-28T09:45:03.06Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8281) |
 
@@ -14175,6 +14857,8 @@ WE3 user should be able to view QID, TP and SWP in same screen with resizable se
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 3 |
+| Changed Date | 2023-06-20T11:46:22.33Z |
+| Created Date | 2023-04-28T11:52:44.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8284) |
 
@@ -14202,6 +14886,8 @@ REST API development to fetch project list from ERP LN.
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-04-28T12:21:00.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8306) |
 
@@ -14238,6 +14924,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T07:01:24.44Z |
+| Created Date | 2023-05-02T07:01:16.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8314) |
 
@@ -14267,6 +14955,8 @@ Improve performance of Maintain PQR flow
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T07:01:24.44Z |
+| Created Date | 2023-05-02T07:06:26.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8315) |
 
@@ -14296,6 +14986,8 @@ Improve performance of Offer for inspection flow
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-06-15T03:50:46.013Z |
+| Created Date | 2023-05-03T04:32:28.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8323) |
 
@@ -14343,6 +15035,8 @@ Please use lthead id and the password which we used to connect to forticlient
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-03T04:34:58.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8324) |
 
@@ -14376,6 +15070,8 @@ RefreshToken : 60 minuets
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-03T07:32:37.703Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8330) |
 
@@ -14403,6 +15099,8 @@ As a WE3 user I want to upload & validate Test Certificate
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-04T04:01:15.15Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8337) |
 
@@ -14431,6 +15129,8 @@ There will be 3 sections:
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-07-18T17:44:25.117Z |
+| Created Date | 2023-05-04T04:46:02.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8341) |
 
@@ -14460,6 +15160,8 @@ Improve performance of Offer for inspection flow
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 7 |
+| Changed Date | 2023-05-19T09:42:44.393Z |
+| Created Date | 2023-05-04T05:34:48.317Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8343) |
 
@@ -14482,6 +15184,8 @@ Create page layout style guide for dev team and update component library for IEM
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-04T05:36:59.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8344) |
 
@@ -14508,6 +15212,8 @@ POC to create generic upload control in angular.
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-04T13:26:02.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8352) |
 
@@ -14537,6 +15243,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-04T13:37:17.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8353) |
 
@@ -14578,6 +15286,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Dhanshree.pawar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-04T13:37:21.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8354) |
 
@@ -14616,6 +15326,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-04T13:37:24.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8355) |
 
@@ -14659,6 +15371,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-04T13:46:09.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8356) |
 
@@ -14699,6 +15413,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-05T12:26:04.107Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8373) |
 
@@ -14745,6 +15461,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-05-08T04:10:10.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8374) |
 
@@ -14768,6 +15486,8 @@ Sonarqube is static code analysis tool which needs to be used to check the quali
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-19T10:23:22.48Z |
+| Created Date | 2023-05-08T04:21:56.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8375) |
 
@@ -14792,6 +15512,8 @@ Add the getProjectList API into Design document
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-17T09:16:02.957Z |
+| Created Date | 2023-05-08T04:23:05.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8377) |
 
@@ -14820,6 +15542,8 @@ Development for below services are completed
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-22T03:35:02.557Z |
+| Created Date | 2023-05-08T04:23:56.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8379) |
 
@@ -14844,6 +15568,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-18T03:52:23.597Z |
+| Created Date | 2023-05-08T04:24:27.857Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8380) |
 
@@ -14871,6 +15597,8 @@ Unit Testing for below services  are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2024-01-03T12:54:08.7Z |
+| Created Date | 2023-05-08T04:24:35.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8381) |
 
@@ -14895,6 +15623,8 @@ Unit Testing for below services  are completed with no technical issues
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-05-08T04:24:45.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8382) |
 
@@ -14917,6 +15647,8 @@ There are missing unit tests for API, Repository and services projects.It needs 
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-17T09:16:15.87Z |
+| Created Date | 2023-05-08T04:25:08.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8384) |
 
@@ -14941,6 +15673,8 @@ Development for below services are completed
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-22T03:36:26.56Z |
+| Created Date | 2023-05-08T04:25:40.047Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8385) |
 
@@ -14969,6 +15703,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-25T13:26:29.047Z |
+| Created Date | 2023-05-08T04:28:50.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8390) |
 
@@ -14991,6 +15727,8 @@ _CI-CD pipeline should be enhanced for seamless deployment to various environmen
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-05-08T04:31:07.653Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8394) |
 
@@ -15024,6 +15762,8 @@ X-IEMQS-CorrelationID = GUID
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-23T12:51:56.427Z |
+| Created Date | 2023-05-08T05:45:43.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8424) |
 
@@ -15046,6 +15786,8 @@ I know i am done, when a sql tool runs on iemqs db servers to monitor the freque
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T07:03:55.77Z |
+| Created Date | 2023-05-08T05:49:27.523Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8429) |
 
@@ -15068,6 +15810,8 @@ I know i am done when PoC for caching in MVC is done
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 4 |
+| Changed Date | 2023-05-25T13:26:57.887Z |
+| Created Date | 2023-05-08T06:02:44.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8461) |
 
@@ -15090,6 +15834,8 @@ Demo and Review for CICD Improvement and closure the feedbacks
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-08T06:13:20.2Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8464) |
 
@@ -15116,6 +15862,8 @@ Digital assets comprises of -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-06-02T08:35:57.937Z |
+| Created Date | 2023-05-08T06:22:54.747Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8473) |
 
@@ -15155,6 +15903,8 @@ Ux team will deliver UI components comprises of -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-08T06:28:25.083Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8477) |
 
@@ -15181,6 +15931,8 @@ Append brand guidelines with -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-08T06:50:57.853Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8483) |
 
@@ -15205,6 +15957,8 @@ Review, developed UI to ensure, it perfectly renders in tablet -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-08T06:55:02.653Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8486) |
 
@@ -15229,6 +15983,8 @@ Progressive internal review of visual designs for approved flows.
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-08T08:59:11.233Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8492) |
 
@@ -15252,6 +16008,8 @@ TECH: Implement Automapper for API, Infrastructure and application projects
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-09T05:15:17.153Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8802) |
 
@@ -15279,6 +16037,8 @@ As an HEIC portal user, I want to view Mega Menu with all the latest user experi
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-26T12:57:11.37Z |
+| Created Date | 2023-05-09T05:56:24.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8807) |
 
@@ -15304,6 +16064,8 @@ TECH: POC on Maintain Procedure Screen Grid with Sub grid elements
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-09T06:05:42.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8815) |
 
@@ -15335,6 +16097,8 @@ Functional:
 | Assigned To | Jatin.Prusty |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-09T06:17:15.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8816) |
 
@@ -15365,6 +16129,8 @@ A single multi-stage Pipeline should be created to build and deploy IEMQS Angula
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-09T09:55:18Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8846) |
 
@@ -15388,6 +16154,8 @@ Update the low fidelity based on new updates provided
 | Assigned To | Jatin.Prusty |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-10T04:08:48.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8914) |
 
@@ -15410,6 +16178,8 @@ We have a POC showcasing that merged documents retain the digital signatures.
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-10T05:16:03.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8927) |
 
@@ -15445,6 +16215,8 @@ Landing Page Descoped Items Issues and Tasks for Production release
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-05-25T05:28:47.057Z |
+| Created Date | 2023-05-10T06:04:13.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8932) |
 
@@ -15467,6 +16239,8 @@ This story is to track effort spent by team for code merge to release branch and
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-10T06:56:40.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8943) |
 
@@ -15521,6 +16295,8 @@ _**Certificate binder:**_
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-10T09:18:08.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8953) |
 
@@ -15556,6 +16332,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-10T09:23:40.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8955) |
 
@@ -15592,6 +16370,8 @@ Note: For technical details please refer attached doc
 | Assigned To | aarthi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-10T09:25:23.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8956) |
 
@@ -15619,6 +16399,8 @@ As a WE3/WE2 user, I want to view "WPQ uploaded" column in Maintain WML session,
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-11T05:10:11.333Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8982) |
 
@@ -15651,6 +16433,8 @@ There will be one more tab for accessing compiled docs for PMG named "Final Doss
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-11T05:36:35.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/8986) |
 
@@ -15675,6 +16459,8 @@ Critical workflow for seam
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-11T09:14:57.34Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9002) |
 
@@ -15698,6 +16484,8 @@ As a ENGG3/PMG3/PLNG3/WE3/QI3/QA3/NDE3/AUX3/LOG3 user, I want to access Maintain
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-11T09:15:04.73Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9003) |
 
@@ -15721,6 +16509,8 @@ As a ENGG2/PMG2/PLNG2/WE2/QI2/QA2/NDE2/AUX2/LOG2 user, I want to approve/return 
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-11T10:42:18.383Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9004) |
 
@@ -15784,6 +16574,8 @@ As a Key User, I want to Maintain 3D automation configuration to get data from P
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-11T12:07:11.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9006) |
 
@@ -15871,6 +16663,8 @@ Notes
 | Assigned To | Amarjeet Sahoo |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:50:27.383Z |
+| Created Date | 2023-05-12T03:57:48.53Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9016) |
 
@@ -15923,6 +16717,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T06:57:31.19Z |
+| Created Date | 2023-05-12T04:21:18.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9017) |
 
@@ -16013,6 +16809,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T12:07:28.857Z |
+| Created Date | 2023-05-12T04:27:05.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9019) |
 
@@ -16071,6 +16869,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:52:06.52Z |
+| Created Date | 2023-05-12T04:32:30.133Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9020) |
 
@@ -16170,6 +16970,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-05-12T08:00:16.99Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9052) |
 
@@ -16202,6 +17004,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-12T08:00:20.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9053) |
 
@@ -16237,6 +17041,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-31T06:12:05.743Z |
+| Created Date | 2023-05-12T08:00:24.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9054) |
 
@@ -16267,6 +17073,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-12T11:52:59.133Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9105) |
 
@@ -16294,6 +17102,8 @@ Urgent changes required for R1 release
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-12T12:26:08.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9106) |
 
@@ -16344,6 +17154,8 @@ Prerequisites -
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-15T06:11:19.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9135) |
 
@@ -16404,6 +17216,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rupesh.Sharma |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-15T06:44:10.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9143) |
 
@@ -16438,6 +17252,8 @@ Note: For technical details please refer attached doc
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-12-07T11:57:53.76Z |
+| Created Date | 2023-05-16T08:28:55.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9176) |
 
@@ -16531,6 +17347,8 @@ NA
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-05-16T14:06:59.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9185) |
 
@@ -16568,6 +17386,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-16T14:07:02.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9186) |
 
@@ -16605,6 +17425,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-16T14:13:00.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9187) |
 
@@ -16637,6 +17459,8 @@ For details on modules, submodules, please refer attached excel
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T05:32:11.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9198) |
 
@@ -16683,6 +17507,8 @@ Refer Table: QMS055
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T05:36:51.323Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9199) |
 
@@ -16740,6 +17566,8 @@ Refer Table: QMS055
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T05:51:45.937Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9202) |
 
@@ -16800,6 +17628,8 @@ Refer Table: QMS050
 | Assigned To | Sadineni.Navya |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T05:51:50.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9203) |
 
@@ -16858,6 +17688,8 @@ Refer Table: QMS050
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T06:02:55.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9206) |
 
@@ -16904,6 +17736,8 @@ Refer Table: QMS050
 | Assigned To | Sadineni.Navya |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T06:02:58.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9207) |
 
@@ -16951,6 +17785,8 @@ Refer Table: QMS050
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T06:38:27.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9208) |
 
@@ -17005,6 +17841,8 @@ Refer Table: QMS060
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T06:38:30.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9209) |
 
@@ -17048,6 +17886,8 @@ Refer Table: QMS060
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T07:52:47.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9212) |
 
@@ -17101,6 +17941,8 @@ Reference Image:
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-17T07:52:50.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9213) |
 
@@ -17160,6 +18002,8 @@ Refer Table: QMS050
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-18T06:31:20.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9226) |
 
@@ -17189,6 +18033,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-18T09:41:07.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9230) |
 
@@ -17240,6 +18086,8 @@ Three records need to create in DES060 (Per document listed in JEP).****
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-18T10:19:53.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9235) |
 
@@ -17264,6 +18112,8 @@ Functional:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-18T13:02:37.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9239) |
 
@@ -17297,6 +18147,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-18T13:18:49.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9240) |
 
@@ -17336,6 +18188,8 @@ Steps to create:
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-06-01T10:24:30.87Z |
+| Created Date | 2023-05-19T10:16:08.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9258) |
 
@@ -17358,6 +18212,8 @@ a ML model to identify the tables in the TC
 | Assigned To | palamakulamanikanth.goud |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-06-01T10:24:40.07Z |
+| Created Date | 2023-05-19T11:14:17.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9261) |
 
@@ -17383,6 +18239,8 @@ Label-studio for annotating, local machine for training
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:19:51.417Z |
+| Created Date | 2023-05-22T04:42:44.68Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9269) |
 
@@ -17439,6 +18297,8 @@ As a WE3 user, I want to view quality ID, so that I can attach the stages in mul
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-05-22T04:44:15.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9270) |
 
@@ -17492,6 +18352,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 8 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-22T04:53:35.49Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9272) |
 
@@ -17522,6 +18384,8 @@ Send to pmg option for compiled file
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-05-22T08:25:48.783Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9281) |
 
@@ -17585,6 +18449,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-05-22T08:28:04.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9282) |
 
@@ -17638,6 +18504,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-18T05:57:57.833Z |
+| Created Date | 2023-05-22T08:30:38.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9284) |
 
@@ -17691,6 +18559,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-22T09:50:45.927Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9287) |
 
@@ -17764,6 +18634,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-22T13:36:06.813Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9292) |
 
@@ -17796,6 +18668,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T06:29:47.647Z |
+| Created Date | 2023-05-23T05:09:00.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9298) |
 
@@ -17850,6 +18724,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T06:29:47.647Z |
+| Created Date | 2023-05-23T05:17:34.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9299) |
 
@@ -17902,6 +18778,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-23T06:23:43.347Z |
+| Created Date | 2023-05-23T05:26:11.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9300) |
 
@@ -17960,6 +18838,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:23:03.577Z |
+| Created Date | 2023-05-23T07:31:21.253Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9302) |
 
@@ -18014,6 +18894,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-05-23T07:55:37.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9303) |
 
@@ -18073,6 +18955,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-23T11:38:24.777Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9315) |
 
@@ -18185,6 +19069,8 @@ Upon clicking " Configure 3D Automation " button in Mega Menu,
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-23T12:17:44.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9317) |
 
@@ -18219,6 +19105,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-23T12:26:31.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9318) |
 
@@ -18251,6 +19139,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-23T12:28:41.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9319) |
 
@@ -18284,6 +19174,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-23T12:36:17.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9320) |
 
@@ -18317,6 +19209,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-23T12:59:25.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9321) |
 
@@ -18349,6 +19243,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-23T13:08:10.153Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9322) |
 
@@ -18381,6 +19277,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-24T03:30:12.41Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9323) |
 
@@ -18413,6 +19311,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-24T03:35:42.687Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9324) |
 
@@ -18446,6 +19346,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-24T03:39:05.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9325) |
 
@@ -18475,6 +19377,8 @@ Improve performance of Offer for inspection flow
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-24T03:39:34.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9326) |
 
@@ -18504,6 +19408,8 @@ Improve performance of Offer for inspection flow
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-24T13:34:57.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9368) |
 
@@ -18528,6 +19434,8 @@ Tasks raised after splitting story 4601
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-16T12:36:53.497Z |
+| Created Date | 2023-05-24T14:54:26.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9369) |
 
@@ -18552,6 +19460,8 @@ Tasks from 4601
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T02:46:50.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9370) |
 
@@ -18594,6 +19504,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T02:51:27.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9371) |
 
@@ -18656,6 +19568,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T02:54:03.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9372) |
 
@@ -18717,6 +19631,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T02:55:32.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9373) |
 
@@ -18785,6 +19701,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T02:57:36.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9374) |
 
@@ -18852,6 +19770,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T03:00:23.203Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9375) |
 
@@ -18919,6 +19839,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T03:02:50.723Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9376) |
 
@@ -18980,6 +19902,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T03:04:13.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9377) |
 
@@ -19043,6 +19967,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T03:12:38.587Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9379) |
 
@@ -19087,6 +20013,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-05-25T03:38:55.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9380) |
 
@@ -19122,6 +20050,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T03:39:06.543Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9381) |
 
@@ -19184,6 +20114,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T03:52:53.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9382) |
 
@@ -19231,6 +20163,8 @@ Attachment: Please refer attachment for standardized template
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-25T04:13:39.783Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9386) |
 
@@ -19269,6 +20203,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-25T05:58:46.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9392) |
 
@@ -19302,6 +20238,8 @@ Steps to create:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-05-25T06:35:14.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9394) |
 
@@ -19335,6 +20273,8 @@ Steps to create:
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-16T10:49:30.243Z |
+| Created Date | 2023-05-26T13:06:54.097Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9439) |
 
@@ -19361,6 +20301,8 @@ REST API development to fetch WBMS/Test certificate data from ERP LN.
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-05-26T13:31:53.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9440) |
 
@@ -19391,6 +20333,8 @@ Functional:
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-05-27T13:05:12.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9443) |
 
@@ -19413,6 +20357,8 @@ There are few feedback points in the sprint 8 from Atul captured in the attachme
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-28T18:20:31.05Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9444) |
 
@@ -19444,6 +20390,8 @@ Append UI Components library for the development team support
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-28T18:23:23.167Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9445) |
 
@@ -19466,6 +20414,8 @@ Closely work with UI development team to review developed UI and share review fe
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-05-28T18:28:58.277Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9446) |
 
@@ -19488,6 +20438,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-28T18:32:49.2Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9449) |
 
@@ -19510,6 +20462,8 @@ Create & share digital assets with UI development team in order to help developm
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-08T03:33:38.517Z |
+| Created Date | 2023-05-29T04:02:03.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9477) |
 
@@ -19532,6 +20486,8 @@ Add the getWBMSData API into Design document
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2024-01-03T12:57:01.34Z |
+| Created Date | 2023-05-29T04:11:39.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9478) |
 
@@ -19556,6 +20512,8 @@ Development for below services are completed
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-14T11:10:28.003Z |
+| Created Date | 2023-05-29T04:12:16.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9479) |
 
@@ -19579,6 +20537,8 @@ Complete the View Details Update for priority application
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-08T03:35:40.58Z |
+| Created Date | 2023-05-29T04:12:36.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9480) |
 
@@ -19603,6 +20563,8 @@ Unit Testing for below services  are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-16T03:56:45.82Z |
+| Created Date | 2023-05-29T04:13:10.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9481) |
 
@@ -19627,6 +20589,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-11T16:53:36.617Z |
+| Created Date | 2023-05-29T04:13:50.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9482) |
 
@@ -19649,6 +20613,8 @@ Create a Interface Design Document for Ecom Application
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-11T16:52:39.043Z |
+| Created Date | 2023-05-29T04:14:21.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9483) |
 
@@ -19673,6 +20639,8 @@ Development for below services are completed
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-20T11:46:22.33Z |
+| Created Date | 2023-05-29T04:14:32.533Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9484) |
 
@@ -19699,6 +20667,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2024-01-03T13:00:14.77Z |
+| Created Date | 2023-05-29T04:15:19.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9487) |
 
@@ -19725,6 +20695,8 @@ Unit Testing for below services  are completed with no technical issues
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-29T04:29:52.667Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9504) |
 
@@ -19794,6 +20766,8 @@ Status - Returned, Approved
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-16T06:45:30.77Z |
+| Created Date | 2023-05-29T04:51:27.313Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9512) |
 
@@ -19816,6 +20790,8 @@ Review developed screens with prototype
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-05-29T08:24:24.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9582) |
 
@@ -19840,6 +20816,8 @@ Functional:
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-29T09:47:10.557Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9721) |
 
@@ -19865,6 +20843,8 @@ The current loader of landing needs to be removed from everywhere from legacy po
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-29T09:51:54.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9737) |
 
@@ -19889,6 +20869,8 @@ Reference Link: [Procedure Master - High Fidelity (adobe.com)](https://xd.adobe.
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-29T10:52:30.153Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9758) |
 
@@ -19928,6 +20910,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-16T12:24:24.773Z |
+| Created Date | 2023-05-30T05:17:20.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9899) |
 
@@ -19950,6 +20934,8 @@ Deployment should be given by DEV team
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-30T17:22:34.887Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9963) |
 
@@ -19973,6 +20959,8 @@ Need to add  the usage of the elmah core new implementation to the new net6 app 
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-31T06:45:15.453Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9990) |
 
@@ -20010,6 +20998,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-31T06:45:18.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9991) |
 
@@ -20046,6 +21036,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-31T06:56:26.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9992) |
 
@@ -20081,6 +21073,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-31T07:07:09.253Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9995) |
 
@@ -20122,6 +21116,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-31T07:13:13.323Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9996) |
 
@@ -20149,6 +21145,8 @@ Upload TC & View, Modify & Approve
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-31T07:50:43.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9998) |
 
@@ -20192,6 +21190,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-05-31T07:50:59.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/9999) |
 
@@ -20226,6 +21226,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-05-31T09:42:12.407Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10003) |
 
@@ -20258,6 +21260,8 @@ Notification received: "Procedure submitted for approval by L3", Submitted by, t
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-19T04:24:16.197Z |
+| Created Date | 2023-05-31T11:28:57.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10017) |
 
@@ -20280,6 +21284,8 @@ When cropped image of the table is passed on to the developed ML model, model sh
 | Assigned To | palamakulamanikanth.goud |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-14T11:29:20.073Z |
+| Created Date | 2023-05-31T11:38:35.65Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10023) |
 
@@ -20302,6 +21308,8 @@ model should start the training by passing relevant files and trained model with
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-01T06:01:05.307Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10045) |
 
@@ -20329,6 +21337,8 @@ This User story tracks efforts put in to map general user flow and also efforts 
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T08:40:07.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10074) |
 
@@ -20372,6 +21382,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T08:40:15.35Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10075) |
 
@@ -20422,6 +21434,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T08:40:55.577Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10076) |
 
@@ -20473,6 +21487,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T09:59:44.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10079) |
 
@@ -20516,6 +21532,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T13:17:34.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10082) |
 
@@ -20558,6 +21576,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T13:42:48.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10083) |
 
@@ -20608,6 +21628,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-02T13:49:30.983Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10084) |
 
@@ -20652,6 +21674,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-05T07:10:17.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10116) |
 
@@ -20686,6 +21710,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-05T07:10:21.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10117) |
 
@@ -20728,6 +21754,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-05T07:10:26.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10118) |
 
@@ -20765,6 +21793,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-11T05:31:21.09Z |
+| Created Date | 2023-06-05T09:11:14.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10120) |
 
@@ -20787,6 +21817,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-06T04:55:28.233Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10129) |
 
@@ -20813,6 +21845,8 @@ Design Team reviews -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-06T05:00:15.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10131) |
 
@@ -20840,6 +21874,8 @@ QR code responsive mobile prototype
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-20T05:03:22.75Z |
+| Created Date | 2023-06-06T05:22:14.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10133) |
 
@@ -20868,6 +21904,8 @@ Conducting review calls and clarify doubts of developers and testers working on 
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-06T09:44:23.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10140) |
 
@@ -20890,6 +21928,8 @@ _Not provided._
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-07T04:05:13.723Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10147) |
 
@@ -20929,6 +21969,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-07T04:05:17.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10148) |
 
@@ -20970,6 +22012,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-07T04:05:20.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10149) |
 
@@ -21009,6 +22053,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-07T04:05:24.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10150) |
 
@@ -21046,6 +22092,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T05:45:55.847Z |
+| Created Date | 2023-06-07T10:12:24.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10175) |
 
@@ -21068,6 +22116,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-14T11:29:29.707Z |
+| Created Date | 2023-06-07T10:21:33.363Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10176) |
 
@@ -21090,6 +22140,8 @@ developers should be able to train/infer the trained models with the dependency 
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-06-14T11:29:39.26Z |
+| Created Date | 2023-06-07T10:29:24.443Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10177) |
 
@@ -21112,6 +22164,8 @@ Labelled dataset for 72 tables and python code to finetune the ML model
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-27T04:24:54.293Z |
+| Created Date | 2023-06-07T12:48:16.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10187) |
 
@@ -21200,6 +22254,8 @@ NA
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-12-07T12:00:21.183Z |
+| Created Date | 2023-06-07T12:58:15.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10189) |
 
@@ -21291,6 +22347,8 @@ NA
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T05:10:35.173Z |
+| Created Date | 2023-06-08T01:53:30.157Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10207) |
 
@@ -21342,6 +22400,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T12:02:25.547Z |
+| Created Date | 2023-06-08T02:25:01.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10208) |
 
@@ -21418,6 +22478,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Amarjeet Sahoo |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:54:01.85Z |
+| Created Date | 2023-06-08T02:54:27.71Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10209) |
 
@@ -21487,6 +22549,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-06-08T03:15:03.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10210) |
 
@@ -21607,6 +22671,8 @@ Usability:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-06-08T03:27:09.467Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10212) |
 
@@ -21726,6 +22792,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-06-08T09:45:06.537Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10228) |
 
@@ -21820,6 +22888,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-08T09:53:09.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10229) |
 
@@ -21861,6 +22931,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-06-09T09:35:09.583Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10265) |
 
@@ -21919,6 +22991,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-06-09T09:40:38.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10266) |
 
@@ -21971,6 +23045,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Amarjeet Sahoo |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:51:45.53Z |
+| Created Date | 2023-06-09T09:43:55.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10267) |
 
@@ -22024,6 +23100,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-11-06T15:49:15.64Z |
+| Created Date | 2023-06-09T11:46:29.443Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10269) |
 
@@ -22095,6 +23173,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-10T05:48:10.747Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10271) |
 
@@ -22142,6 +23222,8 @@ Attachment: Please refer attachment for standardized template
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-10T05:56:05.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10272) |
 
@@ -22184,6 +23266,8 @@ Should be compatible with Android and iPad tabs chrome browsers
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM\Iteration 1 |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-11T16:14:35.723Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10273) |
 
@@ -22206,6 +23290,8 @@ The contract selection drop down should show mapped contracts only and not secon
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-18T12:21:02.037Z |
+| Created Date | 2023-06-12T02:42:05.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10277) |
 
@@ -22281,6 +23367,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-12T03:36:09.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10278) |
 
@@ -22352,6 +23440,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:36:22.277Z |
+| Created Date | 2023-06-12T05:18:15.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10281) |
 
@@ -22419,6 +23509,8 @@ Usability:
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-12T06:16:32.557Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10283) |
 
@@ -22441,6 +23533,8 @@ WE2 user should be able to approve/ reject QIDs, Test Plan and Shop weld plans f
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-12T06:48:59.233Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10286) |
 
@@ -22477,6 +23571,8 @@ Ux - Create prototype for Add TC process
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-12T07:05:05.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10288) |
 
@@ -22537,6 +23633,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-12T07:36:01.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10289) |
 
@@ -22567,6 +23665,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-12T10:51:04.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10291) |
 
@@ -22601,6 +23701,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-12T10:51:08.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10292) |
 
@@ -22639,6 +23741,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-12T10:51:11.337Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10293) |
 
@@ -22676,6 +23780,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-12T12:03:29.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10301) |
 
@@ -22745,6 +23851,8 @@ Usability:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-12T12:05:19.777Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10302) |
 
@@ -22798,6 +23906,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-12T12:18:56.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10303) |
 
@@ -22859,6 +23969,8 @@ _
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-12T13:17:36.053Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10306) |
 
@@ -22903,6 +24015,8 @@ A new table needs to be created
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-13T03:21:01.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10326) |
 
@@ -22957,6 +24071,8 @@ _**Functional:**_
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-13T04:15:01.273Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10331) |
 
@@ -22986,6 +24102,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-13T04:15:12.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10333) |
 
@@ -23025,6 +24143,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-13T04:15:15.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10334) |
 
@@ -23066,6 +24186,8 @@ Functional:
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-13T04:38:54.327Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10337) |
 
@@ -23132,6 +24254,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-13T05:09:57.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10339) |
 
@@ -23181,6 +24305,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-13T05:18:03.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10340) |
 
@@ -23216,6 +24342,8 @@ Functional:
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-12-07T11:59:02.283Z |
+| Created Date | 2023-06-13T05:36:01.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10343) |
 
@@ -23238,6 +24366,8 @@ Development of REST API to fetch the approved WBMS number with respective revisi
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 5 |
+| Changed Date | 2023-06-20T11:46:22.33Z |
+| Created Date | 2023-06-13T09:52:15.837Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10349) |
 
@@ -23260,6 +24390,8 @@ ClientId and XApiKey should be passed in the form of Header while calling Rest A
 | Assigned To | Amarjeet Sahoo |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-13T12:03:33.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10352) |
 
@@ -23304,6 +24436,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-13T17:42:19.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10378) |
 
@@ -23328,6 +24462,8 @@ Initial Table Design for Digital Compilations , Dummy records insert & Store Pro
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-14T04:04:10.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10381) |
 
@@ -23389,6 +24525,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-14T04:08:50.153Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10384) |
 
@@ -23436,6 +24574,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T06:29:47.647Z |
+| Created Date | 2023-06-14T04:24:50.03Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10392) |
 
@@ -23492,6 +24632,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Komal Chandolure |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-14T05:42:46.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10406) |
 
@@ -23514,6 +24656,8 @@ _Not provided._
 | Assigned To | Sadineni.Navya |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T06:10:58.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10429) |
 
@@ -23536,6 +24680,8 @@ Api endpoint should return the list of TPI consents to be shown in the TPI conse
 | Assigned To | Thenmozhi |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T09:46:49.453Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10432) |
 
@@ -23568,6 +24714,8 @@ This API will be called whenever the page is opened to sign a record.
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T10:34:13.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10433) |
 
@@ -23591,6 +24739,8 @@ A particular parameter could be sent to the report viewer and report viewer coul
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T10:40:47.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10434) |
 
@@ -23625,6 +24775,8 @@ Functional:
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-14T10:45:07.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10435) |
 
@@ -23657,6 +24809,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T10:45:15.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10436) |
 
@@ -23690,6 +24844,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T10:46:26.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10437) |
 
@@ -23715,6 +24871,8 @@ We need to identify the x,y co-ordinates for each document and create a mapping 
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-14T11:23:47.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10439) |
 
@@ -23740,6 +24898,8 @@ We need to identify the x,y co-ordinates for each document and create a mapping 
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T05:46:03.75Z |
+| Created Date | 2023-06-14T12:20:21.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10440) |
 
@@ -23762,6 +24922,8 @@ _Not provided._
 | Assigned To | Soumil Shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-28T09:28:30.683Z |
+| Created Date | 2023-06-15T04:32:26.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10447) |
 
@@ -23784,6 +24946,8 @@ _Not provided._
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-15T06:00:58.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10459) |
 
@@ -23806,6 +24970,8 @@ ok
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-15T08:36:53.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10484) |
 
@@ -23844,6 +25010,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-06-15T10:33:43.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10487) |
 
@@ -23867,6 +25035,8 @@ User should be able to access pagination functionality as per high fidelity visu
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Welding\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-06-15T12:02:02.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10499) |
 
@@ -23900,6 +25070,8 @@ Visual: <https://xd.adobe.com/view/6456f117-8e91-4dac-8f40-0846cac6518d-3105/>
 | Assigned To | Tejas Patel |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-16T03:19:25.497Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10502) |
 
@@ -23922,6 +25094,8 @@ _Not provided._
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2023-07-10T15:40:06.227Z |
+| Created Date | 2023-06-16T04:49:54.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10510) |
 
@@ -23944,6 +25118,8 @@ Model should have >90 % accuracy
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-16T06:33:51.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10515) |
 
@@ -23966,6 +25142,8 @@ _Not provided._
 | Assigned To | Tejas Patel |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-16T08:37:35.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10518) |
 
@@ -23988,6 +25166,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-16T08:40:41.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10519) |
 
@@ -24010,6 +25190,8 @@ _Not provided._
 | Assigned To | Samir shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-17T09:55:20.153Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10530) |
 
@@ -24068,6 +25250,8 @@ Functional requirements:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-19T04:26:35.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10532) |
 
@@ -24128,6 +25312,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-06-19T04:53:22.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10533) |
 
@@ -24183,6 +25369,8 @@ As a WE3 user, I want to view quality ID, so that I can attach the stages in mul
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-06-23T07:19:18.263Z |
+| Created Date | 2023-06-19T05:03:53.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10534) |
 
@@ -24205,6 +25393,8 @@ Add the getWBMSList API into Design document
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-06-23T07:01:37.81Z |
+| Created Date | 2023-06-19T05:05:24.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10536) |
 
@@ -24229,6 +25419,8 @@ Development for below services are completed
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-06-24T15:07:49.77Z |
+| Created Date | 2023-06-19T05:06:18.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10538) |
 
@@ -24255,6 +25447,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:05:27.84Z |
+| Created Date | 2023-06-19T05:10:37.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10539) |
 
@@ -24277,6 +25471,8 @@ Unit Testing of UserStory -  ISD004: IIOT-Mentry to be completed
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:02:48.333Z |
+| Created Date | 2023-06-19T05:11:03.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10540) |
 
@@ -24301,6 +25497,8 @@ Development for below services are completed
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:01:32.55Z |
+| Created Date | 2023-06-19T05:11:35.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10541) |
 
@@ -24323,6 +25521,8 @@ Create a Interface Design Document for IIOT Application
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-06-22T04:32:29.27Z |
+| Created Date | 2023-06-19T05:18:00.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10545) |
 
@@ -24347,6 +25547,8 @@ Unit Testing for below services are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-06-22T11:53:05.2Z |
+| Created Date | 2023-06-19T05:19:46.383Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10552) |
 
@@ -24371,6 +25573,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-04T05:01:22.157Z |
+| Created Date | 2023-06-19T05:21:24.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10556) |
 
@@ -24393,6 +25597,8 @@ Testing has to be carried out for the autocomplete feature in WBMS API
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-06-28T04:00:57.587Z |
+| Created Date | 2023-06-19T05:32:39.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10560) |
 
@@ -24415,6 +25621,8 @@ LayoutLM model to have accuracy of more than 90% for all types of table in scope
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-06-29T04:55:04.11Z |
+| Created Date | 2023-06-19T05:45:35.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10572) |
 
@@ -24437,6 +25645,8 @@ a valid json output for the api generated.
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-07-03T04:16:47.77Z |
+| Created Date | 2023-06-19T05:50:20.993Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10592) |
 
@@ -24459,6 +25669,8 @@ LayoutLM model to have accuracy of more than 90% for all types of table in scope
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-06-30T04:48:48.823Z |
+| Created Date | 2023-06-19T05:54:11.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10594) |
 
@@ -24481,6 +25693,8 @@ development and testing of devops pipeline and the application be up and running
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-19T05:55:20.66Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10595) |
 
@@ -24508,6 +25722,8 @@ As a WE2, user need to access Approve QID-TP-SWP module to
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-06-19T06:50:42.03Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10598) |
 
@@ -24541,6 +25757,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-06-19T07:04:33.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10603) |
 
@@ -24593,6 +25811,8 @@ _**Certificate binder:**_
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-19T08:48:56.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10631) |
 
@@ -24615,6 +25835,8 @@ _Not provided._
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-19T13:45:04.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10924) |
 
@@ -24637,6 +25859,8 @@ Release 2 features should work as is without any unexpected behaviour
 | Assigned To | Muralikrishna.P |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-25T08:12:40.08Z |
+| Created Date | 2023-06-19T14:05:41.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/10933) |
 
@@ -24664,6 +25888,8 @@ CI?CD pipeline of reports should build and deploy the reports website
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-20T07:46:31.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11104) |
 
@@ -24693,6 +25919,8 @@ Design prototype for Planning dept which enable user to calculate
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-20T08:48:00.837Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11111) |
 
@@ -24720,6 +25948,8 @@ Update the pending user flows in digital dossier and updations in e-signature (p
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-20T08:55:31.65Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11114) |
 
@@ -24748,6 +25978,8 @@ Share digital assets with UI development team -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-20T10:38:37.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11140) |
 
@@ -24770,6 +26002,8 @@ Re-development of Predictive Planning Shrinkage & Distortion Module
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-20T10:40:59.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11141) |
 
@@ -24792,6 +26026,8 @@ _Not provided._
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-18T11:15:51.123Z |
+| Created Date | 2023-06-20T10:41:33.277Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11142) |
 
@@ -24839,6 +26075,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-20T10:48:25.467Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11143) |
 
@@ -24864,6 +26102,8 @@ Append library with new components -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-20T10:56:30.277Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11144) |
 
@@ -24889,6 +26129,8 @@ Internal review by Ux team -
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-20T11:00:06.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11145) |
 
@@ -24914,6 +26156,8 @@ Development of Document control applications through Scan with DCR intimation to
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-20T11:37:28.82Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11149) |
 
@@ -24938,6 +26182,8 @@ Maintain Milestone Activity flow – QI2/QI3
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-20T11:52:01.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11156) |
 
@@ -24967,6 +26213,8 @@ Regression testing for Sprint 9 user stories
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-06-20T17:05:51.327Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11195) |
 
@@ -25015,6 +26263,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-06-21T04:55:07.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11234) |
 
@@ -25038,6 +26288,8 @@ Re test the UAT Bugs
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-06-21T05:20:20.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11249) |
 
@@ -25060,6 +26312,8 @@ Simplify weld supervisor's work on shop floor.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-21T11:46:45.877Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11296) |
 
@@ -25082,6 +26336,8 @@ _Not provided._
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-07-31T06:24:47.397Z |
+| Created Date | 2023-06-21T11:57:19.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11301) |
 
@@ -25110,6 +26366,8 @@ _Not provided._
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-21T12:23:58.93Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11308) |
 
@@ -25157,6 +26415,8 @@ WE3 user should be able to view QID, TP and SWP in same screen with resizable se
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-07-10T04:17:33.1Z |
+| Created Date | 2023-06-22T03:57:49.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11320) |
 
@@ -25179,6 +26439,8 @@ excel/word document for each of the testcase scenarios for all pass/fail conditi
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-22T05:45:53.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11360) |
 
@@ -25201,6 +26463,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-22T05:48:02.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11361) |
 
@@ -25223,6 +26487,8 @@ _Not provided._
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-07-10T04:20:37.12Z |
+| Created Date | 2023-06-23T03:35:06.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11401) |
 
@@ -25245,6 +26511,8 @@ The model to have accuracy of >90%
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-23T11:32:28.053Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11435) |
 
@@ -25267,6 +26535,8 @@ _Not provided._
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:23:41.58Z |
+| Created Date | 2023-06-26T04:28:49.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11473) |
 
@@ -25313,6 +26583,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-26T05:44:56.74Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11481) |
 
@@ -25335,6 +26607,8 @@ Manu to update the activities
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:34:32.447Z |
+| Created Date | 2023-06-26T07:27:43.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11491) |
 
@@ -25375,6 +26649,8 @@ For Reference:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:38:36.223Z |
+| Created Date | 2023-06-26T07:32:59.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11492) |
 
@@ -25409,6 +26685,8 @@ Functional:
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T17:05:04.74Z |
+| Created Date | 2023-06-26T07:36:46.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11495) |
 
@@ -25451,6 +26729,8 @@ Note: Please refer attachment for PDF doc format
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:34:53.887Z |
+| Created Date | 2023-06-26T07:40:54.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11496) |
 
@@ -25485,6 +26765,8 @@ For Reference:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-09-04T08:36:18.89Z |
+| Created Date | 2023-06-26T07:48:17.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11497) |
 
@@ -25535,6 +26817,8 @@ Note:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-09-04T08:37:00.44Z |
+| Created Date | 2023-06-26T08:23:42.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11499) |
 
@@ -25578,6 +26862,8 @@ Note:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-09-04T08:37:30.887Z |
+| Created Date | 2023-06-26T08:29:50.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11501) |
 
@@ -25615,6 +26901,8 @@ If the results are Unsafe, then user can again enter the input fields and should
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:37:56.24Z |
+| Created Date | 2023-06-26T08:40:25.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11504) |
 
@@ -25656,6 +26944,8 @@ Cancel, Reset, Save, Save as Draft
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T16:54:09.58Z |
+| Created Date | 2023-06-26T08:46:25.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11505) |
 
@@ -25681,6 +26971,8 @@ User should be able to view and access the Lifting Lug calculations on Android o
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:38:23.49Z |
+| Created Date | 2023-06-26T08:52:49.913Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11506) |
 
@@ -25713,6 +27005,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:38:50.503Z |
+| Created Date | 2023-06-26T09:06:42.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11520) |
 
@@ -25742,6 +27036,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T10:11:13.79Z |
+| Created Date | 2023-06-26T09:28:50.037Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11522) |
 
@@ -25778,6 +27074,8 @@ Navigation: Landing Screen-> Mega Menu-> Planning Calculation-> Lifting Trunnion
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:38:10.163Z |
+| Created Date | 2023-06-26T11:02:47.867Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11523) |
 
@@ -25809,6 +27107,8 @@ As a PLNG2,3, I want to partially save data for Lifting Lug calculations, so tha
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-04T08:37:16.63Z |
+| Created Date | 2023-06-26T11:08:43.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11524) |
 
@@ -25837,6 +27137,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:05:34.42Z |
+| Created Date | 2023-06-26T12:37:18.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11529) |
 
@@ -25872,6 +27174,8 @@ For Reference:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-05T10:58:10.527Z |
+| Created Date | 2023-06-26T12:44:37.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11530) |
 
@@ -25933,6 +27237,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T06:29:47.647Z |
+| Created Date | 2023-06-26T12:48:47.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11531) |
 
@@ -25990,6 +27296,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-26T12:52:39.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11532) |
 
@@ -26027,6 +27335,8 @@ Save - If some of the activity remained to assigned
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T06:29:47.647Z |
+| Created Date | 2023-06-26T13:02:46.733Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11538) |
 
@@ -26066,6 +27376,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-06-26T13:19:04.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11541) |
 
@@ -26098,6 +27410,8 @@ Final verification by QI2/QI3
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:04:55.88Z |
+| Created Date | 2023-06-26T17:02:03.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11544) |
 
@@ -26198,6 +27512,8 @@ Note:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-06-27T05:25:09.79Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11570) |
 
@@ -26262,6 +27578,8 @@ Should be compatible with Android and iPad tabs chrome browsers
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:05:17.77Z |
+| Created Date | 2023-06-27T09:54:26.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11579) |
 
@@ -26349,6 +27667,8 @@ Note:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T06:29:47.647Z |
+| Created Date | 2023-06-27T11:00:54.167Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11585) |
 
@@ -26411,6 +27731,8 @@ _**Functional:**_
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:01:43.46Z |
+| Created Date | 2023-06-27T13:46:44.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11591) |
 
@@ -26440,6 +27762,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:04:39.023Z |
+| Created Date | 2023-06-27T14:10:11.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11592) |
 
@@ -26511,6 +27835,8 @@ Note: **
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:01:24.153Z |
+| Created Date | 2023-06-27T14:14:59.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11593) |
 
@@ -26551,6 +27877,8 @@ Note: This is a reference screenshot taken from Lug
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:04:21.063Z |
+| Created Date | 2023-06-27T14:19:27.733Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11594) |
 
@@ -26584,6 +27912,8 @@ Note: This below image is for reference purpose, taken from Lifting Lug, the nam
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:14:37.303Z |
+| Created Date | 2023-06-27T14:23:04.343Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11595) |
 
@@ -26615,6 +27945,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T10:11:32.067Z |
+| Created Date | 2023-06-27T14:24:30.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11596) |
 
@@ -26651,6 +27983,8 @@ Please not that in the filter dropdown, if there are more than 5 items to displa
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-29T04:32:03.08Z |
+| Created Date | 2023-06-27T14:28:45.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11597) |
 
@@ -26695,6 +28029,8 @@ Note: Please refer attachment for PDF doc format
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:01:04.277Z |
+| Created Date | 2023-06-27T14:31:54.79Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11598) |
 
@@ -26724,6 +28060,8 @@ Functional:
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T16:54:16.367Z |
+| Created Date | 2023-06-27T14:33:06.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11599) |
 
@@ -26749,6 +28087,8 @@ User should be able to view and access the Lifting Trunnion calculations on Andr
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-27T05:02:05.4Z |
+| Created Date | 2023-06-28T05:27:17.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11611) |
 
@@ -26810,6 +28150,8 @@ As a QI2, I want to maintain Milestone stages and its activity, so that I can ma
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-28T12:58:00.583Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11629) |
 
@@ -26832,6 +28174,8 @@ _Not provided._
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-06-29T07:29:06.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11648) |
 
@@ -26908,6 +28252,8 @@ User should be able to view Action column in Grid as per visuals [Flow 1 (adobe.
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-06-29T07:32:51.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11649) |
 
@@ -27014,6 +28360,8 @@ Usability:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-06-29T07:37:35.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11650) |
 
@@ -27087,6 +28435,8 @@ Usability:
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-06-29T07:46:37.957Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11651) |
 
@@ -27135,6 +28485,8 @@ Usability:
 | Assigned To | Soumil Shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-25T06:51:08.7Z |
+| Created Date | 2023-06-29T07:59:04.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11652) |
 
@@ -27157,6 +28509,8 @@ User Blocking Module.
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-27T05:30:52.043Z |
+| Created Date | 2023-06-29T12:58:18.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11660) |
 
@@ -27212,6 +28566,8 @@ NA
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-06-30T04:31:50.397Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11674) |
 
@@ -27234,6 +28590,8 @@ _Not provided._
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-18T06:03:54.9Z |
+| Created Date | 2023-06-30T04:34:26.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11675) |
 
@@ -27285,6 +28643,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2023-08-10T07:16:51.683Z |
+| Created Date | 2023-07-02T16:01:36.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11697) |
 
@@ -27380,6 +28740,8 @@ _**
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-05T04:23:37.317Z |
+| Created Date | 2023-07-03T03:59:54.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11699) |
 
@@ -27402,6 +28764,8 @@ Create a Interface Design Document for CREMS Application
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:06:27.057Z |
+| Created Date | 2023-07-03T04:01:24.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11701) |
 
@@ -27426,6 +28790,8 @@ Development for below services are completed
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:06:49.497Z |
+| Created Date | 2023-07-03T04:02:25.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11703) |
 
@@ -27452,6 +28818,8 @@ Unit Testing for below services  are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-13T09:45:41.99Z |
+| Created Date | 2023-07-03T04:03:34.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11705) |
 
@@ -27478,6 +28846,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:03:59.75Z |
+| Created Date | 2023-07-03T04:04:10.157Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11707) |
 
@@ -27517,6 +28887,8 @@ Navigation: Landing Screen-> Mega Menu-> Planning Calculation-> Moon Plate Tab
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-30T04:19:51.65Z |
+| Created Date | 2023-07-03T04:33:21.547Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11712) |
 
@@ -27560,6 +28932,8 @@ For Project No Dropdown, it needs to be fetched from DB table name: COM001
 | Assigned To | Tejas Patel |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-03T06:26:10.453Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11717) |
 
@@ -27582,6 +28956,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T11:24:12.14Z |
+| Created Date | 2023-07-03T06:52:13.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11721) |
 
@@ -27660,6 +29036,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-03T06:57:09.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11722) |
 
@@ -27682,6 +29060,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-03T08:40:49.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11729) |
 
@@ -27711,6 +29091,8 @@ Create prototype for 5 different calculations for Planning department
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-30T04:19:51.65Z |
+| Created Date | 2023-07-03T09:56:41.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11731) |
 
@@ -27772,6 +29154,8 @@ Note:
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-12-14T13:26:33.217Z |
+| Created Date | 2023-07-03T12:44:52.06Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11738) |
 
@@ -27798,6 +29182,8 @@ Update TC Review prototype with new requirements
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-04T03:57:40.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11747) |
 
@@ -27847,6 +29233,8 @@ _**Functional:**_
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:05:35Z |
+| Created Date | 2023-07-04T04:36:39.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11751) |
 
@@ -27927,6 +29315,8 @@ Note:
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-18T04:56:35.57Z |
+| Created Date | 2023-07-04T04:38:12.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11752) |
 
@@ -27949,6 +29339,8 @@ Get operator details to fetch the details required PS Number, description and Ca
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-06T03:15:39.183Z |
+| Created Date | 2023-07-04T04:40:10.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11754) |
 
@@ -27971,6 +29363,8 @@ Create a Interface Design Document for Sampatti Application
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-17T03:53:59.76Z |
+| Created Date | 2023-07-04T04:41:28.833Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11757) |
 
@@ -27995,6 +29389,8 @@ Development for below services are completed
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-13T09:46:54.283Z |
+| Created Date | 2023-07-04T04:42:38.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11761) |
 
@@ -28019,6 +29415,8 @@ Unit Testing for below services are completed with no technical issues
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:05:15.25Z |
+| Created Date | 2023-07-04T04:43:43.163Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11763) |
 
@@ -28054,6 +29452,8 @@ Note: User can edit below detail any number of times:
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-13T09:47:51.957Z |
+| Created Date | 2023-07-04T04:44:13.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11764) |
 
@@ -28078,6 +29478,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-18T04:58:39.727Z |
+| Created Date | 2023-07-04T04:44:53.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11766) |
 
@@ -28114,6 +29516,8 @@ Response Parameters - Flux name, batch number and Weld KG Calculation
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-07T10:14:19.367Z |
+| Created Date | 2023-07-04T04:45:48.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11767) |
 
@@ -28136,6 +29540,8 @@ Update Interface Design Document ISD003 for getOperatorDetails
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:07:36.683Z |
+| Created Date | 2023-07-04T04:47:09.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11773) |
 
@@ -28160,6 +29566,8 @@ Development for below services are completed
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:05:51.5Z |
+| Created Date | 2023-07-04T04:48:28.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11776) |
 
@@ -28187,6 +29595,8 @@ Functional:
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:08:57.703Z |
+| Created Date | 2023-07-04T04:49:31.947Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11778) |
 
@@ -28211,6 +29621,8 @@ Unit Testing for below services are completed with no technical issues
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-13T09:57:54.46Z |
+| Created Date | 2023-07-04T04:51:02.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11780) |
 
@@ -28235,6 +29647,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-07T10:16:47.287Z |
+| Created Date | 2023-07-04T04:52:19.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11782) |
 
@@ -28257,6 +29671,8 @@ Update Interface Design Document ISD003 for getWeldConsumableData
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:09:32.143Z |
+| Created Date | 2023-07-04T04:53:55.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11784) |
 
@@ -28281,6 +29697,8 @@ Development for below services are completed
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:06:07.013Z |
+| Created Date | 2023-07-04T04:54:55.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11786) |
 
@@ -28321,6 +29739,8 @@ Functional:
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-03T13:09:58.887Z |
+| Created Date | 2023-07-04T04:55:02.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11787) |
 
@@ -28345,6 +29765,8 @@ Unit Testing for below services are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2023-07-13T09:51:20.47Z |
+| Created Date | 2023-07-04T04:56:14.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11789) |
 
@@ -28369,6 +29791,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:06:21.99Z |
+| Created Date | 2023-07-04T04:59:36.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11792) |
 
@@ -28400,6 +29824,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:04:21.46Z |
+| Created Date | 2023-07-04T05:01:19.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11793) |
 
@@ -28429,6 +29855,8 @@ Functional:
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-27T13:40:21.38Z |
+| Created Date | 2023-07-04T05:08:19.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11794) |
 
@@ -28476,6 +29904,8 @@ Note: Please refer attachment for PDF doc format
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:06:36.62Z |
+| Created Date | 2023-07-04T05:12:30.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11795) |
 
@@ -28511,6 +29941,8 @@ Note: Take reference of a line item which is in Draft mode, same UI will should 
 | Assigned To | Nagaraj Raghunath Revankar |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-04T08:17:15.5Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11798) |
 
@@ -28599,6 +30031,8 @@ NA
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-04T12:23:14.957Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11807) |
 
@@ -28651,6 +30085,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-14T03:43:38.47Z |
+| Created Date | 2023-07-05T08:10:23.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11821) |
 
@@ -28673,6 +30109,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T05:46:07.377Z |
+| Created Date | 2023-07-05T08:47:30.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11824) |
 
@@ -28695,6 +30133,8 @@ _Not provided._
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-06T03:46:34.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11833) |
 
@@ -28717,6 +30157,8 @@ Update Interface Design Document ISD001 for getFTRDetails
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 6 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-06T03:48:47.76Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11835) |
 
@@ -28739,6 +30181,8 @@ Update Interface Design Document ISD001 for getOperatorDetails
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-06T05:25:43.363Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11841) |
 
@@ -28765,6 +30209,8 @@ Clickable Prototype
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-06T11:48:06.27Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11853) |
 
@@ -28816,6 +30262,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-06T12:52:20.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11855) |
 
@@ -28848,6 +30296,8 @@ For Reference:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-25T12:06:53.62Z |
+| Created Date | 2023-07-07T10:56:16.383Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11873) |
 
@@ -28878,6 +30328,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-26T05:18:41.54Z |
+| Created Date | 2023-07-07T11:01:05.253Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11874) |
 
@@ -28905,6 +30357,8 @@ Functional:
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T16:54:22.227Z |
+| Created Date | 2023-07-10T03:27:36.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11912) |
 
@@ -28930,6 +30384,8 @@ User should be able to view and access the Moon Plate calculations on Android or
 | Assigned To | ayasya.mamidala |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-05T17:07:51.433Z |
+| Created Date | 2023-07-10T04:22:22.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11913) |
 
@@ -28952,6 +30408,8 @@ TBD
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-05T17:07:51.433Z |
+| Created Date | 2023-07-10T04:23:59.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11915) |
 
@@ -28974,6 +30432,8 @@ model must be able to identify the heading and test values in TC
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-08-01T06:26:38.567Z |
+| Created Date | 2023-07-10T04:30:25.68Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11922) |
 
@@ -28996,6 +30456,8 @@ TBD
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-07-10T04:35:55.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11923) |
 
@@ -29018,6 +30480,8 @@ All the reviews and other discussions
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-10T04:40:14.557Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11924) |
 
@@ -29044,6 +30508,8 @@ Design Engineering should be able to Capture photos from manufacturing drawing o
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-10T04:44:51.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11925) |
 
@@ -29087,6 +30553,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-13T05:13:36.1Z |
+| Created Date | 2023-07-10T05:00:39.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11926) |
 
@@ -29132,6 +30600,8 @@ Note: For PNG format of images, please refer attachment
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T10:11:53.217Z |
+| Created Date | 2023-07-10T05:02:10.847Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11927) |
 
@@ -29183,6 +30653,8 @@ Functional:
 | Assigned To | madhuri.61067123 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-10T05:08:33.747Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11928) |
 
@@ -29239,6 +30711,8 @@ As a QI3/QI2, I want to maintain Milestone stages and its activity, so that I ca
 | Assigned To | madhuri.61067123 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T07:10:00.727Z |
+| Created Date | 2023-07-10T05:08:47.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11929) |
 
@@ -29287,6 +30761,8 @@ As a QI3/QI2, I want to maintain Milestone stages and its activity, so that I ca
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-10T05:09:01.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11930) |
 
@@ -29370,6 +30846,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-10T05:09:14.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11931) |
 
@@ -29440,6 +30918,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-19T05:56:53.873Z |
+| Created Date | 2023-07-10T05:09:27.567Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11932) |
 
@@ -29520,6 +31000,8 @@ A. \----------->B.
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:05:24Z |
+| Created Date | 2023-07-10T05:09:42.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11933) |
 
@@ -29577,6 +31059,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-04T11:20:11.053Z |
+| Created Date | 2023-07-10T05:09:58.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11934) |
 
@@ -29641,6 +31125,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-10T05:10:13.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11935) |
 
@@ -29703,6 +31189,8 @@ Filter and Pagination in "Add New Digital Vertical checklist" and all "Maintain 
 | Assigned To | Amod Dinesh Lokegaonkar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-07-31T12:39:26.753Z |
+| Created Date | 2023-07-10T05:14:00.25Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11938) |
 
@@ -29726,6 +31214,8 @@ Creating High fidelity workflows based on discussion. New requirements are getti
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-06T10:12:48.123Z |
+| Created Date | 2023-07-10T06:21:18.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11992) |
 
@@ -29776,6 +31266,8 @@ Note:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:15:06.767Z |
+| Created Date | 2023-07-10T06:22:12.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11993) |
 
@@ -29823,6 +31315,8 @@ Note: For PNG format of images, please refer attachment
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:07:04.993Z |
+| Created Date | 2023-07-10T06:36:19.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/11994) |
 
@@ -29860,6 +31354,8 @@ For Reference:
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-10T07:09:50.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12000) |
 
@@ -29883,6 +31379,8 @@ Save functionality should be tested
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:15:34.367Z |
+| Created Date | 2023-07-10T08:34:24.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12016) |
 
@@ -29921,6 +31419,8 @@ Note:
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-10T09:05:56.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12017) |
 
@@ -29943,6 +31443,8 @@ A backend process need to develop to Compile hundreds of backend documents. The 
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-10T12:55:39.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12072) |
 
@@ -29965,6 +31467,8 @@ _Not provided._
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-05T17:07:51.433Z |
+| Created Date | 2023-07-10T15:08:26.587Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12082) |
 
@@ -29987,6 +31491,8 @@ Algorithm should identify all the tables in TC pdfs.
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-05T17:07:51.433Z |
+| Created Date | 2023-07-10T15:32:33.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12096) |
 
@@ -30009,6 +31515,8 @@ model must be able to identify the heading and test values in TC
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:07:18.793Z |
+| Created Date | 2023-07-10T15:57:53.833Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12098) |
 
@@ -30077,6 +31585,8 @@ Note:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T05:15:20.55Z |
+| Created Date | 2023-07-10T15:58:07.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12099) |
 
@@ -30110,6 +31620,8 @@ For reference: this image shows OD angle, similar way it can be ID Angle
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-05T17:07:51.433Z |
+| Created Date | 2023-07-10T16:09:37.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12104) |
 
@@ -30132,6 +31644,8 @@ PPT with results and accuracy score
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:06:47.94Z |
+| Created Date | 2023-07-10T16:10:24.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12105) |
 
@@ -30164,6 +31678,8 @@ For Reference:
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:06:23.283Z |
+| Created Date | 2023-07-10T16:13:14.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12106) |
 
@@ -30202,6 +31718,8 @@ This is a reference screenshot, data needs to be referred as per LSR/ISR visual 
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:05:54.823Z |
+| Created Date | 2023-07-10T16:15:10.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12107) |
 
@@ -30235,6 +31753,8 @@ This is a reference image, data need to be followed as per LSR/ISR visual design
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:08:03.653Z |
+| Created Date | 2023-07-10T16:16:17.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12108) |
 
@@ -30268,6 +31788,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-09-15T06:07:32.52Z |
+| Created Date | 2023-07-10T16:18:26.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12109) |
 
@@ -30307,6 +31829,8 @@ Please note that for filters, If the records are exceeding 5 unique values, then
 | Assigned To | Jatin.Prusty |
 | Area Path | IEMQS 4.0\Common-Performance |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-07-11T05:06:14.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12155) |
 
@@ -30334,6 +31858,8 @@ This user story will be complete when:
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-27T08:33:14.95Z |
+| Created Date | 2023-07-11T06:34:33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12161) |
 
@@ -30376,6 +31902,8 @@ Note:
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T16:54:28.61Z |
+| Created Date | 2023-07-11T07:08:09.047Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12162) |
 
@@ -30401,6 +31929,8 @@ User should be able to view and access the LSR/ISR Angle calculations on Android
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-11T09:19:24.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12181) |
 
@@ -30423,6 +31953,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-12T05:31:33.38Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12212) |
 
@@ -30445,6 +31977,8 @@ TBD
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:36:09.207Z |
+| Created Date | 2023-07-12T09:23:24.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12219) |
 
@@ -30555,6 +32089,8 @@ As a IEMQS USER other than QI3/QI2, I want to view and attained all the activity
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-03T12:15:22.223Z |
+| Created Date | 2023-07-13T04:05:49.333Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12228) |
 
@@ -30616,6 +32152,8 @@ Save button functionality for "Add New Digital Vertical Checklist". [Digital Ver
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-04T11:24:05.883Z |
+| Created Date | 2023-07-13T05:21:09.993Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12231) |
 
@@ -30686,6 +32224,8 @@ Upon Clicking "View Activity list" eye icon for draft status project row on the 
 | Assigned To | arunachalam |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-13T05:47:36.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12232) |
 
@@ -30708,6 +32248,8 @@ Need to test all the UAT Bugs
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-10-28T10:55:43.49Z |
+| Created Date | 2023-07-13T13:25:55.807Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12253) |
 
@@ -30782,6 +32324,8 @@ Upon Clicking "View Activity list" eye icon for submitted status project row on 
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:07:50.697Z |
+| Created Date | 2023-07-13T13:28:04.603Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12254) |
 
@@ -30866,6 +32410,8 @@ Action button as per status by on Digital Vertical Checklist (Milestone Stages) 
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-13T14:05:00.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12255) |
 
@@ -30923,6 +32469,8 @@ Note:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-13T14:10:52.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12256) |
 
@@ -30951,6 +32499,8 @@ Functional:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-13T14:21:24.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12257) |
 
@@ -30987,6 +32537,8 @@ Cancel, Reset, Save, Save as Draft
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-14T03:57:47.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12263) |
 
@@ -31020,6 +32572,8 @@ This image is for reference purpose only, please refer data of Ovality Ring
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-14T03:59:22.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12264) |
 
@@ -31052,6 +32606,8 @@ Functional:
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-14T04:04:20.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12265) |
 
@@ -31088,6 +32644,8 @@ Functional:
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-28T07:24:50.853Z |
+| Created Date | 2023-07-14T04:16:01.293Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12266) |
 
@@ -31127,6 +32685,8 @@ Note: Please refer attachment for PDF doc format
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-14T04:17:45.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12267) |
 
@@ -31157,6 +32717,8 @@ Functional:
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-14T04:18:46.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12268) |
 
@@ -31182,6 +32744,8 @@ User should be able to view and access the Ovality Ring calculations on Android 
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Integration team |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-07-14T04:33:17.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12272) |
 
@@ -31204,6 +32768,8 @@ IIOT Integration team should be able to fetch IEMQS data
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-14T05:43:07.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12281) |
 
@@ -31226,6 +32792,8 @@ _Not provided._
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-13T05:47:15.473Z |
+| Created Date | 2023-07-14T05:58:07.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12282) |
 
@@ -31307,6 +32875,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-14T06:19:07.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12285) |
 
@@ -31344,6 +32914,8 @@ _**
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-14T06:19:32.993Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12286) |
 
@@ -31464,6 +33036,8 @@ Images
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:28:17.593Z |
+| Created Date | 2023-07-14T06:47:36.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12287) |
 
@@ -31539,6 +33113,8 @@ Capture Button
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-14T09:24:33.487Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12298) |
 
@@ -31597,6 +33173,8 @@ Action button as per status by on Digital Vertical Checklist (Milestone Stages) 
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:30:08.133Z |
+| Created Date | 2023-07-14T09:40:41.633Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12300) |
 
@@ -31708,6 +33286,8 @@ For "Submitted" status in Index page of Digital Vertical Checklist (Milestone St
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-14T11:55:31.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12303) |
 
@@ -31744,6 +33324,8 @@ Note: These changes needs to be reflected on all tabs, column, export functional
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-14T12:02:01.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12304) |
 
@@ -31777,6 +33359,8 @@ Below changes needs to be done in Maintain TPI consent: [Flow 4 (adobe.com)](htt
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-16T13:16:45.727Z |
+| Created Date | 2023-07-15T13:12:33.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12312) |
 
@@ -31819,6 +33403,8 @@ Usability:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-15T13:17:05.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12313) |
 
@@ -31919,6 +33505,8 @@ Note:
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-15T13:34:25.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12314) |
 
@@ -31979,6 +33567,8 @@ Note:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-15T13:36:01.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12315) |
 
@@ -32002,6 +33592,8 @@ User should be able to access the Document Verification feature in iPad or Andro
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:34:06.33Z |
+| Created Date | 2023-07-17T03:33:25.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12324) |
 
@@ -32080,6 +33672,8 @@ Upon Clicking "View Activity list" eye icon for "ICS Generated" status project r
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-17T04:28:08.487Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12328) |
 
@@ -32159,6 +33753,8 @@ As a IEMQS USER other than QI3/QI2, I want to view and attained all the activity
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-17T04:55:06.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12331) |
 
@@ -32235,6 +33831,8 @@ In Action By Column,
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-17T08:44:40.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12348) |
 
@@ -32257,6 +33855,8 @@ _Not provided._
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-17T08:45:00.12Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12349) |
 
@@ -32283,6 +33883,8 @@ Add FTR column in completed tab
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:15:43.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12368) |
 
@@ -32307,6 +33909,8 @@ Add the getFTRDetails API into Design document
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:18:53.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12370) |
 
@@ -32331,6 +33935,8 @@ Development for below services are completed
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:20:24.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12372) |
 
@@ -32355,6 +33961,8 @@ Unit Testing for below services are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:24:35.673Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12374) |
 
@@ -32379,6 +33987,8 @@ Unit Test Report for below services are created and No Critical finding in UTR.
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:25:37.887Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12376) |
 
@@ -32403,6 +34013,8 @@ Development for below services are completed
 | Assigned To | Nagarathna Billawa |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:27:54.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12378) |
 
@@ -32427,6 +34039,8 @@ Unit Testing for below services are completed with no technical issues
 | Assigned To | Aakanksha Gupta |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 7 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-07-18T05:28:53.237Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12380) |
 
@@ -32449,6 +34063,8 @@ Addition of two new field in forming the request for IEMQS API in BOM API
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-13T05:53:32.443Z |
+| Created Date | 2023-07-18T05:52:38.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12382) |
 
@@ -32516,6 +34132,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-19T04:29:13.157Z |
+| Created Date | 2023-07-18T05:56:40.707Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12383) |
 
@@ -32569,6 +34187,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T05:46:20.787Z |
+| Created Date | 2023-07-19T04:04:41.253Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12433) |
 
@@ -32591,6 +34211,8 @@ _Not provided._
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-09-27T05:04:28.243Z |
+| Created Date | 2023-07-19T07:02:06.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12450) |
 
@@ -32639,6 +34261,8 @@ Note: This "Export" functionality works for each window separately.
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2023-07-26T04:05:56.977Z |
+| Created Date | 2023-07-21T05:37:04.833Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12531) |
 
@@ -32662,6 +34286,8 @@ R2 features
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM\Iteration 1 |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-21T07:02:27.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12534) |
 
@@ -32684,6 +34310,8 @@ _Not provided._
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-14T14:50:00.47Z |
+| Created Date | 2023-07-23T14:54:49.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12552) |
 
@@ -32730,6 +34358,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-23T16:15:35.21Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12553) |
 
@@ -32810,6 +34440,8 @@ Continuous of,
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-24T11:14:46.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12562) |
 
@@ -32874,6 +34506,8 @@ For CTQ Doc. No and Rev. No - comes automatically.
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-09-07T04:40:05.17Z |
+| Created Date | 2023-07-25T05:22:09.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12622) |
 
@@ -32898,6 +34532,8 @@ URL - /IPI/AutoQualityId
 | Assigned To | Madhurima Datta |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-09T05:05:59.927Z |
+| Created Date | 2023-07-25T05:29:54.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12624) |
 
@@ -32938,6 +34574,8 @@ _For Annexure Report_
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-25T07:17:17.807Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12628) |
 
@@ -32987,6 +34625,8 @@ Reference Image:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-25T07:20:00.973Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12629) |
 
@@ -33038,6 +34678,8 @@ For Reference:
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-25T07:34:54.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12630) |
 
@@ -33067,6 +34709,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-25T08:12:32.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12631) |
 
@@ -33102,6 +34746,8 @@ Mega Menu->Production-> In Process Inspection-> Running Seam Status
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:30:32.09Z |
+| Created Date | 2023-07-25T10:12:33.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12638) |
 
@@ -33173,6 +34819,8 @@ Upon clicking Save Button shown as per visuals,
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-07-25T12:10:12.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12646) |
 
@@ -33208,6 +34856,8 @@ For reference:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-30T04:19:51.65Z |
+| Created Date | 2023-07-25T13:46:23.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12656) |
 
@@ -33266,6 +34916,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-22T15:31:07.343Z |
+| Created Date | 2023-07-25T14:56:58.157Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12662) |
 
@@ -33349,6 +35001,8 @@ Upon Clicking Submit Button, [#11934](https://dev.azure.com/LnT-HeavyEngineering
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-25T19:21:33.487Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12668) |
 
@@ -33422,6 +35076,8 @@ Usability:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-25T20:10:12.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12669) |
 
@@ -33512,6 +35168,8 @@ For Draft status row,  [Digital Vertical Checklist (Milestone Stages) (adobe.com
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-07-25T20:41:27.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12670) |
 
@@ -33581,6 +35239,8 @@ Notes - Maintain ICS page.
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-14T14:46:16.827Z |
+| Created Date | 2023-07-25T22:31:45.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12671) |
 
@@ -33703,6 +35363,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-14T14:46:50.37Z |
+| Created Date | 2023-07-25T22:41:30.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12672) |
 
@@ -33819,6 +35481,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-14T14:47:30.583Z |
+| Created Date | 2023-07-26T05:43:16.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12684) |
 
@@ -33901,6 +35565,8 @@ For activity category "NCR",
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-19T04:27:52.22Z |
+| Created Date | 2023-07-26T06:09:08.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12686) |
 
@@ -33981,6 +35647,8 @@ For activity category "JEP"(Job Engineering Plan),
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-26T07:11:05.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12694) |
 
@@ -34059,6 +35727,8 @@ As a IEMQS User other than QI3 User, I want to view and attained all the activit
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-26T07:12:13.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12695) |
 
@@ -34126,6 +35796,8 @@ As a IEMQS User other than QI3 User, I want to view and attained all the activit
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-07-26T08:20:37.837Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12705) |
 
@@ -34151,6 +35823,8 @@ Reference Image:
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-26T12:33:57.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12722) |
 
@@ -34173,6 +35847,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-27T05:30:16.323Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12741) |
 
@@ -34214,6 +35890,8 @@ As a MFG2, PROD3 user, I want to offer the seam, so that they can be sent for In
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-27T06:53:19.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12743) |
 
@@ -34252,6 +35930,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-27T06:58:24.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12744) |
 
@@ -34284,6 +35964,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-07-27T06:59:41.497Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12745) |
 
@@ -34308,6 +35990,8 @@ Functional:
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-14T14:49:09.97Z |
+| Created Date | 2023-07-27T08:41:22.257Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12752) |
 
@@ -34399,6 +36083,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-13T06:00:52.58Z |
+| Created Date | 2023-07-27T09:00:54.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12753) |
 
@@ -34506,6 +36192,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-07-27T09:23:22.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12754) |
 
@@ -34586,6 +36274,8 @@ As a IEMQS USER other than QI3/QI2, I want to submit all activities assigned to 
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-07-28T09:23:53.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12793) |
 
@@ -34608,6 +36298,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-28T10:08:34.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12796) |
 
@@ -34633,6 +36325,8 @@ Create dashboard for -
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-07-29T08:46:25.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12843) |
 
@@ -34666,6 +36360,8 @@ Please refer attachment
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-30T10:59:45.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12845) |
 
@@ -34735,6 +36431,8 @@ User should be able to view "\+ Add New " button in the "Maintain Critical to Qu
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-07-30T11:28:56.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12846) |
 
@@ -34800,6 +36498,8 @@ Continuous of [#12845](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-30T11:52:27.707Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12847) |
 
@@ -34878,6 +36578,8 @@ Usability:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-30T12:12:16.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12848) |
 
@@ -34973,6 +36675,8 @@ Upon Clicking "Cancel" /Save Button at NCR/CFAR overlay window. **(Page 7 - canc
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-30T13:04:41.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12849) |
 
@@ -35062,6 +36766,8 @@ Continuous of [#12848](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-31T03:39:22.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12917) |
 
@@ -35115,6 +36821,8 @@ Note: This "Export" functionality works for each window separately.
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-02-14T13:06:11.877Z |
+| Created Date | 2023-07-31T03:47:24.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12918) |
 
@@ -35174,6 +36882,8 @@ As a IEMQS USER other than QI2 user, I want to maintain CTQ identified in projec
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-07-31T04:17:57.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12920) |
 
@@ -35237,6 +36947,8 @@ Usability:
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-17T17:18:55.793Z |
+| Created Date | 2023-07-31T08:51:54.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12980) |
 
@@ -35259,6 +36971,8 @@ Technical: Lifting Lug Table structure design and Save&Partial Save
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-08-18T11:28:30.59Z |
+| Created Date | 2023-07-31T08:59:34.277Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12981) |
 
@@ -35281,6 +36995,8 @@ Common service should be created with all formulas in angular
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-07-31T09:12:56.837Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/12984) |
 
@@ -35303,6 +37019,8 @@ Use same JSON table structure across all 5 calculations
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-07-31T10:38:03.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13006) |
 
@@ -35325,6 +37043,8 @@ _Not provided._
 | Assigned To | Harsh Vardan K V |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-09-05T10:29:13.157Z |
+| Created Date | 2023-08-01T02:16:19.367Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13020) |
 
@@ -35347,6 +37067,8 @@ To have accuracy of more than 90%
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T04:04:45.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13048) |
 
@@ -35440,6 +37162,8 @@ Usability:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T04:05:13.5Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13050) |
 
@@ -35576,6 +37300,8 @@ Usability:
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-08-01T04:22:58.78Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13073) |
 
@@ -35598,6 +37324,8 @@ All the reviews and other discussions
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T04:37:27.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13078) |
 
@@ -35710,6 +37438,8 @@ Continuous of [#13050](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T05:13:07.927Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13099) |
 
@@ -35793,6 +37523,8 @@ Continuous of [#13078](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-08-01T06:29:46.417Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13126) |
 
@@ -35815,6 +37547,8 @@ Make certification flow online
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T05:46:24.383Z |
+| Created Date | 2023-08-01T06:36:11.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13131) |
 
@@ -35837,6 +37571,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-01T07:08:40.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13145) |
 
@@ -35859,6 +37595,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-08-01T07:51:04.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13149) |
 
@@ -35935,6 +37673,8 @@ Continuous of [#12849](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T07:54:28.297Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13150) |
 
@@ -36022,6 +37762,8 @@ In Action column, User should be able to view "Attach", "Delete" and "Timeline" 
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T08:07:13.103Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13156) |
 
@@ -36085,6 +37827,8 @@ As a IEMQS USER, I want to print functionality in given attach format so that I 
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-04T11:11:34.443Z |
+| Created Date | 2023-08-01T08:24:59.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13157) |
 
@@ -36160,6 +37904,8 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-08-01T09:19:18.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13176) |
 
@@ -36239,6 +37985,8 @@ Continuous of [#12920](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T05:48:00.497Z |
+| Created Date | 2023-08-01T10:52:43.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13183) |
 
@@ -36261,6 +38009,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-01T12:00:08.153Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13185) |
 
@@ -36283,6 +38033,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-01T12:30:36.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13188) |
 
@@ -36356,6 +38108,8 @@ Continuous of [#12920](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:36.843Z |
+| Created Date | 2023-08-01T13:15:13.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13193) |
 
@@ -36378,6 +38132,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:40.86Z |
+| Created Date | 2023-08-01T14:15:52.187Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13194) |
 
@@ -36400,6 +38156,8 @@ _Not provided._
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-08-01T14:58:23.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13196) |
 
@@ -36424,6 +38182,8 @@ All review & dev support
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-08-02T05:08:59.167Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13214) |
 
@@ -36453,6 +38213,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-08-02T05:20:16.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13215) |
 
@@ -36481,6 +38243,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-02T06:01:29.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13236) |
 
@@ -36516,6 +38280,8 @@ Mega Menu->Quality Control-> In Process Inspection-> Running Seam Status
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-02T06:36:00.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13241) |
 
@@ -36604,6 +38370,8 @@ Usability:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-02T06:42:32.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13242) |
 
@@ -36670,6 +38438,8 @@ What are stages of this CTQ at project level
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-02T09:03:25.547Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13261) |
 
@@ -36754,6 +38524,8 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-02T09:25:13.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13264) |
 
@@ -36810,6 +38582,8 @@ User should be able to view "\+ Add New " button in the "Maintain Critical to Qu
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-08-02T09:43:00.047Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13269) |
 
@@ -36877,6 +38651,8 @@ Upon Clicking "Cancel" /Save Button at NCR/CFAR overlay window.
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:45.53Z |
+| Created Date | 2023-08-02T10:53:19.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13273) |
 
@@ -36899,6 +38675,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-08-02T11:00:05.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13274) |
 
@@ -36971,6 +38749,8 @@ For Approved status "{"CTQ Doc. No. "} project row at "Maintain Critical To Qual
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-02T11:24:34.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13276) |
 
@@ -36993,6 +38773,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-02T13:38:45.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13289) |
 
@@ -37015,6 +38797,8 @@ _Not provided._
 | Assigned To | Jatin.Prusty |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T04:17:45.467Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13295) |
 
@@ -37047,6 +38831,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T04:49:10.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13298) |
 
@@ -37182,6 +38968,8 @@ Continuous of [#13274](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:11:14.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13301) |
 
@@ -37247,6 +39035,8 @@ As a QI2 user, I want to maintain CTQ records identified in project so that I ca
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:14:21.597Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13304) |
 
@@ -37297,6 +39087,8 @@ Reference Image:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:27:09.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13305) |
 
@@ -37358,6 +39150,8 @@ For Reference:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:29:48.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13306) |
 
@@ -37387,6 +39181,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:47:04.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13307) |
 
@@ -37432,6 +39228,8 @@ Functional:
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:55:45.813Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13308) |
 
@@ -37508,6 +39306,8 @@ For Draft status "{"CTQ Doc. No. "} project row at "Approve/Close Critical To Qu
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T05:59:41.383Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13309) |
 
@@ -37545,6 +39345,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T06:03:11.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13312) |
 
@@ -37576,6 +39378,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T06:33:03.577Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13313) |
 
@@ -37671,6 +39475,8 @@ Continuous of [#13308](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-08-03T06:49:09.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13314) |
 
@@ -37791,6 +39597,8 @@ Continuous of
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:49.9Z |
+| Created Date | 2023-08-03T07:02:06.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13315) |
 
@@ -37813,6 +39621,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:08:46.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13316) |
 
@@ -37842,6 +39652,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:31:13.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13317) |
 
@@ -37878,6 +39690,8 @@ Mega Menu->NDE-> In Process Inspection-> Running Seam Status
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:34:39.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13318) |
 
@@ -37924,6 +39738,8 @@ Reference Image:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:39:40.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13319) |
 
@@ -37977,6 +39793,8 @@ For Reference: [NDE Seam Test Details :: IEMQS (lthed.com)](https://vhziemqsstg1
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:41:42.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13320) |
 
@@ -38004,6 +39822,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:46:13.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13321) |
 
@@ -38042,6 +39862,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:48:19.183Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13322) |
 
@@ -38080,6 +39902,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:49:38.913Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13323) |
 
@@ -38112,6 +39936,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-03T07:55:49.35Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13324) |
 
@@ -38169,6 +39995,8 @@ As a QI2 user, I want to maintain CTQ identified in project so that I can Approv
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-09-04T15:55:34.393Z |
+| Created Date | 2023-08-03T08:19:14.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13325) |
 
@@ -38191,6 +40019,8 @@ R2 - dot net migration issue fixes in production
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-03T11:11:10.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13334) |
 
@@ -38213,6 +40043,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:13.467Z |
+| Created Date | 2023-08-04T04:22:56.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13352) |
 
@@ -38235,6 +40067,8 @@ _Not provided._
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-08-04T04:36:54.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13357) |
 
@@ -38260,6 +40094,8 @@ As a Key* user, I want to download the existing or recently added procedure docu
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-04T05:35:55.443Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13361) |
 
@@ -38348,6 +40184,8 @@ Continuous of [#13308](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Rajesh.Lanka |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-04T07:17:52.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13365) |
 
@@ -38453,6 +40291,8 @@ Continuous of [#13308](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Soumil Shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-18T04:58:27.033Z |
+| Created Date | 2023-08-04T08:18:17.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13367) |
 
@@ -38475,6 +40315,8 @@ New Changes in Predictive Maintenance Application.
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:17.26Z |
+| Created Date | 2023-08-04T09:14:33.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13373) |
 
@@ -38497,6 +40339,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-06T16:53:30.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13395) |
 
@@ -38576,6 +40420,8 @@ Usability:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-06T17:38:06.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13396) |
 
@@ -38698,6 +40544,8 @@ For "In-Progress" status "{"CTQ Doc. No. "} project row at "Maintain Critical To
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-06T18:04:43.293Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13397) |
 
@@ -38816,6 +40664,8 @@ For "In-Progress/Approved" status "{"CTQ Doc. No. "} project row at "Approve Cri
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-06T18:29:37.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13398) |
 
@@ -38894,6 +40744,8 @@ For "In-Progress/Approved" status "{"CTQ Doc. No. "} project row at "Approve Cri
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-07T05:17:53.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13410) |
 
@@ -38980,6 +40832,8 @@ For Closed status "{"CTQ Doc. No. "} project row at "Maintain Critical To Qualit
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-07T08:48:41.017Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13413) |
 
@@ -39002,6 +40856,8 @@ _Not provided._
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-09T10:53:24.963Z |
+| Created Date | 2023-08-07T09:18:55.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13414) |
 
@@ -39052,6 +40908,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-07T09:38:39.457Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13415) |
 
@@ -39123,6 +40981,8 @@ Feature | Function | Module | Sub Process | Locations | Roles
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-02-14T13:06:11.877Z |
+| Created Date | 2023-08-07T09:58:49.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13419) |
 
@@ -39221,6 +41081,8 @@ System will send notification to the required user and User should be able to vi
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:20.57Z |
+| Created Date | 2023-08-07T12:10:19.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13435) |
 
@@ -39243,6 +41105,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:24.19Z |
+| Created Date | 2023-08-08T05:46:46.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13459) |
 
@@ -39265,6 +41129,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-08T11:06:47.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13470) |
 
@@ -39287,6 +41153,8 @@ _Not provided._
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-30T16:19:04.253Z |
+| Created Date | 2023-08-09T04:43:18.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13483) |
 
@@ -39351,6 +41219,8 @@ QA | CHEMICAL REPORT
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-08-09T06:36:59.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13493) |
 
@@ -39373,6 +41243,8 @@ TBD
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-09T08:09:04.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13509) |
 
@@ -39422,6 +41294,8 @@ Feature | Function | Module | Sub Process | Locations | Roles
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:27.847Z |
+| Created Date | 2023-08-09T10:07:30.297Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13514) |
 
@@ -39444,6 +41318,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-09T10:15:13.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13515) |
 
@@ -39475,6 +41351,8 @@ Mega Menu->Planning ->Planning Calculations
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:31.13Z |
+| Created Date | 2023-08-09T10:15:14.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13516) |
 
@@ -39497,6 +41375,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:34.283Z |
+| Created Date | 2023-08-09T10:22:25.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13517) |
 
@@ -39519,6 +41399,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:37.25Z |
+| Created Date | 2023-08-09T11:55:50.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13520) |
 
@@ -39541,6 +41423,8 @@ _Not provided._
 | Assigned To | Ulhas Patil |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-30T16:14:56.583Z |
+| Created Date | 2023-08-10T06:10:20.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13536) |
 
@@ -39567,6 +41451,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:40.053Z |
+| Created Date | 2023-08-10T06:13:39.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13537) |
 
@@ -39589,6 +41475,8 @@ _Not provided._
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-10T09:24:33.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13547) |
 
@@ -39616,6 +41504,8 @@ To Combine all positions of same F No and process and to merge and specify in co
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:56:42.933Z |
+| Created Date | 2023-08-11T05:41:48.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13566) |
 
@@ -39638,6 +41528,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:57:02.447Z |
+| Created Date | 2023-08-11T06:43:18.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13569) |
 
@@ -39660,6 +41552,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:57:05.53Z |
+| Created Date | 2023-08-11T06:58:41.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13570) |
 
@@ -39682,6 +41576,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-11T07:02:56.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13571) |
 
@@ -39704,6 +41600,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-14T04:08:05.333Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13584) |
 
@@ -39726,6 +41624,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-14T05:05:24.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13585) |
 
@@ -39760,6 +41660,8 @@ Mega Menu->NDE-> NDE Qualification and Certification-> Certification
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-01-16T06:05:57.633Z |
+| Created Date | 2023-08-14T05:29:41.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13586) |
 
@@ -39805,6 +41707,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T05:45:20.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13588) |
 
@@ -39844,6 +41748,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-14T06:01:42.487Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13589) |
 
@@ -39866,6 +41772,8 @@ _Not provided._
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T06:20:00.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13590) |
 
@@ -39914,6 +41822,8 @@ Note:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T06:30:21.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13591) |
 
@@ -39957,6 +41867,8 @@ Note:
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T06:34:31.053Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13592) |
 
@@ -39997,6 +41909,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Sujata.Parvate |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T06:43:01.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13593) |
 
@@ -40039,6 +41953,8 @@ Note:
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T06:51:13.187Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13594) |
 
@@ -40091,6 +42007,8 @@ If a user's vision test is rescheduled, then the updated email in the above-ment
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T08:09:54.353Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13596) |
 
@@ -40139,6 +42057,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T08:35:52.267Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13597) |
 
@@ -40177,6 +42097,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T08:37:24.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13598) |
 
@@ -40223,6 +42145,8 @@ Note:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-14T08:54:05.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13599) |
 
@@ -40286,6 +42210,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-14T09:06:22.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13600) |
 
@@ -40343,6 +42269,8 @@ Note:
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T09:21:33.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13601) |
 
@@ -40386,6 +42314,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-14T09:23:51.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13602) |
 
@@ -40439,6 +42369,8 @@ If a user's test is rescheduled, then the updated email in the above-mentioned f
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T11:04:37.317Z |
+| Created Date | 2023-08-14T09:44:34.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13604) |
 
@@ -40461,6 +42393,8 @@ _Not provided._
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-14T09:45:37.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13605) |
 
@@ -40510,6 +42444,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:48:04.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13616) |
 
@@ -40567,6 +42503,8 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:48:14.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13617) |
 
@@ -40672,6 +42610,8 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:48:22.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13618) |
 
@@ -40776,6 +42716,8 @@ SWRP-Project-NCR-002 | NCR
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-16T03:48:36.66Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13619) |
 
@@ -40902,6 +42844,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Groove/Fille
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:48:45.523Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13620) |
 
@@ -41047,6 +42991,8 @@ continuous of [#13619](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:48:53.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13621) |
 
@@ -41112,6 +43058,8 @@ continuous of [#13620](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-16T03:49:03.46Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13622) |
 
@@ -41199,6 +43147,8 @@ continuous of [#13621](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:49:15.097Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13623) |
 
@@ -41259,6 +43209,8 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:49:22.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13624) |
 
@@ -41344,6 +43296,8 @@ Continuous of [#13623](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T03:49:31.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13625) |
 
@@ -41442,6 +43396,8 @@ Continuous of [#13617](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-16T06:04:21.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13634) |
 
@@ -41502,6 +43458,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-16T06:53:09.68Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13636) |
 
@@ -41541,6 +43499,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T11:04:57.39Z |
+| Created Date | 2023-08-16T09:00:49.88Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13639) |
 
@@ -41563,6 +43523,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-16T10:29:42.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13640) |
 
@@ -41589,6 +43551,8 @@ Functional:
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-08-16T10:42:05.76Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13641) |
 
@@ -41615,6 +43579,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T11:05:00.543Z |
+| Created Date | 2023-08-17T04:08:53.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13648) |
 
@@ -41637,6 +43603,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-09T04:28:26.79Z |
+| Created Date | 2023-08-17T07:04:17.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13656) |
 
@@ -41673,6 +43641,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Souvik Das |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2023-10-30T03:12:06.737Z |
+| Created Date | 2023-08-17T10:08:07.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13659) |
 
@@ -41696,6 +43666,8 @@ WE3 Creates SWRP and sends for approval to WE2 & once WE2 approves WE3 delegates
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-17T10:31:42.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13662) |
 
@@ -41718,6 +43690,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T11:05:03.773Z |
+| Created Date | 2023-08-17T10:40:00.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13663) |
 
@@ -41740,6 +43714,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-17T12:23:21.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13666) |
 
@@ -41762,6 +43738,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-18T08:05:55.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13675) |
 
@@ -41784,6 +43762,8 @@ _Not provided._
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-18T11:26:04.707Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13683) |
 
@@ -41806,6 +43786,8 @@ Html report of planning calculation should be converted to PDF
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-21T05:46:07.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13734) |
 
@@ -41828,6 +43810,8 @@ _Not provided._
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-11-07T10:19:24.207Z |
+| Created Date | 2023-08-21T06:04:38.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13744) |
 
@@ -41878,6 +43862,8 @@ Usability:
 | Assigned To | Rounak.Hasan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-21T07:55:25.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13807) |
 
@@ -41908,6 +43894,8 @@ Functional:
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-21T08:02:01.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13808) |
 
@@ -41936,6 +43924,8 @@ Functional:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-21T08:09:52.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13809) |
 
@@ -41968,6 +43958,8 @@ Functional:
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-21T08:13:03.283Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13810) |
 
@@ -41997,6 +43989,8 @@ Do check the closed tasks to check the screens that are developed
 | Assigned To | Jyothi.Cheripally@ltimindtree.com |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-08-21T08:16:30.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13811) |
 
@@ -42033,6 +44027,8 @@ Functional:
 | Assigned To | Jyothi.Cheripally@ltimindtree.com |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-08-21T08:19:39.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13812) |
 
@@ -42069,6 +44065,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-21T08:26:44.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13819) |
 
@@ -42095,6 +44093,8 @@ Functional:
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-06-14T12:25:45.7Z |
+| Created Date | 2023-08-21T08:37:58.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13820) |
 
@@ -42125,6 +44125,8 @@ Functional:
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-08-21T09:03:26.013Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13822) |
 
@@ -42168,6 +44170,8 @@ Note: For technical details, please refer attached document
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-21T09:05:48.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13823) |
 
@@ -42190,6 +44194,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-21T10:01:02.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/13830) |
 
@@ -42212,6 +44218,8 @@ _Not provided._
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-22T09:49:37.15Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14134) |
 
@@ -42249,6 +44257,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T10:31:44.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14155) |
 
@@ -42289,6 +44299,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T11:00:46.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14158) |
 
@@ -42324,6 +44336,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T12:47:11.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14171) |
 
@@ -42371,6 +44385,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T14:04:39.353Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14174) |
 
@@ -42415,6 +44431,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T14:12:54.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14175) |
 
@@ -42453,6 +44471,8 @@ This is a system generated email. Please refrain from replying
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T15:44:26.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14177) |
 
@@ -42494,6 +44514,8 @@ For reference:
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-22T16:00:21.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14178) |
 
@@ -42565,6 +44587,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T04:19:25.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14202) |
 
@@ -42605,6 +44629,8 @@ Note:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T04:22:50.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14204) |
 
@@ -42658,6 +44684,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T04:24:52.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14207) |
 
@@ -42710,6 +44738,8 @@ All the popup and toast messages should be followed as per visual
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T04:29:05.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14208) |
 
@@ -42757,6 +44787,8 @@ If a TPE test is rescheduled, then the updated email in the above-mentioned freq
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T04:49:29.043Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14211) |
 
@@ -42791,6 +44823,8 @@ All the popups and toast messages to be shown as per visual
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T05:47:58.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14222) |
 
@@ -42823,6 +44857,8 @@ All the popups and toast messages should be followed as per visual
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T05:49:59.497Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14223) |
 
@@ -42882,6 +44918,8 @@ If a user's test is rescheduled, then the updated email in the above-mentioned f
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-23T06:27:08.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14228) |
 
@@ -42940,6 +44978,8 @@ Note:
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-24T06:31:47.133Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14267) |
 
@@ -42964,6 +45004,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-24T07:09:31.377Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14272) |
 
@@ -43068,6 +45110,8 @@ _**Functional:**_
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-24T08:12:51.993Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14274) |
 
@@ -43116,6 +45160,8 @@ Valid upto (dd/mm/yyyy)
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-24T08:16:29.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14276) |
 
@@ -43167,6 +45213,8 @@ Please note that here, By Active user means, if a user status is "Active", irres
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-24T08:27:12.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14277) |
 
@@ -43226,6 +45274,8 @@ Vision Due Date
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-24T08:42:22.063Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14278) |
 
@@ -43316,6 +45366,8 @@ Usability:**
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-24T10:45:58.797Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14284) |
 
@@ -43338,6 +45390,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-24T11:29:36.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14285) |
 
@@ -43360,6 +45414,8 @@ _Not provided._
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-25T05:58:41.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14311) |
 
@@ -43385,6 +45441,8 @@ Functional:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-25T06:02:55.363Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14312) |
 
@@ -43411,6 +45469,8 @@ Functional:
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-25T06:09:49.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14313) |
 
@@ -43448,6 +45508,8 @@ Reference Link:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-25T07:52:35.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14333) |
 
@@ -43490,6 +45552,8 @@ Position No dropdown values should load from DES067 & QMS035 table while attachi
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-08-25T08:05:24.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14335) |
 
@@ -43551,6 +45615,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the selected type 
 | Assigned To | Sujata.Parvate |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-25T08:06:19.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14336) |
 
@@ -43663,6 +45729,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Groove/Fille
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-25T08:48:30.307Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14341) |
 
@@ -43685,6 +45753,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-25T09:00:08.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14342) |
 
@@ -43707,6 +45777,8 @@ _Not provided._
 | Assigned To | Aduvala.Sai |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-06-07T12:44:01.277Z |
+| Created Date | 2023-08-25T12:24:31.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14346) |
 
@@ -43733,6 +45805,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-08-25T12:35:51.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14358) |
 
@@ -43755,6 +45829,8 @@ Release 2.1 should work as is with FT3838 without any unexpected behaviors.
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-06-05T13:12:46.573Z |
+| Created Date | 2023-08-25T12:40:46.527Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14359) |
 
@@ -43789,6 +45865,8 @@ Reference snapshot for Section separator
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-06-05T13:12:59.25Z |
+| Created Date | 2023-08-25T12:45:03.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14362) |
 
@@ -43824,6 +45902,8 @@ Reference snapshot for Sub-Section separator
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-06-07T12:44:16.083Z |
+| Created Date | 2023-08-25T12:53:51.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14367) |
 
@@ -43855,6 +45935,8 @@ Functional:
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-06-05T13:13:36.653Z |
+| Created Date | 2023-08-25T13:25:19.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14370) |
 
@@ -43892,6 +45974,8 @@ Functional:
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-06-28T14:22:52.323Z |
+| Created Date | 2023-08-25T13:35:09.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14377) |
 
@@ -43933,6 +46017,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-26T08:00:54.527Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14382) |
 
@@ -43955,6 +46041,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:13.07Z |
+| Created Date | 2023-08-28T06:15:00.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14417) |
 
@@ -43977,6 +46065,8 @@ _Not provided._
 | Assigned To | Rahul.Arjun2 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-08-28T08:02:10.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14420) |
 
@@ -44014,6 +46104,8 @@ Below is the format:
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-28T08:07:57.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14421) |
 
@@ -44039,6 +46131,8 @@ Functional:
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-28T10:00:14.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14424) |
 
@@ -44061,6 +46155,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-08-29T04:26:25.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14436) |
 
@@ -44083,6 +46179,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-08-29T09:35:14.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14455) |
 
@@ -44108,6 +46206,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-29T09:36:03.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14456) |
 
@@ -44130,6 +46230,8 @@ _Not provided._
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-08-29T11:32:30.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14459) |
 
@@ -44152,6 +46254,8 @@ Miscellaneous Activities, Reviews and Dev support
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-08-31T07:57:43.457Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14502) |
 
@@ -44174,6 +46278,8 @@ _Not provided._
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:48:48.99Z |
+| Created Date | 2023-09-01T07:33:23.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14521) |
 
@@ -44211,6 +46317,8 @@ Mega Menu->Quality Assurance -> Dept. Performance Parameters-> Maintain DPP
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T10:36:56.843Z |
+| Created Date | 2023-09-01T07:38:27.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14522) |
 
@@ -44253,6 +46361,8 @@ Values: HZW (HAZIRA WORKS), LTP (PIPING CENTER), PEW (POWAI WORKS), RNW (RANOLI 
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T10:39:00.177Z |
+| Created Date | 2023-09-01T07:46:15.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14523) |
 
@@ -44292,6 +46402,8 @@ Note:
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-01T08:55:44.013Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14524) |
 
@@ -44314,6 +46426,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-01T10:59:34.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14525) |
 
@@ -44336,6 +46450,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-01T12:27:13.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14535) |
 
@@ -44358,6 +46474,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-04T04:50:57.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14540) |
 
@@ -44380,6 +46498,8 @@ _Not provided._
 | Assigned To | Deep |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-04T09:18:29.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14541) |
 
@@ -44409,6 +46529,8 @@ Do check the closed tasks to check the screens that are developed
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-05T04:26:32.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14552) |
 
@@ -44431,6 +46553,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-09-05T04:44:19.203Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14553) |
 
@@ -44465,6 +46589,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-05T09:21:08.43Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14555) |
 
@@ -44545,6 +46671,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-02T10:36:31.81Z |
+| Created Date | 2023-09-05T10:18:20.837Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14558) |
 
@@ -44598,6 +46726,8 @@ As a QI3/QI2, I want to maintain Milestone stage activities for project/Assembli
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:50:10.16Z |
+| Created Date | 2023-09-06T13:00:55.187Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14580) |
 
@@ -44625,6 +46755,8 @@ Functional:
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:57:46.77Z |
+| Created Date | 2023-09-06T13:11:23.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14581) |
 
@@ -44662,6 +46794,8 @@ Note:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:59:54.38Z |
+| Created Date | 2023-09-06T13:37:32.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14584) |
 
@@ -44704,6 +46838,8 @@ The report should also show a trend line a per the set threshold value in the gr
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T14:00:43.96Z |
+| Created Date | 2023-09-06T13:37:54.407Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14585) |
 
@@ -44742,6 +46878,8 @@ Functional:
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-09T06:43:43.213Z |
+| Created Date | 2023-09-06T14:05:05.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14586) |
 
@@ -44774,6 +46912,8 @@ Functional:
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-09-06T14:07:04.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14587) |
 
@@ -44825,6 +46965,8 @@ Reference Image: Please refer the image's highlighted item. Also, in the highlig
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-09-06T14:07:19.537Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14588) |
 
@@ -44864,6 +47006,8 @@ Mega Menu->Quality Assurance -> Dept. Performance Parameters-> DPP Master
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-07T04:19:17.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14589) |
 
@@ -44886,6 +47030,8 @@ _Not provided._
 | Assigned To | Ramadass P |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-07T07:26:39.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14598) |
 
@@ -44960,6 +47106,8 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Assigned To | Sujata.Parvate |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-07T07:43:30.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14599) |
 
@@ -45017,6 +47165,8 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Assigned To | Jyothi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-07T08:37:11.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14601) |
 
@@ -45176,6 +47326,8 @@ Usability:
 | Assigned To | Chamala Jayasankar Reddy |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-07T10:25:05.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14602) |
 
@@ -45332,6 +47484,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the ****Overlay or
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-07T10:35:51.373Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14603) |
 
@@ -45419,6 +47573,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Overlay, Har
 | Assigned To | Sujata.Parvate |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-07T10:55:54.443Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14604) |
 
@@ -45576,6 +47732,8 @@ Usability:
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-07T11:51:02.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14607) |
 
@@ -45598,6 +47756,8 @@ _Not provided._
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-08T05:15:56.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14617) |
 
@@ -45717,6 +47877,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **T#TS  **so t
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-08T05:41:23.127Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14618) |
 
@@ -45841,6 +48003,8 @@ As WE2 User, I want to Approve project wise Shop Weld Repair Plan so that i can 
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-09-08T06:05:33.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14620) |
 
@@ -45895,6 +48059,8 @@ Table Name: Maintain Function Area
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-09-08T06:13:57.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14621) |
 
@@ -45946,6 +48112,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-19T11:46:39.71Z |
+| Created Date | 2023-09-08T06:14:59.68Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14622) |
 
@@ -45990,6 +48158,8 @@ Functional:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-08T07:10:34.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14625) |
 
@@ -46053,6 +48223,8 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-09-08T07:40:34.773Z |
 | Tags | UX |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14626) |
 
@@ -46075,6 +48247,8 @@ Create RCA module and sub userflows
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-08T08:29:12.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14634) |
 
@@ -46199,6 +48373,8 @@ User should be able to view "Cancel"/"Approve"/"Return" buttons on "Sent for App
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-08T08:30:05.603Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14635) |
 
@@ -46389,6 +48565,8 @@ Name of person who save/update the Customer Feedback
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-08T11:56:59.377Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14640) |
 
@@ -46413,6 +48591,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-11T06:03:34.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14674) |
 
@@ -46435,6 +48615,8 @@ _Not provided._
 | Assigned To | Soumil Shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-18T04:57:41.733Z |
+| Created Date | 2023-09-11T07:01:18.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14685) |
 
@@ -46457,6 +48639,8 @@ _Not provided._
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-14T09:39:38.53Z |
+| Created Date | 2023-09-11T07:14:40.993Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14691) |
 
@@ -46577,6 +48761,8 @@ As a WE3/WE2 user, I want to maintain the Shop Weld Plan Master, so that I can c
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-11T07:16:57.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14692) |
 
@@ -46599,6 +48785,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-11T07:26:04.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14695) |
 
@@ -46621,6 +48809,8 @@ _Not provided._
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-11T07:49:57.207Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14697) |
 
@@ -46664,6 +48854,8 @@ Mega Menu->QA->RCA->Root Cause Analysis
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-11T07:50:17.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14698) |
 
@@ -46701,6 +48893,8 @@ Reference Image:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-11T07:50:58.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14699) |
 
@@ -46740,6 +48934,8 @@ Mega Menu-> Quality Assurance-> RCA -> Corrective Action Implementation
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-11T08:19:24.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14707) |
 
@@ -46783,6 +48979,8 @@ Reference Image:
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-11T08:38:18.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14708) |
 
@@ -46812,6 +49010,8 @@ Reference Image:
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-11T12:51:55.313Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14757) |
 
@@ -46905,6 +49105,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM\Iteration 1 |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2023-09-12T06:50:32.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14871) |
 
@@ -46927,6 +49129,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-12T09:22:49.787Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14876) |
 
@@ -46949,6 +49153,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-12T10:11:07.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14884) |
 
@@ -46971,6 +49177,8 @@ _Not provided._
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-09-12T12:01:31.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14921) |
 
@@ -47020,6 +49228,8 @@ This is system generated email. Do not reply on this email.
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-12T12:08:01.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14922) |
 
@@ -47043,6 +49253,8 @@ Functional:
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-06-21T09:54:19.11Z |
+| Created Date | 2023-09-12T12:35:05.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14923) |
 
@@ -47106,6 +49318,8 @@ This is system generated email. Do not reply on this email.
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:57:48.667Z |
+| Created Date | 2023-09-13T03:54:33.323Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14942) |
 
@@ -47146,6 +49360,8 @@ Link: (Maintain DPP webpage link)
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:57:48.667Z |
+| Created Date | 2023-09-13T03:58:00.397Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14944) |
 
@@ -47187,6 +49403,8 @@ Link: (Webpage link for DPP Approve)
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-17T11:20:52.023Z |
+| Created Date | 2023-09-13T04:03:36.237Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14945) |
 
@@ -47222,6 +49440,8 @@ Attachments - PDF Reports to be attached
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-13T05:39:52.867Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14952) |
 
@@ -47250,6 +49470,8 @@ Reference Image:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-13T05:50:59.08Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14953) |
 
@@ -47281,6 +49503,8 @@ For reference, image of RCA screen from where the data will flow and come in Cor
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-12-25T05:38:09.083Z |
+| Created Date | 2023-09-13T11:01:09.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14982) |
 
@@ -47350,6 +49574,8 @@ Navigation -
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-09-13T11:49:29.747Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14984) |
 
@@ -47384,6 +49610,8 @@ Functional:
 | Assigned To | Manu Prasad |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-30T03:12:05.06Z |
+| Created Date | 2023-09-14T05:16:16.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14996) |
 
@@ -47411,6 +49639,8 @@ Assessment report
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-09-14T05:31:13.927Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/14997) |
 
@@ -47433,6 +49663,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-15T06:22:15.777Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15044) |
 
@@ -47468,6 +49700,8 @@ Additional Notes:
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T14:02:17.08Z |
+| Created Date | 2023-09-15T09:27:35.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15049) |
 
@@ -47504,6 +49738,8 @@ Mega Menu->Quality Assurance -> Dept. Performance Parameters-> Approve DPP
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-15T10:05:55.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15050) |
 
@@ -47526,6 +49762,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-15T11:04:28.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15051) |
 
@@ -47548,6 +49786,8 @@ _Not provided._
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-09-15T12:14:52.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15052) |
 
@@ -47570,6 +49810,8 @@ _Not provided._
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:06.807Z |
+| Created Date | 2023-09-15T12:19:44.847Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15053) |
 
@@ -47592,6 +49834,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-16T06:31:37.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15089) |
 
@@ -47614,6 +49858,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-18T04:46:26.793Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15115) |
 
@@ -47636,6 +49882,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-19T10:10:12.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15127) |
 
@@ -47658,6 +49906,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-20T04:38:11.597Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15143) |
 
@@ -47680,6 +49930,8 @@ _Not provided._
 | Assigned To | Amarjeet Sahoo |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:53:39.177Z |
+| Created Date | 2023-09-20T07:42:06.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15156) |
 
@@ -47746,6 +49998,8 @@ Usability:
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T14:04:47.033Z |
+| Created Date | 2023-09-20T08:29:59.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15166) |
 
@@ -47775,6 +50029,8 @@ Reference Image:
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T14:04:47.033Z |
+| Created Date | 2023-09-20T08:32:00.933Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15168) |
 
@@ -47806,6 +50062,8 @@ Reference Image:
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T14:32:24.463Z |
+| Created Date | 2023-09-20T09:35:27.717Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15173) |
 
@@ -47880,6 +50138,8 @@ NA
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-10-04T07:17:46.36Z |
+| Created Date | 2023-09-20T09:45:18.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15174) |
 
@@ -47907,6 +50167,8 @@ SIT in QA2 Env for:
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T14:33:37.537Z |
+| Created Date | 2023-09-20T09:46:14.117Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15175) |
 
@@ -47979,6 +50241,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T14:33:51.613Z |
+| Created Date | 2023-09-20T09:47:51.81Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15176) |
 
@@ -48051,6 +50315,8 @@ NA
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-21T06:00:40.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15194) |
 
@@ -48073,6 +50339,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-09-21T08:26:28.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15200) |
 
@@ -48105,6 +50373,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-09-21T08:31:14.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15201) |
 
@@ -48130,6 +50400,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-09-21T08:34:11.363Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15202) |
 
@@ -48154,6 +50426,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-09-21T08:36:44.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15203) |
 
@@ -48179,6 +50453,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-09-21T08:42:12.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15206) |
 
@@ -48204,6 +50480,8 @@ For (Lifting Lug, Lifting Trunnion, Ovality Ring, LSR/ISR) planning calculations
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-21T10:31:20.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15210) |
 
@@ -48226,6 +50504,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-22T08:27:23.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15228) |
 
@@ -48248,6 +50528,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-22T08:47:00.42Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15230) |
 
@@ -48270,6 +50552,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-17T10:03:41.243Z |
+| Created Date | 2023-09-22T10:16:47.53Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15234) |
 
@@ -48321,6 +50605,8 @@ Feature  | Function  | Module  | Sub Process  | Locations  | Roles
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-23T10:14:51.723Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15250) |
 
@@ -48343,6 +50629,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-25T08:19:30.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15278) |
 
@@ -48365,6 +50653,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:19.757Z |
+| Created Date | 2023-09-25T09:25:08.207Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15281) |
 
@@ -48387,6 +50677,8 @@ _Not provided._
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2026-03-30T08:31:40.83Z |
+| Created Date | 2023-09-26T05:06:54.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15346) |
 
@@ -48462,6 +50754,8 @@ We can provide COPQ field next to "Root Cause Category".
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2026-03-30T08:31:40.83Z |
+| Created Date | 2023-09-26T05:08:17.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15347) |
 
@@ -48551,6 +50845,8 @@ As a IEMQS User, I want to maintain project wise Cost of Poor Quality plan and f
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2026-03-30T08:31:40.83Z |
+| Created Date | 2023-09-26T05:08:29.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15348) |
 
@@ -48655,6 +50951,8 @@ Quality | 7 | 680 | 0.05
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-09-26T05:08:45.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15349) |
 
@@ -48749,6 +51047,8 @@ Welding  | 20000
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2025-07-22T05:08:21.983Z |
+| Created Date | 2023-09-26T05:08:58.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15350) |
 
@@ -48818,6 +51118,8 @@ As **IEMQS**** ** User, I want to maintain project wise Cost of Poor Quality pla
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-26T05:31:14.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15357) |
 
@@ -48840,6 +51142,8 @@ _Not provided._
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:57:15.43Z |
+| Created Date | 2023-09-27T08:25:19.447Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15427) |
 
@@ -48875,6 +51179,8 @@ User should be able to perform below mentioned functionalities in the grid
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T10:38:12.14Z |
+| Created Date | 2023-09-28T03:42:28.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15439) |
 
@@ -48916,6 +51222,8 @@ Functional:
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:58:24.01Z |
+| Created Date | 2023-09-28T04:03:26.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15445) |
 
@@ -48950,6 +51258,8 @@ Note: Please note that all the action button operations can only be applied for 
 | Assigned To | Aritram Ghosh |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T13:50:39.197Z |
+| Created Date | 2023-09-28T11:01:34.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15460) |
 
@@ -48985,6 +51295,8 @@ Functional:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-09-29T05:26:12.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15467) |
 
@@ -49026,6 +51338,8 @@ Link: [Display Welder Master List :: IEMQS (lthed.com)](https://vhzdigiiemqsqa1.
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-30T16:14:24.95Z |
+| Created Date | 2023-09-29T05:48:54.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15471) |
 
@@ -49071,6 +51385,8 @@ The attachment icon to be shown only for Groove/Fillet and Overlay tabs.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-29T05:58:06.207Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15472) |
 
@@ -49101,6 +51417,8 @@ Maintain WML Screen: [Maintain Welder Master List :: IEMQS (lthed.com)](https://
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-29T06:38:25.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15475) |
 
@@ -49123,6 +51441,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-29T08:39:38.847Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15479) |
 
@@ -49148,6 +51468,8 @@ Functional:
 | Assigned To | Gopi.Alli |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-10-31T10:36:03.46Z |
+| Created Date | 2023-09-29T09:42:01.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15484) |
 
@@ -49177,6 +51499,8 @@ Sr.No  | Name  | Target  | Target Description  | Measurement  | Function  | Area
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-29T10:56:56.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15485) |
 
@@ -49199,6 +51523,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-09-29T13:01:42.993Z |
 | Tags | CR; R3_UAT |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15495) |
 
@@ -49223,6 +51549,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-30T07:50:22.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15515) |
 
@@ -49245,6 +51573,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-09-30T08:29:20.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15516) |
 
@@ -49267,6 +51597,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-09-30T12:02:56.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15519) |
 
@@ -49289,6 +51621,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-02T08:54:32.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15522) |
 
@@ -49311,6 +51645,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-03T04:14:43.53Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15523) |
 
@@ -49333,6 +51669,8 @@ _Not provided._
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-10-03T04:39:34.353Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15524) |
 
@@ -49359,6 +51697,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-03T11:42:34.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15601) |
 
@@ -49381,6 +51721,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-04T08:35:45.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15720) |
 
@@ -49403,6 +51745,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-10-04T13:14:28.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15751) |
 
@@ -49438,6 +51782,8 @@ Reference Image:
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-04-03T07:17:24.53Z |
+| Created Date | 2023-10-04T15:16:19.393Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15757) |
 
@@ -49517,6 +51863,8 @@ NA
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T06:25:10.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15969) |
 
@@ -49564,6 +51912,8 @@ Reference Image:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T08:17:08.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15980) |
 
@@ -49615,6 +51965,8 @@ Reference Screenshot:
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T08:26:31.337Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15981) |
 
@@ -49687,6 +52039,8 @@ Technical Details:
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T08:41:30.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15982) |
 
@@ -49757,6 +52111,8 @@ Reference Screenshot:
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T08:43:36.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15983) |
 
@@ -49816,6 +52172,8 @@ Reference Screenshot:
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T08:54:16.167Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15984) |
 
@@ -49870,6 +52228,8 @@ Reference Screenshot:
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T09:06:34.807Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15985) |
 
@@ -49903,6 +52263,8 @@ Reference Image:
 | Assigned To | Sandhya Rani Yanamala |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T09:12:30.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15989) |
 
@@ -49938,6 +52300,8 @@ Reference Image:
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-06T09:48:53.973Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15990) |
 
@@ -49982,6 +52346,8 @@ Reference Image:
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-06T10:18:38.457Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/15994) |
 
@@ -50004,6 +52370,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-09T05:03:46.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16015) |
 
@@ -50026,6 +52394,8 @@ _Not provided._
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-09T05:19:24.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16018) |
 
@@ -50067,6 +52437,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-09T06:00:50.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16021) |
 
@@ -50089,6 +52461,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-09T08:30:14.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16030) |
 
@@ -50111,6 +52485,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-09T08:35:21.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16032) |
 
@@ -50133,6 +52509,8 @@ system will show ll ready to offer seams even token not generated
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-09T09:06:26.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16033) |
 
@@ -50155,6 +52533,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-09T09:45:32.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16049) |
 
@@ -50177,6 +52557,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-09T09:47:50.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16050) |
 
@@ -50204,6 +52586,8 @@ _Not provided._
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-09T09:59:34.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16051) |
 
@@ -50246,6 +52630,8 @@ Reference Image:
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-09T10:07:25.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16052) |
 
@@ -50285,6 +52671,8 @@ Reference Image:
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-09T10:12:31.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16053) |
 
@@ -50336,6 +52724,8 @@ Also, for reference, please see attached PDF for complete page view
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-09T10:14:31.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16054) |
 
@@ -50358,6 +52748,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-09T10:53:29.79Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16055) |
 
@@ -50380,6 +52772,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:04:54.24Z |
+| Created Date | 2023-10-09T14:33:38.017Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16059) |
 
@@ -50457,6 +52851,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:02.593Z |
+| Created Date | 2023-10-09T16:28:13.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16060) |
 
@@ -50530,6 +52926,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:10.64Z |
+| Created Date | 2023-10-09T16:35:52.737Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16061) |
 
@@ -50606,6 +53004,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:22.07Z |
+| Created Date | 2023-10-09T16:50:11.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16062) |
 
@@ -50677,6 +53077,8 @@ NA
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-10T04:31:12.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16068) |
 
@@ -50699,6 +53101,8 @@ _Not provided._
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T05:16:22.453Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16069) |
 
@@ -50738,6 +53142,8 @@ Reference Image:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-10T05:20:08.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16070) |
 
@@ -50760,6 +53166,8 @@ _Not provided._
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T05:43:02.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16071) |
 
@@ -50798,6 +53206,8 @@ Reference Image:
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T05:46:04.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16072) |
 
@@ -50847,6 +53257,8 @@ Reference Image,
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T05:53:06.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16073) |
 
@@ -50966,6 +53378,8 @@ As WE3/WE2 User, I want to maintain Shop Weld Repair Plan for the **Groove/Fille
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T05:58:25.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16074) |
 
@@ -51044,6 +53458,8 @@ As WE3/WE2 User, I want to maintain project wise Shop Weld Repair Plan so that i
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-10T07:04:37.163Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16075) |
 
@@ -51066,6 +53482,8 @@ _Not provided._
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:37:02.75Z |
+| Created Date | 2023-10-10T08:38:12.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16079) |
 
@@ -51166,6 +53584,8 @@ __
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T08:55:13.99Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16080) |
 
@@ -51212,6 +53632,8 @@ Reference Image
 | Assigned To | shubham.sharma5 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T09:36:56.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16081) |
 
@@ -51249,6 +53671,8 @@ Reference Image:
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-10T09:53:26.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16082) |
 
@@ -51308,6 +53732,8 @@ Reference Screenshot:
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-10T13:45:59.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16090) |
 
@@ -51330,6 +53756,8 @@ _Not provided._
 | Assigned To | Bhagyashree.Ghatapandi |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-11T05:47:51.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16111) |
 
@@ -51378,6 +53806,8 @@ Note: This screen is user specific, the QA person who is assigned to verify and 
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-11T06:02:00.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16113) |
 
@@ -51415,6 +53845,8 @@ Reference Image:
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-11T06:07:58.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16115) |
 
@@ -51448,6 +53880,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-11T12:34:47.933Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16189) |
 
@@ -51470,6 +53904,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-11T13:20:46.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16200) |
 
@@ -51492,6 +53928,8 @@ Surface condition to be auto selected e.g., Nozzle-Flush ground, C/S-as welded, 
 | Assigned To | Mandigiri Krishna Kumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-12T04:31:51.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16225) |
 
@@ -51596,6 +54034,8 @@ SWRP-Project-NCR-002 | NCR
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-12T09:30:34.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16270) |
 
@@ -51618,6 +54058,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-09T11:47:17.443Z |
+| Created Date | 2023-10-12T15:09:30.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16307) |
 
@@ -51728,6 +54170,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-13T04:46:00.547Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16314) |
 
@@ -51750,6 +54194,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-13T06:49:41.257Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16326) |
 
@@ -51772,6 +54218,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-13T09:27:31.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16338) |
 
@@ -51794,6 +54242,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-13T09:38:55.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16339) |
 
@@ -51816,6 +54266,8 @@ _Not provided._
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-14T09:31:32.82Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16350) |
 
@@ -51851,6 +54303,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:33.61Z |
+| Created Date | 2023-10-14T14:15:25.253Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16353) |
 
@@ -51938,6 +54392,8 @@ NA
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-16T05:41:42.48Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16355) |
 
@@ -51982,6 +54438,8 @@ Please note that, in case of NCR, CFAR, one the QA approves from MVC, then the s
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-16T05:47:20.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16356) |
 
@@ -52013,6 +54471,8 @@ Reference Image: ([RCA (adobe.com)](https://xd.adobe.com/view/8a9b0489-3eb2-4e68
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-16T05:51:18.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16357) |
 
@@ -52043,6 +54503,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:20:23.267Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16358) |
 
@@ -52081,6 +54543,8 @@ Mega Menu->Quality Assurance->Vendor Assessment-> Maintain Assessment Request
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:20:46.547Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16359) |
 
@@ -52112,6 +54576,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:21:21.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16360) |
 
@@ -52165,6 +54631,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:22:18.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16361) |
 
@@ -52250,6 +54718,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:22:49.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16362) |
 
@@ -52287,6 +54757,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:46:40.037Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16363) |
 
@@ -52324,6 +54796,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:47:27.48Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16364) |
 
@@ -52380,6 +54854,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:48:15.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16365) |
 
@@ -52421,6 +54897,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-16T06:56:05.583Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16366) |
 
@@ -52460,6 +54938,8 @@ Mega Menu->Quality Assurance->Vendor Assessment-> Assessment Request Review
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T13:05:12.09Z |
+| Created Date | 2023-10-16T16:50:23.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16393) |
 
@@ -52551,6 +55031,8 @@ NA
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T09:15:56.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16423) |
 
@@ -52573,6 +55055,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T10:32:24.043Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16430) |
 
@@ -52595,6 +55079,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T12:04:41.523Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16435) |
 
@@ -52633,6 +55119,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T12:54:38.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16441) |
 
@@ -52665,6 +55153,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T12:54:41.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16442) |
 
@@ -52695,6 +55185,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T12:56:01.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16443) |
 
@@ -52740,6 +55232,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T13:03:40.813Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16445) |
 
@@ -52774,6 +55268,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T13:13:29.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16446) |
 
@@ -52810,6 +55306,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T13:13:44.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16447) |
 
@@ -52887,6 +55385,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-17T13:22:19.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16449) |
 
@@ -52930,6 +55430,8 @@ Reference Image:
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-18T06:53:00.087Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16455) |
 
@@ -52960,6 +55462,8 @@ Reference Image:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-18T07:39:38.567Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16458) |
 
@@ -52982,6 +55486,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-18T08:24:18.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16460) |
 
@@ -53004,6 +55510,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-19T05:23:02.567Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16479) |
 
@@ -53026,6 +55534,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-19T07:12:37.973Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16482) |
 
@@ -53048,6 +55558,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-19T09:43:50.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16487) |
 
@@ -53070,6 +55582,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-19T10:40:44.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16490) |
 
@@ -53092,6 +55606,8 @@ _Not provided._
 | Assigned To | Soumil Shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2023-10-19T11:56:47.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16493) |
 
@@ -53114,6 +55630,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T13:08:47.107Z |
+| Created Date | 2023-10-19T16:46:42.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16508) |
 
@@ -53201,6 +55719,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-04-03T07:14:47.52Z |
+| Created Date | 2023-10-19T17:25:19.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16509) |
 
@@ -53282,6 +55802,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T13:13:38.613Z |
+| Created Date | 2023-10-19T20:38:42.973Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16511) |
 
@@ -53304,6 +55826,8 @@ As a Welding Engineer using the Weld Consumable Receipt (WCR) application, I wan
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-10-19T21:22:45.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16519) |
 
@@ -53336,6 +55860,8 @@ As a IEMQS user, Upon entering the "Contract Number", I expect to receive list o
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-10-19T21:46:37.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16527) |
 
@@ -53362,6 +55888,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-10-19T22:02:53.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16535) |
 
@@ -53384,6 +55912,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-20T04:28:32.487Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16552) |
 
@@ -53406,6 +55936,8 @@ _Not provided._
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-10-20T05:11:10.227Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16554) |
 
@@ -53439,6 +55971,8 @@ Refer Table: QMS040
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2023-10-20T11:59:47.907Z |
+| Created Date | 2023-10-20T05:17:33.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16556) |
 
@@ -53463,6 +55997,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-20T07:07:12.367Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16569) |
 
@@ -53492,6 +56028,8 @@ Clicking on MDCC should open this link in new tab: <https://heintra.lthed.com/Ap
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T13:14:50.3Z |
+| Created Date | 2023-10-20T12:13:23.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16581) |
 
@@ -53573,6 +56111,8 @@ NA
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-20T16:44:13.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16586) |
 
@@ -53609,6 +56149,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-20T16:53:27.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16587) |
 
@@ -53631,6 +56173,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-23T06:33:32.227Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16596) |
 
@@ -53653,6 +56197,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-23T07:57:05.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16597) |
 
@@ -53678,6 +56224,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-23T10:57:49.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16598) |
 
@@ -53700,6 +56248,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-23T11:03:36.127Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16599) |
 
@@ -53722,6 +56272,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-24T05:29:32.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16600) |
 
@@ -53744,6 +56296,8 @@ _Not provided._
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2026-03-30T08:31:40.83Z |
+| Created Date | 2023-10-25T07:33:26.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16608) |
 
@@ -53803,6 +56357,8 @@ As a PROD3, MFG3 User, I want to upload handwritten protocol data so that system
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-25T08:44:30.767Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16609) |
 
@@ -53828,6 +56384,8 @@ _Not provided._
 | Assigned To | parameshwari.babu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-10-25T09:03:23.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16610) |
 
@@ -53874,6 +56432,8 @@ Reference Image:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2023-10-25T10:13:24.867Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16614) |
 
@@ -53901,6 +56461,8 @@ Reference Image
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-25T10:21:41.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16615) |
 
@@ -53923,6 +56485,8 @@ _Not provided._
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-09T05:04:57.46Z |
+| Created Date | 2023-10-25T11:32:20.327Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16620) |
 
@@ -53973,6 +56537,8 @@ Reference Image:
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-10-25T12:02:54.273Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16630) |
 
@@ -54024,6 +56590,8 @@ CalculateDate
 | Assigned To | Unassigned |
 | Area Path | Data Integration |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:42.96Z |
+| Created Date | 2023-10-26T05:03:20.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16644) |
 
@@ -54046,6 +56614,8 @@ _Not provided._
 | Assigned To | pavitha.61033925 |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-10-26T05:31:08.2Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16649) |
 
@@ -54116,6 +56686,8 @@ Maintain the value of Procedure with Rev No in Sport details DB table
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-26T06:42:45.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16651) |
 
@@ -54138,6 +56710,8 @@ _Not provided._
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-22T11:15:24.45Z |
+| Created Date | 2023-10-26T12:59:56.517Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16652) |
 
@@ -54182,6 +56756,8 @@ Reference Image:
 | Assigned To | rupalis.10717216 |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-09T05:02:09.82Z |
+| Created Date | 2023-10-26T13:11:14.523Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16653) |
 
@@ -54224,6 +56800,8 @@ Reference Image:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:59:13.857Z |
+| Created Date | 2023-10-26T13:24:25.043Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16655) |
 
@@ -54246,6 +56824,8 @@ Provision to generate and attach PDF in E-mail as per set frequency, and as per 
 | Assigned To | Unassigned |
 | Area Path | Data Integration |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:51.7Z |
+| Created Date | 2023-10-26T13:51:36.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16656) |
 
@@ -54325,6 +56905,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:05:58.35Z |
+| Created Date | 2023-10-26T14:08:27.583Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16657) |
 
@@ -54407,6 +56989,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:07.75Z |
+| Created Date | 2023-10-26T14:27:08.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16658) |
 
@@ -54488,6 +57072,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:15.53Z |
+| Created Date | 2023-10-26T16:19:37.263Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16659) |
 
@@ -54568,6 +57154,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | Data Integration |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:23.72Z |
+| Created Date | 2023-10-26T16:31:20.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16660) |
 
@@ -54648,6 +57236,8 @@ NA
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T13:16:05.86Z |
+| Created Date | 2023-10-26T16:43:45.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16661) |
 
@@ -54727,6 +57317,8 @@ NA
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-05-30T16:21:09.183Z |
+| Created Date | 2023-10-27T03:52:39.51Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16663) |
 
@@ -54773,6 +57365,8 @@ Functional:
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IEMQS |
 | Iteration Path | Data Integration\Sprint 8 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-10-27T06:29:20.71Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16665) |
 
@@ -54795,6 +57389,8 @@ As an IEMQS user, I require the ability to access item code creation data from E
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:38:15.46Z |
+| Created Date | 2023-10-27T12:24:36.597Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16689) |
 
@@ -54904,6 +57500,8 @@ __
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-27T16:44:59.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16694) |
 
@@ -54939,6 +57537,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-28T12:13:00.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16695) |
 
@@ -54961,6 +57561,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-30T07:44:09.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16713) |
 
@@ -54983,6 +57585,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-30T08:41:10.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16717) |
 
@@ -55005,6 +57609,8 @@ _Not provided._
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-11-06T15:59:53.743Z |
+| Created Date | 2023-10-30T09:33:43.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16733) |
 
@@ -55033,6 +57639,8 @@ Prod-2 | 30/10/20
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-10-31T04:49:30.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16757) |
 
@@ -55055,6 +57663,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-10-31T08:53:41.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16770) |
 
@@ -55077,6 +57687,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-02T11:37:57.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16859) |
 
@@ -55099,6 +57711,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-02T13:28:40.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16863) |
 
@@ -55133,6 +57747,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-03T08:06:02.163Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16893) |
 
@@ -55155,6 +57771,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-03T09:21:53.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16894) |
 
@@ -55177,6 +57795,8 @@ _Not provided._
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2023-12-25T05:38:10.74Z |
+| Created Date | 2023-11-03T10:04:45.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16895) |
 
@@ -55201,6 +57821,8 @@ Functional:
 | Assigned To | Jaydeep Tanksale |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 12 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-11-03T10:17:46.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16896) |
 
@@ -55229,6 +57851,8 @@ Reference Image:
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-04T06:29:19.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16899) |
 
@@ -55251,6 +57875,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-04T09:44:18.513Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16902) |
 
@@ -55282,6 +57908,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-06T04:50:34.397Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16906) |
 
@@ -55304,6 +57932,8 @@ _Not provided._
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-11-06T05:13:24.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16909) |
 
@@ -55447,6 +58077,8 @@ Usability:**
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-11-06T05:31:45.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16910) |
 
@@ -55699,6 +58331,8 @@ Name of person who save/update the Customer Feedback
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-06T09:40:33.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16923) |
 
@@ -55721,6 +58355,8 @@ _Not provided._
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-05-16T06:32:49.587Z |
+| Created Date | 2023-11-06T11:51:55.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16932) |
 
@@ -55837,6 +58473,8 @@ Find attached PDF format **VISUAL & DIMENISON FOR ROLLED SHELL LONGITUDINAL SEAM
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-06T12:10:13.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16934) |
 
@@ -55859,6 +58497,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-06T12:26:31.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16936) |
 
@@ -55881,6 +58521,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-06T18:24:04.83Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16941) |
 
@@ -55903,6 +58545,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-07T07:01:14.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16947) |
 
@@ -55925,6 +58569,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-07T08:54:36.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16957) |
 
@@ -55947,6 +58593,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-03-26T14:26:15.22Z |
+| Created Date | 2023-11-07T13:26:26.25Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16975) |
 
@@ -56032,6 +58680,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:30:13.447Z |
+| Created Date | 2023-11-07T16:48:50.603Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16978) |
 
@@ -56108,6 +58758,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:34:23.247Z |
+| Created Date | 2023-11-07T17:07:24.523Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16979) |
 
@@ -56187,6 +58839,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:31:39.707Z |
+| Created Date | 2023-11-07T17:15:33.87Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16980) |
 
@@ -56266,6 +58920,8 @@ NA
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-08T06:04:38.547Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/16984) |
 
@@ -56296,6 +58952,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-08T16:31:31.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17007) |
 
@@ -56318,6 +58976,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-09T05:50:50.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17017) |
 
@@ -56340,6 +59000,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-09T05:51:42.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17018) |
 
@@ -56362,6 +59024,8 @@ _Not provided._
 | Assigned To | Rajeshwari Ariappan |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-11-09T09:32:54.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17023) |
 
@@ -56478,6 +59142,8 @@ As a PROD3, MFG3 User, I want to upload handwritten protocol data so that system
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-09T09:46:10.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17024) |
 
@@ -56500,6 +59166,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-10T08:54:53.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17057) |
 
@@ -56522,6 +59190,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-10T10:02:45.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17058) |
 
@@ -56544,6 +59214,8 @@ _Not provided._
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-11-10T11:14:36.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17061) |
 
@@ -56628,6 +59300,8 @@ Usability:**
 | Assigned To | komal.ranaware |
 | Area Path | IEMQS 4.0\NLP Team |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2023-12-07T07:46:44.667Z |
+| Created Date | 2023-11-13T05:12:06.53Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17065) |
 
@@ -56702,6 +59376,8 @@ The design should be compatible with Laptop, Tablets (iPad and Android) chrome b
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:40:00.127Z |
+| Created Date | 2023-11-13T06:04:47.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17066) |
 
@@ -56774,6 +59450,8 @@ NA
 | Assigned To | palamakulamanikanth.goud |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-18T10:56:12.69Z |
+| Created Date | 2023-11-14T12:19:07.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17110) |
 
@@ -56796,6 +59474,8 @@ NA
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:26.41Z |
+| Created Date | 2023-11-15T06:35:28.137Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17167) |
 
@@ -56820,6 +59500,8 @@ Please refer Sheet-2
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:47:07.147Z |
+| Created Date | 2023-11-15T16:31:05.593Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17188) |
 
@@ -56919,6 +59601,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:51:14.897Z |
+| Created Date | 2023-11-15T16:36:40.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17190) |
 
@@ -57013,6 +59697,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:52:37.913Z |
+| Created Date | 2023-11-15T16:42:44.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17192) |
 
@@ -57108,6 +59794,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:54:11.507Z |
+| Created Date | 2023-11-15T16:43:20.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17193) |
 
@@ -57205,6 +59893,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:55:50.23Z |
+| Created Date | 2023-11-15T16:44:12.367Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17194) |
 
@@ -57298,6 +59988,8 @@ NA
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-16T05:27:45.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17204) |
 
@@ -57320,6 +60012,8 @@ _Not provided._
 | Assigned To | palamakulamanikanth.goud |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2023-11-16T06:56:09.8Z |
+| Created Date | 2023-11-16T06:56:09.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17211) |
 
@@ -57342,6 +60036,8 @@ _Not provided._
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:56:42.15Z |
+| Created Date | 2023-11-16T15:30:36.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17229) |
 
@@ -57448,6 +60144,8 @@ __
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-05-09T06:11:42.49Z |
+| Created Date | 2023-11-17T07:23:55.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17242) |
 
@@ -57485,6 +60183,8 @@ Functional:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-05-09T06:12:25.303Z |
+| Created Date | 2023-11-17T07:25:04.89Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17243) |
 
@@ -57508,6 +60208,8 @@ Please find attached document for the logic and mapping for QC related DPPs
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-17T09:54:38.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17254) |
 
@@ -57530,6 +60232,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-18T05:24:04.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17258) |
 
@@ -57552,6 +60256,8 @@ Ticket_256588_Add_23-24_Year
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-18T11:25:32.687Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17259) |
 
@@ -57574,6 +60280,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-20T06:20:55.71Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17269) |
 
@@ -57596,6 +60304,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-02-09T12:07:23.71Z |
+| Created Date | 2023-11-20T06:21:02.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17270) |
 
@@ -57622,6 +60332,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-11-21T05:31:21.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17299) |
 
@@ -57645,6 +60357,8 @@ Please refer attached excel, for the logic related to Planning DPP (Master, Main
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-21T08:40:04.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17304) |
 
@@ -57667,6 +60381,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-22T03:54:48.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17317) |
 
@@ -57689,6 +60405,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-22T06:04:07.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17318) |
 
@@ -57711,6 +60429,8 @@ Ticket_ChangeRequest_256551_Status_InSpareRecord_CustodianRemove
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-23T05:35:34.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17329) |
 
@@ -57733,6 +60453,8 @@ _Not provided._
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2023-11-23T07:37:39.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17334) |
 
@@ -57777,6 +60499,8 @@ Reference Image and URL: [NDE Qualification Certification (adobe.com)](https://x
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-23T13:19:33.42Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17348) |
 
@@ -57816,6 +60540,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-23T16:04:03.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17362) |
 
@@ -57846,6 +60572,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2023-11-24T10:00:12.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17377) |
 
@@ -57868,6 +60596,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-01-31T07:54:16.577Z |
+| Created Date | 2023-11-24T11:31:59.673Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17385) |
 
@@ -57893,6 +60623,8 @@ Functional:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-05-09T06:13:00.793Z |
+| Created Date | 2023-11-27T04:33:03.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17401) |
 
@@ -57922,6 +60654,8 @@ DPP Names:
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 9 |
+| Changed Date | 2024-01-09T15:22:31.817Z |
+| Created Date | 2023-11-27T04:42:02.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17402) |
 
@@ -58016,6 +60750,8 @@ NA
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-27T09:10:55.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17406) |
 
@@ -58038,6 +60774,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:54:56.457Z |
+| Created Date | 2023-11-27T12:33:53.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17407) |
 
@@ -58060,6 +60798,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-28T03:58:37.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17411) |
 
@@ -58082,6 +60822,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-22T10:55:08.62Z |
+| Created Date | 2023-11-28T05:28:02.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17414) |
 
@@ -58104,6 +60846,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-28T10:40:42.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17429) |
 
@@ -58126,6 +60870,8 @@ _Not provided._
 | Assigned To | Harilakshmi.MURUGESAN |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-29T06:37:07.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17431) |
 
@@ -58162,6 +60908,8 @@ As an IEMQS user, I want to view CTQ dashboard so that I can view the status and
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-29T08:14:40.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17435) |
 
@@ -58217,6 +60965,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-29T09:39:04.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17448) |
 
@@ -58245,6 +60995,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-11-29T09:42:00.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17449) |
 
@@ -58267,6 +61019,8 @@ _Not provided._
 | Assigned To | Sathish Kumar M |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 17 |
+| Changed Date | 2024-02-08T09:32:50.97Z |
+| Created Date | 2023-11-29T11:03:09.747Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17450) |
 
@@ -58302,6 +61056,8 @@ Refer Existing US : [#3408](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/IEM
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-30T07:58:16.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17484) |
 
@@ -58324,6 +61080,8 @@ Ticket_182809_SetRackFiledNullableinModel
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-11-30T11:57:43.363Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17507) |
 
@@ -58346,6 +61104,8 @@ Ticket_257089_MentorshipPortal_MailTriggeronMOMSubmit
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2023-12-01T09:48:25.937Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17523) |
 
@@ -58368,6 +61128,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-01T15:20:17.233Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17533) |
 
@@ -58390,6 +61152,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-01T16:30:13.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17534) |
 
@@ -58415,6 +61179,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-03-18T14:34:09.257Z |
+| Created Date | 2023-12-03T12:17:03.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17537) |
 
@@ -58536,6 +61302,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-02-14T06:10:19.843Z |
+| Created Date | 2023-12-03T12:19:23.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17538) |
 
@@ -58628,6 +61396,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-12-03T12:20:21.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17539) |
 
@@ -58721,6 +61491,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-12-03T12:23:31.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17540) |
 
@@ -58813,6 +61585,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-12-03T12:28:50.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17542) |
 
@@ -58904,6 +61678,8 @@ NA
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-02-02T04:19:42.45Z |
+| Created Date | 2023-12-03T12:29:34.377Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17543) |
 
@@ -58995,6 +61771,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-02-02T04:19:42.45Z |
+| Created Date | 2023-12-03T12:30:16.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17544) |
 
@@ -59086,6 +61864,8 @@ NA
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-02-02T04:19:42.45Z |
+| Created Date | 2023-12-03T12:31:00.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17545) |
 
@@ -59177,6 +61957,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 10 |
+| Changed Date | 2024-01-08T04:10:04.573Z |
+| Created Date | 2023-12-03T12:31:44.977Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17546) |
 
@@ -59268,6 +62050,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-04T10:24:39.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17548) |
 
@@ -59290,6 +62074,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-12-05T04:51:00.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17564) |
 
@@ -59312,6 +62098,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-05T10:40:26.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17567) |
 
@@ -59357,6 +62145,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-12-06T08:27:34.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17580) |
 
@@ -59379,6 +62169,8 @@ _Not provided._
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2023-12-06T12:07:27.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17584) |
 
@@ -59405,6 +62197,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-12-07T05:13:52.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17590) |
 
@@ -59427,6 +62221,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-07T08:34:51.887Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17594) |
 
@@ -59449,6 +62245,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-01-11T14:33:54.683Z |
+| Created Date | 2023-12-07T12:53:04.037Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17598) |
 
@@ -59544,6 +62342,8 @@ NA
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-01-11T14:33:04.29Z |
+| Created Date | 2023-12-07T12:54:03.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17599) |
 
@@ -59639,6 +62439,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:31.76Z |
+| Created Date | 2023-12-07T12:55:31.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17600) |
 
@@ -59712,6 +62514,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:40.497Z |
+| Created Date | 2023-12-07T12:56:05.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17601) |
 
@@ -59785,6 +62589,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:48.22Z |
+| Created Date | 2023-12-07T12:56:41.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17602) |
 
@@ -59807,6 +62613,8 @@ To retrieve Manual Provision  information from HEIC system to arrive at Manual p
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:06:59.29Z |
+| Created Date | 2023-12-07T12:57:16.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17603) |
 
@@ -59833,6 +62641,8 @@ Retrieve data which are leftout in manual uplod by F&A team
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:07:07.81Z |
+| Created Date | 2023-12-07T12:57:50.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17604) |
 
@@ -59855,6 +62665,8 @@ To retrieve Get Purchase Order  information from HEIC system (FMS >> ERPLN)
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:07:16.207Z |
+| Created Date | 2023-12-07T13:01:58.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17606) |
 
@@ -59930,6 +62742,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:07:24.8Z |
+| Created Date | 2023-12-07T13:02:36.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17607) |
 
@@ -60005,6 +62819,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-27T04:13:28.297Z |
+| Created Date | 2023-12-07T13:03:05.88Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17608) |
 
@@ -60027,6 +62843,8 @@ Create Milestone record in Salesforce from ERPLN. (ERPLN=>Salesforce(CRM))
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:08:00.617Z |
+| Created Date | 2023-12-07T13:03:34.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17609) |
 
@@ -60049,6 +62867,8 @@ Update Milestone record in Salesforce from ERPLN. (ERPLN=>Salesforce(CRM))
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-27T04:08:36.68Z |
+| Created Date | 2023-12-07T13:03:59.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17610) |
 
@@ -60126,6 +62946,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:08:21.303Z |
+| Created Date | 2023-12-07T13:04:25.66Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17611) |
 
@@ -60201,6 +63023,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-27T04:09:50.023Z |
+| Created Date | 2023-12-07T13:04:54.447Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17612) |
 
@@ -60276,6 +63100,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:08:36.033Z |
+| Created Date | 2023-12-07T13:05:24.807Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17613) |
 
@@ -60351,6 +63177,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:08:43.52Z |
+| Created Date | 2023-12-07T13:05:52.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17614) |
 
@@ -60373,6 +63201,8 @@ Update Risk record in Saleforce from ERM. (ERM=>Saleforce(CRM) )
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2023-12-08T04:58:12.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17619) |
 
@@ -60418,6 +63248,8 @@ As a MFG user, I want to view the MFG related DPPs as per standardized defined f
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2023-12-08T06:11:19.523Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17624) |
 
@@ -60456,6 +63288,8 @@ As a MFG user, I want to view the MFG related DPPs as per standardized defined f
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Manufacturing\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2023-12-08T06:14:51.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17625) |
 
@@ -60480,6 +63314,8 @@ As a MFG user, I want to view the MFG related DPPs as per standardized defined f
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-03-30T07:18:33.33Z |
+| Created Date | 2023-12-08T11:12:14.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17643) |
 
@@ -60502,6 +63338,8 @@ _Not provided._
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2023-12-09T16:49:31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17647) |
 
@@ -60524,6 +63362,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-11T04:33:33.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17653) |
 
@@ -60595,6 +63435,8 @@ Refer attached FD file and COPQ Monitoring session excel file.
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-11T05:28:57.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17657) |
 
@@ -60617,6 +63459,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-12T05:41:33.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17665) |
 
@@ -60639,6 +63483,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-13T08:53:25.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17682) |
 
@@ -60679,6 +63525,8 @@ DB Table Desc: Cost of Poor Quality
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-13T08:53:48.753Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17683) |
 
@@ -60701,6 +63549,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-13T09:47:33.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17684) |
 
@@ -60723,6 +63573,8 @@ _Not provided._
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-12-13T12:17:49.717Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17686) |
 
@@ -60767,6 +63619,8 @@ While downloading RCA, user should be given two options for downloading, word an
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 14 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-14T04:06:29.993Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17690) |
 
@@ -60815,6 +63669,8 @@ As **QA-1/2/3**** ** User, I want to access the master page for maintaining para
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2023-12-14T04:28:28.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17691) |
 
@@ -60843,6 +63699,8 @@ Functional:
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-15T14:14:04.123Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17704) |
 
@@ -60915,6 +63773,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-12-16T04:47:31.327Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17707) |
 
@@ -60937,6 +63797,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-18T16:58:07.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17714) |
 
@@ -61065,6 +63927,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-19T04:14:33.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17715) |
 
@@ -61087,6 +63951,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2023-12-19T05:59:28.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17718) |
 
@@ -61109,6 +63975,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-19T09:49:43.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17721) |
 
@@ -61131,6 +63999,8 @@ _Not provided._
 | Assigned To | Lahu.Kumbhar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-01-02T12:15:18.56Z |
+| Created Date | 2023-12-19T10:33:58.763Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17722) |
 
@@ -61172,6 +64042,8 @@ Technical Observations by Client:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-01-02T10:31:39.103Z |
+| Created Date | 2023-12-19T10:38:40.603Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17723) |
 
@@ -61202,6 +64074,8 @@ _Not provided._
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-20T10:50:34.37Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17734) |
 
@@ -61224,6 +64098,8 @@ Tabs Implementations in Angular for qc and Planning
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2023-12-29T05:29:31.14Z |
+| Created Date | 2023-12-21T11:05:23.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17752) |
 
@@ -61280,6 +64156,8 @@ Point 8:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2023-12-22T09:34:01.367Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17770) |
 
@@ -61310,6 +64188,8 @@ Reference Image:
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-04T08:39:08.813Z |
+| Created Date | 2023-12-22T09:40:43.45Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17771) |
 
@@ -61334,6 +64214,8 @@ Functional:
 | Assigned To | Amarjeet Sahoo (IN93711) |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-04T09:49:09.987Z |
+| Created Date | 2023-12-22T10:05:57.267Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17772) |
 
@@ -61359,6 +64241,8 @@ Functional:
 | Assigned To | Amarjeet Sahoo (IN93711) |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-04T08:44:29.563Z |
+| Created Date | 2023-12-22T10:09:11.117Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17773) |
 
@@ -61382,6 +64266,8 @@ Functional:
 | Assigned To | Amarjeet Sahoo (IN93711) |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-04T08:45:41.987Z |
+| Created Date | 2023-12-22T10:11:52.913Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17774) |
 
@@ -61409,6 +64295,8 @@ Functional:
 | Assigned To | Amarjeet Sahoo (IN93711) |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-04T08:47:00.17Z |
+| Created Date | 2023-12-22T10:15:51.36Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17775) |
 
@@ -61433,6 +64321,8 @@ Functional:
 | Assigned To | Amarjeet Sahoo (IN93711) |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-04T08:48:17.14Z |
+| Created Date | 2023-12-22T10:18:35.24Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17776) |
 
@@ -61456,6 +64346,8 @@ Functional:
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-22T13:37:29.353Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17778) |
 
@@ -61478,6 +64370,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-25T05:05:32.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17779) |
 
@@ -61500,6 +64394,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-25T06:39:57.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17781) |
 
@@ -61522,6 +64418,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-25T08:38:45.363Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17783) |
 
@@ -61544,6 +64442,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-05-09T06:14:11.027Z |
+| Created Date | 2023-12-26T11:02:39.707Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17815) |
 
@@ -61574,6 +64474,8 @@ Functional:
 | Assigned To | Anudeep.Sett |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-05-09T12:28:35.863Z |
+| Created Date | 2023-12-27T07:29:08.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17829) |
 
@@ -61600,6 +64502,8 @@ Functional:
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-27T07:35:49.14Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17830) |
 
@@ -61646,6 +64550,8 @@ For Licensor: New global category needs to be introduced in Global DB. (For samp
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-27T07:49:50.443Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17831) |
 
@@ -61690,6 +64596,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-09T04:38:03.49Z |
+| Created Date | 2023-12-27T08:11:36.863Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17833) |
 
@@ -61721,6 +64629,8 @@ Functional:
 | Assigned To | komal.61084934 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-27T08:22:09.11Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17835) |
 
@@ -61762,6 +64672,8 @@ For read only popups, there will be only one button named "Ok", clicking on it w
 | Assigned To | komal.61084934 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-27T08:22:58.443Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17836) |
 
@@ -61811,6 +64723,8 @@ Reference Image :<https://xd.adobe.com/view/e21608ee-250f-4df6-9fa2-7e5a8503ed79
 | Assigned To | Jyoti.Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-27T09:15:49.007Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17839) |
 
@@ -61845,6 +64759,8 @@ Reference Image: Here the Highlighted field is the new field that needs to be ad
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2023-12-27T10:42:55.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17840) |
 
@@ -61867,6 +64783,8 @@ _Not provided._
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-28T08:16:18.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17844) |
 
@@ -61906,6 +64824,8 @@ In case of Vertical Checklist activity edit:
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-28T09:14:43.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17845) |
 
@@ -61936,6 +64856,8 @@ Snapshot of ICL approval session as below
 | Assigned To | komal.61084934 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-29T05:29:16.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17854) |
 
@@ -61976,6 +64898,8 @@ Functional:
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2023-12-29T05:53:53.08Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17855) |
 
@@ -62036,6 +64960,8 @@ Note2**
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-01-01T04:52:43.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17863) |
 
@@ -62058,6 +64984,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-04-02T06:15:15.747Z |
+| Created Date | 2024-01-01T06:49:01.037Z |
 | Tags | P1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17865) |
 
@@ -62151,6 +65079,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-04-22T06:55:30.017Z |
+| Created Date | 2024-01-01T06:50:33.687Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17866) |
 
@@ -62244,6 +65174,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-03-18T14:34:55.2Z |
+| Created Date | 2024-01-01T06:51:59.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17867) |
 
@@ -62339,6 +65271,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-03-18T14:35:14.41Z |
+| Created Date | 2024-01-01T06:53:01.347Z |
 | Tags | P1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17868) |
 
@@ -62432,6 +65366,8 @@ NA
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-01-16T08:42:26.007Z |
+| Created Date | 2024-01-01T06:55:12.343Z |
 | Tags | P1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17869) |
 
@@ -62525,6 +65461,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-03-18T14:35:26.013Z |
+| Created Date | 2024-01-01T06:56:26.467Z |
 | Tags | P1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17870) |
 
@@ -62616,6 +65554,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-03-18T14:35:37.843Z |
+| Created Date | 2024-01-01T06:57:55.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17871) |
 
@@ -62709,6 +65649,8 @@ NA
 | Assigned To | gurusupreeth.dwarakanath |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration |
+| Changed Date | 2024-03-18T15:08:52.677Z |
+| Created Date | 2024-01-01T06:59:47.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17872) |
 
@@ -62782,6 +65724,8 @@ NA
 | Assigned To | bharath.m3 |
 | Area Path | Data Integration\LoadVsCapacity |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-02-06T03:58:28.45Z |
+| Created Date | 2024-01-01T07:03:30.157Z |
 | Tags | P1 |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17874) |
 
@@ -62876,6 +65820,8 @@ NA
 | Assigned To | Sambathraj Chitrarasan |
 | Area Path | Data Integration\LoadVsCapacity |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-02-08T04:18:03.783Z |
+| Created Date | 2024-01-01T07:04:44.71Z |
 | Tags | OnHold |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17875) |
 
@@ -62949,6 +65895,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-03-18T14:35:50.833Z |
+| Created Date | 2024-01-01T07:15:41.47Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17876) |
 
@@ -63043,6 +65991,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-03-18T14:36:25.04Z |
+| Created Date | 2024-01-01T07:28:51.85Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17877) |
 
@@ -63150,6 +66100,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-04-19T07:17:30.84Z |
+| Created Date | 2024-01-03T03:55:09.047Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17906) |
 
@@ -63179,6 +66131,8 @@ For creation of RCA in case of category is NCR and CFAR, below logic needs to be
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-01-03T07:03:54.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17914) |
 
@@ -63201,6 +66155,8 @@ Ticket_257775_SetLoginUserIC_Insted_OfLastGuestIDRecordIC
 | Assigned To | Saumya Pandey (IN27726) |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-05-03T06:36:17.707Z |
+| Created Date | 2024-01-03T12:30:12.127Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17919) |
 
@@ -63295,6 +66251,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-03-18T14:36:37.217Z |
+| Created Date | 2024-01-04T04:07:11.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17920) |
 
@@ -63389,6 +66347,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2024-01-04T08:41:05.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17939) |
 
@@ -63411,6 +66371,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-04T10:57:04.68Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17941) |
 
@@ -63434,6 +66396,8 @@ Functional:
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2024-01-05T05:36:38.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17944) |
 
@@ -63456,6 +66420,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:49.83Z |
+| Created Date | 2024-01-07T06:31:37.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17959) |
 
@@ -63478,6 +66444,8 @@ _Not provided._
 | Assigned To | Sambathraj Chitrarasan |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 11 |
+| Changed Date | 2024-02-07T11:20:54.583Z |
+| Created Date | 2024-01-08T04:10:02.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17960) |
 
@@ -63501,6 +66469,8 @@ Team will complete the tasks along with API development
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-09T04:13:20.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17979) |
 
@@ -63523,6 +66493,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-09T04:41:12.37Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17980) |
 
@@ -63549,6 +66521,8 @@ Reference Image where the data needs to be appended: [RCA (adobe.com)](https://x
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-09T04:44:29.55Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17981) |
 
@@ -63574,6 +66548,8 @@ Functional:
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2024-01-09T07:10:57.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17987) |
 
@@ -63599,6 +66575,8 @@ _Not provided._
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-09-03T09:57:12.843Z |
+| Created Date | 2024-01-09T10:46:49.72Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17990) |
 
@@ -63650,6 +66628,8 @@ Please refer [#16910](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/45e6fd4b-
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-09T10:55:21.553Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17991) |
 
@@ -63689,6 +66669,8 @@ Reference Image:
 | Assigned To | M Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-04-19T07:19:41.923Z |
+| Created Date | 2024-01-09T11:00:20.603Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17992) |
 
@@ -63714,6 +66696,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-09T11:03:44.42Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17993) |
 
@@ -63738,6 +66722,8 @@ Functional:
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-09T11:06:37.49Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17994) |
 
@@ -63761,6 +66747,8 @@ Functional:
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-10T11:38:13.5Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/17999) |
 
@@ -63783,6 +66771,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-11T10:46:00.46Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18010) |
 
@@ -63805,6 +66795,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-11T12:50:30.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18013) |
 
@@ -63833,6 +66825,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-12T04:54:52.88Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18020) |
 
@@ -63855,6 +66849,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:29.217Z |
+| Created Date | 2024-01-12T08:52:14.153Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18021) |
 
@@ -63881,6 +66877,8 @@ Reference Image where the changes needs to be done:[NDE Qualification Certificat
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-30T16:25:10.74Z |
+| Created Date | 2024-01-12T09:26:32Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18023) |
 
@@ -63910,6 +66908,8 @@ Note: ​Refer Attached doc for logic
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-30T16:26:20.23Z |
+| Created Date | 2024-01-12T10:23:22.913Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18026) |
 
@@ -63968,6 +66968,8 @@ Please refer attachment for reference
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-15T09:17:13.043Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18032) |
 
@@ -63993,6 +66995,8 @@ Functional:
 | Assigned To | rupalis.10717216 |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-01-15T09:56:32.707Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18033) |
 
@@ -64046,6 +67050,8 @@ Reference Image:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-09T05:25:12.72Z |
+| Created Date | 2024-01-15T10:02:14.81Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18034) |
 
@@ -64102,6 +67108,8 @@ Values - Examiner, Radiographer
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-16T06:55:21.76Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18037) |
 
@@ -64152,6 +67160,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-16T08:40:16.537Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18042) |
 
@@ -64174,6 +67184,8 @@ _Not provided._
 | Assigned To | M.Selvakumar |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-16T10:00:34.12Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18043) |
 
@@ -64202,6 +67214,8 @@ Functional:
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-09-03T10:00:58.09Z |
+| Created Date | 2024-01-16T10:09:49.527Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18044) |
 
@@ -64229,6 +67243,8 @@ Functional:
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-01-16T11:01:34.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18045) |
 
@@ -64251,6 +67267,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-16T11:44:26.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18046) |
 
@@ -64273,6 +67291,8 @@ _Not provided._
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-09-03T09:57:47.723Z |
+| Created Date | 2024-01-16T11:48:26.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18048) |
 
@@ -64328,6 +67348,8 @@ Note:
 | Assigned To | komal.61084934 |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-17T13:38:19.857Z |
+| Created Date | 2024-01-18T07:20:08.14Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18073) |
 
@@ -64372,6 +67394,8 @@ Note: In continuation to US#17835
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-01-18T09:45:42.113Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18075) |
 
@@ -64404,6 +67428,8 @@ This is a system generated email, please refrain from replying.
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-09-03T09:58:41.343Z |
+| Created Date | 2024-01-18T13:41:45.627Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18077) |
 
@@ -64443,6 +67469,8 @@ URL: [Add WPS Header :: IEMQS (lthed.com)](https://vhzdigiiemqsqa1.lthed.com:447
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-30T04:12:38.04Z |
+| Created Date | 2024-01-19T07:04:05.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18081) |
 
@@ -64470,6 +67498,8 @@ Digital Vertical Checklist
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-19T11:02:17.763Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18084) |
 
@@ -64492,6 +67522,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-19T16:38:06.013Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18085) |
 
@@ -64514,6 +67546,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-01-20T07:15:22.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18086) |
 
@@ -64536,6 +67570,8 @@ _Not provided._
 | Assigned To | sandeep.sharma |
 | Area Path | Data Integration\LoadVsCapacity |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-04-10T07:13:21.713Z |
+| Created Date | 2024-01-22T04:14:13.737Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18090) |
 
@@ -64671,6 +67707,8 @@ NA
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-30T16:26:53.54Z |
+| Created Date | 2024-01-22T07:33:16.867Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18092) |
 
@@ -64714,6 +67752,8 @@ Product Form
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-09T04:29:18.31Z |
+| Created Date | 2024-01-23T12:33:38.857Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18097) |
 
@@ -64743,6 +67783,8 @@ Note: In the attachment, ignore the wording "Submit to TPI" and consider it as "
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-03-12T06:38:31.183Z |
+| Created Date | 2024-01-24T06:33:29.68Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18099) |
 
@@ -64779,6 +67821,8 @@ Cosmetic Changes:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-03-18T10:56:14.917Z |
+| Created Date | 2024-01-24T06:41:31.033Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18100) |
 
@@ -64807,6 +67851,8 @@ Refer Attachment for reference
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-03-18T14:39:29.07Z |
+| Created Date | 2024-01-24T07:05:10.733Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18101) |
 
@@ -64895,6 +67941,8 @@ NA
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-24T11:05:44.62Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18105) |
 
@@ -64917,6 +67965,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-25T14:21:03.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18116) |
 
@@ -64939,6 +67989,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-30T10:29:13.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18128) |
 
@@ -64961,6 +68013,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-02-07T11:20:54.583Z |
+| Created Date | 2024-01-31T04:03:23.48Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18131) |
 
@@ -64983,6 +68037,8 @@ _Not provided._
 | Assigned To | Ashish Kothari |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-03-12T06:38:31.183Z |
+| Created Date | 2024-01-31T09:10:38.133Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18136) |
 
@@ -65014,6 +68070,8 @@ Ref Image:
 | Assigned To | sandeep.sharma |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-03-18T14:39:41.917Z |
+| Created Date | 2024-01-31T12:02:12.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18139) |
 
@@ -65107,6 +68165,8 @@ NA
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-01-31T18:29:14.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18141) |
 
@@ -65129,6 +68189,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-01T07:08:40.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18154) |
 
@@ -65161,6 +68223,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-01T18:35:01.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18157) |
 
@@ -65184,6 +68248,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-03-18T14:39:56.68Z |
+| Created Date | 2024-02-02T06:12:16.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18163) |
 
@@ -65273,6 +68339,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-03-18T14:40:08.627Z |
+| Created Date | 2024-02-02T06:14:05.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18164) |
 
@@ -65363,6 +68431,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 12 |
+| Changed Date | 2024-03-18T15:09:15.3Z |
+| Created Date | 2024-02-02T06:28:55.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18167) |
 
@@ -65385,6 +68455,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-02T08:59:22.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18169) |
 
@@ -65407,6 +68479,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-03T10:57:28.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18173) |
 
@@ -65429,6 +68503,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-04T12:37:50.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18174) |
 
@@ -65451,6 +68527,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-02-05T04:45:42.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18180) |
 
@@ -65473,6 +68551,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-05T12:07:18.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18186) |
 
@@ -65495,6 +68575,8 @@ PFA File for details
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-06T05:04:40.05Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18188) |
 
@@ -65523,6 +68605,8 @@ Refer Attachment for detailed explanation
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-06-20T10:08:53.04Z |
+| Created Date | 2024-02-06T06:14:58.603Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18190) |
 
@@ -65615,6 +68699,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-03-18T14:59:18.36Z |
+| Created Date | 2024-02-06T06:16:06.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18191) |
 
@@ -65729,6 +68815,8 @@ NA
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-06T10:03:54.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18194) |
 
@@ -65751,6 +68839,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-02-07T11:20:54.583Z |
+| Created Date | 2024-02-07T11:20:53.367Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18202) |
 
@@ -65773,6 +68863,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-08T10:27:22.233Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18211) |
 
@@ -65795,6 +68887,8 @@ _Not provided._
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-09T05:39:24.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18212) |
 
@@ -65848,6 +68942,8 @@ Ref Image:
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-09T07:55:08.88Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18213) |
 
@@ -65870,6 +68966,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-10T10:26:43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18216) |
 
@@ -65900,6 +68998,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-09T04:29:32.657Z |
+| Created Date | 2024-02-12T04:32:13.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18227) |
 
@@ -65929,6 +69029,8 @@ To this new place:
 | Assigned To | manjulachannabasappa.kadur |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-09T04:35:55.567Z |
+| Created Date | 2024-02-12T06:39:09.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18233) |
 
@@ -65954,6 +69056,8 @@ Ref Screen:
 | Assigned To | Madhurima Datta |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-14T10:37:01.58Z |
+| Created Date | 2024-02-12T06:45:51.107Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18234) |
 
@@ -65979,6 +69083,8 @@ Ref Image:
 | Assigned To | M Selvakumar |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-30T16:24:24.9Z |
+| Created Date | 2024-02-12T06:47:57.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18235) |
 
@@ -66002,6 +69108,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-12T10:37:18.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18236) |
 
@@ -66024,6 +69132,8 @@ _Not provided._
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-13T08:47:03.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18238) |
 
@@ -66046,6 +69156,8 @@ Refer below image for changes required in Lapse Welder List screen.
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-13T08:53:44.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18239) |
 
@@ -66069,6 +69181,8 @@ As WE3 & WE2 user I need WPQ dossier with available WPQ certificates.
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-14T04:55:25.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18243) |
 
@@ -66091,6 +69205,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-UX |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-02-16T06:48:35.917Z |
+| Created Date | 2024-02-16T06:48:35.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18261) |
 
@@ -66113,6 +69229,8 @@ On clicking NCR from the IEMQS homepage, "Maintain NCR" page should be opened in
 | Assigned To | Parameshwari.Babu |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-09T05:09:10.107Z |
+| Created Date | 2024-02-16T07:06:51.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18263) |
 
@@ -66142,6 +69260,8 @@ Please note that if the reports contains signatures, then on downloading the rep
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-17T06:13:53.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18271) |
 
@@ -66186,6 +69306,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-18T07:02:21.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18272) |
 
@@ -66208,6 +69330,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 13 |
+| Changed Date | 2024-03-18T14:59:42.583Z |
+| Created Date | 2024-02-19T05:13:55.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18273) |
 
@@ -66301,6 +69425,8 @@ NA
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-19T05:19:31.707Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18274) |
 
@@ -66324,6 +69450,8 @@ Functional:
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 9 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-19T05:59:06.767Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18280) |
 
@@ -66349,6 +69477,8 @@ Functional:
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-09T04:42:04.187Z |
+| Created Date | 2024-02-19T06:12:40.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18281) |
 
@@ -66373,6 +69503,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-02-20T05:09:07.12Z |
+| Created Date | 2024-02-19T09:48:44.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18282) |
 
@@ -66396,6 +69528,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-02-21T05:10:53.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18297) |
 
@@ -66418,6 +69552,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-02-21T06:49:51.717Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18298) |
 
@@ -66440,6 +69576,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-22T06:37:27.067Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18301) |
 
@@ -66515,6 +69653,8 @@ Here the change needs to be done
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-26T17:28:57.637Z |
+| Created Date | 2024-02-25T07:27:40.673Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18307) |
 
@@ -66606,6 +69746,8 @@ NA
 | Assigned To | sandeep.sharma |
 | Area Path | Data Integration\LoadVsCapacity |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-04-05T12:22:10.21Z |
+| Created Date | 2024-02-25T09:49:26.41Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18308) |
 
@@ -66703,6 +69845,8 @@ NA
 | Assigned To | sandeep.sharma |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-18T15:00:40.147Z |
+| Created Date | 2024-02-25T10:40:07.46Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18309) |
 
@@ -66725,6 +69869,8 @@ No changes at field level, logic changes are updated at Field mapping.
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-18T15:00:50.44Z |
+| Created Date | 2024-02-25T10:58:21.397Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18310) |
 
@@ -66804,6 +69950,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-02-26T11:32:09.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18318) |
 
@@ -66829,6 +69977,8 @@ Please refer attached FSD document.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-02-27T06:08:27.567Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18326) |
 
@@ -66851,6 +70001,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-02-27T06:54:36.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18327) |
 
@@ -66873,6 +70025,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-28T07:34:32.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18335) |
 
@@ -66895,6 +70049,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-02-29T10:47:31.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18340) |
 
@@ -66917,6 +70073,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-18T15:01:01.393Z |
+| Created Date | 2024-02-29T18:09:50.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18343) |
 
@@ -67011,6 +70169,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-18T15:01:13.04Z |
+| Created Date | 2024-02-29T18:14:51.237Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18344) |
 
@@ -67104,6 +70264,8 @@ NA
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-18T15:01:24.663Z |
+| Created Date | 2024-02-29T18:17:40.41Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18345) |
 
@@ -67197,6 +70359,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-02T08:44:39.373Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18358) |
 
@@ -67219,6 +70383,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-04T15:10:56.533Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18365) |
 
@@ -67248,6 +70414,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-04T15:30:22.283Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18366) |
 
@@ -67287,6 +70455,8 @@ teset
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-05T04:53:59.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18385) |
 
@@ -67309,6 +70479,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-26T14:44:12.987Z |
+| Created Date | 2024-03-06T13:26:49.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18412) |
 
@@ -67402,6 +70574,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-26T14:29:07.93Z |
+| Created Date | 2024-03-06T13:29:03.103Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18413) |
 
@@ -67424,6 +70598,8 @@ No changes in Original acceptance criteria
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-11T04:18:28.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18422) |
 
@@ -67446,6 +70622,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-11T05:05:11.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18423) |
 
@@ -67468,6 +70646,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-26T14:22:01.143Z |
+| Created Date | 2024-03-11T11:11:39.043Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18425) |
 
@@ -67518,6 +70698,8 @@ No other changes in the logic, please refer parent US <https://dev.azure.com/LnT
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 14 |
+| Changed Date | 2024-03-26T14:23:57.863Z |
+| Created Date | 2024-03-11T11:13:54.947Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18426) |
 
@@ -67565,6 +70747,8 @@ No other changes in Acceptance criteria, please refer <https://dev.azure.com/LnT
 | Assigned To | Kishore Kumar C C |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-03-12T06:49:22.733Z |
+| Created Date | 2024-03-12T06:38:22.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18434) |
 
@@ -67591,6 +70775,8 @@ Clicking on revise should create new revision for the JPP Document
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-12T07:00:09.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18435) |
 
@@ -67613,6 +70799,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-13T05:34:58.66Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18445) |
 
@@ -67635,6 +70823,8 @@ _Not provided._
 | Assigned To | prajwal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-06-05T13:13:46.707Z |
+| Created Date | 2024-03-13T10:50:46.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18449) |
 
@@ -67728,6 +70918,8 @@ NA
 | Assigned To | Prakash Narasaraju Bangari |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-14T07:08:26.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18457) |
 
@@ -67750,6 +70942,8 @@ CTQ Applicable to Part/Assembly, CTQ Applicable to Seam, Is CTQ Applicable to Bl
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-03-15T05:18:13.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18463) |
 
@@ -67772,6 +70966,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-03-15T11:04:20.587Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18468) |
 
@@ -67794,6 +70990,8 @@ _Not provided._
 | Assigned To | Ulhas Patil |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-03-15T12:07:00.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18469) |
 
@@ -67826,6 +71024,8 @@ Note: Refer Attachment for sample file of .NDE format
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-16T05:37:32.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18474) |
 
@@ -67848,6 +71048,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-17T09:47:29.877Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18475) |
 
@@ -67870,6 +71072,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-03-17T16:10:21.097Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18476) |
 
@@ -67892,6 +71096,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-03-18T10:34:04.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18478) |
 
@@ -67919,6 +71125,8 @@ The nomenclature for Session name will be same as Parameter Name.
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-03-18T10:35:09.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18479) |
 
@@ -67986,6 +71194,8 @@ DPP2 |  Submission of Procedure including Calibration/ validation Block requirem
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-18T12:32:24.343Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18481) |
 
@@ -68008,6 +71218,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-03-19T08:13:44.327Z |
+| Created Date | 2024-03-19T08:13:44.327Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18490) |
 
@@ -68030,6 +71242,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-20T08:19:34.173Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18500) |
 
@@ -68052,6 +71266,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-20T10:29:33.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18502) |
 
@@ -68074,6 +71290,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 13 |
+| Changed Date | 2024-03-20T12:22:52.453Z |
+| Created Date | 2024-03-20T12:15:08.21Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18505) |
 
@@ -68105,6 +71323,8 @@ Here, the selected favorite project is S041020, so system should append it in th
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-03-21T14:04:43.183Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18511) |
 
@@ -68127,6 +71347,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-03-22T11:22:11.5Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18517) |
 
@@ -68149,6 +71371,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-04-17T06:47:30.45Z |
+| Created Date | 2024-03-26T10:08:13.623Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18522) |
 
@@ -68171,6 +71395,8 @@ No changes from original Acceptance Criteria
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-04-17T06:47:52.52Z |
+| Created Date | 2024-03-26T10:10:24Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18523) |
 
@@ -68193,6 +71419,8 @@ No changes from Original acceptance Criteria
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-26T11:33:27.62Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18530) |
 
@@ -68215,6 +71443,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 16 |
+| Changed Date | 2024-06-05T13:42:22.167Z |
+| Created Date | 2024-03-26T14:13:57.02Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18531) |
 
@@ -68242,6 +71472,8 @@ No other changes from original Acceptance criteria
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-03-27T05:11:45.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18533) |
 
@@ -68264,6 +71496,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-04-17T06:49:14.74Z |
+| Created Date | 2024-03-27T07:03:54.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18538) |
 
@@ -68286,6 +71520,8 @@ no other changes compared to Original user story <https://dev.azure.com/LnT-Heav
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-27T10:54:54.633Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18541) |
 
@@ -68318,6 +71554,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-03-28T04:39:17.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18543) |
 
@@ -68340,6 +71578,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-28T05:12:44.65Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18544) |
 
@@ -68362,6 +71602,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-28T06:30:44.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18546) |
 
@@ -68390,6 +71632,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-28T07:01:58.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18547) |
 
@@ -68422,6 +71666,8 @@ _Not provided._
 | Assigned To | anudeep.sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-06-13T08:39:09.09Z |
+| Created Date | 2024-03-29T12:18:55.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18551) |
 
@@ -68444,6 +71690,8 @@ Please find attached document with the feedback captured in detail
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-03-29T12:55:14.277Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18552) |
 
@@ -68466,6 +71714,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-30T05:17:32.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18553) |
 
@@ -68488,6 +71738,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-03-30T11:11:09.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18557) |
 
@@ -68510,6 +71762,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-01T09:56:57.693Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18564) |
 
@@ -68532,6 +71786,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-04-11T04:08:45.983Z |
+| Created Date | 2024-04-01T16:55:45.347Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18565) |
 
@@ -68562,6 +71818,8 @@ No other changes on Acceptance Criteria
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-04-16T05:19:08.99Z |
+| Created Date | 2024-04-02T05:20:40.553Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18567) |
 
@@ -68599,6 +71857,8 @@ No other changes in acceptance criteria
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2024-04-02T06:18:53.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18571) |
 
@@ -68625,6 +71885,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 15 |
+| Changed Date | 2024-04-17T06:47:02.293Z |
+| Created Date | 2024-04-02T10:20:44.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18574) |
 
@@ -68654,6 +71916,8 @@ No changes in Acceptance Criteria
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-02T11:19:36.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18575) |
 
@@ -68676,6 +71940,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-02T12:49:45.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18576) |
 
@@ -68698,6 +71964,8 @@ _Not provided._
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-03T05:40:51.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18580) |
 
@@ -68731,6 +71999,8 @@ Please refer attach document for detailed explanation
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-04T05:52:28.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18585) |
 
@@ -68753,6 +72023,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-04T07:44:30.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18588) |
 
@@ -68775,6 +72047,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-04T08:44:56.453Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18589) |
 
@@ -68797,6 +72071,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-04T11:04:08.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18590) |
 
@@ -68819,6 +72095,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-05T07:36:42.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18599) |
 
@@ -68841,6 +72119,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-05T09:10:04.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18601) |
 
@@ -68863,6 +72143,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-06T11:11:35.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18610) |
 
@@ -68885,6 +72167,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-08T08:30:53.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18619) |
 
@@ -68907,6 +72191,8 @@ _Not provided._
 | Assigned To | anudeep.sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-04-08T10:44:13.513Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18620) |
 
@@ -68929,6 +72215,8 @@ Refer attached document for detailed requirement
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-09T07:12:51.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18621) |
 
@@ -68951,6 +72239,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-09T09:44:41.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18622) |
 
@@ -68973,6 +72263,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 16 |
+| Changed Date | 2024-04-23T07:48:21.953Z |
+| Created Date | 2024-04-10T06:35:06.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18623) |
 
@@ -69066,6 +72358,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 16 |
+| Changed Date | 2024-04-23T07:58:48.157Z |
+| Created Date | 2024-04-10T06:36:14.283Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18624) |
 
@@ -69159,6 +72453,8 @@ NA
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-10T10:47:51.543Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18625) |
 
@@ -69187,6 +72483,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-10T10:53:37.257Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18626) |
 
@@ -69209,6 +72507,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-10T13:04:28.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18627) |
 
@@ -69231,6 +72531,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 16 |
+| Changed Date | 2024-05-03T04:04:17.193Z |
+| Created Date | 2024-04-12T02:58:07.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18637) |
 
@@ -69254,6 +72556,8 @@ Should be working state during testikng
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-07-12T08:38:09.723Z |
+| Created Date | 2024-04-12T12:10:39.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18648) |
 
@@ -69276,6 +72580,8 @@ Please refer attached FSD for details
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-15T09:14:12.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18654) |
 
@@ -69298,6 +72604,8 @@ _Not provided._
 | Assigned To | Jyoti Rani |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-04-15T12:25:25.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18659) |
 
@@ -69320,6 +72628,8 @@ Please refer attached document for detailed observations
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 17 |
+| Changed Date | 2024-05-17T07:02:16.263Z |
+| Created Date | 2024-04-15T13:18:57.25Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18660) |
 
@@ -69350,6 +72660,8 @@ No other changes in Acceptance Criteria from main User story <https://dev.azure.
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-16T04:48:46.457Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18662) |
 
@@ -69372,6 +72684,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-16T05:33:53.387Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18663) |
 
@@ -69394,6 +72708,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-17T13:00:39.733Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18677) |
 
@@ -69422,6 +72738,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-18T05:53:42.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18680) |
 
@@ -69444,6 +72762,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-18T06:12:18.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18681) |
 
@@ -69466,6 +72786,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-20T09:12:14.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18688) |
 
@@ -69488,6 +72810,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-21T17:28:44.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18689) |
 
@@ -69510,6 +72834,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-22T05:32:57.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18691) |
 
@@ -69533,6 +72859,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-22T06:46:20.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18692) |
 
@@ -69555,6 +72883,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 16 |
+| Changed Date | 2024-05-03T10:54:52.293Z |
+| Created Date | 2024-04-22T06:55:44.557Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18693) |
 
@@ -69580,6 +72910,8 @@ No other changes on Acceptance criteria
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-23T04:50:38.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18694) |
 
@@ -69602,6 +72934,8 @@ Please refer attached FSD for detailed explanation
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-25T11:34:35.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18701) |
 
@@ -69624,6 +72958,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-27T13:43:17.747Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18703) |
 
@@ -69646,6 +72982,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-04-29T06:07:21.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18704) |
 
@@ -69668,6 +73006,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-04-30T08:56:50.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18708) |
 
@@ -69690,6 +73030,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-04-30T10:57:25.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18709) |
 
@@ -69726,6 +73068,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-3D Automation |
 | Iteration Path | Data Integration\Sprint 17 |
+| Changed Date | 2024-05-02T07:48:06.22Z |
+| Created Date | 2024-05-02T07:47:49.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18719) |
 
@@ -69749,6 +73093,8 @@ Should be working state during testikng
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 17 |
+| Changed Date | 2024-05-17T07:01:20.76Z |
+| Created Date | 2024-05-02T10:26:05.017Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18720) |
 
@@ -69785,6 +73131,8 @@ No other changes from original acceptance criteria
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-05-14T10:37:01.58Z |
+| Created Date | 2024-05-02T11:16:54.41Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18721) |
 
@@ -69821,6 +73169,8 @@ _Please find below snapshot for the list of Approvers to be shown:_
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-06-05T13:13:12.66Z |
+| Created Date | 2024-05-02T11:43:41.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18722) |
 
@@ -69914,6 +73264,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-03T09:07:59.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18727) |
 
@@ -69936,6 +73288,8 @@ _Not provided._
 | Assigned To | s.gayathri4 |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-09-03T06:38:23.217Z |
+| Created Date | 2024-05-06T09:36:25.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18730) |
 
@@ -69962,6 +73316,8 @@ To add following methods in the schedule training window under the Discipline/Me
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 17 |
+| Changed Date | 2024-05-17T06:53:47.187Z |
+| Created Date | 2024-05-06T13:15:13.067Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18732) |
 
@@ -69984,6 +73340,8 @@ No other changes from original Acceptance criteria
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-05-08T12:14:47.62Z |
+| Created Date | 2024-05-07T05:50:43.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18733) |
 
@@ -70008,6 +73366,8 @@ In the Mega Menu, under the NDE Tab, the NDE Module and its sub processes needs 
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-07T10:15:28.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18734) |
 
@@ -70030,6 +73390,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 17 |
+| Changed Date | 2024-05-17T06:58:10.16Z |
+| Created Date | 2024-05-08T06:24:51.4Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18735) |
 
@@ -70139,6 +73501,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-08T08:08:22.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18736) |
 
@@ -70161,6 +73525,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-08T09:27:24.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18737) |
 
@@ -70183,6 +73549,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-13T04:40:54.753Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18739) |
 
@@ -70205,6 +73573,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-13T07:26:08.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18740) |
 
@@ -70227,6 +73597,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-13T08:38:29.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18741) |
 
@@ -70249,6 +73621,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-13T11:33:42.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18754) |
 
@@ -70271,6 +73645,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-13T12:01:55.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18755) |
 
@@ -70293,6 +73669,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-15T05:44:06.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18757) |
 
@@ -70315,6 +73693,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 17 |
+| Changed Date | 2024-05-17T06:41:24.667Z |
+| Created Date | 2024-05-16T06:51:03.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18765) |
 
@@ -70362,6 +73742,8 @@ No other changes in input query parameter and search combination.
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-16T08:43:19.767Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18766) |
 
@@ -70384,6 +73766,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-17T05:00:17.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18767) |
 
@@ -70406,6 +73790,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-06-05T10:56:03.023Z |
+| Created Date | 2024-05-17T06:49:17.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18778) |
 
@@ -70429,6 +73815,8 @@ Should be working state during testing
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-17T14:59:09.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18780) |
 
@@ -70452,6 +73840,8 @@ _Not provided._
 | Assigned To | anudeep.sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-05-30T04:09:34.197Z |
+| Created Date | 2024-05-20T09:44:44.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18784) |
 
@@ -70477,6 +73867,8 @@ Please refer attached excel sheet
 | Assigned To | anudeep.sett |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-06-13T08:42:09.5Z |
+| Created Date | 2024-05-22T05:29:51.27Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18788) |
 
@@ -70505,6 +73897,8 @@ Functional:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\Common-Feature Team 3 |
 | Iteration Path | IEMQS 4.0\Sprint 11 |
+| Changed Date | 2024-05-22T11:14:55.46Z |
+| Created Date | 2024-05-22T11:14:55.46Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18789) |
 
@@ -70528,6 +73922,8 @@ when the for "Ind. Data Sheet is Enclosed ?" the value should always be "Yes"if 
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-22T11:39:58.447Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18790) |
 
@@ -70552,6 +73948,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-CRM |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-27T04:11:19.793Z |
+| Created Date | 2024-05-23T17:35:48.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18795) |
 
@@ -70647,6 +74045,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-06-05T12:06:16.907Z |
+| Created Date | 2024-05-23T17:41:57.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18796) |
 
@@ -70755,6 +74155,8 @@ NA
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-27T05:20:15.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18818) |
 
@@ -70777,6 +74179,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-27T08:20:46.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18819) |
 
@@ -70799,6 +74203,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-27T09:02:56.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18820) |
 
@@ -70821,6 +74227,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-05-28T09:09:57.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18823) |
 
@@ -70843,6 +74251,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-06-05T12:07:25.7Z |
+| Created Date | 2024-05-28T11:51:38.18Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18824) |
 
@@ -70881,6 +74291,8 @@ No other changes in Acceptance criteria from the original US <https://dev.azure.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-30T05:10:30.043Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18833) |
 
@@ -70903,6 +74315,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-05-30T06:57:19.66Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18834) |
 
@@ -70925,6 +74339,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T03:46:55.327Z |
+| Created Date | 2024-05-30T12:42:24.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18835) |
 
@@ -70947,6 +74363,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-03T04:46:02.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18838) |
 
@@ -70970,6 +74388,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-04T08:45:10.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18840) |
 
@@ -70992,6 +74412,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-04T12:40:17.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18841) |
 
@@ -71014,6 +74436,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-06-05T14:00:43.903Z |
+| Created Date | 2024-06-05T13:20:34.993Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18850) |
 
@@ -71057,6 +74481,8 @@ No other changes from original user story <https://dev.azure.com/LnT-HeavyEngine
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-06-06T14:07:22.423Z |
+| Created Date | 2024-06-06T13:29:12.11Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18853) |
 
@@ -71146,6 +74572,8 @@ NA
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 18 |
+| Changed Date | 2024-07-01T10:19:23.907Z |
+| Created Date | 2024-06-06T13:58:34.783Z |
 | Tags | Change Request |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18854) |
 
@@ -71236,6 +74664,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-06-07T06:48:42.133Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18857) |
 
@@ -71258,6 +74688,8 @@ _Not provided._
 | Assigned To | nithish.yenugu |
 | Area Path | IEMQS 4.0\Common-Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-06-07T08:31:06.473Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18858) |
 
@@ -71280,6 +74712,8 @@ PFA for detailed explanation
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-06-10T09:48:13.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18861) |
 
@@ -71302,6 +74736,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-06-10T12:44:24.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18863) |
 
@@ -71324,6 +74760,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-11T13:15:14.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18864) |
 
@@ -71346,6 +74784,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-06-12T06:33:07.993Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18865) |
 
@@ -71368,6 +74808,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-13T10:53:39.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18866) |
 
@@ -71390,6 +74832,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-25T11:05:41.323Z |
+| Created Date | 2024-06-13T11:57:34.543Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18867) |
 
@@ -71437,6 +74881,8 @@ No other changes in input query parameter and search combination.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-13T11:59:58.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18868) |
 
@@ -71459,6 +74905,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-15T11:17:59.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18870) |
 
@@ -71481,6 +74929,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-06-18T10:13:04.973Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18872) |
 
@@ -71503,6 +74953,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-06-18T11:28:15.71Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18873) |
 
@@ -71525,6 +74977,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\Feature Team 2 |
 | Iteration Path | IEMQS 4.0\Sprint 18 |
+| Changed Date | 2024-09-16T08:03:33.96Z |
+| Created Date | 2024-06-19T06:11:59.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18874) |
 
@@ -71554,6 +75008,8 @@ Functional:
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-20T08:02:05.08Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18876) |
 
@@ -71576,6 +75032,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-06-20T09:18:27.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18877) |
 
@@ -71598,6 +75056,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-WFM |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-25T11:07:14.913Z |
+| Created Date | 2024-06-20T10:17:50.693Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18878) |
 
@@ -71638,6 +75098,8 @@ No other changes from earlier acceptance criteria
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-20T05:54:04.383Z |
+| Created Date | 2024-06-21T07:28:10.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18879) |
 
@@ -71660,6 +75122,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-21T09:22:30.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18880) |
 
@@ -71688,6 +75152,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 10 |
+| Changed Date | 2024-10-18T07:10:53.79Z |
+| Created Date | 2024-06-21T13:21:15.533Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18881) |
 
@@ -71710,6 +75176,8 @@ Please find the attached FSD for detailed explanation
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-06-24T07:46:45.797Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18884) |
 
@@ -71732,6 +75200,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\QA_QC_NDE\UX |
 | Iteration Path | IEMQS 4.0\Sprint 15 |
+| Changed Date | 2024-06-24T12:02:46.857Z |
+| Created Date | 2024-06-24T11:44:30.307Z |
 | Tags | CR |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18885) |
 
@@ -71754,6 +75224,8 @@ Please find attached excel for requirements in NDE DPP
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-07T05:24:54.447Z |
+| Created Date | 2024-06-25T05:46:23.513Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18886) |
 
@@ -71776,6 +75248,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-06-25T08:01:01.12Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18888) |
 
@@ -71798,6 +75272,8 @@ _Not provided._
 | Assigned To | Gautam.Mandal |
 | Area Path | Data Integration\Int-IOT |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2024-06-25T11:09:25.887Z |
+| Created Date | 2024-06-25T10:33:38.543Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18889) |
 
@@ -71889,6 +75365,8 @@ NA
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-06-25T11:44:37.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18893) |
 
@@ -71911,6 +75389,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-06-25T16:01:18.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18895) |
 
@@ -71933,6 +75413,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-06-27T12:07:19.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18902) |
 
@@ -71955,6 +75437,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-06-28T10:47:21.07Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18905) |
 
@@ -71996,6 +75480,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-30T10:30:17.89Z |
+| Created Date | 2024-07-01T07:48:41.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18910) |
 
@@ -72018,6 +75504,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-07-02T05:42:01.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18911) |
 
@@ -72040,6 +75528,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-02T08:22:10.4Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18912) |
 
@@ -72062,6 +75552,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-02T09:49:25.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18913) |
 
@@ -72084,6 +75576,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-01T06:30:03.98Z |
+| Created Date | 2024-07-02T11:18:55.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18914) |
 
@@ -72106,6 +75600,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-03T04:59:29.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18915) |
 
@@ -72128,6 +75624,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-05T06:08:51.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18917) |
 
@@ -72150,6 +75648,8 @@ _Not provided._
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2024-07-06T13:24:44.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18918) |
 
@@ -72172,6 +75672,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-08T04:31:43.133Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18919) |
 
@@ -72194,6 +75696,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-12T16:59:31.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18925) |
 
@@ -72248,6 +75752,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-16T06:09:51.777Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18929) |
 
@@ -72270,6 +75776,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-19T12:02:29.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18935) |
 
@@ -72292,6 +75800,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-24T05:10:09.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18936) |
 
@@ -72314,6 +75824,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-20T09:21:34.727Z |
+| Created Date | 2024-07-25T08:31:58.403Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18938) |
 
@@ -72336,6 +75848,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-07-30T16:27:18.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18945) |
 
@@ -72358,6 +75872,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-02T07:06:18.303Z |
+| Created Date | 2024-08-01T06:11:17.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18950) |
 
@@ -72386,6 +75902,8 @@ _Not provided._
 | Assigned To | Samir shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-01T10:33:39.227Z |
+| Created Date | 2024-08-01T06:12:05.233Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18951) |
 
@@ -72408,6 +75926,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-01T07:45:21.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18955) |
 
@@ -72430,6 +75950,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-01T10:59:39.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18957) |
 
@@ -72452,6 +75974,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2025-07-16T04:22:48.973Z |
+| Created Date | 2024-08-01T11:38:58.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18958) |
 
@@ -72474,6 +75998,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-09T09:53:29.103Z |
+| Created Date | 2024-08-02T04:05:12.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18959) |
 
@@ -72496,6 +76022,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM\Iteration 1 |
+| Changed Date | 2024-08-03T09:15:15.943Z |
+| Created Date | 2024-08-02T06:48:55.31Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18961) |
 
@@ -72518,6 +76046,8 @@ Test
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-02T08:45:09.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18966) |
 
@@ -72540,6 +76070,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-03T09:15:15.943Z |
+| Created Date | 2024-08-02T09:33:20.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18967) |
 
@@ -72562,6 +76094,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | ECOM |
 | Iteration Path | ECOM\Iteration 1 |
+| Changed Date | 2025-07-16T04:22:48.973Z |
+| Created Date | 2024-08-03T05:00:42.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18970) |
 
@@ -72584,6 +76118,8 @@ Test
 | Assigned To | Samir shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-03T09:17:13.717Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18977) |
 
@@ -72610,6 +76146,8 @@ After successful login, I should be directed to the token entry home page.
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-03T09:57:02.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18982) |
 
@@ -72632,6 +76170,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-03T10:39:00.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18985) |
 
@@ -72654,6 +76194,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2025-07-16T04:22:48.973Z |
+| Created Date | 2024-08-03T10:51:39.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18989) |
 
@@ -72676,6 +76218,8 @@ login should be done if password and username is correct.
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2025-07-16T04:22:48.973Z |
+| Created Date | 2024-08-03T10:52:00.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18990) |
 
@@ -72698,6 +76242,8 @@ as a admin i want to login to the system,
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2025-07-16T04:22:48.973Z |
+| Created Date | 2024-08-03T10:52:16.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18991) |
 
@@ -72720,6 +76266,8 @@ as a admin i want to login to the system,
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-05T07:43:58.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18993) |
 
@@ -72742,6 +76290,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-31T11:03:49.217Z |
+| Created Date | 2024-08-05T08:21:55.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18994) |
 
@@ -72764,6 +76314,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-05T09:42:14.71Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/18996) |
 
@@ -72786,6 +76338,8 @@ _Not provided._
 | Assigned To | Samir shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2025-07-16T04:22:48.973Z |
+| Created Date | 2024-08-06T05:45:27.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19001) |
 
@@ -72808,6 +76362,8 @@ REST
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-06T11:41:43.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19009) |
 
@@ -72830,6 +76386,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-21T09:16:31.63Z |
+| Created Date | 2024-08-07T05:09:20.797Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19011) |
 
@@ -72852,6 +76410,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:32:38.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19015) |
 
@@ -72894,6 +76454,8 @@ Note: User remember that each day of the week corresponds to a different color, 
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:36:36.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19016) |
 
@@ -72924,6 +76486,8 @@ To delete an existing contractor, I select the record and confirm deletion in th
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:37:54.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19017) |
 
@@ -72954,6 +76518,8 @@ To delete an existing IC, I select the record and confirm deletion in the popup.
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:38:31.913Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19018) |
 
@@ -72984,6 +76550,8 @@ To delete an existing user, I select the record and confirm deletion in the popu
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:47:28.5Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19021) |
 
@@ -73014,6 +76582,8 @@ Users should also have the option to Issue tokens, Add contractors, search, depo
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:48:26.837Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19022) |
 
@@ -73046,6 +76616,8 @@ User click “Issue” to issue the token after filling all the details.The issu
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:48:56.067Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19023) |
 
@@ -73072,6 +76644,8 @@ The user fills in the Contractor name, and after saving, the contractor becomes 
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:49:25.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19024) |
 
@@ -73098,6 +76672,8 @@ User should enter the deposit time and click “Close"" Then the token status up
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM |
 | Iteration Path | ECOM\1-8-2024-15-8-2024 |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-07T10:50:40.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19025) |
 
@@ -73124,6 +76700,8 @@ If I try to access any authenticated page after logout, I should be redirected t
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-08-09T11:20:03.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19065) |
 
@@ -73146,6 +76724,8 @@ _Not provided._
 | Assigned To | Ganesh Nadipalli |
 | Area Path | ECOM\FOS Item Approval and Knwl Mgmt Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-21T05:36:03.413Z |
+| Created Date | 2024-08-10T15:12:18.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19068) |
 
@@ -73168,6 +76748,8 @@ _Not provided._
 | Assigned To | Prerna Pawar |
 | Area Path | ECOM\HEIC BI Reports |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-23T04:20:16.79Z |
+| Created Date | 2024-08-12T08:30:21.88Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19071) |
 
@@ -73190,6 +76772,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-12T10:26:45.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19073) |
 
@@ -73212,6 +76796,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-12T11:06:43.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19076) |
 
@@ -73234,6 +76820,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM\DIN Acknowledgement Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:24:38.95Z |
+| Created Date | 2024-08-12T11:28:37.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19079) |
 
@@ -73256,6 +76844,8 @@ _Not provided._
 | Assigned To | Kavyasree Kukka |
 | Area Path | ECOM\Employee Engagement Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-02T11:16:38.017Z |
+| Created Date | 2024-08-13T03:26:04.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19084) |
 
@@ -73278,6 +76868,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM\Token Entry |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-02T06:31:40.91Z |
+| Created Date | 2024-08-13T03:53:52.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19087) |
 
@@ -73300,6 +76892,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-16T11:07:23.833Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19124) |
 
@@ -73322,6 +76916,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-17T04:27:00.043Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19125) |
 
@@ -73344,6 +76940,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | ECOM\App 1 Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-17T08:57:52.59Z |
+| Created Date | 2024-08-17T08:57:52.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19129) |
 
@@ -73366,6 +76964,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | ECOM\App 1 Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-17T09:50:51.587Z |
+| Created Date | 2024-08-17T08:58:31.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19130) |
 
@@ -73389,6 +76989,8 @@ Test 1
 | Assigned To | Unassigned |
 | Area Path | ECOM\App 1 Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-17T08:59:09.26Z |
+| Created Date | 2024-08-17T08:59:09.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19131) |
 
@@ -73411,6 +77013,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-21T06:04:02.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19146) |
 
@@ -73450,6 +77054,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\EHS Video Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-23T06:19:04.58Z |
+| Created Date | 2024-08-21T08:54:21.273Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19149) |
 
@@ -73536,6 +77142,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\Conference Room Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-05T10:49:25.11Z |
+| Created Date | 2024-08-22T05:19:22.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19162) |
 
@@ -73558,6 +77166,8 @@ _Not provided._
 | Assigned To | Dipali Patil |
 | Area Path | ECOM\Token Entry |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-22T08:21:26.99Z |
+| Created Date | 2024-08-22T08:21:26.99Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19182) |
 
@@ -73580,6 +77190,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-09T09:52:21.91Z |
+| Created Date | 2024-08-23T05:03:56.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19192) |
 
@@ -73602,6 +77214,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-21T06:19:49.363Z |
+| Created Date | 2024-08-23T05:33:47.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19193) |
 
@@ -73624,6 +77238,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-29T04:31:17.047Z |
+| Created Date | 2024-08-27T05:51:48.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19199) |
 
@@ -73646,6 +77262,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM\Employee Forgot ID Card Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-04T09:20:15.78Z |
+| Created Date | 2024-08-27T09:53:12.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19208) |
 
@@ -73668,6 +77286,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-08-30T05:47:09.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19253) |
 
@@ -73690,6 +77310,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-08-30T09:44:06.553Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19256) |
 
@@ -73712,6 +77334,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\Conference Room Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-11T14:01:16.893Z |
+| Created Date | 2024-08-31T03:58:56.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19260) |
 
@@ -73734,6 +77358,8 @@ User story file attached here.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-24T04:51:33.55Z |
+| Created Date | 2024-08-31T04:51:27.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19268) |
 
@@ -73756,6 +77382,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Golf Cart Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:25:14.977Z |
+| Created Date | 2024-08-31T05:11:07.203Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19273) |
 
@@ -73778,6 +77406,8 @@ User story file attached here.
 | Assigned To | Dhara Gandhi |
 | Area Path | ECOM\Golf Cart Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-18T10:36:47.517Z |
+| Created Date | 2024-08-31T05:27:15.857Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19276) |
 
@@ -73806,6 +77436,8 @@ _Not provided._
 | Assigned To | Kavyasree Kukka |
 | Area Path | ECOM\Conference Room Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-05T10:49:25.11Z |
+| Created Date | 2024-08-31T05:29:20.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19277) |
 
@@ -73828,6 +77460,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\MenterShip Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-31T05:31:46.71Z |
+| Created Date | 2024-08-31T05:31:37.62Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19279) |
 
@@ -73850,6 +77484,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Security Incident Reporting Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:15:23.983Z |
+| Created Date | 2024-08-31T05:36:27.883Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19283) |
 
@@ -73872,6 +77508,8 @@ File attached here
 | Assigned To | hemali |
 | Area Path | ECOM\Security Incident Reporting Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-01T08:56:22.783Z |
+| Created Date | 2024-08-31T05:45:12.047Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19286) |
 
@@ -73894,6 +77532,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\EHS Video Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-08-31T07:02:13.537Z |
+| Created Date | 2024-08-31T07:01:44.483Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19293) |
 
@@ -73916,6 +77556,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\EHS Video Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-19T06:10:06.283Z |
+| Created Date | 2024-08-31T07:10:02.333Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19295) |
 
@@ -73984,6 +77626,8 @@ EHS Point after demo with user
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-08-31T09:37:15.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19303) |
 
@@ -74006,6 +77650,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-08-31T12:36:28.073Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19308) |
 
@@ -74028,6 +77674,8 @@ _Not provided._
 | Assigned To | Tikka Dharani |
 | Area Path | ECOM\FOS Item Approval and Knwl Mgmt Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-26T06:30:07.95Z |
+| Created Date | 2024-09-02T09:17:08.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19311) |
 
@@ -74050,6 +77698,8 @@ Initiator should not see Input type dropdown in both Initiator and Approver page
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-09T09:52:43.327Z |
+| Created Date | 2024-09-02T11:15:25.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19314) |
 
@@ -74072,6 +77722,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-15T08:55:42.687Z |
+| Created Date | 2024-09-03T09:09:35.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19319) |
 
@@ -74094,6 +77746,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\Car Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-22T08:41:49.033Z |
+| Created Date | 2024-09-03T11:53:14.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19325) |
 
@@ -74164,6 +77818,8 @@ Only for Monthly based
 | Assigned To | Kavyasree Kukka |
 | Area Path | ECOM\Security Equipment Status Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-02T11:05:40.597Z |
+| Created Date | 2024-09-05T12:00:16.523Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19342) |
 
@@ -74186,6 +77842,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:29:10.683Z |
+| Created Date | 2024-09-06T05:03:50.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19354) |
 
@@ -74215,6 +77873,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-06T05:25:35.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19366) |
 
@@ -74243,6 +77903,8 @@ Refer attached document for API details.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-06T05:27:35.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19367) |
 
@@ -74271,6 +77933,8 @@ Refer attached document for API details.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\Car Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-22T08:41:49.033Z |
+| Created Date | 2024-09-06T05:36:59.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19369) |
 
@@ -74307,6 +77971,8 @@ STAR DATE  | END DATE  | (MAIL/ONLINE)  |  |  |  |  |  |  |  |  |  |
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-06T10:37:17.383Z |
+| Created Date | 2024-09-06T10:36:27.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19374) |
 
@@ -74329,6 +77995,8 @@ Add validation
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-07T06:23:52.317Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19377) |
 
@@ -74357,6 +78025,8 @@ Below screenshot is the sample. Actual design will prepare on later stage.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-07T06:55:01.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19378) |
 
@@ -74385,6 +78055,8 @@ Download option needs to be removed from system to protect the documents for una
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-07T07:07:20.84Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19379) |
 
@@ -74407,6 +78079,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-07T09:38:21.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19381) |
 
@@ -74429,6 +78103,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-19T12:08:13.36Z |
+| Created Date | 2024-09-10T07:50:45.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19390) |
 
@@ -74451,6 +78127,8 @@ _Not provided._
 | Assigned To | HIMANSHU CHAUDHARY |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-10T09:58:35.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19393) |
 
@@ -74474,6 +78152,8 @@ Restrict the direct access of FCS server path from local system to avoid manipul
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-10T10:09:13.97Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19394) |
 
@@ -74497,6 +78177,8 @@ Encrypt the file path in browser link while display document in Universal Viewer
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:30:15.76Z |
+| Created Date | 2024-09-11T06:31:34.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19397) |
 
@@ -74583,6 +78265,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:30:01.483Z |
+| Created Date | 2024-09-11T06:41:21.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19398) |
 
@@ -74640,6 +78324,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:29:50.13Z |
+| Created Date | 2024-09-11T06:46:31.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19399) |
 
@@ -74684,6 +78370,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:29:39.177Z |
+| Created Date | 2024-09-11T06:50:03.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19400) |
 
@@ -74781,6 +78469,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\Car Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-19T06:11:40.83Z |
+| Created Date | 2024-09-12T04:20:59.127Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19404) |
 
@@ -74852,6 +78542,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\EHS Video Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-25T07:25:44.313Z |
+| Created Date | 2024-09-12T04:22:44.47Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19405) |
 
@@ -74892,6 +78584,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-20T12:01:26.64Z |
+| Created Date | 2024-09-12T08:15:38.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19409) |
 
@@ -74914,6 +78608,8 @@ _Not provided._
 | Assigned To | Vijay Lakhani |
 | Area Path | ECOM\Monthly Car Billing Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-29T04:26:17.423Z |
+| Created Date | 2024-09-13T05:00:43.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19412) |
 
@@ -74936,6 +78632,8 @@ _Not provided._
 | Assigned To | Vivek Singh Bhadoria |
 | Area Path | ECOM\Transport Committee Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-05T10:43:29.41Z |
+| Created Date | 2024-09-16T08:52:11.99Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19422) |
 
@@ -74958,6 +78656,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\EHBS Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-18T05:33:10.34Z |
+| Created Date | 2024-09-18T05:31:33.643Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19425) |
 
@@ -74980,6 +78680,8 @@ _Not provided._
 | Assigned To | Ganesh Nadipalli |
 | Area Path | ECOM\EHBS Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-18T06:19:50.21Z |
+| Created Date | 2024-09-18T05:47:39.81Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19428) |
 
@@ -75002,6 +78704,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM\Returnable Material Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-25T06:50:51.213Z |
+| Created Date | 2024-09-19T03:55:12.73Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19436) |
 
@@ -75024,6 +78728,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:29:25.437Z |
+| Created Date | 2024-09-19T07:01:57.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19441) |
 
@@ -75137,6 +78843,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-20T12:01:46.107Z |
+| Created Date | 2024-09-19T11:58:04.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19457) |
 
@@ -75159,6 +78867,8 @@ _Not provided._
 | Assigned To | hemali |
 | Area Path | ECOM\Vehicle Access Permit Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-29T06:57:40.19Z |
+| Created Date | 2024-09-19T12:13:43.46Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19458) |
 
@@ -75181,6 +78891,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-07T08:47:52.46Z |
+| Created Date | 2024-09-20T09:20:40.03Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19462) |
 
@@ -75203,6 +78915,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-23T10:40:15.873Z |
+| Created Date | 2024-09-20T11:45:52.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19463) |
 
@@ -75225,6 +78939,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Theft Reporting System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:34:01.77Z |
+| Created Date | 2024-09-21T03:56:54.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19465) |
 
@@ -75247,6 +78963,8 @@ _Not provided._
 | Assigned To | Vishal Mishra |
 | Area Path | ECOM\Woman Stay Back Intimation Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-24T08:53:30.41Z |
+| Created Date | 2024-09-21T05:06:53.067Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19467) |
 
@@ -75269,6 +78987,8 @@ _Not provided._
 | Assigned To | Ganesh Nadipalli |
 | Area Path | ECOM\Heat Treatment Request Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-09-21T06:30:57.977Z |
+| Created Date | 2024-09-21T06:13:05.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19470) |
 
@@ -75291,6 +79011,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-21T08:16:31.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19478) |
 
@@ -75314,6 +79036,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Security Agency Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:13:06.377Z |
+| Created Date | 2024-09-24T08:56:41.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19492) |
 
@@ -75336,6 +79060,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-24T11:09:09.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19494) |
 
@@ -75360,6 +79086,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-06-13T08:37:23.18Z |
+| Created Date | 2024-09-24T12:01:03.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19495) |
 
@@ -75392,6 +79120,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-10T05:42:17.473Z |
+| Created Date | 2024-09-24T12:38:48.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19498) |
 
@@ -75414,6 +79144,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-15T12:07:48.827Z |
+| Created Date | 2024-09-25T06:51:37.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19499) |
 
@@ -75436,6 +79168,8 @@ _Not provided._
 | Assigned To | Vivek Singh Bhadoria |
 | Area Path | ECOM\Bus Transport Service Application Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-05T10:12:14.953Z |
+| Created Date | 2024-09-25T15:26:08.367Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19508) |
 
@@ -75458,6 +79192,8 @@ _Not provided._
 | Assigned To | Vivek Singh Bhadoria |
 | Area Path | ECOM\Monthly Car Billing Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-05T10:11:45.593Z |
+| Created Date | 2024-09-25T15:39:51.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19509) |
 
@@ -75480,6 +79216,8 @@ Testcases of Monthly Car Billing
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-09-27T06:40:10.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19530) |
 
@@ -75524,6 +79262,8 @@ We require Listing/Index page for customer to see all customers. Fields to be di
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-09-27T09:13:27.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19532) |
 
@@ -75584,6 +79324,8 @@ Require listing/index page for display all contracts. fields to be displayed on 
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-27T12:18:55.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19534) |
 
@@ -75608,6 +79350,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-09-30T08:38:19.653Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19539) |
 
@@ -75636,6 +79380,8 @@ Remove check of PAM while maintain project parameter
 | Assigned To | Dhara Gandhi |
 | Area Path | ECOM\Transport Committee Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-07T12:56:22.653Z |
+| Created Date | 2024-10-02T08:40:53.013Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19542) |
 
@@ -75658,6 +79404,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-28T10:41:38.843Z |
+| Created Date | 2024-10-02T13:57:01.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19559) |
 
@@ -75680,6 +79428,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-10-03T08:58:23.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19563) |
 
@@ -75715,6 +79465,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-04T10:35:03.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19581) |
 
@@ -75769,6 +79521,8 @@ Fields:
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-05T11:04:03.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19595) |
 
@@ -75826,6 +79580,8 @@ Fields:
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-08T09:20:01.133Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19605) |
 
@@ -75848,6 +79604,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-10-10T05:43:49.88Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19610) |
 
@@ -75870,6 +79628,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-10T10:48:51.547Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19612) |
 
@@ -75895,6 +79655,8 @@ Remove check of CPC while creating part from system using single or import parts
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\Audit Portal For MRU Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-11T06:30:34.2Z |
+| Created Date | 2024-10-11T06:26:49.453Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19615) |
 
@@ -75931,6 +79693,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:52:31.91Z |
+| Created Date | 2024-10-15T08:56:02.293Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19619) |
 
@@ -75953,6 +79717,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\Machine Calibration System (VHEW) Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-16T05:34:19.027Z |
+| Created Date | 2024-10-16T05:34:12.237Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19625) |
 
@@ -75975,6 +79741,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\JTBC Ranoli Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-16T05:58:17.15Z |
+| Created Date | 2024-10-16T05:58:17.15Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19627) |
 
@@ -75997,6 +79765,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-10-16T07:42:24.173Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19629) |
 
@@ -76019,6 +79789,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\JTBC MRU Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-16T12:18:23.133Z |
+| Created Date | 2024-10-16T11:19:46.857Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19634) |
 
@@ -76050,6 +79822,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-17T05:09:35.64Z |
+| Created Date | 2024-10-17T05:07:56.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19639) |
 
@@ -76072,6 +79846,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-17T08:30:19.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19643) |
 
@@ -76149,6 +79925,8 @@ S040912-SPROM  | 0  | CWIP00  |  | Operating Spares  | Part  | CRR  | lot  |
 | Assigned To | Vivek Singh Bhadoria |
 | Area Path | ECOM\Bus Transport Service Application Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-05T10:12:49.303Z |
+| Created Date | 2024-10-17T09:47:28.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19649) |
 
@@ -76171,6 +79949,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:10:56.39Z |
+| Created Date | 2024-10-18T06:54:10.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19652) |
 
@@ -76221,6 +80001,8 @@ Below sample design needs to be followed for maintain issue history for KSA proj
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-10-18T07:13:30.343Z |
+| Created Date | 2024-10-18T07:13:30.343Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19655) |
 
@@ -76244,6 +80026,8 @@ Import part in bulk shall be worked without dependency of ERPLN data.
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-18T10:38:41.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19661) |
 
@@ -76270,6 +80054,8 @@ All require details needs to be fetched from COM or internal tables of IEMQS whi
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-18T12:09:33.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19664) |
 
@@ -76292,6 +80078,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-19T11:30:12.82Z |
+| Created Date | 2024-10-19T11:30:12.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19674) |
 
@@ -76314,6 +80102,8 @@ In maintain digital procedure when procedure is uploaded and clicked on 'Submit'
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-21T07:21:17.653Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19676) |
 
@@ -76353,6 +80143,8 @@ For pushing data in design system, need to use existing API for create/update pr
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-24T04:54:42.777Z |
+| Created Date | 2024-10-22T11:02:25.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19680) |
 
@@ -76375,6 +80167,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-23T05:07:48.203Z |
+| Created Date | 2024-10-23T04:54:03.173Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19682) |
 
@@ -76397,6 +80191,8 @@ Maintain Procedure File size increased to 500 MB
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-10-23T12:55:56.32Z |
+| Created Date | 2024-10-23T06:44:34.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19685) |
 
@@ -76419,6 +80215,8 @@ File size increased to 500 MB
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Bus User Complaint Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:21:23.2Z |
+| Created Date | 2024-10-23T07:20:37.163Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19686) |
 
@@ -76441,6 +80239,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-24T10:26:31.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19692) |
 
@@ -76463,6 +80263,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\Online File Note Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-15T12:50:04.437Z |
+| Created Date | 2024-10-25T08:26:27.35Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19699) |
 
@@ -76499,6 +80301,8 @@ In application there is 4 role:
 | Assigned To | Vijay Lakhani |
 | Area Path | ECOM\Online File Note Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-30T06:34:48.673Z |
+| Created Date | 2024-10-25T10:51:11.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19702) |
 
@@ -76542,6 +80346,8 @@ _Not provided._
 | Assigned To | Vijay Lakhani |
 | Area Path | ECOM\Online File Note Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-30T06:35:05.627Z |
+| Created Date | 2024-10-25T10:55:23.087Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19703) |
 
@@ -76574,6 +80380,8 @@ _Not provided._
 | Assigned To | Vijay Lakhani |
 | Area Path | ECOM\Online File Note Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-30T06:41:30.897Z |
+| Created Date | 2024-10-25T10:57:20.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19704) |
 
@@ -76599,6 +80407,8 @@ _Not provided._
 | Assigned To | Vijay Lakhani |
 | Area Path | ECOM\Online File Note Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-10-30T06:41:17.147Z |
+| Created Date | 2024-10-28T06:09:40.51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19711) |
 
@@ -76631,6 +80441,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-19T09:28:53.423Z |
+| Created Date | 2024-10-28T11:22:08.693Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19713) |
 
@@ -76653,6 +80465,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-29T11:14:25.15Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19716) |
 
@@ -76675,6 +80489,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-29T18:05:10.26Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19718) |
 
@@ -76697,6 +80513,8 @@ _Not provided._
 | Assigned To | Ganesh Nadipalli |
 | Area Path | ECOM\Machine Shop Logbook System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-11T06:50:01.523Z |
+| Created Date | 2024-10-30T04:02:55.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19719) |
 
@@ -76719,6 +80537,8 @@ I have added detailed Excel file with Acceptance criteria in attachment
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-10-31T06:01:24.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19722) |
 
@@ -76760,6 +80580,8 @@ We require Listing/Index page for user to see all vendors. Fields to be displaye
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-12T05:37:25.86Z |
+| Created Date | 2024-11-04T09:52:51.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19724) |
 
@@ -76782,6 +80604,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM\Onboarding Portal Team |
 | Iteration Path | ECOM |
+| Changed Date | 2026-05-15T11:56:38.697Z |
+| Created Date | 2024-11-07T04:12:49.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19730) |
 
@@ -76804,6 +80628,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-11T06:59:42.413Z |
+| Created Date | 2024-11-11T06:44:10.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19737) |
 
@@ -76826,6 +80652,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-18T06:12:56.253Z |
+| Created Date | 2024-11-11T08:23:00.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19739) |
 
@@ -76848,6 +80676,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-11T09:15:24.637Z |
+| Created Date | 2024-11-11T08:58:25.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19741) |
 
@@ -76870,6 +80700,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-13T05:13:09.413Z |
+| Created Date | 2024-11-13T05:06:57.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19749) |
 
@@ -76892,6 +80724,8 @@ _Not provided._
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-13T08:49:24.09Z |
+| Created Date | 2024-11-13T08:45:59.21Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19753) |
 
@@ -76914,6 +80748,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-03T07:48:25.22Z |
+| Created Date | 2024-11-14T10:11:17.73Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19758) |
 
@@ -76936,6 +80772,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-11-16T12:28:48.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19764) |
 
@@ -76958,6 +80796,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-11-18T07:05:02.197Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19766) |
 
@@ -76984,6 +80824,8 @@ ERPLN dependency will as it is for projects which will fetched from ERPLN.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-21T06:05:07.397Z |
+| Created Date | 2024-11-21T05:47:37.56Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19776) |
 
@@ -77006,6 +80848,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-21T11:09:25.443Z |
+| Created Date | 2024-11-21T09:29:17.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19780) |
 
@@ -77028,6 +80872,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-21T09:37:54.753Z |
+| Created Date | 2024-11-21T09:32:50.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19781) |
 
@@ -77050,6 +80896,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-21T09:38:14.527Z |
+| Created Date | 2024-11-21T09:33:25.937Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19782) |
 
@@ -77072,6 +80920,8 @@ _Not provided._
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2024-11-21T10:55:17.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19783) |
 
@@ -77100,6 +80950,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-22T10:41:43.703Z |
+| Created Date | 2024-11-22T10:32:43.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19784) |
 
@@ -77122,6 +80974,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-11-23T11:08:53.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19785) |
 
@@ -77173,6 +81027,8 @@ refer below image:
 | Assigned To | Vijay Lakhani |
 | Area Path | ECOM\Online TAR Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-13T07:02:04.853Z |
+| Created Date | 2024-11-26T04:30:14.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19790) |
 
@@ -77203,6 +81059,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-27T09:20:11.57Z |
+| Created Date | 2024-11-26T06:18:17.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19792) |
 
@@ -77225,6 +81083,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-26T11:33:42.81Z |
+| Created Date | 2024-11-26T07:19:53.62Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19793) |
 
@@ -77247,6 +81107,8 @@ _Not provided._
 | Assigned To | Shaik Yusuf |
 | Area Path | ECOM\ILDC Permission Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-25T06:41:26.467Z |
+| Created Date | 2024-11-27T05:24:59.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19796) |
 
@@ -77271,6 +81133,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-23T04:40:14.937Z |
+| Created Date | 2024-11-27T06:33:33.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19797) |
 
@@ -77293,6 +81157,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-11-27T12:03:09.41Z |
+| Created Date | 2024-11-27T11:36:07.787Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19802) |
 
@@ -77315,6 +81181,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-11-28T10:05:42.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19804) |
 
@@ -77337,6 +81205,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-11-28T11:04:04.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19805) |
 
@@ -77359,6 +81229,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-11-29T12:27:07.077Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19808) |
 
@@ -77381,6 +81253,8 @@ _Not provided._
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-11-29T18:38:04.503Z |
+| Created Date | 2024-11-29T18:38:04.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19810) |
 
@@ -77403,6 +81277,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-23T04:38:51.57Z |
+| Created Date | 2024-12-02T07:35:53.933Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19814) |
 
@@ -77425,6 +81301,8 @@ _Not provided._
 | Assigned To | Pralhadsinh Rajpurohit |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-12T11:16:57.95Z |
+| Created Date | 2024-12-02T07:59:39.183Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19815) |
 
@@ -77449,6 +81327,8 @@ so that I should be able to export it in PDF format and share the auto generated
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-02T10:40:54.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19817) |
 
@@ -77472,6 +81352,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-02T11:26:40.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19819) |
 
@@ -77495,6 +81377,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-02T12:28:38.367Z |
+| Created Date | 2024-12-02T11:30:39.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19820) |
 
@@ -77518,6 +81402,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-02T15:18:23.783Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19824) |
 
@@ -77546,6 +81432,8 @@ Capture photo feature needs to be used using camera and direct upload image.
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\Anubhuti Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-20T04:29:12.57Z |
+| Created Date | 2024-12-03T04:58:28.267Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19827) |
 
@@ -77575,6 +81463,8 @@ _Not provided._
 | Assigned To | hemali |
 | Area Path | ECOM\Material Transfer Request (MTR) Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-13T06:57:26.337Z |
+| Created Date | 2024-12-03T05:01:17.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19830) |
 
@@ -77605,6 +81495,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-12-13T11:29:32.707Z |
+| Created Date | 2024-12-03T10:13:03.493Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19834) |
 
@@ -77631,6 +81523,8 @@ QR Code of package details shall be exported along with export Packing list in E
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-06T10:46:43.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19843) |
 
@@ -77665,6 +81559,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-09T12:14:06.81Z |
+| Created Date | 2024-12-09T12:10:53.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19847) |
 
@@ -77687,6 +81583,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-09T15:52:54.027Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19848) |
 
@@ -77738,6 +81636,8 @@ CreatedOn  | DATETIME  |
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-10T11:55:47.29Z |
+| Created Date | 2024-12-10T11:51:00.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19849) |
 
@@ -77760,6 +81660,8 @@ File not download issue resolve.
 | Assigned To | Vishal Naykawala |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-23T04:36:55.973Z |
+| Created Date | 2024-12-11T05:14:40.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19851) |
 
@@ -77782,6 +81684,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-13T04:26:53.32Z |
+| Created Date | 2024-12-11T08:19:34.61Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19853) |
 
@@ -77804,6 +81708,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-13T04:26:53.32Z |
+| Created Date | 2024-12-12T04:32:18.433Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19856) |
 
@@ -77826,6 +81732,8 @@ _Not provided._
 | Assigned To | Ayushi Jariwala |
 | Area Path | ECOM\Manthan Team |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-12T05:45:09.673Z |
+| Created Date | 2024-12-12T05:45:02.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19859) |
 
@@ -77848,6 +81756,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-12T11:22:07.36Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19863) |
 
@@ -77899,6 +81809,8 @@ CreatedOn | DATETIME |
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-12-13T11:26:36.773Z |
+| Created Date | 2024-12-12T11:51:36.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19865) |
 
@@ -77935,6 +81847,8 @@ Below options of size needs to be displayed:
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-13T05:22:09.45Z |
+| Created Date | 2024-12-13T05:05:59.41Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19866) |
 
@@ -77957,6 +81871,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2024-12-18T06:42:51.563Z |
+| Created Date | 2024-12-13T10:29:34.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19867) |
 
@@ -77994,6 +81910,8 @@ User can upload/capture photos.
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-13T11:23:24.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19868) |
 
@@ -78016,6 +81934,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-13T11:23:56.583Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19869) |
 
@@ -78074,6 +81994,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-16T10:49:30.213Z |
+| Created Date | 2024-12-16T10:30:21.997Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19871) |
 
@@ -78096,6 +82018,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-16T13:49:13.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19874) |
 
@@ -78118,6 +82042,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-17T05:12:41.51Z |
+| Created Date | 2024-12-17T04:48:30.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19875) |
 
@@ -78140,6 +82066,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-23T04:38:26.803Z |
+| Created Date | 2024-12-17T05:24:22.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19876) |
 
@@ -78162,6 +82090,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-17T12:05:56.933Z |
+| Created Date | 2024-12-17T10:41:34.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19878) |
 
@@ -78184,6 +82114,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-17T12:16:23.82Z |
+| Created Date | 2024-12-17T12:08:43.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19879) |
 
@@ -78206,6 +82138,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-18T05:18:31.59Z |
+| Created Date | 2024-12-18T05:07:15.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19880) |
 
@@ -78228,6 +82162,8 @@ Change the default Angular version to a specific version: 9.1.15
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-20T06:14:26.023Z |
+| Created Date | 2024-12-20T06:14:26.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19883) |
 
@@ -78250,6 +82186,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-20T06:55:17.573Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19885) |
 
@@ -78272,6 +82210,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-20T10:41:24.677Z |
+| Created Date | 2024-12-20T08:48:57.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19886) |
 
@@ -78294,6 +82234,8 @@ COPQ validation set.
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-24T08:40:02.507Z |
+| Created Date | 2024-12-20T11:52:46.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19887) |
 
@@ -78316,6 +82258,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-21T06:00:31.073Z |
+| Created Date | 2024-12-21T05:53:59.507Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19888) |
 
@@ -78338,6 +82282,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2024-12-23T06:15:45.41Z |
+| Created Date | 2024-12-23T06:11:59.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19890) |
 
@@ -78360,6 +82306,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-23T06:12:30.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19891) |
 
@@ -78385,6 +82333,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2024-12-23T09:23:20.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19893) |
 
@@ -78411,6 +82361,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-04-10T10:34:58.73Z |
+| Created Date | 2024-12-24T05:21:43.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19896) |
 
@@ -78433,6 +82385,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-18T10:48:40.12Z |
+| Created Date | 2024-12-25T08:04:23.353Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19899) |
 
@@ -78455,6 +82409,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-26T08:50:11.87Z |
+| Created Date | 2024-12-26T08:37:35.333Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19902) |
 
@@ -78477,6 +82433,8 @@ Dummy code
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-27T12:39:11.09Z |
+| Created Date | 2024-12-27T11:56:04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19907) |
 
@@ -78499,6 +82457,8 @@ COPQ Power BI link not open.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2024-12-31T11:34:04.717Z |
+| Created Date | 2024-12-31T11:02:57.907Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19918) |
 
@@ -78521,6 +82481,8 @@ Angular Maintain Procedure and WPQ Download larger file
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-28T04:43:27.797Z |
+| Created Date | 2024-12-31T13:16:44.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19919) |
 
@@ -78543,6 +82505,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-01-03T06:32:09.723Z |
+| Created Date | 2025-01-02T08:51:42.467Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19921) |
 
@@ -78581,6 +82545,8 @@ Task 69509 - E signature & digital dossier Session
 | Assigned To | Vishal Naykawala |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-01-02T09:43:56.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19922) |
 
@@ -78603,6 +82569,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-28T04:43:32.783Z |
+| Created Date | 2025-01-02T14:55:50.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19925) |
 
@@ -78625,6 +82593,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-01-03T12:30:46.67Z |
+| Created Date | 2025-01-03T12:22:36.813Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19928) |
 
@@ -78647,6 +82617,8 @@ Digital signature Capture with generic canvas
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-16T04:22:49.133Z |
+| Created Date | 2025-01-04T10:17:00.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19930) |
 
@@ -78669,6 +82641,8 @@ _Not provided._
 | Assigned To | Pralhadsinh Rajpurohit |
 | Area Path | ECOM\Customer Project Progress Report Team |
 | Iteration Path | ECOM |
+| Changed Date | 2026-02-27T03:50:03.483Z |
+| Created Date | 2025-01-06T09:38:24.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19931) |
 
@@ -78698,6 +82672,8 @@ Provision to download the created report and option to save the report draft sho
 | Assigned To | Pralhadsinh Rajpurohit |
 | Area Path | ECOM\Central Dispatch Deliverable Team |
 | Iteration Path | ECOM |
+| Changed Date | 2026-02-27T03:49:50.47Z |
+| Created Date | 2025-01-06T09:49:41.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19932) |
 
@@ -78720,6 +82696,8 @@ Find Excel sheet in attachment
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-04-22T09:20:48.877Z |
+| Created Date | 2025-01-07T04:52:07.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19936) |
 
@@ -78752,6 +82730,8 @@ Changes shall be done on below page.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-01-08T05:48:07.823Z |
+| Created Date | 2025-01-07T08:33:01.513Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19938) |
 
@@ -78774,6 +82754,8 @@ _Not provided._
 | Assigned To | Pralhadsinh Rajpurohit |
 | Area Path | ECOM\Paint ARM Flow Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-07T09:42:10.657Z |
+| Created Date | 2025-01-07T09:42:10.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19939) |
 
@@ -78807,6 +82789,8 @@ Export facility as well as filter activity should be vilable.
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-28T04:43:51.863Z |
+| Created Date | 2025-01-07T09:50:05.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19940) |
 
@@ -78829,6 +82813,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-04-22T09:20:48.877Z |
+| Created Date | 2025-01-07T10:03:08.637Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19941) |
 
@@ -78852,6 +82838,8 @@ system shall allow to upload document against project like 50032/1, 50032/2, 500
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-28T04:44:56.333Z |
+| Created Date | 2025-01-16T13:04:19.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19960) |
 
@@ -78874,6 +82862,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-04-10T10:33:14.48Z |
+| Created Date | 2025-01-21T12:45:15.103Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19966) |
 
@@ -78896,6 +82886,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-01-23T06:10:18.51Z |
+| Created Date | 2025-01-22T11:51:51.02Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19971) |
 
@@ -78920,6 +82912,8 @@ L&T sign & stamp on report
 | Assigned To | Kunal Shah |
 | Area Path | ECOM\Customer Project Progress Report Team |
 | Iteration Path | ECOM |
+| Changed Date | 2026-02-27T03:50:04.763Z |
+| Created Date | 2025-01-23T06:33:40.29Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/19972) |
 
@@ -78942,6 +82936,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-06T04:38:34.05Z |
+| Created Date | 2025-01-27T09:11:44.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20005) |
 
@@ -78964,6 +82960,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Bus Arrival Details Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:23:12.21Z |
+| Created Date | 2025-01-28T03:51:24.8Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20047) |
 
@@ -78986,6 +82984,8 @@ _Not provided._
 | Assigned To | Shrey Shah |
 | Area Path | ECOM\Statutory License Management System (SLMS) Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-29T04:36:34.41Z |
+| Created Date | 2025-01-28T05:00:15.9Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20049) |
 
@@ -79013,6 +83013,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-06T04:39:55.943Z |
+| Created Date | 2025-01-28T06:07:56.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20055) |
 
@@ -79035,6 +83037,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Bus Kilometer System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-29T04:09:01.117Z |
+| Created Date | 2025-01-28T06:49:18.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20056) |
 
@@ -79057,6 +83061,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:51:58.36Z |
+| Created Date | 2025-01-29T04:07:33.873Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20061) |
 
@@ -79079,6 +83085,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Bus Kilometer System Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-01-29T04:09:04.78Z |
+| Created Date | 2025-01-29T04:09:04.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20062) |
 
@@ -79101,6 +83109,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-06T04:40:15.2Z |
+| Created Date | 2025-01-29T06:59:52.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20065) |
 
@@ -79123,6 +83133,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-01-29T10:23:01.213Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20067) |
 
@@ -79176,6 +83188,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-01-29T12:21:14.377Z |
+| Created Date | 2025-01-29T12:21:14.377Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20068) |
 
@@ -79203,6 +83217,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-02-12T06:26:14.503Z |
+| Created Date | 2025-01-30T08:52:22.3Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20070) |
 
@@ -79225,6 +83241,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-02-27T09:58:25.55Z |
+| Created Date | 2025-01-31T05:20:00.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20075) |
 
@@ -79257,6 +83275,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-06T08:46:01.74Z |
+| Created Date | 2025-02-04T08:27:32.393Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20085) |
 
@@ -79279,6 +83299,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Central Workforce Management System (CWMS) Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-02-04T10:45:19.623Z |
+| Created Date | 2025-02-04T10:45:19.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20091) |
 
@@ -79301,6 +83323,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\MRU Time Booking (MTB) Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-02-04T11:59:51.86Z |
+| Created Date | 2025-02-04T11:59:51.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20094) |
 
@@ -79328,6 +83352,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-10T04:47:52.98Z |
+| Created Date | 2025-02-05T07:51:59.267Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20095) |
 
@@ -79350,6 +83376,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-02-07T10:31:37.9Z |
+| Created Date | 2025-02-07T10:30:24.917Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20122) |
 
@@ -79372,6 +83400,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-03-13T05:16:03.447Z |
+| Created Date | 2025-02-19T06:26:58.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20286) |
 
@@ -79394,6 +83424,8 @@ _Not provided._
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-03-10T09:19:23.52Z |
+| Created Date | 2025-02-20T07:15:32.037Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20307) |
 
@@ -79416,6 +83448,8 @@ _Not provided._
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-02-20T10:04:39.227Z |
+| Created Date | 2025-02-20T10:01:47.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20311) |
 
@@ -79438,6 +83472,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-02-21T10:03:22.933Z |
+| Created Date | 2025-02-21T10:01:56.623Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20376) |
 
@@ -79460,6 +83496,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-06T08:41:41.587Z |
+| Created Date | 2025-02-27T12:40:52.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20412) |
 
@@ -79482,6 +83520,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-03T13:12:46.22Z |
+| Created Date | 2025-03-03T13:11:03.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20424) |
 
@@ -79504,6 +83544,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:49:31.823Z |
+| Created Date | 2025-03-10T09:05:07.007Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20483) |
 
@@ -79526,6 +83568,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-03-13T12:25:42.3Z |
+| Created Date | 2025-03-11T04:53:01.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20489) |
 
@@ -79552,6 +83596,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-03-12T07:03:09.867Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20496) |
 
@@ -79574,6 +83620,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-04-01T09:44:53.847Z |
+| Created Date | 2025-03-15T05:11:58.15Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20535) |
 
@@ -79598,6 +83646,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-05-27T08:13:40.377Z |
+| Created Date | 2025-03-18T08:39:28.843Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20569) |
 
@@ -79620,6 +83670,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-24T07:00:19.57Z |
+| Created Date | 2025-03-19T08:52:50.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20588) |
 
@@ -79642,6 +83694,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-21T11:09:49.41Z |
+| Created Date | 2025-03-24T10:36:22.707Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20613) |
 
@@ -79664,6 +83718,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-25T06:38:35.193Z |
+| Created Date | 2025-03-25T05:26:03.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20640) |
 
@@ -79686,6 +83742,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-03-26T05:57:52.567Z |
+| Created Date | 2025-03-26T05:35:18.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20668) |
 
@@ -79708,6 +83766,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-08-04T07:37:26.17Z |
+| Created Date | 2025-03-26T12:55:53.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20717) |
 
@@ -79730,6 +83790,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-24T12:03:37.077Z |
+| Created Date | 2025-03-27T09:31:49.003Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20719) |
 
@@ -79752,6 +83814,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-08-13T09:21:21.29Z |
+| Created Date | 2025-03-31T05:50:03.843Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20734) |
 
@@ -79774,6 +83838,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:49:49.823Z |
+| Created Date | 2025-04-01T12:22:30.823Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20740) |
 
@@ -79796,6 +83862,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-15T07:11:23.833Z |
+| Created Date | 2025-04-02T10:59:55.65Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20747) |
 
@@ -79818,6 +83886,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-04T10:55:43.623Z |
+| Created Date | 2025-04-04T10:44:42.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20758) |
 
@@ -79840,6 +83910,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:49:58.423Z |
+| Created Date | 2025-04-08T04:00:10.79Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20768) |
 
@@ -79862,6 +83934,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-04-08T04:27:21.763Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20769) |
 
@@ -79884,6 +83958,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-04-17T04:32:37.09Z |
+| Created Date | 2025-04-10T06:36:19.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20775) |
 
@@ -79906,6 +83982,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:50:05.32Z |
+| Created Date | 2025-04-14T12:55:44.45Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20780) |
 
@@ -79928,6 +84006,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:50:56.17Z |
+| Created Date | 2025-04-16T12:18:18.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20788) |
 
@@ -79950,6 +84030,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:51:02.887Z |
+| Created Date | 2025-04-21T08:37:40.817Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20803) |
 
@@ -79972,6 +84054,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-04-22T04:59:15.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20804) |
 
@@ -79994,6 +84078,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-04-25T11:24:05.87Z |
+| Created Date | 2025-04-25T11:24:05.87Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20835) |
 
@@ -80016,6 +84102,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-29T10:23:55.973Z |
+| Created Date | 2025-04-29T10:06:03.683Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20848) |
 
@@ -80038,6 +84126,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-04-30T06:13:32.827Z |
+| Created Date | 2025-04-30T06:08:54.553Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20857) |
 
@@ -80060,6 +84150,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-08-20T09:44:56.983Z |
+| Created Date | 2025-05-05T13:13:15.49Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20894) |
 
@@ -80082,6 +84174,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-26T01:52:23.88Z |
+| Created Date | 2025-05-06T04:12:08.843Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20922) |
 
@@ -80104,6 +84198,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-03-02T12:06:33.24Z |
+| Created Date | 2025-05-06T09:34:51.73Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20923) |
 
@@ -80126,6 +84222,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-06T09:49:57.917Z |
+| Created Date | 2025-05-06T09:47:33.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20924) |
 
@@ -80148,6 +84246,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-05-07T05:50:27.387Z |
+| Created Date | 2025-05-07T05:49:03.457Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20932) |
 
@@ -80170,6 +84270,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-28T04:09:45.03Z |
+| Created Date | 2025-05-12T08:39:27.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/20956) |
 
@@ -80192,6 +84294,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-05-28T06:25:20.073Z |
+| Created Date | 2025-05-22T08:08:42.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21039) |
 
@@ -80214,6 +84318,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-05-19T09:05:07.443Z |
+| Created Date | 2025-05-22T08:28:56.717Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21040) |
 
@@ -80236,6 +84342,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-05-27T10:46:51.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21067) |
 
@@ -80258,6 +84366,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-06-03T06:01:54.497Z |
+| Created Date | 2025-05-28T07:24:09.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21071) |
 
@@ -80280,6 +84390,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-06-02T09:59:06.347Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21090) |
 
@@ -80302,6 +84414,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:55:11.303Z |
+| Created Date | 2025-06-05T04:03:09.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21097) |
 
@@ -80324,6 +84438,8 @@ _Not provided._
 | Assigned To | Shikha Sharma |
 | Area Path | MDM |
 | Iteration Path | MDM |
+| Changed Date | 2025-10-09T09:44:29.37Z |
+| Created Date | 2025-06-07T11:05:01.487Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21108) |
 
@@ -80346,6 +84462,8 @@ TEST
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-10T05:06:56.353Z |
+| Created Date | 2025-06-10T05:05:54.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21121) |
 
@@ -80368,6 +84486,8 @@ _Not provided._
 | Assigned To | Tanushree Shrivas |
 | Area Path | ECOM\SCM Dashboard |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-11T08:42:16.257Z |
+| Created Date | 2025-06-11T08:38:12.05Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21135) |
 
@@ -80390,6 +84510,8 @@ _Not provided._
 | Assigned To | Shikha Sharma |
 | Area Path | MDM\Project Elevate |
 | Iteration Path | MDM |
+| Changed Date | 2025-06-30T05:35:42.05Z |
+| Created Date | 2025-06-17T06:38:01.553Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21286) |
 
@@ -80412,6 +84534,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-29T06:27:45.477Z |
+| Created Date | 2025-06-18T05:10:10.28Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21328) |
 
@@ -80434,6 +84558,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:01:18.983Z |
+| Created Date | 2025-06-18T06:54:24.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21338) |
 
@@ -80461,6 +84587,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Elevate Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-12T05:26:52.343Z |
+| Created Date | 2025-06-18T09:27:51.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21367) |
 
@@ -80483,6 +84611,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Elevate Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-06T03:31:16.833Z |
+| Created Date | 2025-06-18T09:27:59.017Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21368) |
 
@@ -80505,6 +84635,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Elevate Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-11T11:43:39.723Z |
+| Created Date | 2025-06-18T09:28:23.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21369) |
 
@@ -80527,6 +84659,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Manthan Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-19T03:26:03.097Z |
+| Created Date | 2025-06-18T10:03:38.41Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21375) |
 
@@ -80549,6 +84683,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:43:24.24Z |
+| Created Date | 2025-06-19T04:21:50.877Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21382) |
 
@@ -80571,6 +84707,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Anubhuti Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-06-24T08:54:54.46Z |
+| Created Date | 2025-06-20T04:29:37.373Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21400) |
 
@@ -80593,6 +84731,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-06-24T06:50:00.3Z |
+| Created Date | 2025-06-20T09:40:27.313Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21427) |
 
@@ -80619,6 +84759,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-06-20T10:46:21.14Z |
+| Created Date | 2025-06-20T10:45:42.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21433) |
 
@@ -80641,6 +84783,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:46:40.2Z |
+| Created Date | 2025-06-20T12:10:59.53Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21438) |
 
@@ -80663,6 +84807,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:43:46.257Z |
+| Created Date | 2025-06-21T05:02:23.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21449) |
 
@@ -80685,6 +84831,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:01:30.61Z |
+| Created Date | 2025-06-21T11:28:01.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21469) |
 
@@ -80707,6 +84855,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-06-24T06:41:34.957Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21546) |
 
@@ -80729,6 +84879,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:01:41.72Z |
+| Created Date | 2025-06-24T09:08:19.377Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21599) |
 
@@ -80751,6 +84903,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:41:52.07Z |
+| Created Date | 2025-06-24T10:19:28.617Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21630) |
 
@@ -80773,6 +84927,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-06-24T11:58:16.46Z |
+| Created Date | 2025-06-24T11:55:41.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21637) |
 
@@ -80795,6 +84951,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:40:42.777Z |
+| Created Date | 2025-06-27T06:36:54.867Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21784) |
 
@@ -80817,6 +84975,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-06-27T09:37:46.063Z |
+| Created Date | 2025-06-27T09:37:46.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21791) |
 
@@ -80839,6 +84999,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-09-24T12:51:42.753Z |
+| Created Date | 2025-06-27T12:01:26.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21795) |
 
@@ -80861,6 +85023,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-11T13:03:59.243Z |
+| Created Date | 2025-07-01T05:23:16.21Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21821) |
 
@@ -80883,6 +85047,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-01T07:28:05.037Z |
+| Created Date | 2025-07-01T05:45:49.277Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21823) |
 
@@ -80905,6 +85071,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:01:53.097Z |
+| Created Date | 2025-07-01T07:10:49.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21826) |
 
@@ -80927,6 +85095,8 @@ _Not provided._
 | Assigned To | Tanushree Shrivas |
 | Area Path | ECOM\BPRS |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-19T11:47:12.47Z |
+| Created Date | 2025-07-01T10:01:36.69Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21830) |
 
@@ -80949,6 +85119,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-12-29T04:30:36.957Z |
+| Created Date | 2025-07-01T10:28:22.18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21831) |
 
@@ -80971,6 +85143,8 @@ _Not provided._
 | Assigned To | Tanushree Shrivas |
 | Area Path | ECOM\MRU - Contract Staff Hiring |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-03T04:57:24.883Z |
+| Created Date | 2025-07-03T03:27:50.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21896) |
 
@@ -80993,6 +85167,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-07-03T04:32:44.983Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21899) |
 
@@ -81015,6 +85191,8 @@ _Not provided._
 | Assigned To | Tanushree Shrivas |
 | Area Path | ECOM\MRU - Contract Staff Hiring |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-07T12:09:47.923Z |
+| Created Date | 2025-07-03T08:55:40.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21902) |
 
@@ -81037,6 +85215,8 @@ _Not provided._
 | Assigned To | Tanushree Shrivas |
 | Area Path | ECOM\MRU - Contract Staff Hiring |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-07T12:09:22.287Z |
+| Created Date | 2025-07-04T03:54:53.39Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21927) |
 
@@ -81059,6 +85239,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-08T06:36:16.277Z |
+| Created Date | 2025-07-04T04:10:13.257Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21928) |
 
@@ -81081,6 +85263,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-10T07:27:46.437Z |
+| Created Date | 2025-07-04T12:31:24.797Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21941) |
 
@@ -81103,6 +85287,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Manthan Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-05T03:50:12.66Z |
+| Created Date | 2025-07-05T03:49:33.043Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21942) |
 
@@ -81127,6 +85313,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-26T09:19:47.76Z |
+| Created Date | 2025-07-07T12:18:54.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21985) |
 
@@ -81149,6 +85337,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-28T11:22:13.663Z |
+| Created Date | 2025-07-08T05:22:01.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21990) |
 
@@ -81171,6 +85361,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:02:03.507Z |
+| Created Date | 2025-07-10T06:34:50.287Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22025) |
 
@@ -81193,6 +85385,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-28T11:17:58.257Z |
+| Created Date | 2025-07-11T12:30:12.373Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22067) |
 
@@ -81215,6 +85409,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0\Sprint 16 |
+| Changed Date | 2025-07-14T11:20:32.773Z |
+| Created Date | 2025-07-14T11:20:32.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22081) |
 
@@ -81237,6 +85433,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-07-14T12:14:37.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22083) |
 
@@ -81259,6 +85457,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-FMS |
 | Iteration Path | Data Integration\Sprint 1 |
+| Changed Date | 2025-12-24T09:02:16.493Z |
+| Created Date | 2025-07-17T04:35:18.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22113) |
 
@@ -81281,6 +85481,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:02:31.563Z |
+| Created Date | 2025-07-19T12:36:36.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22139) |
 
@@ -81303,6 +85505,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-21T08:38:23.337Z |
+| Created Date | 2025-07-21T08:37:21.73Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22144) |
 
@@ -81325,6 +85529,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-12T07:29:10.633Z |
+| Created Date | 2025-07-22T09:53:45.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22167) |
 
@@ -81347,6 +85553,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-31T03:27:27.62Z |
+| Created Date | 2025-07-22T11:38:29.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22170) |
 
@@ -81369,6 +85577,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-22T11:58:30.757Z |
+| Created Date | 2025-07-22T11:58:30.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22171) |
 
@@ -81391,6 +85601,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-22T11:59:40.167Z |
+| Created Date | 2025-07-22T11:59:40.167Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22172) |
 
@@ -81413,6 +85625,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-22T12:15:22.697Z |
+| Created Date | 2025-07-22T12:15:22.697Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22176) |
 
@@ -81435,6 +85649,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-31T03:25:42.39Z |
+| Created Date | 2025-07-22T12:19:41.497Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22179) |
 
@@ -81457,6 +85673,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-08-19T04:50:52.9Z |
+| Created Date | 2025-07-22T12:22:10.15Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22180) |
 
@@ -81479,6 +85697,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-23T03:14:20.397Z |
+| Created Date | 2025-07-23T03:14:20.397Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22183) |
 
@@ -81501,6 +85721,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-23T03:22:15.04Z |
+| Created Date | 2025-07-23T03:22:15.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22187) |
 
@@ -81523,6 +85745,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-23T03:23:07.293Z |
+| Created Date | 2025-07-23T03:23:07.293Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22188) |
 
@@ -81545,6 +85769,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-24T11:45:20.217Z |
+| Created Date | 2025-07-24T11:45:20.217Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22227) |
 
@@ -81567,6 +85793,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T03:47:41.873Z |
+| Created Date | 2025-07-24T11:48:13.16Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22230) |
 
@@ -81611,6 +85839,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-07-29T10:55:27.77Z |
+| Created Date | 2025-07-25T04:37:33.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22234) |
 
@@ -81633,6 +85863,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-07-25T10:41:46.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22240) |
 
@@ -81655,6 +85887,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-07-29T10:11:13.7Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22256) |
 
@@ -81677,6 +85911,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-30T11:01:36.88Z |
+| Created Date | 2025-07-30T09:40:51Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22261) |
 
@@ -81699,6 +85935,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-07-31T05:05:06.83Z |
+| Created Date | 2025-07-31T05:04:26.947Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22264) |
 
@@ -81721,6 +85959,8 @@ _Not provided._
 | Assigned To | Avinash Singh |
 | Area Path | ECOM\EDMS 2.0 |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-10T04:33:44.747Z |
+| Created Date | 2025-08-02T03:31:14.6Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22271) |
 
@@ -81743,6 +85983,8 @@ If the role(s) are working as per the requirement with desired result(s).
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-12T07:21:53.783Z |
+| Created Date | 2025-08-12T09:02:44.063Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22320) |
 
@@ -81765,6 +86007,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-12T07:24:39.98Z |
+| Created Date | 2025-08-18T06:16:26.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22356) |
 
@@ -81787,6 +86031,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-21T04:14:57.213Z |
+| Created Date | 2025-08-21T04:14:57.213Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22367) |
 
@@ -81821,6 +86067,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM\Car Booking Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-08-25T06:01:23.45Z |
+| Created Date | 2025-08-22T08:41:11.03Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22373) |
 
@@ -81843,6 +86091,8 @@ _Not provided._
 | Assigned To | Samir shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-07T12:11:45.733Z |
+| Created Date | 2025-08-25T07:19:24.66Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22383) |
 
@@ -81870,6 +86120,8 @@ Add a provision in the App Hub to display a list of apps along with the count of
 | Assigned To | Samir shah |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-17T09:20:40.95Z |
+| Created Date | 2025-08-25T07:30:57.953Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22385) |
 
@@ -81893,6 +86145,8 @@ Add a provision in the App Hub to display all approved requests as well. Current
 | Assigned To | Anjumol Prasad |
 | Area Path | IEMQS 4.0\Common-Feature Team 1 |
 | Iteration Path | IEMQS 4.0\Sprint 19 |
+| Changed Date | 2025-08-26T09:21:29.493Z |
+| Created Date | 2025-08-26T09:19:50.09Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22398) |
 
@@ -81915,6 +86169,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-03T05:17:47.25Z |
+| Created Date | 2025-08-27T04:44:02.767Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22408) |
 
@@ -81937,6 +86193,8 @@ _Not provided._
 | Assigned To | UTKARSH BRAHMAPURIKAR |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-08-27T05:39:53.693Z |
+| Created Date | 2025-08-27T05:39:53.693Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22409) |
 
@@ -81959,6 +86217,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-26T09:19:39.48Z |
+| Created Date | 2025-09-04T10:59:42.607Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22442) |
 
@@ -81981,6 +86241,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-12T07:28:00.653Z |
+| Created Date | 2025-09-08T05:04:06.65Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22444) |
 
@@ -82003,6 +86265,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-12T07:28:41.17Z |
+| Created Date | 2025-09-08T08:14:47.85Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22446) |
 
@@ -82025,6 +86289,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-03T05:17:47.25Z |
+| Created Date | 2025-09-11T09:30:38.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22452) |
 
@@ -82047,6 +86313,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-09-22T03:50:01.323Z |
+| Created Date | 2025-09-22T03:45:20.307Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22477) |
 
@@ -82069,6 +86337,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-09-26T09:20:21.667Z |
+| Created Date | 2025-09-22T06:46:49.033Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22479) |
 
@@ -82091,6 +86361,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\Support Tasks |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-06T05:43:37.137Z |
+| Created Date | 2025-09-22T06:54:57.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22480) |
 
@@ -82113,6 +86385,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-09-24T09:16:07.24Z |
+| Created Date | 2025-09-24T09:16:07.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22523) |
 
@@ -82135,6 +86409,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:03:11.403Z |
+| Created Date | 2025-09-25T12:15:17.38Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22564) |
 
@@ -82157,6 +86433,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T09:03:37.013Z |
+| Created Date | 2025-09-29T04:44:45.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22594) |
 
@@ -82188,6 +86466,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-29T06:27:19.307Z |
+| Created Date | 2025-09-29T04:58:24.703Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22597) |
 
@@ -82211,6 +86491,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-09T10:04:30.893Z |
+| Created Date | 2025-09-29T09:29:42.257Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22605) |
 
@@ -82233,6 +86515,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-01T05:25:54.487Z |
+| Created Date | 2025-10-01T05:24:44.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22647) |
 
@@ -82255,6 +86539,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | MDM |
 | Iteration Path | MDM\Iteration 1 |
+| Changed Date | 2025-10-03T11:13:16.69Z |
+| Created Date | 2025-10-03T11:13:16.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22737) |
 
@@ -82277,6 +86563,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | MDM |
 | Iteration Path | MDM\Iteration 1 |
+| Changed Date | 2025-10-04T05:39:20.76Z |
+| Created Date | 2025-10-04T05:39:20.243Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22748) |
 
@@ -82299,6 +86587,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-10T06:11:39.02Z |
+| Created Date | 2025-10-04T12:08:44.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22767) |
 
@@ -82321,6 +86611,8 @@ _Not provided._
 | Assigned To | Saloni Patel |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-07T02:52:06.59Z |
+| Created Date | 2025-10-06T02:58:57.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22768) |
 
@@ -82343,6 +86635,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-06T03:08:26.55Z |
+| Created Date | 2025-10-06T03:08:26.183Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22769) |
 
@@ -82365,6 +86659,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Elevate Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-31T05:53:16.3Z |
+| Created Date | 2025-10-06T03:10:55.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22770) |
 
@@ -82387,6 +86683,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Elevate Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-06T03:26:00.703Z |
+| Created Date | 2025-10-06T03:20:50.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22772) |
 
@@ -82409,6 +86707,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-06T03:22:11.163Z |
+| Created Date | 2025-10-06T03:22:10.94Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22773) |
 
@@ -82431,6 +86731,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-06T03:34:18.22Z |
+| Created Date | 2025-10-06T03:34:18Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22774) |
 
@@ -82453,6 +86755,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | MDM |
 | Iteration Path | MDM\Iteration 1 |
+| Changed Date | 2025-10-06T03:52:53.66Z |
+| Created Date | 2025-10-06T03:52:53.23Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22777) |
 
@@ -82475,6 +86779,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-06T04:18:15.913Z |
+| Created Date | 2025-10-06T04:18:15.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22786) |
 
@@ -82497,6 +86803,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-09T10:56:00.99Z |
+| Created Date | 2025-10-06T13:13:27.957Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22833) |
 
@@ -82519,6 +86827,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-07T02:55:35.04Z |
+| Created Date | 2025-10-07T02:52:05.747Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22834) |
 
@@ -82541,6 +86851,8 @@ _Not provided._
 | Assigned To | Niyant Lad |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-07T03:06:38.907Z |
+| Created Date | 2025-10-07T03:02:43.58Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22835) |
 
@@ -82563,6 +86875,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-07T11:06:48.95Z |
+| Created Date | 2025-10-07T11:06:48.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22876) |
 
@@ -82585,6 +86899,8 @@ _Not provided._
 | Assigned To | Komal Chandolure |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-13T04:38:24.213Z |
+| Created Date | 2025-10-07T11:08:59.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22878) |
 
@@ -82607,6 +86923,8 @@ _Not provided._
 | Assigned To | DEEPIKA MEENA |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-07T11:24:48.44Z |
+| Created Date | 2025-10-07T11:24:48.44Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22881) |
 
@@ -82629,6 +86947,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\Woman Stay Back Intimation Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-07T11:40:49.21Z |
+| Created Date | 2025-10-07T11:40:24.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22884) |
 
@@ -82651,6 +86971,8 @@ _Not provided._
 | Assigned To | Harsh Adadhiyawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-14T06:50:32.617Z |
+| Created Date | 2025-10-09T03:48:16.213Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22929) |
 
@@ -82691,6 +87013,8 @@ Revised document R1 or greeter revision shall be auto added in transmittal which
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-09T06:37:37.77Z |
+| Created Date | 2025-10-09T05:06:05.48Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22937) |
 
@@ -82739,6 +87063,8 @@ RT report change shall be reflected in PPE and NU as per requirement mentioned.
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T08:59:44.257Z |
+| Created Date | 2025-10-09T09:34:18.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22953) |
 
@@ -82761,6 +87087,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-29T06:27:11.997Z |
+| Created Date | 2025-10-09T09:37:02.32Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22956) |
 
@@ -82783,6 +87111,8 @@ _Not provided._
 | Assigned To | Niyant Lad |
 | Area Path | MDM |
 | Iteration Path | MDM\Iteration 1 |
+| Changed Date | 2025-11-12T03:33:09.01Z |
+| Created Date | 2025-10-09T09:44:28.333Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22958) |
 
@@ -82805,6 +87135,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-10T09:59:02.913Z |
+| Created Date | 2025-10-10T02:59:22.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22969) |
 
@@ -82927,6 +87259,8 @@ Below data needs to fetch from Protocol036:
 | Assigned To | Bhumika Sahu |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-22T11:54:14.2Z |
+| Created Date | 2025-10-10T06:23:37.773Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/22998) |
 
@@ -82951,6 +87285,8 @@ So that the fields cannot be empty when the session got logged out
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-13T05:24:48.317Z |
+| Created Date | 2025-10-13T05:22:57.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23022) |
 
@@ -82973,6 +87309,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-15T02:44:01.117Z |
+| Created Date | 2025-10-15T02:44:00.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23069) |
 
@@ -82995,6 +87333,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-15T02:56:11.49Z |
+| Created Date | 2025-10-15T02:56:11.21Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23070) |
 
@@ -83017,6 +87357,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-23T06:45:45.99Z |
+| Created Date | 2025-10-16T03:12:06.713Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23095) |
 
@@ -83054,6 +87396,8 @@ As per mentioned in description.
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-16T06:37:13.47Z |
+| Created Date | 2025-10-16T06:37:12.833Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23112) |
 
@@ -83076,6 +87420,8 @@ _Not provided._
 | Assigned To | Basil Babu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-03T09:36:53.583Z |
+| Created Date | 2025-10-17T04:02:56.22Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23172) |
 
@@ -83180,6 +87526,8 @@ The Live Balance Activity List (BAL) module streamlines the creation, maintenanc
 | Assigned To | Harsh Adadhiyawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-10-17T04:57:32.27Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23176) |
 
@@ -83234,6 +87582,8 @@ _Test:_ Download compiled reports; verify file integrity and completeness.
 | Assigned To | Harsh Adadhiyawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-08T12:05:08.203Z |
+| Created Date | 2025-10-17T05:17:00.923Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23177) |
 
@@ -83267,6 +87617,8 @@ The signature must follow this exact format: “e-Signed on [system date] by [di
 | Assigned To | Basil Babu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-20T05:20:33.697Z |
+| Created Date | 2025-10-23T04:25:33.213Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23223) |
 
@@ -83411,6 +87763,8 @@ As a QC Engineer, I want automated email notifications for AI signed hydrostatic
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-24T04:12:09.163Z |
+| Created Date | 2025-10-23T06:29:37.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23224) |
 
@@ -83502,6 +87856,8 @@ Refer layout design:
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-10-23T10:08:46.65Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23228) |
 
@@ -83551,6 +87907,8 @@ As per description
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-10-23T10:12:45.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23230) |
 
@@ -83592,6 +87950,8 @@ as per description
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-24T06:18:03.75Z |
+| Created Date | 2025-10-24T06:14:42.913Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23235) |
 
@@ -83662,6 +88022,8 @@ as per description
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-03-17T06:24:40.927Z |
+| Created Date | 2025-10-27T12:08:16.93Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23264) |
 
@@ -83684,6 +88046,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-10-28T05:11:38.083Z |
+| Created Date | 2025-10-28T05:11:38.083Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23270) |
 
@@ -83706,6 +88070,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-28T23:46:43.943Z |
+| Created Date | 2025-10-28T23:46:43.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23321) |
 
@@ -83749,6 +88115,8 @@ Mega Menu->QA->RCA->Root Cause Analysis
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-10-29T00:01:14.103Z |
+| Created Date | 2025-10-29T00:01:14.103Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23322) |
 
@@ -83917,6 +88285,8 @@ Currently, ASME inspection checklists are prepared in Excel and signed physicall
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-12-08T11:44:49.84Z |
+| Created Date | 2025-10-29T09:01:07.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23340) |
 
@@ -83939,6 +88309,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-02-23T12:06:16.15Z |
+| Created Date | 2025-10-30T11:53:33.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23359) |
 
@@ -83961,6 +88333,8 @@ Application - Order Inflow & Enquiry Management Session - Load / Capacity Enquir
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-31T05:35:31.59Z |
+| Created Date | 2025-10-31T05:35:31.06Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23362) |
 
@@ -83983,6 +88357,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-10-31T06:02:36.083Z |
+| Created Date | 2025-10-31T06:02:35.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23369) |
 
@@ -84005,6 +88381,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-03T05:34:39.73Z |
+| Created Date | 2025-11-03T05:34:39.73Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23408) |
 
@@ -84030,6 +88408,8 @@ API shall have require details as per attached response body.
 | Assigned To | Unassigned |
 | Area Path | Miscellaneous |
 | Iteration Path | Miscellaneous\Iteration 1 |
+| Changed Date | 2025-11-03T09:48:50.767Z |
+| Created Date | 2025-11-03T09:48:49.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23414) |
 
@@ -84052,6 +88432,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-10T11:49:36.883Z |
+| Created Date | 2025-11-03T10:08:36.533Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23415) |
 
@@ -84074,6 +88456,8 @@ _Not provided._
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-04T05:33:34.45Z |
+| Created Date | 2025-11-04T05:21:47.95Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23426) |
 
@@ -84104,6 +88488,8 @@ As a **QC2 user** , I want the ability to add a new stage to multiple Position N
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-04T05:25:36.893Z |
+| Created Date | 2025-11-04T05:25:36.893Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23427) |
 
@@ -84131,6 +88517,8 @@ As a **QC2 user** , I want to copy an existing Part ICL from one Position Number
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-04T05:29:06.373Z |
+| Created Date | 2025-11-04T05:29:06.373Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23428) |
 
@@ -84168,6 +88556,8 @@ As a **QC2 user** , I want to copy Part ICL data from one project to multiple de
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-04T05:31:58.907Z |
+| Created Date | 2025-11-04T05:30:33.343Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23429) |
 
@@ -84191,6 +88581,8 @@ As a **QC2 user** , I want to view the list of Position Numbers in ascending ord
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-20T08:42:30.943Z |
+| Created Date | 2025-11-04T10:05:19.2Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23432) |
 
@@ -84239,6 +88631,8 @@ _“No recent sessions available.”_
 | Assigned To | Mandar Kamde |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-07T11:05:22.25Z |
+| Created Date | 2025-11-04T11:20:57.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23433) |
 
@@ -84298,6 +88692,8 @@ Which will show list of all package and after clicking on that particular packag
 | Assigned To | Mandar Kamde |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-10T10:08:13.933Z |
+| Created Date | 2025-11-04T11:23:19.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23434) |
 
@@ -84325,6 +88721,8 @@ Add a session in 'Maintain Packing List' module to generate QR code in Summary t
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-10T09:58:52.993Z |
+| Created Date | 2025-11-04T12:02:41.68Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23438) |
 
@@ -84388,6 +88786,8 @@ Add new section **Job and Saddle Details** in Maintain HTR with the following fi
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-10T09:58:43.94Z |
+| Created Date | 2025-11-04T12:08:15.1Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23439) |
 
@@ -84423,6 +88823,8 @@ Add the following fields in Review HTR screen (saved in **HTR001** table):
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2025-12-08T11:45:44.113Z |
+| Created Date | 2025-11-04T13:12:14.943Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23440) |
 
@@ -84445,6 +88847,8 @@ _Not provided._
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-05T06:45:50.017Z |
+| Created Date | 2025-11-05T06:41:40.59Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23454) |
 
@@ -84499,6 +88903,8 @@ the system must update the following labels:
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T02:36:04.04Z |
+| Created Date | 2025-11-06T06:50:47.357Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23461) |
 
@@ -84674,6 +89080,8 @@ Add rights to QI3 for:
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-06T08:23:51.267Z |
+| Created Date | 2025-11-06T07:31:33.447Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23462) |
 
@@ -84781,6 +89189,8 @@ After each shop acknowledges:
 | Assigned To | Unassigned |
 | Area Path | ECOM\Elevate Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-06T10:50:15.567Z |
+| Created Date | 2025-11-06T10:49:08.827Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23469) |
 
@@ -84803,6 +89213,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-28T06:35:21.437Z |
+| Created Date | 2025-11-06T11:02:06.003Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23470) |
 
@@ -84864,6 +89276,8 @@ ID/Blank |  Length |  Resource
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T06:40:36.847Z |
+| Created Date | 2025-11-06T11:06:23.14Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23472) |
 
@@ -84913,6 +89327,8 @@ So that I can work efficiently without delays or performance issues.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T05:27:18.727Z |
+| Created Date | 2025-11-06T11:07:44.667Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23474) |
 
@@ -84959,6 +89375,8 @@ So that the overlay plan grid reflects updated terminology and provides addition
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-12T05:31:51.287Z |
+| Created Date | 2025-11-06T11:08:32.19Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23475) |
 
@@ -85015,6 +89433,8 @@ Machining Resource Selection Logic
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T05:19:05.23Z |
+| Created Date | 2025-11-06T11:21:35.093Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23477) |
 
@@ -85061,6 +89481,8 @@ So that I can plan component timelines accurately and update them when needed.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T04:37:42.82Z |
+| Created Date | 2025-11-06T11:22:36.417Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23478) |
 
@@ -85106,6 +89528,8 @@ So that I can quickly access procurement timelines without manual lookup.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T04:21:59.567Z |
+| Created Date | 2025-11-06T11:23:58.327Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23479) |
 
@@ -85152,6 +89576,8 @@ So that I can view only relevant data and maintain a consistent layout across se
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T03:48:10.63Z |
+| Created Date | 2025-11-10T07:24:37.98Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23517) |
 
@@ -85207,6 +89633,8 @@ So that remark entry is restricted to the appropriate role (PLNG2).
 | Assigned To | DEEPIKA MEENA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T04:37:35.24Z |
+| Created Date | 2025-11-10T08:23:02.657Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23520) |
 
@@ -85234,6 +89662,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Data Integration\Int-ERPLN |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-24T08:58:28.7Z |
+| Created Date | 2025-11-11T04:01:18.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23536) |
 
@@ -85256,6 +89686,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM\CICD Automation Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-11-12T05:27:53.437Z |
+| Created Date | 2025-11-12T05:24:16.33Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23566) |
 
@@ -85278,6 +89710,8 @@ _Not provided._
 | Assigned To | Harsh Adadhiyawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-11-12T05:33:08.04Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23567) |
 
@@ -85323,6 +89757,8 @@ As a Quality Control (QC) user, I want enhanced document upload, filtering, and 
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-12T05:57:18.563Z |
+| Created Date | 2025-11-12T05:49:04.227Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23568) |
 
@@ -85439,6 +89875,8 @@ Remaining protocol list will be provided later.
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-12T03:10:41.357Z |
+| Created Date | 2025-11-12T11:36:00.727Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23577) |
 
@@ -85466,6 +89904,8 @@ _Not provided._
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-28T13:22:49.553Z |
+| Created Date | 2025-11-13T04:14:31.463Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23584) |
 
@@ -85509,6 +89949,8 @@ As a user, I want the system to automatically set the default value of _Grinding
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-11-13T10:38:19.743Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23595) |
 
@@ -85592,6 +90034,8 @@ Equipment will fetched from Project Details from Design
 | Assigned To | Harsh Adadhiyawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-22T05:41:16.783Z |
+| Created Date | 2025-11-17T02:49:15.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23630) |
 
@@ -85674,6 +90118,8 @@ The system should support parallel execution of specific NDE stages after PWHT, 
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-17T08:58:08.41Z |
+| Created Date | 2025-11-17T08:55:13.633Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23636) |
 
@@ -85753,6 +90199,8 @@ NDE3 Role user want the ability to revise previously  NDE Requests So that user 
 | Assigned To | Praksah Vasaikar |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-17T10:03:29.563Z |
+| Created Date | 2025-11-17T09:04:23.72Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23637) |
 
@@ -85829,6 +90277,8 @@ I want the ability to revise previously submitted Test Result Reports, So that I
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | ECOM\VCard Team |
 | Iteration Path | ECOM |
+| Changed Date | 2025-12-10T09:57:42.53Z |
+| Created Date | 2025-11-17T10:48:59.247Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23647) |
 
@@ -85851,6 +90301,8 @@ _Not provided._
 | Assigned To | Aayushi Manikawala |
 | Area Path | Data Integration\Common |
 | Iteration Path | Data Integration\Sprint 19 |
+| Changed Date | 2025-12-29T06:28:15.123Z |
+| Created Date | 2025-11-17T11:30:37.663Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23652) |
 
@@ -85873,6 +90325,8 @@ _Not provided._
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-17T13:13:10.423Z |
+| Created Date | 2025-11-17T13:12:58.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23657) |
 
@@ -85895,6 +90349,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-09T10:01:46.46Z |
+| Created Date | 2025-11-20T08:53:17.177Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23695) |
 
@@ -86013,6 +90469,8 @@ The current Digital Dossier workflow has usability gaps and bugs, such as incons
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-24T10:45:44.767Z |
+| Created Date | 2025-11-20T10:09:00.427Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23699) |
 
@@ -86036,6 +90494,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:20:58.507Z |
+| Created Date | 2025-11-27T06:45:26.897Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24154) |
 
@@ -86087,6 +90547,8 @@ So that I can remove unnecessary or incorrect entries and keep the data clean
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:20:36.993Z |
+| Created Date | 2025-11-27T06:52:34.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24155) |
 
@@ -86126,6 +90588,8 @@ So that I can save time and ensure correct station allocation without manual ent
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:19:02.877Z |
+| Created Date | 2025-11-27T06:58:41.24Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24156) |
 
@@ -86172,6 +90636,8 @@ So that I can plan resources effectively and anticipate capacity constraints.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:19:15.027Z |
+| Created Date | 2025-11-27T09:28:46.887Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24157) |
 
@@ -86221,6 +90687,8 @@ So that I can organize and manage workload distribution for each month efficient
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:19:48.393Z |
+| Created Date | 2025-11-27T10:05:22.963Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24158) |
 
@@ -86267,6 +90735,8 @@ So that I can review all necessary details for Quality purposes.
 | Assigned To | DEEPIKA MEENA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-11-27T10:19:25.507Z |
+| Created Date | 2025-11-27T10:10:41.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24159) |
 
@@ -86326,6 +90796,8 @@ So that I can review all necessary details for Quality purposes.
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:19:56.743Z |
+| Created Date | 2025-11-27T10:43:04.187Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24165) |
 
@@ -86372,6 +90844,8 @@ So that I can get the Technique No. in the NDE Part Report
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-11-28T06:48:46.147Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24175) |
 
@@ -86414,6 +90888,8 @@ So that I can get the Technique No. in the NDE Part Report
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-05T06:13:39.65Z |
+| Created Date | 2025-11-29T05:36:11.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24182) |
 
@@ -86481,6 +90957,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T03:47:32.307Z |
+| Created Date | 2025-11-29T05:50:57.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24183) |
 
@@ -86534,6 +91012,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:20:29.76Z |
+| Created Date | 2025-12-01T04:30:44.63Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24218) |
 
@@ -86581,6 +91061,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:20:21.507Z |
+| Created Date | 2025-12-01T04:34:05.343Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24219) |
 
@@ -86628,6 +91110,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:20:14.04Z |
+| Created Date | 2025-12-01T04:38:28.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24221) |
 
@@ -86687,6 +91171,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:20:06.29Z |
+| Created Date | 2025-12-01T05:17:47.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24226) |
 
@@ -86772,6 +91258,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-18T06:19:36.353Z |
+| Created Date | 2025-12-01T05:39:43.67Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24227) |
 
@@ -86848,6 +91336,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-12-01T09:45:35.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24245) |
 
@@ -86876,6 +91366,8 @@ _“Initials can only contain letters and numbers.”_
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-07T04:36:33.167Z |
+| Created Date | 2025-12-01T11:02:16.407Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24248) |
 
@@ -86913,6 +91405,8 @@ Update the PTR module’s **Chemical GN** screen by renaming fields, removing un
 | Assigned To | Harsh Adadhiyawala |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-12-02T04:53:19.213Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24266) |
 
@@ -86985,6 +91479,8 @@ _“You can select up to 10 seams only.”_
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-04T03:39:30.983Z |
+| Created Date | 2025-12-04T03:39:18.193Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24300) |
 
@@ -87027,6 +91523,8 @@ Update the PTR module’s **Chemical Overlay** screen by applying the same field
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-04T03:42:05.033Z |
+| Created Date | 2025-12-04T03:41:56.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24301) |
 
@@ -87065,6 +91563,8 @@ Update **IGC (Practice E & A)** forms/templates to rename identification fields,
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-01-23T01:36:16.49Z |
+| Created Date | 2025-12-11T11:26:53.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24361) |
 
@@ -87087,6 +91587,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-12T03:11:07.053Z |
+| Created Date | 2025-12-12T03:11:07.053Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24365) |
 
@@ -87109,6 +91611,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-01-23T01:36:44.957Z |
+| Created Date | 2025-12-12T06:22:02.333Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24401) |
 
@@ -87131,6 +91635,8 @@ _Not provided._
 | Assigned To | NIKHIL JAIN |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2025-12-12T09:46:30.783Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24405) |
 
@@ -87207,6 +91713,8 @@ _Not provided._
 | Assigned To | Mandar Kamde |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T11:15:57.533Z |
+| Created Date | 2025-12-15T04:54:59.477Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24411) |
 
@@ -87246,6 +91754,8 @@ __
 | Assigned To | Mandar Kamde |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-15T06:04:51.517Z |
+| Created Date | 2025-12-15T06:04:51.517Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24412) |
 
@@ -87284,6 +91794,8 @@ When a linked Shop DIN is **revised and released** or **any DCR** is created for
 | Assigned To | Mandar Kamde |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-15T06:11:49.513Z |
+| Created Date | 2025-12-15T06:11:49.513Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24413) |
 
@@ -87320,6 +91832,8 @@ Provide a dedicated **Verify Index Documents** window with **Pending** (default)
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T03:47:23.07Z |
+| Created Date | 2025-12-15T06:42:07.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24414) |
 
@@ -87394,6 +91908,8 @@ Provide a dedicated **Verify Index Documents** window with **Pending** (default)
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-03T03:47:13.823Z |
+| Created Date | 2025-12-15T09:12:23.17Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24416) |
 
@@ -87460,6 +91976,8 @@ Have you offered this stage and obtained clearance from <Customer Representative
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-03-15T12:51:47.61Z |
+| Created Date | 2025-12-17T04:51:13.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24430) |
 
@@ -87482,6 +92000,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-17T05:14:40.987Z |
+| Created Date | 2025-12-17T05:14:40.987Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24431) |
 
@@ -87526,6 +92046,8 @@ Update the address displayed in printed reports for all chemical report types (*
 | Assigned To | Bhumika Sahu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-26T04:26:18.317Z |
+| Created Date | 2025-12-18T06:25:38.43Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24437) |
 
@@ -87606,6 +92128,8 @@ Update the address displayed in printed reports for all chemical report types (*
 | Assigned To | Bhumika Sahu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-26T04:25:38.953Z |
+| Created Date | 2025-12-18T06:35:28.933Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24438) |
 
@@ -87655,6 +92179,8 @@ Update the address displayed in printed reports for all chemical report types (*
 | Assigned To | Unassigned |
 | Area Path | ECOM\Nuclear Safety Culture Application |
 | Iteration Path | ECOM |
+| Changed Date | 2025-12-19T04:21:07.86Z |
+| Created Date | 2025-12-19T04:21:07.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24441) |
 
@@ -87677,6 +92203,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-01-23T01:38:06.12Z |
+| Created Date | 2025-12-22T10:47:41.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24475) |
 
@@ -87699,6 +92227,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:02:01.81Z |
+| Created Date | 2025-12-23T03:15:53.78Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24482) |
 
@@ -87728,6 +92258,8 @@ _Not provided._
 | Assigned To | Komal Chandolure |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2025-12-23T04:14:57.54Z |
+| Created Date | 2025-12-23T04:14:57.54Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24486) |
 
@@ -87773,6 +92305,8 @@ _Not provided._
 | Assigned To | Sasidaran S |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-01-21T10:48:32.23Z |
+| Created Date | 2025-12-23T06:23:49.337Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24488) |
 
@@ -87795,6 +92329,8 @@ Login.​
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-02-20T14:53:12.93Z |
+| Created Date | 2025-12-24T05:12:38.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24506) |
 
@@ -87817,6 +92353,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-24T07:22:58.293Z |
+| Created Date | 2025-12-24T05:22:00.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24507) |
 
@@ -87847,6 +92385,8 @@ Login screen will be displayed with the below details.
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2026-04-19T08:38:32.6Z |
+| Created Date | 2025-12-24T05:22:00.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24508) |
 
@@ -87897,6 +92437,8 @@ Buttons:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-24T07:21:54.033Z |
+| Created Date | 2025-12-24T05:22:00.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24509) |
 
@@ -88125,6 +92667,8 @@ o Department Head (DH)
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-24T07:21:28.5Z |
+| Created Date | 2025-12-24T05:23:29.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24510) |
 
@@ -88195,6 +92739,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-24T07:21:08.993Z |
+| Created Date | 2025-12-24T05:23:29.223Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24511) |
 
@@ -88255,6 +92801,8 @@ Fields that will be displayed for the rehiring apart from the four mandatory fie
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-24T07:18:33.633Z |
+| Created Date | 2025-12-24T07:14:11.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24517) |
 
@@ -88361,6 +92909,8 @@ o Returned
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-24T07:18:21.457Z |
+| Created Date | 2025-12-24T07:14:11.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24518) |
 
@@ -88441,6 +92991,8 @@ o Returned - No no will bed display
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2026-05-30T12:46:16.827Z |
+| Created Date | 2025-12-24T07:14:11.853Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24519) |
 
@@ -88523,6 +93075,8 @@ o Returned
 | Assigned To | Karthick Raja S |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2026-05-30T12:46:13.68Z |
+| Created Date | 2025-12-24T07:15:24.717Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24520) |
 
@@ -88609,6 +93163,8 @@ Validations:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T05:47:55.307Z |
+| Created Date | 2025-12-29T05:42:08.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24549) |
 
@@ -88712,6 +93268,8 @@ Validations:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T05:57:25.217Z |
+| Created Date | 2025-12-29T05:42:08.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24550) |
 
@@ -88770,6 +93328,8 @@ Buttons:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T11:17:03.933Z |
+| Created Date | 2025-12-29T05:42:08.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24551) |
 
@@ -88823,6 +93383,8 @@ Photos download functionality will be there. Photos can download as per departme
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T11:19:52.473Z |
+| Created Date | 2025-12-29T05:42:08.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24552) |
 
@@ -88871,6 +93433,8 @@ When a bulk document upload is triggered, the system will search for document in
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T06:46:28.667Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24553) |
 
@@ -89355,6 +93919,8 @@ Page Navigation
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T06:48:21.27Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24554) |
 
@@ -89431,6 +93997,8 @@ Validations:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T06:54:16.123Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24555) |
 
@@ -89502,6 +94070,8 @@ Buttons:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T06:55:15.9Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24556) |
 
@@ -89524,6 +94094,8 @@ Can use this for other US if needed
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T07:19:31.52Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24557) |
 
@@ -89608,6 +94180,8 @@ Page Navigation
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T07:19:47.66Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24558) |
 
@@ -89630,6 +94204,8 @@ Clicking Import button in the Activities - the list of details in the Industrial
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T07:20:00.673Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24559) |
 
@@ -89652,6 +94228,8 @@ Clicking export button in the Activities - the list of details in the Industrial
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T07:22:29.277Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24560) |
 
@@ -89713,6 +94291,8 @@ Buttons:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T07:26:01.733Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24561) |
 
@@ -89791,6 +94371,8 @@ The list of fields that will be displayed to the the CTWC workmen are attached i
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T06:44:42.91Z |
+| Created Date | 2025-12-29T06:13:11.503Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24562) |
 
@@ -89870,6 +94452,8 @@ Page Navigation
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T10:48:15.57Z |
+| Created Date | 2025-12-29T10:27:40.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24571) |
 
@@ -89980,6 +94564,8 @@ Validations:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T10:52:30.877Z |
+| Created Date | 2025-12-29T10:27:40.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24572) |
 
@@ -90070,6 +94656,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T10:52:13.96Z |
+| Created Date | 2025-12-29T10:27:40.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24573) |
 
@@ -90158,6 +94746,8 @@ Validations:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies\Iteration 1 |
+| Changed Date | 2025-12-29T11:07:59.217Z |
+| Created Date | 2025-12-29T10:27:40.92Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24574) |
 
@@ -90196,6 +94786,8 @@ The user will be navigated to request view page upon clicking the PS no or Name 
 | Assigned To | NIKHIL JAIN |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-13T08:22:09.3Z |
+| Created Date | 2025-12-31T10:09:49.803Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24596) |
 
@@ -90218,6 +94810,8 @@ _Not provided._
 | Assigned To | Manisha Sheth |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-01T07:27:50.717Z |
+| Created Date | 2026-01-01T07:27:29.55Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24606) |
 
@@ -90247,6 +94841,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T05:59:18.027Z |
+| Created Date | 2026-01-02T11:46:39.553Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24619) |
 
@@ -90435,6 +95031,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-22T05:23:38.683Z |
+| Created Date | 2026-01-03T09:21:33.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24625) |
 
@@ -90457,6 +95055,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-22T05:23:43.563Z |
+| Created Date | 2026-01-03T09:31:43.587Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24626) |
 
@@ -90479,6 +95079,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-22T05:23:48.477Z |
+| Created Date | 2026-01-03T09:32:49.82Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24627) |
 
@@ -90501,6 +95103,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-15T02:50:11.037Z |
+| Created Date | 2026-01-05T09:39:51.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24635) |
 
@@ -90523,6 +95127,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-05T11:23:11.553Z |
+| Created Date | 2026-01-05T11:23:01.613Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24637) |
 
@@ -90545,6 +95151,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-21T08:59:00.06Z |
+| Created Date | 2026-01-06T03:17:24.983Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24644) |
 
@@ -90580,6 +95188,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-06T11:21:07.903Z |
+| Created Date | 2026-01-06T11:21:07.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24654) |
 
@@ -90602,6 +95212,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-15T08:24:32.83Z |
+| Created Date | 2026-01-06T12:01:16.117Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24657) |
 
@@ -90624,6 +95236,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:01:05.99Z |
+| Created Date | 2026-01-07T08:31:58.863Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24660) |
 
@@ -90651,6 +95265,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T05:57:00.517Z |
+| Created Date | 2026-01-07T08:53:42.677Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24661) |
 
@@ -90680,6 +95296,8 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T05:57:19.07Z |
+| Created Date | 2026-01-07T08:59:56.57Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24662) |
 
@@ -90708,6 +95326,8 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcmcs001175
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2026-01-07T11:57:27.96Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24665) |
 
@@ -90734,6 +95354,8 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcmcs001175
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-08T02:49:34.263Z |
+| Created Date | 2026-01-07T12:00:55.13Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24666) |
 
@@ -90763,6 +95385,8 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T11:45:00.96Z |
+| Created Date | 2026-01-08T02:49:26.023Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24667) |
 
@@ -90792,6 +95416,8 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-21T05:53:23.62Z |
+| Created Date | 2026-01-09T06:21:11.813Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24682) |
 
@@ -90827,6 +95453,8 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T03:11:35.05Z |
+| Created Date | 2026-01-09T10:54:08.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24686) |
 
@@ -90853,6 +95481,8 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:01:51.517Z |
+| Created Date | 2026-01-09T10:58:49.693Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24687) |
 
@@ -90880,6 +95510,8 @@ So that downstream integrations (SAP CPI/IEMQS and reporting flows) rely on a si
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:02:11.75Z |
+| Created Date | 2026-01-09T11:03:26.207Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24691) |
 
@@ -90908,6 +95540,8 @@ I want to fetch **Item Group  **master data from the **MDM** table ******ttcibd0
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-12T03:50:01.187Z |
+| Created Date | 2026-01-12T03:50:01.187Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24698) |
 
@@ -90930,6 +95564,8 @@ _Not provided._
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2026-01-13T05:59:11.52Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24711) |
 
@@ -90958,6 +95594,8 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcibd001175
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T11:43:49.563Z |
+| Created Date | 2026-01-13T06:02:34.64Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24712) |
 
@@ -90986,6 +95624,8 @@ I want to fetch **Item Unit  **master data from the **MDM** table **ttcibd002175
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T11:43:31.883Z |
+| Created Date | 2026-01-13T06:04:59.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24713) |
 
@@ -91014,6 +95654,8 @@ I want to fetch **Item Unit  **master data from the **MDM** table **tltsas999175
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:01:30.043Z |
+| Created Date | 2026-01-13T08:08:58.627Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24715) |
 
@@ -91060,6 +95702,8 @@ a.t_ityp in (1) and a.t_cprj ='S040935'
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:01:19.397Z |
+| Created Date | 2026-01-13T08:50:01.687Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24716) |
 
@@ -91110,6 +95754,8 @@ WHERE    Project = 'S040911'
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T06:01:40.09Z |
+| Created Date | 2026-01-13T09:08:10.127Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24717) |
 
@@ -91138,6 +95784,8 @@ I want to fetch **contract location**  from the **MDM** table **tltctm100175, tt
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-13T10:46:50.947Z |
+| Created Date | 2026-01-13T10:07:47.437Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24718) |
 
@@ -91195,6 +95843,8 @@ I want to fetch **contract location**  from the **MDM** table **tltctm100175, tt
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-02T09:08:03.647Z |
+| Created Date | 2026-01-21T10:55:04.75Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24934) |
 
@@ -91238,6 +95888,8 @@ CPC by contract data shall be fetched from SAP Db (Data Warehouse Server).
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T03:11:02.587Z |
+| Created Date | 2026-01-22T11:16:00.143Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24975) |
 
@@ -91270,6 +95922,8 @@ Project milestone data shall be fetched from SAP Db (Data Warehouse Server).
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-06T03:11:26.78Z |
+| Created Date | 2026-01-22T11:23:12.003Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24976) |
 
@@ -91324,6 +95978,8 @@ Contract milestone data shall be fetched from SAP Db (Data Warehouse Server).
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-01-23T06:26:17.34Z |
+| Created Date | 2026-01-23T06:26:17.34Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/24990) |
 
@@ -91346,6 +96002,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-02T11:17:54.71Z |
+| Created Date | 2026-01-30T08:49:28.053Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25504) |
 
@@ -91394,6 +96052,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-02T09:07:56.403Z |
+| Created Date | 2026-01-30T09:45:16.733Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25505) |
 
@@ -91463,6 +96123,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2026-02-02T09:00:42.787Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25527) |
 
@@ -91497,6 +96159,8 @@ _Not provided._
 | Assigned To | TRISHUL TANDEL |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-05T10:07:47.11Z |
+| Created Date | 2026-02-05T10:07:47.11Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25567) |
 
@@ -91519,6 +96183,8 @@ _Not provided._
 | Assigned To | CHANDRASHEKHAR VENKANNA |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-07T05:58:28.82Z |
+| Created Date | 2026-02-13T04:29:39.473Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25649) |
 
@@ -91604,6 +96270,8 @@ Skirt Assembly |  S040911-SKI0022ASM |  18 |  S040911-SK0022A |  15
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-21T03:15:06.17Z |
+| Created Date | 2026-02-19T09:02:34.513Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25662) |
 
@@ -91672,6 +96340,8 @@ This issue impacts the accuracy and completeness of Manual LTFPS records and may
 | Assigned To | MAYANK SEHGAL |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-22T11:36:57.43Z |
+| Created Date | 2026-02-20T14:56:01.77Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25667) |
 
@@ -91700,6 +96370,8 @@ The snapshots should work perfectly when pulling the data from SAP
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:04:59.583Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25684) |
 
@@ -91856,6 +96528,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:03:49.257Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25685) |
 
@@ -91948,6 +96622,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:02:56.5Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25686) |
 
@@ -91971,6 +96647,8 @@ User need to click on the 'Export' button
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:01:44.783Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25687) |
 
@@ -92113,6 +96791,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:01:03.473Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25688) |
 
@@ -92137,6 +96817,8 @@ User need to click on the 'Export' button
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:00:46.13Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25689) |
 
@@ -92263,6 +96945,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T07:59:55Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25690) |
 
@@ -92351,6 +97035,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T07:59:11.857Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25691) |
 
@@ -92375,6 +97061,8 @@ User need to click on the 'Export' button
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T07:58:58.917Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25692) |
 
@@ -92449,6 +97137,8 @@ Validation:
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T07:58:24.893Z |
+| Created Date | 2026-02-24T07:54:58.563Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25693) |
 
@@ -92473,6 +97163,8 @@ User need to click on the 'Export' button
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:09:48.113Z |
+| Created Date | 2026-02-24T08:09:48.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25695) |
 
@@ -92495,6 +97187,8 @@ From the side navigation page user need to select the 'Maintain Timecard' sub me
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:09:48.113Z |
+| Created Date | 2026-02-24T08:09:48.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25696) |
 
@@ -92517,6 +97211,8 @@ Maintain Timecard' page will be displayed with the following tabs such as 'Date 
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:09:48.113Z |
+| Created Date | 2026-02-24T08:09:48.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25697) |
 
@@ -92539,6 +97235,8 @@ User need to click on the 'Export' button - the list of details displayed in the
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:09:48.113Z |
+| Created Date | 2026-02-24T08:09:48.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25698) |
 
@@ -92561,6 +97259,8 @@ From the side navigation page user need to select the 'Maintain Timecard' sub me
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:09:48.113Z |
+| Created Date | 2026-02-24T08:09:48.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25699) |
 
@@ -92583,6 +97283,8 @@ From the side navigation page user need to select the 'Maintain Timecard' sub me
 | Assigned To | Unassigned |
 | Area Path | Workforce Management by MX Techies |
 | Iteration Path | Workforce Management by MX Techies |
+| Changed Date | 2026-02-24T08:09:48.113Z |
+| Created Date | 2026-02-24T08:09:48.113Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25700) |
 
@@ -92605,6 +97307,8 @@ User need to click on the 'Export' button - the list of details displayed in the
 | Assigned To | Akshay Rajput |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-02-26T09:27:29.183Z |
+| Created Date | 2026-02-26T09:06:00.86Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25708) |
 
@@ -92627,6 +97331,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-17T03:50:22.147Z |
+| Created Date | 2026-03-05T05:22:24.66Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25730) |
 
@@ -92649,6 +97355,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-03-14T07:52:46.42Z |
+| Created Date | 2026-03-14T07:49:51.25Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25763) |
 
@@ -92671,6 +97379,8 @@ _Not provided._
 | Assigned To | Avinash Singh |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-03-18T11:32:19.207Z |
+| Created Date | 2026-03-18T11:32:19.207Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25784) |
 
@@ -92693,6 +97403,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-03T12:08:14.513Z |
+| Created Date | 2026-03-26T07:56:05.163Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25838) |
 
@@ -92715,6 +97427,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-20T11:51:43.38Z |
+| Created Date | 2026-03-31T06:49:03.91Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25870) |
 
@@ -92737,6 +97451,8 @@ _Not provided._
 | Assigned To | Harsh Patel |
 | Area Path | ECOM\Task Manager |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-04T08:44:39.413Z |
+| Created Date | 2026-04-04T08:44:39.413Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25916) |
 
@@ -92759,6 +97475,8 @@ _Not provided._
 | Assigned To | Nenshi Patel |
 | Area Path | IEMQS 4.0\IEMQS-SAP-Integration |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-14T02:38:51.97Z |
+| Created Date | 2026-04-10T03:49:07.903Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25963) |
 
@@ -92788,6 +97506,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-22T08:33:59.263Z |
+| Created Date | 2026-04-10T09:06:17.927Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/25968) |
 
@@ -92810,6 +97530,8 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | IEMQS 4.0 |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-15T05:35:01.367Z |
+| Created Date | 2026-04-15T05:09:15.097Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26040) |
 
@@ -92832,6 +97554,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-04-21T07:44:57.97Z |
+| Created Date | 2026-04-21T02:25:51.42Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26265) |
 
@@ -92854,6 +97578,8 @@ _Not provided._
 | Assigned To | DEEPIKA MEENA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-29T04:30:44.277Z |
+| Created Date | 2026-04-22T03:41:45.01Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26272) |
 
@@ -92881,6 +97607,8 @@ _Not provided._
 | Assigned To | DEEPIKA MEENA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-22T03:43:24.597Z |
+| Created Date | 2026-04-22T03:42:23.74Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26273) |
 
@@ -92913,6 +97641,8 @@ _Not provided._
 | Assigned To | DEEPIKA MEENA |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-04-29T04:30:44.277Z |
+| Created Date | 2026-04-22T03:48:55.757Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26274) |
 
@@ -92937,6 +97667,8 @@ _Not provided._
 | Assigned To | Basil Babu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-05-21T09:44:11.937Z |
+| Created Date | 2026-04-30T08:49:16.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26313) |
 
@@ -92972,6 +97704,8 @@ This requirement is raised to enhance the **Maintain ITP / NDE Summary / Stage D
 | Assigned To | Santosh Soni |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-05-08T03:49:40.15Z |
+| Created Date | 2026-05-08T03:30:32.653Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26354) |
 
@@ -93131,6 +97865,8 @@ These protocol numbers and descriptions are taken from doc.
 | Assigned To | Uma Laxmi |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-05-26T04:12:48.087Z |
+| Created Date | 2026-05-12T10:04:44.76Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26384) |
 
@@ -93153,6 +97889,8 @@ _Not provided._
 | Assigned To | Uma Laxmi |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-05-12T10:32:59.65Z |
+| Created Date | 2026-05-12T10:32:07.647Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26386) |
 
@@ -93175,6 +97913,8 @@ _Not provided._
 | Assigned To | Basil Babu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
+| Changed Date | 2026-05-13T03:27:41.423Z |
+| Created Date | 2026-05-13T03:27:41.423Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26392) |
 
@@ -93197,6 +97937,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-05-13T05:47:50.283Z |
+| Created Date | 2026-05-13T05:46:09.913Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26394) |
 
@@ -93219,6 +97961,8 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
+| Changed Date | 2026-05-14T05:37:09.14Z |
+| Created Date | 2026-05-14T05:27:57.967Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26413) |
 
