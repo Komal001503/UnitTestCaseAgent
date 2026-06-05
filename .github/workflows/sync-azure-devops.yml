@@ -26,6 +26,7 @@ on:
           - All
           - ByIteration
           - ByArea
+          - ByBacklog
           - ByAssignee
           - ByTags
           - ByIds
@@ -35,6 +36,10 @@ on:
         type: string
       area_path:
         description: 'Area path (used when filter_mode=ByArea)'
+        required: false
+        type: string
+      backlog:
+        description: 'Backlog/team name (used when filter_mode=ByBacklog). E.g. "IEMQS-SAP-Integration" or "Feature Team 1". Resolves the team''s configured Area Paths at runtime.'
         required: false
         type: string
       assigned_to:
@@ -140,6 +145,7 @@ jobs:
             All)         echo "Using no scope filter (all stories)";;
             ByIteration) echo "iteration_path=${{ inputs.iteration_path }}" >> "$GITHUB_OUTPUT";;
             ByArea)      echo "area_path=${{ inputs.area_path }}" >> "$GITHUB_OUTPUT";;
+            ByBacklog)   echo "backlog=${{ inputs.backlog }}" >> "$GITHUB_OUTPUT";;
             ByAssignee)  echo "assigned_to=${{ inputs.assigned_to }}" >> "$GITHUB_OUTPUT";;
             ByTags)      echo "tags=${{ inputs.tags }}" >> "$GITHUB_OUTPUT";;
             ByIds)       echo "ids=${{ inputs.ids }}" >> "$GITHUB_OUTPUT";;
@@ -211,6 +217,7 @@ jobs:
           AZURE_DEVOPS_STATES: ${{ steps.resolve.outputs.states }}
           AZURE_DEVOPS_ITERATION_PATH: ${{ steps.resolve.outputs.iteration_path }}
           AZURE_DEVOPS_AREA_PATH: ${{ steps.resolve.outputs.area_path }}
+          AZURE_DEVOPS_BACKLOG: ${{ steps.resolve.outputs.backlog }}
           AZURE_DEVOPS_ASSIGNED_TO: ${{ steps.resolve.outputs.assigned_to }}
           AZURE_DEVOPS_TAGS: ${{ steps.resolve.outputs.tags }}
           AZURE_DEVOPS_IDS: ${{ steps.resolve.outputs.ids }}
