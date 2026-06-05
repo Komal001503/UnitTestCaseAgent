@@ -33,6 +33,7 @@ class AzureDevOpsConfig:
     team: str | None = None
     states: list[str] | None = None
     area_path: str | None = None
+    backlog: str | None = None
     iteration_path: str | None = None
     assigned_to: str | None = None
     tags: list[str] | None = None
@@ -68,6 +69,14 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--area-path",
         help="Optional area path filter (or AZURE_DEVOPS_AREA_PATH)",
+    )
+    parser.add_argument(
+        "--backlog",
+        help=(
+            "Optional backlog/team name (or AZURE_DEVOPS_BACKLOG). "
+            "When set, the script looks up the team's configured Area Paths "
+            "and adds them to the WIQL filter."
+        ),
     )
     parser.add_argument(
         "--iteration-path",
@@ -190,6 +199,7 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
     ) or "User Story"
     states = _csv_to_list(_pick_arg_or_env(args.states, env, "AZURE_DEVOPS_STATES"))
     area_path = _pick_arg_or_env(args.area_path, env, "AZURE_DEVOPS_AREA_PATH")
+    backlog = _pick_arg_or_env(getattr(args, "backlog", None), env, "AZURE_DEVOPS_BACKLOG")
     iteration_path = _pick_arg_or_env(
         getattr(args, "iteration_path", None), env, "AZURE_DEVOPS_ITERATION_PATH"
     )
@@ -228,6 +238,7 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
         work_item_type=work_item_type,
         states=states,
         area_path=area_path,
+        backlog=(backlog.strip() or None) if backlog else None,
         iteration_path=iteration_path,
         assigned_to=assigned_to,
         tags=tags,
@@ -242,7 +253,9 @@ def _escape_wiql_value(value: str) -> str:
     return value.replace("'", "''")
 
 
-def build_wiql(config: AzureDevOpsConfig) -> str:
+def build_wiql(
+    config: AzureDevOpsConfig, backlog_area_paths: list[str] | None = None
+) -> str:
     date_field = _effective_date_field(config.from_date, config.to_date, config.date_field)
     filters = [f"[System.WorkItemType] = '{_escape_wiql_value(config.work_item_type)}'"]
 
@@ -254,6 +267,11 @@ def build_wiql(config: AzureDevOpsConfig) -> str:
 
     if config.area_path:
         filters.append(f"[System.AreaPath] UNDER '{_escape_wiql_value(config.area_path)}'")
+    elif backlog_area_paths:
+        area_clauses = [
+            f"[System.AreaPath] UNDER '{_escape_wiql_value(path)}'" for path in backlog_area_paths
+        ]
+        filters.append(f"({' OR '.join(area_clauses)})")
     if config.iteration_path:
         filters.append(f"[System.IterationPath] UNDER '{_escape_wiql_value(config.iteration_path)}'")
     if config.assigned_to:
@@ -299,6 +317,63 @@ def work_items_batch_url(config: AzureDevOpsConfig) -> str:
     return f"{_base_project_url(config)}/_apis/wit/workitemsbatch?api-version={API_VERSION}"
 
 
+def list_teams(config: AzureDevOpsConfig) -> list[dict[str, Any]]:
+    """List all teams in the project (used to validate the backlog name and for error messages)."""
+    url = (
+        f"https://dev.azure.com/{quote(config.org, safe='')}"
+        f"/_apis/projects/{quote(config.project, safe='')}/teams"
+        f"?api-version={API_VERSION}"
+    )
+    response = requests.get(url, auth=("", config.pat), timeout=30)
+    _raise_for_http_error(response, "List teams")
+    payload = response.json()
+    return [team for team in payload.get("value", []) if isinstance(team, dict)]
+
+
+def resolve_backlog_area_paths(config: AzureDevOpsConfig, verbose: bool = False) -> list[str]:
+    """Resolve the team-backlog name to its configured Area Paths."""
+    target = (config.backlog or "").strip().lower()
+    if not target:
+        return []
+
+    teams = list_teams(config)
+    matching = next(
+        (team for team in teams if str(team.get("name", "")).strip().lower() == target),
+        None,
+    )
+    if matching is None:
+        available = sorted(str(team.get("name", "")) for team in teams if team.get("name"))
+        available_block = "\n  - ".join(available) if available else "(no teams visible to this PAT)"
+        raise ValueError(
+            f"Backlog/team '{config.backlog}' was not found in project "
+            f"'{config.project}'. Available backlogs:\n  - {available_block}"
+        )
+
+    team_id = matching.get("id")
+    field_url = (
+        f"https://dev.azure.com/{quote(config.org, safe='')}"
+        f"/{quote(config.project, safe='')}/{quote(str(team_id), safe='')}"
+        f"/_apis/work/teamsettings/teamfieldvalues?api-version={API_VERSION}"
+    )
+    response = requests.get(field_url, auth=("", config.pat), timeout=30)
+    _raise_for_http_error(response, "Team field values lookup")
+    body = response.json()
+
+    area_paths: list[str] = []
+    for entry in body.get("values", []) or []:
+        if isinstance(entry, dict):
+            value = entry.get("value")
+            if isinstance(value, str) and value.strip():
+                area_paths.append(value.strip())
+
+    if verbose:
+        print(
+            f"Resolved backlog '{config.backlog}' to area paths: {area_paths}",
+            file=sys.stderr,
+        )
+    return area_paths
+
+
 def _raise_for_http_error(response: requests.Response, context: str) -> None:
     try:
         response.raise_for_status()
@@ -337,11 +412,15 @@ def _chunked(values: list[int], size: int) -> Iterable[list[int]]:
         yield values[index : index + size]
 
 
-def query_work_item_ids(config: AzureDevOpsConfig, verbose: bool = False) -> list[int]:
+def query_work_item_ids(
+    config: AzureDevOpsConfig,
+    verbose: bool = False,
+    backlog_area_paths: list[str] | None = None,
+) -> list[int]:
     if verbose:
         print("Running WIQL query against Azure DevOps...", file=sys.stderr)
 
-    wiql_query = build_wiql(config)
+    wiql_query = build_wiql(config, backlog_area_paths=backlog_area_paths)
     response = requests.post(
         wiql_url(config),
         json={"query": wiql_query},
@@ -364,6 +443,7 @@ def query_work_item_ids(config: AzureDevOpsConfig, verbose: bool = False) -> lis
             team=None,
             states=config.states,
             area_path=config.area_path,
+            backlog=config.backlog,
             iteration_path=config.iteration_path,
             assigned_to=config.assigned_to,
             tags=config.tags,
@@ -514,6 +594,7 @@ def render_markdown(
     work_item_type: str = "User Story",
     states: list[str] | None = None,
     area_path: str | None = None,
+    backlog: str | None = None,
     iteration_path: str | None = None,
     assigned_to: str | None = None,
     tags: list[str] | None = None,
@@ -530,6 +611,8 @@ def render_markdown(
         filter_parts.append(f"iteration={iteration_path}")
     if area_path:
         filter_parts.append(f"area={area_path}")
+    if backlog:
+        filter_parts.append(f"backlog={backlog}")
     if assigned_to:
         filter_parts.append(f"assigned_to={assigned_to}")
     if tags:
@@ -619,11 +702,19 @@ def render_markdown(
 
 def run(args: argparse.Namespace, env: Mapping[str, str]) -> tuple[Path | None, str]:
     config = resolve_config(args, env)
-    wiql = build_wiql(config)
+    backlog_area_paths: list[str] = []
+    if config.backlog and not config.area_path:
+        backlog_area_paths = resolve_backlog_area_paths(config, verbose=args.verbose)
+    elif config.backlog and config.area_path and args.verbose:
+        print(
+            "Both --area-path and --backlog were supplied; using --area-path and ignoring --backlog.",
+            file=sys.stderr,
+        )
+    wiql = build_wiql(config, backlog_area_paths=backlog_area_paths)
     if args.dry_run:
         print("Resolved WIQL:", file=sys.stderr)
         print(wiql, file=sys.stderr)
-    ids = query_work_item_ids(config, verbose=args.verbose)
+    ids = query_work_item_ids(config, verbose=args.verbose, backlog_area_paths=backlog_area_paths)
     if args.dry_run:
         print(f"Matching work item IDs: {len(ids)}", file=sys.stderr)
     work_items = fetch_work_items(config, ids, verbose=args.verbose)
@@ -635,6 +726,7 @@ def run(args: argparse.Namespace, env: Mapping[str, str]) -> tuple[Path | None, 
         work_item_type=config.work_item_type,
         states=config.states,
         area_path=config.area_path,
+        backlog=config.backlog if backlog_area_paths else None,
         iteration_path=config.iteration_path,
         assigned_to=config.assigned_to,
         tags=config.tags,

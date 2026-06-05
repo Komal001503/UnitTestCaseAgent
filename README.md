@@ -46,6 +46,7 @@ Use `filter_mode` in the workflow **Run workflow** dialog:
 - `All` → no extra scope filter (all stories of selected work item type)
 - `ByIteration` → use `iteration_path` (example: `Workforce Management by MX Techies\\Sprint 12`)
 - `ByArea` → use `area_path` (example: `Workforce Management by MX Techies\\Payroll`)
+- `ByBacklog` → use `backlog` to select a team backlog by name (example: `IEMQS-SAP-Integration` or `Feature Team 1`). The workflow resolves that team's configured **Area Paths** from Azure DevOps at runtime, so you can sync any team's backlog from any project you point `project` at. If you mistype the name the run fails fast and prints every available backlog/team in the project.
 - `ByAssignee` → use `assigned_to` (example: `alice@example.com` or `Alice Smith`)
 - `ByTags` → use `tags` as comma-separated values (story must contain all tags)
 - `ByIds` → use `ids` as comma-separated work item IDs (example: `1234,1240`)
@@ -80,6 +81,7 @@ The same filters are available as CLI flags/environment variables for local runs
 
 ```bash
 python scripts/azure_devops_to_md.py \
+  --backlog "IEMQS-SAP-Integration" \
   --iteration-path "Workforce Management by MX Techies\\Sprint 12" \
   --states "New,Active" \
   --from-date 2025-11-01 --to-date 2025-11-30 \

@@ -13,6 +13,7 @@ from scripts.azure_devops_to_md import (
     fetch_work_items,
     query_work_item_ids,
     render_markdown,
+    resolve_backlog_area_paths,
     resolve_config,
     wiql_url,
 )
@@ -118,6 +119,38 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertNotIn("[System.ChangedDate] <=", wiql)
         self.assertNotIn("[System.CreatedDate] >=", wiql)
         self.assertNotIn("[System.CreatedDate] <=", wiql)
+
+    def test_buildWiql_backlogAreaPaths_appendsOrredAreaPathClause(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            area_path=None,
+        )
+
+        wiql = build_wiql(config, backlog_area_paths=["A\\B", "A\\C"])
+
+        self.assertIn(
+            "AND ([System.AreaPath] UNDER 'A\\B' OR [System.AreaPath] UNDER 'A\\C')",
+            wiql,
+        )
+
+    def test_buildWiql_areaPathTakesPrecedenceOverBacklog(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            area_path="Explicit\\Area",
+            backlog="Feature Team 1",
+        )
+
+        wiql = build_wiql(config, backlog_area_paths=["A\\B", "A\\C"])
+
+        self.assertIn("[System.AreaPath] UNDER 'Explicit\\Area'", wiql)
+        self.assertNotIn("[System.AreaPath] UNDER 'A\\B'", wiql)
+        self.assertNotIn("[System.AreaPath] UNDER 'A\\C'", wiql)
 
     def test_buildWiql_assigneeEmail_usesContainsForIdentityMatch(self):
         config = AzureDevOpsConfig(
@@ -509,6 +542,16 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
 
         self.assertIn("_Filters: type=User Story._", markdown)
 
+    def test_renderMarkdown_backlogAppearsInFilterBanner(self):
+        markdown = render_markdown(
+            work_items=[],
+            org="org",
+            project="proj",
+            backlog="IEMQS-SAP-Integration",
+        )
+
+        self.assertIn("backlog=IEMQS-SAP-Integration", markdown)
+
     def test_renderMarkdown_noneDateFieldWithoutDates_omitsDateFilterNote(self):
         markdown = render_markdown(work_items=[], org="org", project="proj", date_field=None)
 
@@ -597,6 +640,84 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         mock_response.json.side_effect = ValueError("not json")
 
         self.assertFalse(_is_team_not_found_error(mock_response))
+
+    @patch("scripts.azure_devops_to_md.requests.get")
+    def test_resolveBacklogAreaPaths_unknownTeam_raisesWithAvailableList(self, get_mock):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="IEMQS 4.0",
+            pat="pat",
+            work_item_type="User Story",
+            backlog="IEMQS-SAP-Integrtaion",
+        )
+
+        teams_response = Mock()
+        teams_response.status_code = 200
+        teams_response.raise_for_status = Mock()
+        teams_response.json.return_value = {
+            "value": [
+                {"name": "Common Backlog"},
+                {"name": "Feature Team 1"},
+                {"name": "Feature Team 2"},
+                {"name": "Feature Team 3"},
+                {"name": "GTM Execution Team"},
+                {"name": "IEMQS-SAP-Integration"},
+            ]
+        }
+        get_mock.return_value = teams_response
+
+        with self.assertRaises(ValueError) as context:
+            resolve_backlog_area_paths(config)
+
+        message = str(context.exception)
+        self.assertIn("Backlog/team 'IEMQS-SAP-Integrtaion' was not found", message)
+        self.assertIn("Common Backlog", message)
+        self.assertIn("Feature Team 1", message)
+        self.assertIn("Feature Team 2", message)
+        self.assertIn("Feature Team 3", message)
+        self.assertIn("GTM Execution Team", message)
+        self.assertIn("IEMQS-SAP-Integration", message)
+
+    @patch("scripts.azure_devops_to_md.requests.get")
+    def test_resolveBacklogAreaPaths_matchesCaseInsensitive(self, get_mock):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="IEMQS 4.0",
+            pat="pat",
+            work_item_type="User Story",
+            backlog="iemqs-sap-integration",
+        )
+
+        teams_response = Mock()
+        teams_response.status_code = 200
+        teams_response.raise_for_status = Mock()
+        teams_response.json.return_value = {
+            "value": [
+                {"id": "1111-2222", "name": "IEMQS-SAP-Integration"},
+                {"id": "3333-4444", "name": "Feature Team 1"},
+            ]
+        }
+
+        team_fields_response = Mock()
+        team_fields_response.status_code = 200
+        team_fields_response.raise_for_status = Mock()
+        team_fields_response.json.return_value = {
+            "values": [
+                {"value": "IEMQS 4.0\\IEMQS-SAP-Integration", "includeChildren": True},
+                {"value": "IEMQS 4.0\\IEMQS-SAP-Integration\\Sub", "includeChildren": True},
+            ]
+        }
+        get_mock.side_effect = [teams_response, team_fields_response]
+
+        result = resolve_backlog_area_paths(config)
+
+        self.assertEqual(
+            [
+                "IEMQS 4.0\\IEMQS-SAP-Integration",
+                "IEMQS 4.0\\IEMQS-SAP-Integration\\Sub",
+            ],
+            result,
+        )
 
     @patch("scripts.azure_devops_to_md.requests.post")
     def test_queryWorkItemIds_retriesWithoutTeamOnTeamNotFoundException(self, post_mock):
