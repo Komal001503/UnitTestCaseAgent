@@ -50,6 +50,13 @@ Use `filter_mode` in the workflow **Run workflow** dialog:
 - `ByTags` → use `tags` as comma-separated values (story must contain all tags)
 - `ByIds` → use `ids` as comma-separated work item IDs (example: `1234,1240`)
 
+You can also restrict by **State** independently of `filter_mode` — for example, fetch every story assigned to Alice that is still `New`:
+
+- `state` → choose one of `All`, `New`, `Active`, `Resolved`, `Closed`, or `Open` (= `New, Active, Resolved`)
+- `states` → advanced override: comma-separated list (e.g. `New,Active`). When set, this takes precedence over `state`.
+
+`state` defaults to `All`, which keeps the original behaviour of returning every state except `Removed`. To mimic the Azure DevOps **Boards → Work items** default view (which hides closed items), pick `state=Active` or `state=Open`.
+
 You can also apply date filtering in the same run:
 
 - `from_date` and `to_date` are optional and use `YYYY-MM-DD` (inclusive when provided)
@@ -74,6 +81,7 @@ The same filters are available as CLI flags/environment variables for local runs
 ```bash
 python scripts/azure_devops_to_md.py \
   --iteration-path "Workforce Management by MX Techies\\Sprint 12" \
+  --states "New,Active" \
   --from-date 2025-11-01 --to-date 2025-11-30 \
   --output azure_devops_user_stories.md
 ```

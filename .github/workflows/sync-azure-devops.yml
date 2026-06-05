@@ -49,8 +49,20 @@ on:
         description: 'Comma-separated work item IDs (used when filter_mode=ByIds)'
         required: false
         type: string
+      state:
+        description: 'Filter by State. Combine with any filter_mode above. Pick "Open" for New+Active+Resolved.'
+        required: false
+        type: choice
+        default: All
+        options:
+          - All
+          - New
+          - Active
+          - Resolved
+          - Closed
+          - Open
       states:
-        description: 'Comma-separated states (e.g. New,Active,Resolved). Leave blank for all except Removed.'
+        description: 'Advanced override: comma-separated states (e.g. New,Active,Resolved). Takes precedence over the "state" choice when set.'
         required: false
         type: string
       work_item_type:
@@ -113,6 +125,8 @@ jobs:
         shell: bash
         env:
           MODE: ${{ inputs.filter_mode || 'All' }}
+          STATE_CHOICE: ${{ inputs.state || 'All' }}
+          STATES_CSV_INPUT: ${{ inputs.states }}
           DATE_FIELD_INPUT: ${{ inputs.date_field }}
           FROM_DATE_INPUT: ${{ inputs.from_date }}
           TO_DATE_INPUT: ${{ inputs.to_date }}
@@ -131,6 +145,28 @@ jobs:
             ByIds)       echo "ids=${{ inputs.ids }}" >> "$GITHUB_OUTPUT";;
             *) echo "Unknown filter_mode '$MODE'" >&2; exit 1;;
           esac
+
+          states_csv="$(printf '%s' "$STATES_CSV_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          state_choice="$(printf '%s' "$STATE_CHOICE" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+          # Resolve State filter: the advanced "states" CSV takes precedence,
+          # otherwise translate the "state" choice into a CSV.
+          if [[ -n "$states_csv" ]]; then
+            effective_states="$states_csv"
+          else
+            case "$state_choice" in
+              All|"")  effective_states="";;
+              Open)    effective_states="New,Active,Resolved";;
+              *)       effective_states="$state_choice";;
+            esac
+          fi
+
+          if [[ -n "$effective_states" ]]; then
+            echo "states=$effective_states" >> "$GITHUB_OUTPUT"
+            echo "Using State filter: $effective_states"
+          else
+            echo "Using no State filter (all states except Removed)"
+          fi
 
           if [[ -n "$from_date" ]]; then
             echo "from_date=$from_date" >> "$GITHUB_OUTPUT"
@@ -172,7 +208,7 @@ jobs:
           AZURE_DEVOPS_TEAM: ${{ inputs.team }}
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           AZURE_DEVOPS_WORK_ITEM_TYPE: ${{ inputs.work_item_type }}
-          AZURE_DEVOPS_STATES: ${{ inputs.states }}
+          AZURE_DEVOPS_STATES: ${{ steps.resolve.outputs.states }}
           AZURE_DEVOPS_ITERATION_PATH: ${{ steps.resolve.outputs.iteration_path }}
           AZURE_DEVOPS_AREA_PATH: ${{ steps.resolve.outputs.area_path }}
           AZURE_DEVOPS_ASSIGNED_TO: ${{ steps.resolve.outputs.assigned_to }}
