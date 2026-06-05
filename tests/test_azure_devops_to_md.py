@@ -90,7 +90,7 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         wiql = build_wiql(config)
 
         self.assertIn("[System.IterationPath] UNDER 'Project\\Sprint 12'", wiql)
-        self.assertIn("[System.AssignedTo] = 'O''Connor'", wiql)
+        self.assertIn("[System.AssignedTo] CONTAINS 'O''Connor'", wiql)
         self.assertIn("[System.Tags] CONTAINS 'API'", wiql)
         self.assertIn("[System.Tags] CONTAINS 'Regression'", wiql)
         self.assertIn("[System.Id] IN (1234, 1240, 1255)", wiql)
@@ -110,7 +110,7 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         wiql = build_wiql(config)
 
         self.assertNotIn("[System.IterationPath] UNDER", wiql)
-        self.assertNotIn("[System.AssignedTo] =", wiql)
+        self.assertNotIn("[System.AssignedTo] CONTAINS", wiql)
         self.assertNotIn("[System.Tags] CONTAINS", wiql)
         self.assertNotIn("[System.Id] IN", wiql)
         self.assertNotIn("T23:59:59", wiql)
@@ -118,6 +118,23 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertNotIn("[System.ChangedDate] <=", wiql)
         self.assertNotIn("[System.CreatedDate] >=", wiql)
         self.assertNotIn("[System.CreatedDate] <=", wiql)
+
+    def test_buildWiql_assigneeEmail_usesContainsForIdentityMatch(self):
+        config = AzureDevOpsConfig(
+            org="org",
+            project="project",
+            pat="pat",
+            work_item_type="User Story",
+            assigned_to="Utkarsh.Brahmapurikar@larsentoubro.com",
+        )
+
+        wiql = build_wiql(config)
+
+        self.assertIn(
+            "[System.AssignedTo] CONTAINS 'Utkarsh.Brahmapurikar@larsentoubro.com'",
+            wiql,
+        )
+        self.assertNotIn("[System.AssignedTo] =", wiql)
 
     def test_buildWiql_noneDateFieldWithoutDates_omitsDateClauses(self):
         config = AzureDevOpsConfig(
@@ -647,4 +664,3 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

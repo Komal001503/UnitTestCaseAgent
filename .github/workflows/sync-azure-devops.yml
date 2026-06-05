@@ -14,9 +14,8 @@ on:
         default: Workforce Management by MX Techies
         type: string
       team:
-        description: Azure DevOps team (optional)
+        description: Azure DevOps team (optional — leave blank to query at the project level)
         required: false
-        default: Workforce Management by MX Techies Team
         type: string
       filter_mode:
         description: 'How to pick stories'
@@ -82,9 +81,8 @@ on:
           - ChangedDate
           - CreatedDate
       output_path:
-        description: Output markdown file path
+        description: 'Optional. Override the output Markdown file path. If blank, the file is named azure_devops_user_stories_<team-or-project>.md'
         required: false
-        default: azure_devops_user_stories.md
         type: string
   schedule:
     - cron: '0 2 * * *'
@@ -146,11 +144,32 @@ jobs:
             echo "date_field=$date_field" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Resolve output path
+        id: outpath
+        shell: bash
+        env:
+          OVERRIDE: ${{ inputs.output_path }}
+          TEAM: ${{ inputs.team }}
+          PROJECT: ${{ inputs.project || 'Workforce Management by MX Techies' }}
+        run: |
+          set -euo pipefail
+          override="$(printf '%s' "$OVERRIDE" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          if [[ -n "$override" ]]; then
+            echo "path=$override" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          base="$(printf '%s' "$TEAM" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          if [[ -z "$base" ]]; then
+            base="$PROJECT"
+          fi
+          sanitized="$(printf '%s' "$base" | sed 's/[^A-Za-z0-9._-]/_/g')"
+          echo "path=azure_devops_user_stories_${sanitized}.md" >> "$GITHUB_OUTPUT"
+
       - name: Pull Azure DevOps user stories
         env:
           AZURE_DEVOPS_ORG: ${{ inputs.org || 'LnT-HeavyEngineering-IEMQS' }}
           AZURE_DEVOPS_PROJECT: ${{ inputs.project || 'Workforce Management by MX Techies' }}
-          AZURE_DEVOPS_TEAM: ${{ inputs.team || 'Workforce Management by MX Techies Team' }}
+          AZURE_DEVOPS_TEAM: ${{ inputs.team }}
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           AZURE_DEVOPS_WORK_ITEM_TYPE: ${{ inputs.work_item_type }}
           AZURE_DEVOPS_STATES: ${{ inputs.states }}
@@ -162,12 +181,12 @@ jobs:
           AZURE_DEVOPS_FROM_DATE: ${{ steps.resolve.outputs.from_date }}
           AZURE_DEVOPS_TO_DATE: ${{ steps.resolve.outputs.to_date }}
           AZURE_DEVOPS_DATE_FIELD: ${{ steps.resolve.outputs.date_field }}
-          OUTPUT_PATH: ${{ inputs.output_path || 'azure_devops_user_stories.md' }}
+          OUTPUT_PATH: ${{ steps.outpath.outputs.path }}
         run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH" --verbose
 
       - name: Commit synced Markdown
         env:
-          OUTPUT_PATH: ${{ inputs.output_path || 'azure_devops_user_stories.md' }}
+          OUTPUT_PATH: ${{ steps.outpath.outputs.path }}
         shell: bash
         run: |
           set -euo pipefail
@@ -181,7 +200,7 @@ jobs:
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Sync Azure DevOps user stories to Markdown'
+          git commit -m "Sync Azure DevOps user stories ($(basename "$OUTPUT_PATH" .md | sed 's/^azure_devops_user_stories_//'))"
           git push
 
       # After the Markdown is committed, trigger the report workflow to generate

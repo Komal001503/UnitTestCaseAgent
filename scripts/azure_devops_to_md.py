@@ -257,7 +257,7 @@ def build_wiql(config: AzureDevOpsConfig) -> str:
     if config.iteration_path:
         filters.append(f"[System.IterationPath] UNDER '{_escape_wiql_value(config.iteration_path)}'")
     if config.assigned_to:
-        filters.append(f"[System.AssignedTo] = '{_escape_wiql_value(config.assigned_to)}'")
+        filters.append(f"[System.AssignedTo] CONTAINS '{_escape_wiql_value(config.assigned_to)}'")
     if config.tags:
         for tag in config.tags:
             filters.append(f"[System.Tags] CONTAINS '{_escape_wiql_value(tag)}'")
