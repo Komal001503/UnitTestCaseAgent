@@ -1,13 +1,12 @@
 # User Stories
 
-_Filters: type=User Story · assigned_to=Utkarsh Brahmapurikar._
+_Filters: type=User Story · states=New · assigned_to=Utkarsh Brahmapurikar._
 
-Total stories: 8
+Total stories: 7
 
 | Story ID | Title | State | Priority | Assigned To |
 |----------|-------|-------|----------|-------------|
 | US-21427 | Energy Calculation | New | 2 | UTKARSH BRAHMAPURIKAR |
-| US-21546 | 70343_Heat Treatment type should be in the inspection summary not common details | Closed | 2 | UTKARSH BRAHMAPURIKAR |
 | US-21637 | Online ITP ITQA | New | 2 | UTKARSH BRAHMAPURIKAR |
 | US-21791 | CTQ Changes | New | 2 | UTKARSH BRAHMAPURIKAR |
 | US-22170 | Punch Points (70298) | New | 2 | UTKARSH BRAHMAPURIKAR |
@@ -38,30 +37,6 @@ Long Seam energy calculation
 Burner Calculation  
 
 SOR for Theoratical Energy Calculation
-
-### Acceptance Criteria
-
-_Not provided._
-
-## US-21546 — 70343_Heat Treatment type should be in the inspection summary not common details
-
-| Field | Value |
-|-------|-------|
-| ID | US-21546 |
-| Work Item Type | User Story |
-| State | Closed |
-| Priority | 2 |
-| Assigned To | UTKARSH BRAHMAPURIKAR |
-| Area Path | IEMQS 4.0 |
-| Iteration Path | IEMQS 4.0 |
-| Changed Date | 2026-03-21T03:15:06.17Z |
-| Created Date | 2025-06-24T06:41:34.957Z |
-| Tags |  |
-| ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/IEMQS%204.0/_workitems/edit/21546) |
-
-### Description
-
-Heat Treatment type should be in the inspection summary not common details
 
 ### Acceptance Criteria
 
