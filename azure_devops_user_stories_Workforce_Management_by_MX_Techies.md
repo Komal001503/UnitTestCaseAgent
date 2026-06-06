@@ -84318,7 +84318,7 @@ _Not provided._
 | Assigned To | Unassigned |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
-| Changed Date | 2026-05-19T09:05:07.443Z |
+| Changed Date | 2026-06-06T05:31:03.89Z |
 | Created Date | 2025-05-22T08:28:56.717Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/21040) |
@@ -97554,7 +97554,7 @@ _Not provided._
 | Assigned To | Jayraj Desai |
 | Area Path | ECOM |
 | Iteration Path | ECOM |
-| Changed Date | 2026-04-21T07:44:57.97Z |
+| Changed Date | 2026-06-06T04:36:59.46Z |
 | Created Date | 2026-04-21T02:25:51.42Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26265) |
@@ -97667,7 +97667,7 @@ _Not provided._
 | Assigned To | Basil Babu |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
-| Changed Date | 2026-05-21T09:44:11.937Z |
+| Changed Date | 2026-06-06T05:31:03.89Z |
 | Created Date | 2026-04-30T08:49:16.593Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/26313) |
