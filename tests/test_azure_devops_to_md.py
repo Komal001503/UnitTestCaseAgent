@@ -291,7 +291,7 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertIsNone(config.to_date)
         self.assertIsNone(config.date_field)
 
-    def test_resolveConfig_blankOptionalScopeFilters_areTreatedAsMissing(self):
+    def test_resolveConfig_blankOptionalScopeFilters_treatedAsMissing(self):
         args = argparse.Namespace(
             org="org",
             project="project",
