@@ -182,6 +182,64 @@ Each report includes:
 - Test method names and descriptions
 - A summary with total counts per user story
 
+## Uploading to FC S (File/Content Server)
+
+Input documents (user stories converted from Excel or synced from Azure DevOps) and output
+documents (generated test-case reports) can optionally be uploaded to the FC S server using
+`scripts/fcs_uploader.py`.
+
+### URL pattern
+
+```
+https://vhziemqsqa.lthed.com:86/Home/Index?folder=UnitTestCaseAgent
+    &tableid=<INPUT|OUTPUT>&linkedto=<ProjectName>_<Date>
+    &psno=20342252&deleteright=False
+```
+
+> **Note:** `/Home/Index` is the browse page of the ASP.NET MVC application, **not** necessarily
+> the real upload endpoint.  The HTTP method, upload path, and multipart field name are
+> fully configurable via environment variables so the client can be adjusted once the actual
+> upload contract is confirmed.
+
+### Quick start
+
+```bash
+# Upload an input user-story file
+python scripts/fcs_uploader.py upload path/to/user_stories.xlsx INPUT \
+    "WorkforceManagementByMXTechies_2026-06-10"
+
+# Upload an output report (let the script build the linkedto value from the project name)
+python scripts/fcs_uploader.py upload test_reports/report.xlsx OUTPUT \
+    --project-name "Workforce Management by MX Techies" --date-stamp 2026-06-10
+```
+
+Input and the matching output **must** share the same `linkedto` value so they can be paired
+on the FC S side.
+
+### Environment variables
+
+| Variable           | Default                          | Description |
+|--------------------|----------------------------------|-------------|
+| `FCS_BASE_URL`     | `https://vhziemqsqa.lthed.com:86`| FC S server base URL |
+| `FCS_UPLOAD_PATH`  | `/Home/Index`                    | Upload path (adjust once real endpoint is known) |
+| `FCS_HTTP_METHOD`  | `POST`                           | HTTP verb used for uploads |
+| `FCS_FIELD_NAME`   | `file`                           | Multipart form-field name for the uploaded file |
+| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Fixed `folder` query parameter |
+| `FCS_PSNO`         | `20342252`                       | `psno` query parameter |
+| `FCS_DELETE_RIGHT` | `False`                          | `deleteright` query parameter |
+| `FCS_USERNAME`     | —                                | Basic-auth username |
+| `FCS_PASSWORD`     | —                                | Basic-auth password |
+| `FCS_TOKEN`        | —                                | Bearer-token (alternative to basic auth) |
+| `FCS_VERIFY_SSL`   | `true`                           | Set to `false` for self-signed certificates |
+| `FCS_TIMEOUT`      | `60`                             | Request timeout in seconds |
+| `FCS_MAX_RETRIES`  | `3`                              | Retry attempts on connection errors / HTTP 5xx |
+
+### Retry behaviour
+
+The client retries automatically on connection errors and HTTP 5xx responses using exponential
+back-off (1 s → 2 s → 4 s …).  4xx responses are **not** retried and raise `FCSUploadError`
+immediately.
+
 ## Files
 
 | File | Purpose |
@@ -193,5 +251,6 @@ Each report includes:
 | `scripts/azure_devops_to_md.py` | Fetches Azure DevOps User Stories and converts them to Markdown |
 | `scripts/excel_to_md.py` | Converts Excel workbooks to Markdown |
 | `scripts/export_tests_to_text.py` | Exports test cases from `.py` files to text or Word documents |
+| `scripts/fcs_uploader.py` | Uploads input/output documents to the FC S server |
 | `scripts/requirements.txt` | Script dependencies (Excel conversion + Azure DevOps sync + Word export) |
 | `sample/user_stories_sample.md` | Sample user stories for testing |
