@@ -132,23 +132,53 @@ jobs:
           MODE: ${{ inputs.filter_mode || 'All' }}
           STATE_CHOICE: ${{ inputs.state || 'All' }}
           STATES_CSV_INPUT: ${{ inputs.states }}
+          ITERATION_PATH_INPUT: ${{ inputs.iteration_path }}
+          AREA_PATH_INPUT: ${{ inputs.area_path }}
+          BACKLOG_INPUT: ${{ inputs.backlog }}
+          ASSIGNED_TO_INPUT: ${{ inputs.assigned_to }}
+          TAGS_INPUT: ${{ inputs.tags }}
+          IDS_INPUT: ${{ inputs.ids }}
           DATE_FIELD_INPUT: ${{ inputs.date_field }}
           FROM_DATE_INPUT: ${{ inputs.from_date }}
           TO_DATE_INPUT: ${{ inputs.to_date }}
         run: |
           set -euo pipefail
+          iteration_path="$(printf '%s' "$ITERATION_PATH_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          area_path="$(printf '%s' "$AREA_PATH_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          backlog="$(printf '%s' "$BACKLOG_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          assigned_to="$(printf '%s' "$ASSIGNED_TO_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          tags="$(printf '%s' "$TAGS_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          ids="$(printf '%s' "$IDS_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
           from_date="$(printf '%s' "$FROM_DATE_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
           to_date="$(printf '%s' "$TO_DATE_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
           date_field="$(printf '%s' "$DATE_FIELD_INPUT" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
 
           case "$MODE" in
             All)         echo "Using no scope filter (all stories)";;
-            ByIteration) echo "iteration_path=${{ inputs.iteration_path }}" >> "$GITHUB_OUTPUT";;
-            ByArea)      echo "area_path=${{ inputs.area_path }}" >> "$GITHUB_OUTPUT";;
-            ByBacklog)   echo "backlog=${{ inputs.backlog }}" >> "$GITHUB_OUTPUT";;
-            ByAssignee)  echo "assigned_to=${{ inputs.assigned_to }}" >> "$GITHUB_OUTPUT";;
-            ByTags)      echo "tags=${{ inputs.tags }}" >> "$GITHUB_OUTPUT";;
-            ByIds)       echo "ids=${{ inputs.ids }}" >> "$GITHUB_OUTPUT";;
+            ByIteration)
+              [[ -n "$iteration_path" ]] || { echo "filter_mode=ByIteration requires iteration_path." >&2; exit 1; }
+              echo "iteration_path=$iteration_path" >> "$GITHUB_OUTPUT"
+              ;;
+            ByArea)
+              [[ -n "$area_path" ]] || { echo "filter_mode=ByArea requires area_path." >&2; exit 1; }
+              echo "area_path=$area_path" >> "$GITHUB_OUTPUT"
+              ;;
+            ByBacklog)
+              [[ -n "$backlog" ]] || { echo "filter_mode=ByBacklog requires backlog." >&2; exit 1; }
+              echo "backlog=$backlog" >> "$GITHUB_OUTPUT"
+              ;;
+            ByAssignee)
+              [[ -n "$assigned_to" ]] || { echo "filter_mode=ByAssignee requires assigned_to." >&2; exit 1; }
+              echo "assigned_to=$assigned_to" >> "$GITHUB_OUTPUT"
+              ;;
+            ByTags)
+              [[ -n "$tags" ]] || { echo "filter_mode=ByTags requires tags." >&2; exit 1; }
+              echo "tags=$tags" >> "$GITHUB_OUTPUT"
+              ;;
+            ByIds)
+              [[ -n "$ids" ]] || { echo "filter_mode=ByIds requires ids." >&2; exit 1; }
+              echo "ids=$ids" >> "$GITHUB_OUTPUT"
+              ;;
             *) echo "Unknown filter_mode '$MODE'" >&2; exit 1;;
           esac
 
