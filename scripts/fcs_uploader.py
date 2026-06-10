@@ -311,9 +311,9 @@ class FCSClient:
         last_body: str = ""
 
         for attempt in range(cfg.max_retries):
-            delay = 2 ** attempt  # 1s, 2s, 4s …  (attempt 0 → 1s, 1 → 2s, …)
             if attempt > 0:
-                time.sleep(delay)
+                # Exponential back-off: 1s, 2s, 4s … on successive retries
+                time.sleep(2 ** (attempt - 1))
 
             try:
                 with local_path.open("rb") as fh:

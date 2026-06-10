@@ -8,6 +8,8 @@ Covers:
 - CLI argument parsing
 """
 
+SOURCE_STORY_FILE = None  # These tests are not generated from a user-story Excel file
+
 import tempfile
 import unittest
 import unittest.mock
@@ -421,9 +423,9 @@ class TestFCSClientRetry(unittest.TestCase):
         f = self._make_tmp_file()
         client.upload_file(f, "INPUT", "X")
 
-        # sleep called for attempt 1 (2^1=2) and attempt 2 (2^2=4)
+        # sleep called for attempt 1 (2^0=1s) and attempt 2 (2^1=2s)
         sleep_calls = [c[0][0] for c in mock_sleep.call_args_list]
-        self.assertEqual(sleep_calls, [2, 4])
+        self.assertEqual(sleep_calls, [1, 2])
 
 
 # ---------------------------------------------------------------------------
