@@ -181,6 +181,13 @@ def _effective_date_field(
     return date_field or "ChangedDate"
 
 
+def _normalize_optional_text(value: str | None) -> str | None:
+    if value is None:
+        return None
+    normalized = value.strip()
+    return normalized or None
+
+
 def _pick_arg_or_env(arg_value: str | None, env: Mapping[str, str], env_name: str) -> str | None:
     if arg_value is not None:
         return arg_value
@@ -190,7 +197,7 @@ def _pick_arg_or_env(arg_value: str | None, env: Mapping[str, str], env_name: st
 def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDevOpsConfig:
     org = _pick_arg_or_env(args.org, env, "AZURE_DEVOPS_ORG")
     project = _pick_arg_or_env(args.project, env, "AZURE_DEVOPS_PROJECT")
-    team = _pick_arg_or_env(args.team, env, "AZURE_DEVOPS_TEAM")
+    team = _normalize_optional_text(_pick_arg_or_env(args.team, env, "AZURE_DEVOPS_TEAM"))
     pat = _pick_arg_or_env(None, env, "AZURE_DEVOPS_PAT")
     work_item_type = _pick_arg_or_env(
         args.work_item_type,
@@ -198,12 +205,18 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
         "AZURE_DEVOPS_WORK_ITEM_TYPE",
     ) or "User Story"
     states = _csv_to_list(_pick_arg_or_env(args.states, env, "AZURE_DEVOPS_STATES"))
-    area_path = _pick_arg_or_env(args.area_path, env, "AZURE_DEVOPS_AREA_PATH")
-    backlog = _pick_arg_or_env(getattr(args, "backlog", None), env, "AZURE_DEVOPS_BACKLOG")
-    iteration_path = _pick_arg_or_env(
-        getattr(args, "iteration_path", None), env, "AZURE_DEVOPS_ITERATION_PATH"
+    area_path = _normalize_optional_text(_pick_arg_or_env(args.area_path, env, "AZURE_DEVOPS_AREA_PATH"))
+    backlog = _normalize_optional_text(
+        _pick_arg_or_env(getattr(args, "backlog", None), env, "AZURE_DEVOPS_BACKLOG")
     )
-    assigned_to = _pick_arg_or_env(getattr(args, "assigned_to", None), env, "AZURE_DEVOPS_ASSIGNED_TO")
+    iteration_path = _normalize_optional_text(
+        _pick_arg_or_env(
+        getattr(args, "iteration_path", None), env, "AZURE_DEVOPS_ITERATION_PATH"
+        )
+    )
+    assigned_to = _normalize_optional_text(
+        _pick_arg_or_env(getattr(args, "assigned_to", None), env, "AZURE_DEVOPS_ASSIGNED_TO")
+    )
     tags = _csv_to_list(_pick_arg_or_env(getattr(args, "tags", None), env, "AZURE_DEVOPS_TAGS"))
     ids = _csv_to_int_list(
         _pick_arg_or_env(getattr(args, "ids", None), env, "AZURE_DEVOPS_IDS"),
@@ -233,12 +246,12 @@ def resolve_config(args: argparse.Namespace, env: Mapping[str, str]) -> AzureDev
     return AzureDevOpsConfig(
         org=org,
         project=project,
-        team=team or None,
+        team=team,
         pat=pat,
         work_item_type=work_item_type,
         states=states,
         area_path=area_path,
-        backlog=(backlog.strip() or None) if backlog else None,
+        backlog=backlog,
         iteration_path=iteration_path,
         assigned_to=assigned_to,
         tags=tags,

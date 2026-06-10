@@ -291,6 +291,45 @@ class AzureDevOpsToMarkdownTests(unittest.TestCase):
         self.assertIsNone(config.to_date)
         self.assertIsNone(config.date_field)
 
+    def test_resolveConfig_blankOptionalScopeFilters_treatedAsMissing(self):
+        args = argparse.Namespace(
+            org="org",
+            project="project",
+            team=None,
+            work_item_type="User Story",
+            states=None,
+            area_path=None,
+            backlog=None,
+            iteration_path=None,
+            assigned_to=None,
+            tags=None,
+            ids=None,
+            from_date=None,
+            to_date=None,
+            date_field=None,
+            output="out.md",
+            dry_run=False,
+            verbose=False,
+        )
+
+        config = resolve_config(
+            args,
+            env={
+                "AZURE_DEVOPS_PAT": "pat",
+                "AZURE_DEVOPS_TEAM": "   ",
+                "AZURE_DEVOPS_AREA_PATH": "",
+                "AZURE_DEVOPS_BACKLOG": "  ",
+                "AZURE_DEVOPS_ITERATION_PATH": " ",
+                "AZURE_DEVOPS_ASSIGNED_TO": "   ",
+            },
+        )
+
+        self.assertIsNone(config.team)
+        self.assertIsNone(config.area_path)
+        self.assertIsNone(config.backlog)
+        self.assertIsNone(config.iteration_path)
+        self.assertIsNone(config.assigned_to)
+
     def test_resolveConfig_dateField_isNormalized_caseInsensitively(self):
         args = argparse.Namespace(
             org="org",
