@@ -188,18 +188,16 @@ Input documents (user stories converted from Excel or synced from Azure DevOps) 
 documents (generated test-case reports) can optionally be uploaded to the FC S server using
 `scripts/fcs_uploader.py`.
 
-### URL pattern
+### Upload endpoint
 
-```
-https://vhziemqsqa.lthed.com:86/Home/Index?folder=UnitTestCaseAgent
-    &tableid=<INPUT|OUTPUT>&linkedto=<ProjectName>_<Date>
-    &psno=20342252&deleteright=False
+``` 
+POST https://vhzqaplmfcs.lthed.com/api/DocumentUpload
 ```
 
-> **Note:** `/Home/Index` is the browse page of the ASP.NET MVC application, **not** necessarily
-> the real upload endpoint.  The HTTP method, upload path, and multipart field name are
-> fully configurable via environment variables so the client can be adjusted once the actual
-> upload contract is confirmed.
+By default the uploader sends `folder`, `tableid`, `linkedto`, `psno`, and `deleteright`
+as multipart form fields and sends browser-like `Origin` / `Referer` headers using the browse
+origin `https://vhziemqsqa.lthed.com:86/`. You can still switch the metadata to query params
+or send it both ways via environment variables.
 
 ### Quick start
 
@@ -220,19 +218,40 @@ on the FC S side.
 
 | Variable           | Default                          | Description |
 |--------------------|----------------------------------|-------------|
-| `FCS_BASE_URL`     | `https://vhziemqsqa.lthed.com:86`| FC S server base URL |
-| `FCS_UPLOAD_PATH`  | `/Home/Index`                    | Upload path (adjust once real endpoint is known) |
+| `FCS_BASE_URL`     | `https://vhzqaplmfcs.lthed.com`  | FC S upload server base URL |
+| `FCS_UPLOAD_PATH`  | `/api/DocumentUpload`            | Upload path |
 | `FCS_HTTP_METHOD`  | `POST`                           | HTTP verb used for uploads |
 | `FCS_FIELD_NAME`   | `file`                           | Multipart form-field name for the uploaded file |
-| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Fixed `folder` query parameter |
-| `FCS_PSNO`         | `20342252`                       | `psno` query parameter |
-| `FCS_DELETE_RIGHT` | `False`                          | `deleteright` query parameter |
+| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Folder metadata value |
+| `FCS_PSNO`         | `20342252`                       | `psno` metadata value |
+| `FCS_DELETE_RIGHT` | `False`                          | `deleteright` metadata value |
+| `FCS_PARAMS_AS`    | `form`                           | Send metadata as `form`, `query`, or `both` |
+| `FCS_BROWSE_ORIGIN`| `https://vhziemqsqa.lthed.com:86`| Sent as `Origin` and `Referer` |
+| `FCS_FIELD_FOLDER` | `folder`                         | Field name for folder metadata |
+| `FCS_FIELD_TABLEID`| `tableid`                        | Field name for tableid metadata |
+| `FCS_FIELD_LINKEDTO`| `linkedto`                      | Field name for linkedto metadata |
+| `FCS_FIELD_PSNO`   | `psno`                           | Field name for psno metadata |
+| `FCS_FIELD_DELETERIGHT`| `deleteright`                | Field name for deleteright metadata |
 | `FCS_USERNAME`     | —                                | Basic-auth username |
 | `FCS_PASSWORD`     | —                                | Basic-auth password |
 | `FCS_TOKEN`        | —                                | Bearer-token (alternative to basic auth) |
 | `FCS_VERIFY_SSL`   | `true`                           | Set to `false` for self-signed certificates |
 | `FCS_TIMEOUT`      | `60`                             | Request timeout in seconds |
 | `FCS_MAX_RETRIES`  | `3`                              | Retry attempts on connection errors / HTTP 5xx |
+
+### Probe mode
+
+Use `--probe` to print the resolved request without uploading a file:
+
+```bash
+python scripts/fcs_uploader.py upload test_reports/report.xlsx OUTPUT \
+    --project-name "Workforce Management by MX Techies" --probe
+```
+
+### Workflow integration
+
+The existing Azure DevOps sync workflow now uploads the synced Markdown as `INPUT`, and the
+report-export workflow uploads generated report files as `OUTPUT`.
 
 ### Retry behaviour
 

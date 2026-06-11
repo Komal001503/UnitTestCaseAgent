@@ -257,6 +257,17 @@ jobs:
           OUTPUT_PATH: ${{ steps.outpath.outputs.path }}
         run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH" --verbose
 
+      - name: Upload synced user stories to FC S
+        env:
+          AZURE_DEVOPS_PROJECT: ${{ inputs.project || 'Workforce Management by MX Techies' }}
+          OUTPUT_PATH: ${{ steps.outpath.outputs.path }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          run_date="$(date -u +%F)"
+          python scripts/fcs_uploader.py upload "$OUTPUT_PATH" INPUT \
+            --project-name "$AZURE_DEVOPS_PROJECT" --date-stamp "$run_date"
+
       - name: Commit synced Markdown
         env:
           OUTPUT_PATH: ${{ steps.outpath.outputs.path }}

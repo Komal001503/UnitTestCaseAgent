@@ -44,6 +44,31 @@ jobs:
           python scripts/export_tests_to_text.py --format xlsx --output-dir test_reports \
             --project-name "$AZURE_DEVOPS_PROJECT"
 
+      - name: Upload generated reports to FC S
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          run_date="$(date -u +%F)"
+          report_files=(
+            test_reports/*_test_report.docx
+            test_reports/*_test_report.xlsx
+            test_reports/unit_test_cases_report.docx
+            test_reports/unit_test_cases_report.xlsx
+          )
+
+          if [[ "${#report_files[@]}" -eq 0 ]]; then
+            echo 'No report files to upload.'
+            exit 0
+          fi
+
+          for file in "${report_files[@]}"; do
+            [[ -f "$file" ]] || continue
+            python scripts/fcs_uploader.py upload "$file" OUTPUT \
+              --project-name "$AZURE_DEVOPS_PROJECT" --date-stamp "$run_date"
+          done
+
       - name: Upload test reports as artifact
         uses: actions/upload-artifact@v4
         with:
