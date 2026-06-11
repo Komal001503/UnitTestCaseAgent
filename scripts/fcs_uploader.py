@@ -5,18 +5,11 @@ Uploads **input** documents (user stories synced from Azure DevOps / converted
 from Excel) and **output** documents (generated test-case reports) to the FC S
 server using the URL pattern::
 
-    https://vhziemqsqa.lthed.com:86/Home/Index?folder=UnitTestCaseAgent
-        &tableid=<INPUT|OUTPUT>&linkedto=<ProjectName>_<Date>
-        &psno=20342252&deleteright=False
+    https://vhzqaplmfcs.lthed.com/api/DocumentUpload
 
 .. note::
-    ``/Home/Index`` is the **browse** page of an ASP.NET MVC app, not
-    necessarily the real upload endpoint.  The actual HTTP method, upload path,
-    and multipart field name are therefore configurable via environment
-    variables (``FCS_HTTP_METHOD``, ``FCS_UPLOAD_PATH``, ``FCS_FIELD_NAME``)
-    so that the client can be adapted once the real upload contract is
-    confirmed.  The defaults match the documented URL so the system works
-    out-of-the-box with the current endpoint.
+    The browse UI and upload endpoint use different hosts.  Metadata fields can
+    be sent as multipart form fields (default), query parameters, or both.
 
 Usage (CLI)::
 
@@ -33,10 +26,12 @@ from __future__ import annotations
 import argparse
 import datetime
 import os
+import sys
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Mapping
+from urllib.parse import urlencode
 
 import requests
 from requests.auth import HTTPBasicAuth
@@ -46,21 +41,29 @@ from requests.auth import HTTPBasicAuth
 # the regex.  This is the single source of truth for project-name sanitisation
 # across the whole tool-chain.
 # ---------------------------------------------------------------------------
-from scripts.export_tests_to_text import _sanitize_project_name  # noqa: PLC2701
+try:
+    from scripts.export_tests_to_text import _sanitize_project_name  # noqa: PLC2701
+except ModuleNotFoundError:  # pragma: no cover - direct script execution fallback
+    from export_tests_to_text import _sanitize_project_name  # type: ignore
 
 # ---------------------------------------------------------------------------
 # Public constants
 # ---------------------------------------------------------------------------
 
-DEFAULT_BASE_URL = "https://vhziemqsqa.lthed.com:86"
-# NOTE: /Home/Index is the ASP.NET MVC browse page; adjust FCS_UPLOAD_PATH
-# once the real upload endpoint is confirmed.
-DEFAULT_UPLOAD_PATH = "/Home/Index"
+DEFAULT_BASE_URL = "https://vhzqaplmfcs.lthed.com"
+DEFAULT_UPLOAD_PATH = "/api/DocumentUpload"
 DEFAULT_HTTP_METHOD = "POST"
 DEFAULT_FIELD_NAME = "file"
 DEFAULT_FOLDER = "UnitTestCaseAgent"
 DEFAULT_PSNO = "20342252"
 DEFAULT_DELETE_RIGHT = "False"
+DEFAULT_PARAMS_AS = "form"
+DEFAULT_BROWSE_ORIGIN = "https://vhziemqsqa.lthed.com:86"
+DEFAULT_FIELD_FOLDER = "folder"
+DEFAULT_FIELD_TABLEID = "tableid"
+DEFAULT_FIELD_LINKEDTO = "linkedto"
+DEFAULT_FIELD_PSNO = "psno"
+DEFAULT_FIELD_DELETERIGHT = "deleteright"
 DEFAULT_TIMEOUT = 60
 DEFAULT_MAX_RETRIES = 3
 
@@ -107,6 +110,13 @@ class FCSConfig:
     folder: str = DEFAULT_FOLDER
     psno: str = DEFAULT_PSNO
     delete_right: str = DEFAULT_DELETE_RIGHT
+    params_as: str = DEFAULT_PARAMS_AS
+    browse_origin: str = DEFAULT_BROWSE_ORIGIN
+    field_folder: str = DEFAULT_FIELD_FOLDER
+    field_tableid: str = DEFAULT_FIELD_TABLEID
+    field_linkedto: str = DEFAULT_FIELD_LINKEDTO
+    field_psno: str = DEFAULT_FIELD_PSNO
+    field_deleteright: str = DEFAULT_FIELD_DELETERIGHT
     username: str | None = None
     password: str | None = None
     token: str | None = None
@@ -127,12 +137,19 @@ class FCSConfig:
         Env var                   Default        Description
         ========================  =============  =======================================
         ``FCS_BASE_URL``          (see above)    Base URL of the FC S server
-        ``FCS_UPLOAD_PATH``       /Home/Index    Path component for upload requests
+        ``FCS_UPLOAD_PATH``       /api/DocumentUpload  Path component for upload requests
         ``FCS_HTTP_METHOD``       POST           HTTP verb used for uploads
         ``FCS_FIELD_NAME``        file           Multipart form-field name for the file
-        ``FCS_FOLDER``            UnitTestCase…  Fixed folder param sent in query string
+        ``FCS_FOLDER``            UnitTestCase…  Folder metadata value
         ``FCS_PSNO``              20342252       Project/site number
         ``FCS_DELETE_RIGHT``      False          Whether the upload grants delete rights
+        ``FCS_PARAMS_AS``         form           Send metadata as form/query/both
+        ``FCS_BROWSE_ORIGIN``     https://vhzi…  Sent as Origin and Referer headers
+        ``FCS_FIELD_FOLDER``      folder         Metadata field name for folder
+        ``FCS_FIELD_TABLEID``     tableid        Metadata field name for tableid
+        ``FCS_FIELD_LINKEDTO``    linkedto       Metadata field name for linkedto
+        ``FCS_FIELD_PSNO``        psno           Metadata field name for psno
+        ``FCS_FIELD_DELETERIGHT`` deleteright    Metadata field name for deleteright
         ``FCS_USERNAME``          —              Basic-auth username (optional)
         ``FCS_PASSWORD``          —              Basic-auth password (optional)
         ``FCS_TOKEN``             —              Bearer token (alternative to basic auth)
@@ -160,6 +177,14 @@ class FCSConfig:
         except ValueError:
             max_retries = DEFAULT_MAX_RETRIES
 
+        params_as = _get("FCS_PARAMS_AS", DEFAULT_PARAMS_AS).strip().lower()
+        if params_as not in {"form", "query", "both"}:
+            print(
+                f"[fcs_uploader] Invalid FCS_PARAMS_AS={params_as!r}; falling back to 'form'.",
+                file=sys.stderr,
+            )
+            params_as = DEFAULT_PARAMS_AS
+
         return cls(
             base_url=_get("FCS_BASE_URL", DEFAULT_BASE_URL),
             upload_path=_get("FCS_UPLOAD_PATH", DEFAULT_UPLOAD_PATH),
@@ -168,6 +193,13 @@ class FCSConfig:
             folder=_get("FCS_FOLDER", DEFAULT_FOLDER),
             psno=_get("FCS_PSNO", DEFAULT_PSNO),
             delete_right=_get("FCS_DELETE_RIGHT", DEFAULT_DELETE_RIGHT),
+            params_as=params_as,
+            browse_origin=_get("FCS_BROWSE_ORIGIN", DEFAULT_BROWSE_ORIGIN),
+            field_folder=_get("FCS_FIELD_FOLDER", DEFAULT_FIELD_FOLDER),
+            field_tableid=_get("FCS_FIELD_TABLEID", DEFAULT_FIELD_TABLEID),
+            field_linkedto=_get("FCS_FIELD_LINKEDTO", DEFAULT_FIELD_LINKEDTO),
+            field_psno=_get("FCS_FIELD_PSNO", DEFAULT_FIELD_PSNO),
+            field_deleteright=_get("FCS_FIELD_DELETERIGHT", DEFAULT_FIELD_DELETERIGHT),
             username=env.get("FCS_USERNAME") or None,
             password=env.get("FCS_PASSWORD") or None,
             token=env.get("FCS_TOKEN") or None,
@@ -244,8 +276,7 @@ class FCSClient:
             linkedto:     Pairing key, e.g. ``"MyProject_2026-06-10"``.  Input
                           and matching output **must** share the same value so
                           they can be paired on the FC S side.
-            extra_params: Optional dict of additional query parameters to
-                          append to the upload URL.
+            extra_params: Optional dict of additional metadata fields.
 
         Returns:
             ``{"status_code": <int>, "url": "<str>", "body": <json-or-text>}``
@@ -265,28 +296,43 @@ class FCSClient:
         if not local_path.exists():
             raise ValueError(f"File not found: {local_path}")
 
-        url = self._build_url(tableid_upper, linkedto, extra_params)
-        return self._upload_with_retry(local_path, url)
+        metadata = self._build_metadata(tableid_upper, linkedto, extra_params)
+        url, data = self._build_request_target(metadata)
+        return self._upload_with_retry(local_path, url, data=data)
 
     # ------------------------------------------------------------------
     # Private helpers
     # ------------------------------------------------------------------
 
-    def _build_url(self, tableid: str, linkedto: str, extra_params: dict | None) -> str:
+    def _build_metadata(self, tableid: str, linkedto: str, extra_params: dict | None) -> dict:
+        cfg = self._config
+        metadata = {
+            cfg.field_folder: cfg.folder,
+            cfg.field_tableid: tableid,
+            cfg.field_linkedto: linkedto,
+            cfg.field_psno: cfg.psno,
+            cfg.field_deleteright: cfg.delete_right,
+        }
+        if extra_params:
+            metadata.update(extra_params)
+        return metadata
+
+    def _build_url(self, query_params: dict | None = None) -> str:
         cfg = self._config
         base = cfg.base_url.rstrip("/")
         path = cfg.upload_path
-        params = {
-            "folder": cfg.folder,
-            "tableid": tableid,
-            "linkedto": linkedto,
-            "psno": cfg.psno,
-            "deleteright": cfg.delete_right,
-        }
-        if extra_params:
-            params.update(extra_params)
-        query = "&".join(f"{k}={v}" for k, v in params.items())
-        return f"{base}{path}?{query}"
+        url = f"{base}{path}"
+        if query_params:
+            url = f"{url}?{urlencode(query_params)}"
+        return url
+
+    def _build_request_target(self, metadata: dict) -> tuple[str, dict | None]:
+        params_as = self._config.params_as
+        if params_as == "query":
+            return self._build_url(query_params=metadata), None
+        if params_as == "both":
+            return self._build_url(query_params=metadata), metadata
+        return self._build_url(), metadata
 
     def _build_auth(self):
         cfg = self._config
@@ -296,12 +342,16 @@ class FCSClient:
 
     def _build_headers(self) -> dict:
         cfg = self._config
-        headers: dict = {}
+        origin = cfg.browse_origin.rstrip("/")
+        headers: dict = {
+            "Origin": origin,
+            "Referer": f"{origin}/",
+        }
         if cfg.token and not (cfg.username and cfg.password):
             headers["Authorization"] = "Bearer " + cfg.token
         return headers
 
-    def _upload_with_retry(self, local_path: Path, url: str) -> dict:
+    def _upload_with_retry(self, local_path: Path, url: str, *, data: dict | None = None) -> dict:
         cfg = self._config
         method = cfg.http_method.upper()
         auth = self._build_auth()
@@ -321,6 +371,7 @@ class FCSClient:
                         method,
                         url,
                         files={cfg.field_name: (local_path.name, fh)},
+                        data=data,
                         auth=auth,
                         headers=headers,
                         verify=cfg.verify_ssl,
@@ -375,8 +426,8 @@ def _parse_args(argv=None):
     parser = argparse.ArgumentParser(
         description=(
             "Upload documents to the FC S (File/Content Server).\n\n"
-            "NOTE: /Home/Index is the ASP.NET MVC browse page; adjust\n"
-            "FCS_UPLOAD_PATH once the real upload endpoint is confirmed."
+            "Defaults target the observed production upload endpoint:\n"
+            "https://vhzqaplmfcs.lthed.com/api/DocumentUpload"
         )
     )
     sub = parser.add_subparsers(dest="command", required=True)
@@ -422,7 +473,12 @@ def _parse_args(argv=None):
         nargs="*",
         metavar="KEY=VALUE",
         default=[],
-        help="Additional query parameters to append to the upload URL.",
+        help="Additional metadata key-value pairs (routing depends on FCS_PARAMS_AS).",
+    )
+    up.add_argument(
+        "--probe",
+        action="store_true",
+        help="Print the resolved request URL/metadata and exit without uploading.",
     )
 
     return parser.parse_args(argv)
@@ -448,6 +504,14 @@ def _run_upload(args) -> None:  # pragma: no branch
 
     config = FCSConfig.from_env()
     client = FCSClient(config)
+    metadata = client._build_metadata(args.tableid.upper(), linkedto, extra)
+    url, data = client._build_request_target(metadata)
+    if args.probe:
+        data_target = "none" if data is None else "form"
+        print(f"Probe: method={config.http_method.upper()} url={url}")
+        print(f"Probe: metadata_keys={list(metadata.keys())}")
+        print(f"Probe: metadata_target={config.params_as} (data={data_target})")
+        return
     result = client.upload_file(
         local_path=args.local_path,
         tableid=args.tableid,
