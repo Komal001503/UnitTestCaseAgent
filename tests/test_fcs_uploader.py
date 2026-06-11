@@ -650,9 +650,8 @@ class TestMain(unittest.TestCase):
                   "--project-name", "Test Project", "--date-stamp", "2026-06-10"])
 
         _, kwargs = mock_upload.call_args
-        # linkedto should have been built from project name
-        self.assertIn("linkedto", kwargs or {}) or self.assertIn("TestProject_2026-06-10",
-                                                                   str(mock_upload.call_args))
+        self.assertEqual(kwargs["linkedto"], "TestProject_2026-06-10")
+        self.assertEqual(kwargs["tableid"], "OUTPUT")
 
     @patch("builtins.print")
     @patch("scripts.fcs_uploader.FCSClient.probe_request")

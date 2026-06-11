@@ -41,6 +41,8 @@ from requests.auth import HTTPBasicAuth
 # the regex.  This is the single source of truth for project-name sanitisation
 # across the whole tool-chain.
 # ---------------------------------------------------------------------------
+# Support both `python -m scripts.fcs_uploader` and
+# direct execution via `python scripts/fcs_uploader.py`.
 try:
     from scripts.export_tests_to_text import _sanitize_project_name  # noqa: PLC2701
 except ModuleNotFoundError:  # pragma: no cover - direct script execution path
