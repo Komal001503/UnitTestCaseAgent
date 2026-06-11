@@ -64,7 +64,6 @@ jobs:
           fi
 
           for file in "${report_files[@]}"; do
-            [[ -f "$file" ]] || continue
             python scripts/fcs_uploader.py upload "$file" OUTPUT \
               --project-name "$AZURE_DEVOPS_PROJECT" --date-stamp "$run_date"
           done
