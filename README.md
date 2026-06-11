@@ -188,18 +188,14 @@ Input documents (user stories converted from Excel or synced from Azure DevOps) 
 documents (generated test-case reports) can optionally be uploaded to the FC S server using
 `scripts/fcs_uploader.py`.
 
-### URL pattern
+### Upload endpoint
 
 ```
-https://vhziemqsqa.lthed.com:86/Home/Index?folder=UnitTestCaseAgent
-    &tableid=<INPUT|OUTPUT>&linkedto=<ProjectName>_<Date>
-    &psno=20342252&deleteright=False
+https://vhzqaplmfcs.lthed.com/api/DocumentUpload
 ```
 
-> **Note:** `/Home/Index` is the browse page of the ASP.NET MVC application, **not** necessarily
-> the real upload endpoint.  The HTTP method, upload path, and multipart field name are
-> fully configurable via environment variables so the client can be adjusted once the actual
-> upload contract is confirmed.
+By default, metadata (`folder`, `tableid`, `linkedto`, `psno`, `deleteright`) is sent as multipart
+form fields to match the FC S browser upload contract.
 
 ### Quick start
 
@@ -220,13 +216,20 @@ on the FC S side.
 
 | Variable           | Default                          | Description |
 |--------------------|----------------------------------|-------------|
-| `FCS_BASE_URL`     | `https://vhziemqsqa.lthed.com:86`| FC S server base URL |
-| `FCS_UPLOAD_PATH`  | `/Home/Index`                    | Upload path (adjust once real endpoint is known) |
+| `FCS_BASE_URL`     | `https://vhzqaplmfcs.lthed.com`  | FC S upload server base URL |
+| `FCS_UPLOAD_PATH`  | `/api/DocumentUpload`            | Upload path |
 | `FCS_HTTP_METHOD`  | `POST`                           | HTTP verb used for uploads |
 | `FCS_FIELD_NAME`   | `file`                           | Multipart form-field name for the uploaded file |
-| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Fixed `folder` query parameter |
-| `FCS_PSNO`         | `20342252`                       | `psno` query parameter |
-| `FCS_DELETE_RIGHT` | `False`                          | `deleteright` query parameter |
+| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Metadata value for folder |
+| `FCS_PSNO`         | `20342252`                       | Metadata value for psno |
+| `FCS_DELETE_RIGHT` | `False`                          | Metadata value for deleteright |
+| `FCS_PARAMS_AS`    | `form`                           | Send metadata as `form`, `query`, or `both` |
+| `FCS_BROWSE_ORIGIN`| `https://vhziemqsqa.lthed.com:86`| Sent as `Origin` and `Referer` headers |
+| `FCS_FIELD_FOLDER` | `folder`                         | Metadata field name for folder |
+| `FCS_FIELD_TABLEID`| `tableid`                        | Metadata field name for tableid |
+| `FCS_FIELD_LINKEDTO`| `linkedto`                      | Metadata field name for linkedto |
+| `FCS_FIELD_PSNO`   | `psno`                           | Metadata field name for psno |
+| `FCS_FIELD_DELETERIGHT` | `deleteright`               | Metadata field name for deleteright |
 | `FCS_USERNAME`     | —                                | Basic-auth username |
 | `FCS_PASSWORD`     | —                                | Basic-auth password |
 | `FCS_TOKEN`        | —                                | Bearer-token (alternative to basic auth) |
@@ -239,6 +242,14 @@ on the FC S side.
 The client retries automatically on connection errors and HTTP 5xx responses using exponential
 back-off (1 s → 2 s → 4 s …).  4xx responses are **not** retried and raise `FCSUploadError`
 immediately.
+
+### Probe mode
+
+Use `--probe` to inspect the resolved URL/metadata without performing an upload:
+
+```bash
+python scripts/fcs_uploader.py upload path/to/file.xlsx INPUT --project-name "Workforce Management by MX Techies" --probe
+```
 
 ## Files
 

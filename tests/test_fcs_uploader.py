@@ -13,16 +13,24 @@ SOURCE_STORY_FILE = None  # These tests are not generated from a user-story Exce
 import tempfile
 import unittest
 import unittest.mock
+from io import StringIO
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 from scripts.fcs_uploader import (
     DEFAULT_BASE_URL,
+    DEFAULT_BROWSE_ORIGIN,
     DEFAULT_DELETE_RIGHT,
     DEFAULT_FIELD_NAME,
+    DEFAULT_FIELD_DELETERIGHT,
+    DEFAULT_FIELD_FOLDER,
+    DEFAULT_FIELD_LINKEDTO,
+    DEFAULT_FIELD_PSNO,
+    DEFAULT_FIELD_TABLEID,
     DEFAULT_FOLDER,
     DEFAULT_HTTP_METHOD,
     DEFAULT_MAX_RETRIES,
+    DEFAULT_PARAMS_AS,
     DEFAULT_PSNO,
     DEFAULT_TIMEOUT,
     DEFAULT_UPLOAD_PATH,
@@ -51,6 +59,13 @@ class TestFCSConfigDefaults(unittest.TestCase):
         self.assertEqual(cfg.folder, DEFAULT_FOLDER)
         self.assertEqual(cfg.psno, DEFAULT_PSNO)
         self.assertEqual(cfg.delete_right, DEFAULT_DELETE_RIGHT)
+        self.assertEqual(cfg.params_as, DEFAULT_PARAMS_AS)
+        self.assertEqual(cfg.browse_origin, DEFAULT_BROWSE_ORIGIN)
+        self.assertEqual(cfg.field_folder, DEFAULT_FIELD_FOLDER)
+        self.assertEqual(cfg.field_tableid, DEFAULT_FIELD_TABLEID)
+        self.assertEqual(cfg.field_linkedto, DEFAULT_FIELD_LINKEDTO)
+        self.assertEqual(cfg.field_psno, DEFAULT_FIELD_PSNO)
+        self.assertEqual(cfg.field_deleteright, DEFAULT_FIELD_DELETERIGHT)
         self.assertIsNone(cfg.username)
         self.assertIsNone(cfg.password)
         self.assertIsNone(cfg.token)
@@ -90,6 +105,50 @@ class TestFCSConfigFromEnv(unittest.TestCase):
     def test_fromEnv_overridesDeleteRight(self):
         cfg = FCSConfig.from_env(env={"FCS_DELETE_RIGHT": "True"})
         self.assertEqual(cfg.delete_right, "True")
+
+    def test_fromEnv_overridesParamsAs(self):
+        cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "both"})
+        self.assertEqual(cfg.params_as, "both")
+
+    def test_fromEnv_overridesParamsAsQuery(self):
+        cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "query"})
+        self.assertEqual(cfg.params_as, "query")
+
+    def test_fromEnv_paramsAs_normalizesCase(self):
+        cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "  BoTh  "})
+        self.assertEqual(cfg.params_as, "both")
+
+    def test_fromEnv_invalidParamsAs_fallsBackToFormWithWarning(self):
+        with patch("sys.stderr", new_callable=StringIO) as stderr:
+            cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "invalid"})
+        self.assertEqual(cfg.params_as, "form")
+        self.assertEqual(
+            stderr.getvalue().strip(),
+            (
+                "[fcs_uploader] Invalid FCS_PARAMS_AS='invalid'; must be 'form', "
+                "'query', or 'both'. Falling back to 'form'."
+            ),
+        )
+
+    def test_fromEnv_overridesBrowseOrigin(self):
+        cfg = FCSConfig.from_env(env={"FCS_BROWSE_ORIGIN": "https://example.com:86"})
+        self.assertEqual(cfg.browse_origin, "https://example.com:86")
+
+    def test_fromEnv_overridesMetadataFieldNames(self):
+        cfg = FCSConfig.from_env(
+            env={
+                "FCS_FIELD_FOLDER": "Folder",
+                "FCS_FIELD_TABLEID": "TableID",
+                "FCS_FIELD_LINKEDTO": "LinkedTo",
+                "FCS_FIELD_PSNO": "PsNo",
+                "FCS_FIELD_DELETERIGHT": "DeleteRight",
+            }
+        )
+        self.assertEqual(cfg.field_folder, "Folder")
+        self.assertEqual(cfg.field_tableid, "TableID")
+        self.assertEqual(cfg.field_linkedto, "LinkedTo")
+        self.assertEqual(cfg.field_psno, "PsNo")
+        self.assertEqual(cfg.field_deleteright, "DeleteRight")
 
     def test_fromEnv_setsUsername(self):
         cfg = FCSConfig.from_env(env={"FCS_USERNAME": "alice"})
@@ -199,29 +258,51 @@ class TestFCSClientBuildUrl(unittest.TestCase):
         cfg = FCSConfig(**overrides)
         return FCSClient(cfg)
 
-    def test_buildUrl_includesAllRequiredParams(self):
+    def test_buildMetadata_includesAllRequiredParams(self):
         client = self._make_client()
-        url = client._build_url("INPUT", "Proj_2026-06-10", None)
-        self.assertIn("folder=UnitTestCaseAgent", url)
-        self.assertIn("tableid=INPUT", url)
-        self.assertIn("linkedto=Proj_2026-06-10", url)
-        self.assertIn("psno=20342252", url)
-        self.assertIn("deleteright=False", url)
+        metadata = client._build_metadata("INPUT", "Proj_2026-06-10", None)
+        self.assertEqual(metadata["folder"], "UnitTestCaseAgent")
+        self.assertEqual(metadata["tableid"], "INPUT")
+        self.assertEqual(metadata["linkedto"], "Proj_2026-06-10")
+        self.assertEqual(metadata["psno"], "20342252")
+        self.assertEqual(metadata["deleteright"], "False")
 
-    def test_buildUrl_extraParams_appendedToQueryString(self):
+    def test_buildMetadata_extraParams_added(self):
         client = self._make_client()
-        url = client._build_url("OUTPUT", "Proj_2026-06-10", {"foo": "bar"})
-        self.assertIn("foo=bar", url)
+        metadata = client._build_metadata("OUTPUT", "Proj_2026-06-10", {"foo": "bar"})
+        self.assertEqual(metadata["foo"], "bar")
 
     def test_buildUrl_baseUrlTrailingSlash_strippedCorrectly(self):
         client = self._make_client(base_url="http://host/", upload_path="/upload")
-        url = client._build_url("INPUT", "X_2026-06-10", None)
-        self.assertTrue(url.startswith("http://host/upload?"))
+        url = client._build_url()
+        self.assertEqual(url, "http://host/upload")
 
-    def test_buildUrl_customFolder_reflected(self):
-        client = self._make_client(folder="MyFolder")
-        url = client._build_url("INPUT", "X", None)
-        self.assertIn("folder=MyFolder", url)
+    def test_buildMetadata_customFieldNames_reflected(self):
+        client = self._make_client(field_folder="Folder", field_tableid="TableID")
+        metadata = client._build_metadata("INPUT", "X", None)
+        self.assertIn("Folder", metadata)
+        self.assertIn("TableID", metadata)
+
+    def test_buildRequestTarget_paramsAsForm_dataOnly(self):
+        client = self._make_client(params_as="form")
+        metadata = client._build_metadata("INPUT", "X", None)
+        url, data = client._build_request_target(metadata)
+        self.assertNotIn("?", url)
+        self.assertEqual(data, metadata)
+
+    def test_buildRequestTarget_paramsAsQuery_urlOnly(self):
+        client = self._make_client(params_as="query")
+        metadata = client._build_metadata("INPUT", "X", None)
+        url, data = client._build_request_target(metadata)
+        self.assertIn("tableid=INPUT", url)
+        self.assertIsNone(data)
+
+    def test_buildRequestTarget_paramsAsBoth_urlAndData(self):
+        client = self._make_client(params_as="both")
+        metadata = client._build_metadata("INPUT", "X", None)
+        url, data = client._build_request_target(metadata)
+        self.assertIn("tableid=INPUT", url)
+        self.assertEqual(data, metadata)
 
 
 # ---------------------------------------------------------------------------
@@ -245,6 +326,8 @@ class TestFCSClientAuth(unittest.TestCase):
         cfg = FCSConfig(token="mytoken")
         client = FCSClient(cfg)
         headers = client._build_headers()
+        self.assertEqual(headers["Origin"], DEFAULT_BROWSE_ORIGIN)
+        self.assertEqual(headers["Referer"], f"{DEFAULT_BROWSE_ORIGIN}/")
         self.assertIn("Authorization", headers)
         self.assertTrue(headers["Authorization"].startswith("Bearer "))
         self.assertIn("mytoken", headers["Authorization"])
@@ -253,11 +336,15 @@ class TestFCSClientAuth(unittest.TestCase):
         cfg = FCSConfig(username="u", password="p", token="tok")
         client = FCSClient(cfg)
         headers = client._build_headers()
+        self.assertIn("Origin", headers)
+        self.assertIn("Referer", headers)
         self.assertNotIn("Authorization", headers)
 
-    def test_buildHeaders_noToken_emptyHeaders(self):
+    def test_buildHeaders_noToken_includesOriginAndReferer(self):
         client = FCSClient(FCSConfig())
-        self.assertEqual(client._build_headers(), {})
+        headers = client._build_headers()
+        self.assertEqual(headers["Origin"], DEFAULT_BROWSE_ORIGIN)
+        self.assertEqual(headers["Referer"], f"{DEFAULT_BROWSE_ORIGIN}/")
 
 
 # ---------------------------------------------------------------------------
@@ -321,6 +408,28 @@ class TestFCSClientRetry(unittest.TestCase):
         self.assertEqual(result["status_code"], 200)
         self.assertEqual(result["body"], {"result": "ok"})
         mock_sleep.assert_not_called()
+        _, kwargs = mock_request.call_args
+        self.assertIsInstance(kwargs.get("data"), dict)
+        self.assertEqual(kwargs["headers"]["Origin"], DEFAULT_BROWSE_ORIGIN)
+        self.assertEqual(kwargs["headers"]["Referer"], f"{DEFAULT_BROWSE_ORIGIN}/")
+
+    @patch("scripts.fcs_uploader.requests.request")
+    @patch("scripts.fcs_uploader.time.sleep")
+    def test_uploadWithRetry_paramsAsQuery_sendsNoData(self, mock_sleep, mock_request):
+        ok_response = MagicMock()
+        ok_response.status_code = 200
+        ok_response.ok = True
+        ok_response.json.return_value = {}
+        mock_request.return_value = ok_response
+
+        cfg = FCSConfig(params_as="query")
+        client = FCSClient(cfg)
+        f = self._make_tmp_file()
+        result = client.upload_file(f, "INPUT", "Proj_2026")
+        self.assertEqual(result["status_code"], 200)
+        call_args, kwargs = mock_request.call_args
+        self.assertIsNone(kwargs.get("data"))
+        self.assertIn("tableid=INPUT", call_args[1])
 
     @patch("scripts.fcs_uploader.requests.request")
     @patch("scripts.fcs_uploader.time.sleep")
@@ -495,6 +604,10 @@ class TestParseArgs(unittest.TestCase):
         ])
         self.assertEqual(args.extra_params, ["foo=bar", "baz=qux"])
 
+    def test_parseArgs_probeFlag_parsesTrue(self):
+        args = _parse_args(["upload", "/tmp/x.txt", "INPUT", "X", "--probe"])
+        self.assertTrue(args.probe)
+
     def test_parseArgs_invalidTableId_fails(self):
         with self.assertRaises(SystemExit):
             _parse_args(["upload", "/tmp/x.txt", "INVALID"])
@@ -537,8 +650,20 @@ class TestMain(unittest.TestCase):
 
         _, kwargs = mock_upload.call_args
         # linkedto should have been built from project name
-        self.assertIn("linkedto", kwargs or {}) or self.assertIn("TestProject_2026-06-10",
-                                                                   str(mock_upload.call_args))
+        self.assertIn("linkedto", kwargs)
+        self.assertEqual(kwargs["linkedto"], "TestProject_2026-06-10")
+
+    @patch("scripts.fcs_uploader.FCSClient.upload_file")
+    @patch("scripts.fcs_uploader.FCSConfig.from_env")
+    @patch("builtins.print")
+    def test_main_probe_doesNotUpload(self, mock_print, mock_from_env, mock_upload):
+        mock_from_env.return_value = FCSConfig()
+        with tempfile.NamedTemporaryFile(suffix=".txt") as tmp:
+            tmp.write(b"data")
+            tmp.flush()
+            main(["upload", tmp.name, "INPUT", "X", "--probe"])
+        mock_upload.assert_not_called()
+        self.assertTrue(mock_print.called)
 
     def test_main_noLinkedtoNoProjectName_exits(self):
         with tempfile.NamedTemporaryFile(suffix=".txt") as tmp:
