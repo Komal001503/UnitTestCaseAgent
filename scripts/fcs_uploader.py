@@ -43,8 +43,8 @@ from requests.auth import HTTPBasicAuth
 # ---------------------------------------------------------------------------
 try:
     from scripts.export_tests_to_text import _sanitize_project_name  # noqa: PLC2701
-except ModuleNotFoundError:  # pragma: no cover - direct script execution fallback
-    from export_tests_to_text import _sanitize_project_name  # type: ignore
+except ModuleNotFoundError:  # direct script execution fallback
+    from export_tests_to_text import _sanitize_project_name  # type: ignore  # pragma: no cover
 
 # ---------------------------------------------------------------------------
 # Public constants
@@ -180,7 +180,8 @@ class FCSConfig:
         params_as = _get("FCS_PARAMS_AS", DEFAULT_PARAMS_AS).strip().lower()
         if params_as not in {"form", "query", "both"}:
             print(
-                f"[fcs_uploader] Invalid FCS_PARAMS_AS={params_as!r}; falling back to 'form'.",
+                f"[fcs_uploader] Invalid FCS_PARAMS_AS={params_as!r}; "
+                "must be 'form', 'query', or 'both'. Falling back to 'form'.",
                 file=sys.stderr,
             )
             params_as = DEFAULT_PARAMS_AS
@@ -332,6 +333,7 @@ class FCSClient:
             return self._build_url(query_params=metadata), None
         if params_as == "both":
             return self._build_url(query_params=metadata), metadata
+        # "form" is the default metadata mode.
         return self._build_url(), metadata
 
     def _build_auth(self):
@@ -507,10 +509,14 @@ def _run_upload(args) -> None:  # pragma: no branch
     metadata = client._build_metadata(args.tableid.upper(), linkedto, extra)
     url, data = client._build_request_target(metadata)
     if args.probe:
-        data_target = "none" if data is None else "form"
         print(f"Probe: method={config.http_method.upper()} url={url}")
         print(f"Probe: metadata_keys={list(metadata.keys())}")
-        print(f"Probe: metadata_target={config.params_as} (data={data_target})")
+        query_enabled = "?" in url
+        form_enabled = data is not None
+        print(
+            "Probe: metadata_target="
+            f"{config.params_as} (query={query_enabled}, form={form_enabled})"
+        )
         return
     result = client.upload_file(
         local_path=args.local_path,

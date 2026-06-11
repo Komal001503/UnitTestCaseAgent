@@ -110,11 +110,25 @@ class TestFCSConfigFromEnv(unittest.TestCase):
         cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "both"})
         self.assertEqual(cfg.params_as, "both")
 
+    def test_fromEnv_overridesParamsAsQuery(self):
+        cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "query"})
+        self.assertEqual(cfg.params_as, "query")
+
+    def test_fromEnv_paramsAs_normalizesCase(self):
+        cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "  BoTh  "})
+        self.assertEqual(cfg.params_as, "both")
+
     def test_fromEnv_invalidParamsAs_fallsBackToFormWithWarning(self):
         with patch("sys.stderr", new_callable=StringIO) as stderr:
             cfg = FCSConfig.from_env(env={"FCS_PARAMS_AS": "invalid"})
         self.assertEqual(cfg.params_as, "form")
-        self.assertIn("Invalid FCS_PARAMS_AS", stderr.getvalue())
+        self.assertEqual(
+            stderr.getvalue().strip(),
+            (
+                "[fcs_uploader] Invalid FCS_PARAMS_AS='invalid'; must be 'form', "
+                "'query', or 'both'. Falling back to 'form'."
+            ),
+        )
 
     def test_fromEnv_overridesBrowseOrigin(self):
         cfg = FCSConfig.from_env(env={"FCS_BROWSE_ORIGIN": "https://example.com:86"})
@@ -636,8 +650,8 @@ class TestMain(unittest.TestCase):
 
         _, kwargs = mock_upload.call_args
         # linkedto should have been built from project name
-        self.assertIn("linkedto", kwargs or {}) or self.assertIn("TestProject_2026-06-10",
-                                                                   str(mock_upload.call_args))
+        self.assertIn("linkedto", kwargs)
+        self.assertEqual(kwargs["linkedto"], "TestProject_2026-06-10")
 
     @patch("scripts.fcs_uploader.FCSClient.upload_file")
     @patch("scripts.fcs_uploader.FCSConfig.from_env")
