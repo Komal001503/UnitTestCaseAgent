@@ -89,5 +89,6 @@ jobs:
             echo 'No changes to commit.'
           else
             git commit -m 'Auto-generate unit test cases Word report'
+            git pull --rebase origin HEAD
             git push
           fi
