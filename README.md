@@ -190,7 +190,7 @@ documents (generated test-case reports) can optionally be uploaded to the FC S s
 
 ### Upload endpoint
 
-``` 
+```
 POST https://vhzqaplmfcs.lthed.com/api/DocumentUpload
 ```
 
