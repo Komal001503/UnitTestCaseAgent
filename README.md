@@ -196,7 +196,7 @@ POST https://vhzqaplmfcs.lthed.com/api/DocumentUpload
 
 By default the uploader sends `folder`, `tableid`, `linkedto`, `psno`, and `deleteright`
 as multipart form fields and sends browser-like `Origin` / `Referer` headers using the browse
-origin `https://vhziemqsqa.lthed.com:86/`. You can still switch the metadata to query params
+origin `https://vhziemqsqa.lthed.com:86`. You can still switch the metadata to query params
 or send it both ways via environment variables.
 
 ### Quick start
