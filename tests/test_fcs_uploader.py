@@ -505,7 +505,7 @@ class TestFCSClientRetry(unittest.TestCase):
 
     @patch("scripts.fcs_uploader.requests.request")
     @patch("scripts.fcs_uploader.time.sleep")
-    def test_uploadWithRetry_dnsResolutionFailure_raisesClearError(self, mock_sleep, mock_request):
+    def test_uploadWithRetry_dnsResolutionFailure_retriesBeforeRaisingClearError(self, mock_sleep, mock_request):
         import requests as req_lib
 
         connection_error = req_lib.exceptions.ConnectionError(

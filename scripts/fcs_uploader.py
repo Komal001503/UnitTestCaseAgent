@@ -252,7 +252,7 @@ def get_fcs_host(base_url: str) -> str:
         return parsed.hostname
 
     fallback = urlparse(DEFAULT_BASE_URL).hostname
-    return fallback or "vhzqaplmfcs.lthed.com"
+    return fallback or base_url
 
 
 def check_fcs_connectivity(config: FCSConfig) -> str:
@@ -268,6 +268,7 @@ def _is_dns_resolution_error(exc: requests.exceptions.ConnectionError) -> bool:
         if isinstance(current, socket.gaierror):
             return True
         current = current.__cause__ or current.__context__
+    # urllib3 may sometimes surface DNS failures only in the wrapped error text.
     error_text = str(exc)
     return "NameResolutionError" in error_text or "Failed to resolve" in error_text
 
