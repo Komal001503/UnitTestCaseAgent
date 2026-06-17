@@ -258,6 +258,7 @@ jobs:
         run: python scripts/azure_devops_to_md.py --output "$OUTPUT_PATH" --verbose
 
       - name: Upload synced user stories to FC S
+        if: ${{ vars.FCS_UPLOAD_ENABLED == 'true' }}
         env:
           AZURE_DEVOPS_PROJECT: ${{ inputs.project || 'Workforce Management by MX Techies' }}
           OUTPUT_PATH: ${{ steps.outpath.outputs.path }}
