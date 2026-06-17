@@ -45,6 +45,7 @@ jobs:
             --project-name "$AZURE_DEVOPS_PROJECT"
 
       - name: Upload generated reports to FC S
+        if: ${{ vars.FCS_UPLOAD_ENABLED == 'true' }}
         shell: bash
         run: |
           set -euo pipefail
