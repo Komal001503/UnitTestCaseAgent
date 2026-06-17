@@ -165,7 +165,7 @@ class FCSConfig:
         def _get(key: str, default: str) -> str:
             return env.get(key, default)
 
-        def _get_non_empty(key: str, default: str) -> str:
+        def _get_with_empty_fallback(key: str, default: str) -> str:
             value = env.get(key)
             return default if value in (None, "") else value
 
@@ -192,7 +192,7 @@ class FCSConfig:
             params_as = DEFAULT_PARAMS_AS
 
         return cls(
-            base_url=_get_non_empty("FCS_BASE_URL", DEFAULT_BASE_URL),
+            base_url=_get_with_empty_fallback("FCS_BASE_URL", DEFAULT_BASE_URL),
             upload_path=_get("FCS_UPLOAD_PATH", DEFAULT_UPLOAD_PATH),
             http_method=_get("FCS_HTTP_METHOD", DEFAULT_HTTP_METHOD),
             field_name=_get("FCS_FIELD_NAME", DEFAULT_FIELD_NAME),
@@ -252,7 +252,10 @@ def get_fcs_host(base_url: str) -> str:
         return parsed.hostname
 
     fallback = urlparse(DEFAULT_BASE_URL).hostname
-    return fallback or base_url
+    if fallback:
+        return fallback
+
+    raise ValueError(f"Unable to determine FC S host from base URL: {base_url!r}")
 
 
 def check_fcs_connectivity(config: FCSConfig) -> str:
