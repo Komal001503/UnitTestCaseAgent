@@ -163,6 +163,9 @@ class FCSConfig:
             env = os.environ  # type: ignore[assignment]
 
         def _get(key: str, default: str) -> str:
+            return env.get(key, default)
+
+        def _get_non_empty(key: str, default: str) -> str:
             value = env.get(key)
             return default if value in (None, "") else value
 
@@ -189,7 +192,7 @@ class FCSConfig:
             params_as = DEFAULT_PARAMS_AS
 
         return cls(
-            base_url=_get("FCS_BASE_URL", DEFAULT_BASE_URL),
+            base_url=_get_non_empty("FCS_BASE_URL", DEFAULT_BASE_URL),
             upload_path=_get("FCS_UPLOAD_PATH", DEFAULT_UPLOAD_PATH),
             http_method=_get("FCS_HTTP_METHOD", DEFAULT_HTTP_METHOD),
             field_name=_get("FCS_FIELD_NAME", DEFAULT_FIELD_NAME),
@@ -594,7 +597,7 @@ def main(argv=None) -> None:
     args = _parse_args(argv)
     if args.command == "upload":
         _run_upload(args)
-    if args.command == "check-connectivity":
+    elif args.command == "check-connectivity":
         _run_check_connectivity()
 
 

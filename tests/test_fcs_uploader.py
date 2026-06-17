@@ -88,6 +88,10 @@ class TestFCSConfigFromEnv(unittest.TestCase):
         cfg = FCSConfig.from_env(env={"FCS_BASE_URL": "http://localhost:8080"})
         self.assertEqual(cfg.base_url, "http://localhost:8080")
 
+    def test_fromEnv_emptyBaseUrl_fallsBackToDefault(self):
+        cfg = FCSConfig.from_env(env={"FCS_BASE_URL": ""})
+        self.assertEqual(cfg.base_url, DEFAULT_BASE_URL)
+
     def test_fromEnv_overridesUploadPath(self):
         cfg = FCSConfig.from_env(env={"FCS_UPLOAD_PATH": "/api/upload"})
         self.assertEqual(cfg.upload_path, "/api/upload")
