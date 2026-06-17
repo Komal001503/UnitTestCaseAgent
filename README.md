@@ -243,6 +243,30 @@ The client retries automatically on connection errors and HTTP 5xx responses usi
 back-off (1 s → 2 s → 4 s …).  4xx responses are **not** retried and raise `FCSUploadError`
 immediately.
 
+### FC S upload from CI
+
+GitHub-hosted runners such as `ubuntu-latest` cannot upload to FC S when the configured host is
+`vhzqaplmfcs.lthed.com`, because that hostname is internal to the L&T corporate network and does
+not resolve in public DNS.
+
+To upload reports from GitHub Actions, run the workflow on a self-hosted runner that has access to
+the L&T network:
+
+```yaml
+runs-on: [self-hosted, lthed]   # instead of ubuntu-latest
+```
+
+Configure these repository settings for the upload step:
+
+- Secrets: `FCS_USERNAME`, `FCS_PASSWORD` (and/or `FCS_TOKEN`)
+- Variables (optional): `FCS_BASE_URL`, `FCS_VERIFY_SSL`
+
+You can verify connectivity from a developer machine or runner with:
+
+```bash
+python scripts/fcs_uploader.py check-connectivity
+```
+
 ### Probe mode
 
 Use `--probe` to inspect the resolved URL/metadata without performing an upload:

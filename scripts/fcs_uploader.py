@@ -26,12 +26,13 @@ from __future__ import annotations
 import argparse
 import datetime
 import os
+import socket
 import sys
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Mapping
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 
 import requests
 from requests.auth import HTTPBasicAuth
@@ -162,7 +163,8 @@ class FCSConfig:
             env = os.environ  # type: ignore[assignment]
 
         def _get(key: str, default: str) -> str:
-            return env.get(key, default)
+            value = env.get(key)
+            return default if value in (None, "") else value
 
         verify_ssl_raw = _get("FCS_VERIFY_SSL", "true").lower()
         verify_ssl = verify_ssl_raw not in {"false", "0", "no"}
@@ -234,6 +236,37 @@ def build_linked_to(project_name: str, date_stamp: str | None = None) -> str:
     if date_stamp is None:
         date_stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     return f"{sanitized}_{date_stamp}"
+
+
+def get_fcs_host(base_url: str) -> str:
+    """Extract the FC S host from a configured base URL."""
+    parsed = urlparse(base_url)
+    if parsed.hostname:
+        return parsed.hostname
+
+    parsed = urlparse(f"https://{base_url}")
+    if parsed.hostname:
+        return parsed.hostname
+
+    fallback = urlparse(DEFAULT_BASE_URL).hostname
+    return fallback or "vhzqaplmfcs.lthed.com"
+
+
+def check_fcs_connectivity(config: FCSConfig) -> str:
+    """Resolve the configured FC S host and return it on success."""
+    host = get_fcs_host(config.base_url)
+    socket.gethostbyname(host)
+    return host
+
+
+def _is_dns_resolution_error(exc: requests.exceptions.ConnectionError) -> bool:
+    current: BaseException | None = exc
+    while current is not None:
+        if isinstance(current, socket.gaierror):
+            return True
+        current = current.__cause__ or current.__context__
+    error_text = str(exc)
+    return "NameResolutionError" in error_text or "Failed to resolve" in error_text
 
 
 # ---------------------------------------------------------------------------
@@ -407,6 +440,16 @@ class FCSClient:
 
         # All retries exhausted
         if last_exc is not None:
+            if (
+                isinstance(last_exc, requests.exceptions.ConnectionError)
+                and _is_dns_resolution_error(last_exc)
+            ):
+                host = get_fcs_host(url)
+                raise FCSUploadError(
+                    f"DNS resolution failed for {host}: {last_exc}",
+                    status_code=None,
+                    body="",
+                )
             raise FCSUploadError(
                 f"Upload failed after {cfg.max_retries} attempts: {last_exc}",
                 status_code=None,
@@ -483,6 +526,11 @@ def _parse_args(argv=None):
         help="Print the resolved request URL/metadata and exit without uploading.",
     )
 
+    sub.add_parser(
+        "check-connectivity",
+        help="Resolve the configured FC S host and exit without uploading.",
+    )
+
     return parser.parse_args(argv)
 
 
@@ -528,10 +576,26 @@ def _run_upload(args) -> None:  # pragma: no branch
     print(f"HTTP {result['status_code']}: {result['body']}")
 
 
+def _run_check_connectivity() -> None:
+    config = FCSConfig.from_env()
+    host = get_fcs_host(config.base_url)
+    try:
+        check_fcs_connectivity(config)
+    except socket.gaierror as exc:
+        print(
+            f"[fcs] FC S connectivity check failed — could not resolve host '{host}': {exc}",
+            file=sys.stderr,
+        )
+        raise SystemExit(2) from exc
+    print(f"[fcs] FC S connectivity check succeeded — host '{host}' resolved.")
+
+
 def main(argv=None) -> None:
     args = _parse_args(argv)
     if args.command == "upload":
         _run_upload(args)
+    if args.command == "check-connectivity":
+        _run_check_connectivity()
 
 
 if __name__ == "__main__":

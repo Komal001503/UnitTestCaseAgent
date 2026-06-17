@@ -45,7 +45,12 @@ jobs:
             --project-name "$AZURE_DEVOPS_PROJECT"
 
       - name: Upload generated reports to FC S
-        continue-on-error: true
+        env:
+          FCS_USERNAME: ${{ secrets.FCS_USERNAME }}
+          FCS_PASSWORD: ${{ secrets.FCS_PASSWORD }}
+          FCS_TOKEN: ${{ secrets.FCS_TOKEN }}
+          FCS_BASE_URL: ${{ vars.FCS_BASE_URL }}
+          FCS_VERIFY_SSL: ${{ vars.FCS_VERIFY_SSL || 'true' }}
         run: |
           set -euo pipefail
           shopt -s nullglob
@@ -59,6 +64,23 @@ jobs:
           if [[ ${#files[@]} -eq 0 ]]; then
             echo "No report files found for FC S upload."
             exit 0
+          fi
+          host="$(python - <<'PY'
+from scripts.fcs_uploader import FCSConfig, get_fcs_host
+
+print(get_fcs_host(FCSConfig.from_env().base_url))
+PY
+)"
+          if connectivity_output="$(python scripts/fcs_uploader.py check-connectivity 2>&1)"; then
+            echo "$connectivity_output"
+          else
+            status=$?
+            if [[ $status -eq 2 ]]; then
+              echo "[fcs] Skipping FC S upload — host '$host' is not resolvable from this runner. FC S is an internal L&T network host; use a self-hosted runner inside the corporate network to upload reports. See README.md > 'FC S upload from CI' for details."
+              exit 0
+            fi
+            echo "$connectivity_output"
+            exit "$status"
           fi
           for file in "${files[@]}"; do
             echo "Uploading $file to FC S..."

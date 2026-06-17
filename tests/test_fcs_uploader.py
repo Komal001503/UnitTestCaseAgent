@@ -15,6 +15,7 @@ import unittest
 import unittest.mock
 from io import StringIO
 from pathlib import Path
+import socket
 from unittest.mock import MagicMock, patch
 
 from scripts.fcs_uploader import (
@@ -39,6 +40,7 @@ from scripts.fcs_uploader import (
     FCSConfig,
     FCSUploadError,
     build_linked_to,
+    get_fcs_host,
     main,
     _parse_args,
 )
@@ -499,6 +501,26 @@ class TestFCSClientRetry(unittest.TestCase):
 
     @patch("scripts.fcs_uploader.requests.request")
     @patch("scripts.fcs_uploader.time.sleep")
+    def test_uploadWithRetry_dnsResolutionFailure_raisesClearError(self, mock_sleep, mock_request):
+        import requests as req_lib
+
+        connection_error = req_lib.exceptions.ConnectionError(
+            'NameResolutionError("Failed to resolve")'
+        )
+        connection_error.__cause__ = socket.gaierror("Temporary failure in name resolution")
+        mock_request.side_effect = connection_error
+
+        client = self._make_client(max_retries=2)
+        f = self._make_tmp_file()
+        with self.assertRaises(FCSUploadError) as ctx:
+            client.upload_file(f, "INPUT", "X")
+
+        self.assertTrue(str(ctx.exception).startswith("DNS resolution failed for"))
+        self.assertIn(get_fcs_host(DEFAULT_BASE_URL), str(ctx.exception))
+        self.assertEqual(mock_request.call_count, 2)
+
+    @patch("scripts.fcs_uploader.requests.request")
+    @patch("scripts.fcs_uploader.time.sleep")
     def test_uploadWithRetry_responseBodyText_returnedWhenNoJson(self, mock_sleep, mock_request):
         ok_response = MagicMock()
         ok_response.status_code = 200
@@ -616,6 +638,10 @@ class TestParseArgs(unittest.TestCase):
         args = _parse_args(["upload", "/tmp/x.txt", "input", "X"])
         self.assertEqual(args.tableid, "input")
 
+    def test_parseArgs_checkConnectivity_parsesCorrectly(self):
+        args = _parse_args(["check-connectivity"])
+        self.assertEqual(args.command, "check-connectivity")
+
 
 # ---------------------------------------------------------------------------
 # CLI – main() integration
@@ -678,6 +704,26 @@ class TestMain(unittest.TestCase):
             tmp.flush()
             with self.assertRaises(SystemExit):
                 main(["upload", tmp.name, "INPUT", "X", "--extra-params", "noequals"])
+
+    @patch("scripts.fcs_uploader.socket.gethostbyname", return_value="127.0.0.1")
+    @patch("builtins.print")
+    def test_main_checkConnectivity_success_exitsZero(self, mock_print, mock_gethostbyname):
+        main(["check-connectivity"])
+        mock_gethostbyname.assert_called_once_with(get_fcs_host(DEFAULT_BASE_URL))
+        mock_print.assert_called_once_with(
+            f"[fcs] FC S connectivity check succeeded — host '{get_fcs_host(DEFAULT_BASE_URL)}' resolved."
+        )
+
+    @patch("scripts.fcs_uploader.socket.gethostbyname", side_effect=socket.gaierror("no such host"))
+    def test_main_checkConnectivity_dnsFailure_exitsTwo(self, mock_gethostbyname):
+        with patch("sys.stderr", new_callable=StringIO) as stderr:
+            with self.assertRaises(SystemExit) as ctx:
+                main(["check-connectivity"])
+
+        self.assertEqual(ctx.exception.code, 2)
+        self.assertEqual(mock_gethostbyname.call_count, 1)
+        self.assertIn("could not resolve host", stderr.getvalue())
+        self.assertIn(get_fcs_host(DEFAULT_BASE_URL), stderr.getvalue())
 
 
 if __name__ == "__main__":
