@@ -45,26 +45,29 @@ jobs:
             --project-name "$AZURE_DEVOPS_PROJECT"
 
       - name: Upload generated reports to FC S
+        if: ${{ vars.FCS_UPLOAD_ENABLED == 'true' }}
         continue-on-error: true
+        shell: bash
         run: |
           set -euo pipefail
           shopt -s nullglob
-          date_stamp="$(date -u +%Y-%m-%d)"
-          files=(
+
+          run_date="$(date -u +%F)"
+          report_files=(
             test_reports/*_test_report.docx
             test_reports/*_test_report.xlsx
             test_reports/unit_test_cases_report.docx
             test_reports/unit_test_cases_report.xlsx
           )
-          if [[ ${#files[@]} -eq 0 ]]; then
-            echo "No report files found for FC S upload."
+
+          if [[ "${#report_files[@]}" -eq 0 ]]; then
+            echo 'No report files to upload.'
             exit 0
           fi
-          for file in "${files[@]}"; do
-            echo "Uploading $file to FC S..."
+
+          for file in "${report_files[@]}"; do
             python scripts/fcs_uploader.py upload "$file" OUTPUT \
-              --project-name "$AZURE_DEVOPS_PROJECT" \
-              --date-stamp "$date_stamp"
+              --project-name "$AZURE_DEVOPS_PROJECT" --date-stamp "$run_date"
           done
 
       - name: Upload test reports as artifact

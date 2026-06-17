@@ -191,11 +191,13 @@ documents (generated test-case reports) can optionally be uploaded to the FC S s
 ### Upload endpoint
 
 ```
-https://vhzqaplmfcs.lthed.com/api/DocumentUpload
+POST https://vhzqaplmfcs.lthed.com/api/DocumentUpload
 ```
 
-By default, metadata (`folder`, `tableid`, `linkedto`, `psno`, `deleteright`) is sent as multipart
-form fields to match the FC S browser upload contract.
+By default the uploader sends `folder`, `tableid`, `linkedto`, `psno`, and `deleteright`
+as multipart form fields and sends browser-like `Origin` / `Referer` headers using the browse
+origin `https://vhziemqsqa.lthed.com:86`. You can still switch the metadata to query params
+or send it both ways via environment variables.
 
 ### Quick start
 
@@ -220,16 +222,16 @@ on the FC S side.
 | `FCS_UPLOAD_PATH`  | `/api/DocumentUpload`            | Upload path |
 | `FCS_HTTP_METHOD`  | `POST`                           | HTTP verb used for uploads |
 | `FCS_FIELD_NAME`   | `file`                           | Multipart form-field name for the uploaded file |
-| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Metadata value for folder |
-| `FCS_PSNO`         | `20342252`                       | Metadata value for psno |
-| `FCS_DELETE_RIGHT` | `False`                          | Metadata value for deleteright |
+| `FCS_FOLDER`       | `UnitTestCaseAgent`              | Folder metadata value |
+| `FCS_PSNO`         | `20342252`                       | `psno` metadata value |
+| `FCS_DELETE_RIGHT` | `False`                          | `deleteright` metadata value |
 | `FCS_PARAMS_AS`    | `form`                           | Send metadata as `form`, `query`, or `both` |
-| `FCS_BROWSE_ORIGIN`| `https://vhziemqsqa.lthed.com:86`| Sent as `Origin` and `Referer` headers |
-| `FCS_FIELD_FOLDER` | `folder`                         | Metadata field name for folder |
-| `FCS_FIELD_TABLEID`| `tableid`                        | Metadata field name for tableid |
-| `FCS_FIELD_LINKEDTO`| `linkedto`                      | Metadata field name for linkedto |
-| `FCS_FIELD_PSNO`   | `psno`                           | Metadata field name for psno |
-| `FCS_FIELD_DELETERIGHT` | `deleteright`               | Metadata field name for deleteright |
+| `FCS_BROWSE_ORIGIN`| `https://vhziemqsqa.lthed.com:86`| Sent as `Origin` and `Referer` |
+| `FCS_FIELD_FOLDER` | `folder`                         | Field name for folder metadata |
+| `FCS_FIELD_TABLEID`| `tableid`                        | Field name for tableid metadata |
+| `FCS_FIELD_LINKEDTO`| `linkedto`                      | Field name for linkedto metadata |
+| `FCS_FIELD_PSNO`   | `psno`                           | Field name for psno metadata |
+| `FCS_FIELD_DELETERIGHT`| `deleteright`                | Field name for deleteright metadata |
 | `FCS_USERNAME`     | —                                | Basic-auth username |
 | `FCS_PASSWORD`     | —                                | Basic-auth password |
 | `FCS_TOKEN`        | —                                | Bearer-token (alternative to basic auth) |
@@ -237,19 +239,25 @@ on the FC S side.
 | `FCS_TIMEOUT`      | `60`                             | Request timeout in seconds |
 | `FCS_MAX_RETRIES`  | `3`                              | Retry attempts on connection errors / HTTP 5xx |
 
+### Probe mode
+
+Use `--probe` to print the resolved request without uploading a file:
+
+```bash
+python scripts/fcs_uploader.py upload test_reports/report.xlsx OUTPUT \
+    --project-name "Workforce Management by MX Techies" --probe
+```
+
+### Workflow integration
+
+The existing Azure DevOps sync workflow now uploads the synced Markdown as `INPUT`, and the
+report-export workflow uploads generated report files as `OUTPUT`.
+
 ### Retry behaviour
 
 The client retries automatically on connection errors and HTTP 5xx responses using exponential
 back-off (1 s → 2 s → 4 s …).  4xx responses are **not** retried and raise `FCSUploadError`
 immediately.
-
-### Probe mode
-
-Use `--probe` to inspect the resolved URL/metadata without performing an upload:
-
-```bash
-python scripts/fcs_uploader.py upload path/to/file.xlsx INPUT --project-name "Workforce Management by MX Techies" --probe
-```
 
 ## Files
 
