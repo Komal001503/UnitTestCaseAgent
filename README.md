@@ -245,11 +245,18 @@ immediately.
 
 ### FC S upload from CI
 
+The **Sync Azure DevOps User Stories** workflow (`.github/workflows/sync-azure-devops.yml`)
+automatically uploads the synced Markdown as an `INPUT` document to FC S after committing it.
+The upload uses the same `linkedto` scheme (`<SanitisedProjectName>_<YYYY-MM-DD>`) as the
+**Run Tests & Export Word Report** workflow's `OUTPUT` upload, so the input user-story file and
+the eventual test-case report can be paired on the FC S side.
+
 GitHub-hosted runners such as `ubuntu-latest` cannot upload to FC S when the configured host is
 `vhzqaplmfcs.lthed.com`, because that hostname is internal to the L&T corporate network and does
-not resolve in public DNS.
+not resolve in public DNS. On `ubuntu-latest` the upload step detects the DNS failure (exit code 2)
+and skips cleanly so the job stays green — no manual action is required on the runner side.
 
-To upload reports from GitHub Actions, run the workflow on a self-hosted runner that has access to
+To have the upload actually succeed, run the workflow on a self-hosted runner that has access to
 the L&T network:
 
 ```yaml
