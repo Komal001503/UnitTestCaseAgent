@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unit Test Case Generator — Local Console</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Unit Test Case Generator — Local Console</h1>
+    <span id="fcsStatus" class="pill bad" role="status" aria-live="polite">FC S: checking…</span>
+  </header>
+
+  <main>
+    <section>
+      <h2>1) Inputs</h2>
+      <div class="grid2">
+        <article class="card">
+          <h3>Sync User Stories from Azure DevOps</h3>
+          <button id="syncBtn" class="primary" type="button">🔄 Sync from DevOps</button>
+          <details>
+            <summary>Advanced</summary>
+            <div class="fields">
+              <label>Org <input id="ado_org" type="text"></label>
+              <label>Project <input id="ado_project" type="text"></label>
+              <label>Team <input id="ado_team" type="text"></label>
+              <label>Work item type <input id="ado_work_item_type" type="text"></label>
+              <label>States (CSV) <input id="ado_states" type="text"></label>
+              <label>From date <input id="ado_from_date" type="date"></label>
+              <label>To date <input id="ado_to_date" type="date"></label>
+            </div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3>Upload Excel User Stories</h3>
+          <label for="excelFile">Excel file</label>
+          <input id="excelFile" type="file" accept=".xlsx,.xls">
+          <button id="uploadExcelBtn" class="primary" type="button">📤 Upload &amp; Convert</button>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>2) Generate</h2>
+      <label for="markdownSelect">Source markdown file</label>
+      <select id="markdownSelect"></select>
+      <div class="split">
+        <button id="generateBtn" class="primary" type="button">▶ Generate Test Cases</button>
+        <button id="generateCaret" type="button" aria-label="Generate options">▾</button>
+      </div>
+      <div class="fields inline">
+        <label>Project name <input id="projectName" type="text" placeholder="Workforce Management by MX Techies"></label>
+        <label>Date stamp <input id="dateStamp" type="date"></label>
+      </div>
+    </section>
+
+    <section>
+      <h2>3) Reports</h2>
+      <div class="toolbar">
+        <a href="/api/zip" class="button">Export All as ZIP</a>
+        <button id="uploadAllBtn" type="button">Upload All to FC S</button>
+      </div>
+      <div id="reports"></div>
+    </section>
+  </main>
+
+  <section id="logPanel" aria-live="polite">
+    <h2>Activity log</h2>
+    <pre id="logOutput"></pre>
+  </section>
+
+  <dialog id="generateModal">
+    <h3>Generate in VS Code Copilot Chat</h3>
+    <p>Prompt copied — paste it into Copilot Chat in VS Code.</p>
+    <menu>
+      <button id="openVsCodeBtn" type="button">Open VS Code Chat</button>
+      <button id="doneGenerateBtn" type="button">I've finished — refresh test list</button>
+      <button id="closeModalBtn" type="button">Close</button>
+    </menu>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
