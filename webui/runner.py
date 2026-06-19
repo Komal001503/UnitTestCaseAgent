@@ -8,7 +8,6 @@ from datetime import datetime, timezone
 import subprocess
 import threading
 import traceback
-from typing import Iterable
 
 
 @dataclass(frozen=True)
@@ -45,6 +44,10 @@ class LogBuffer:
                 if e.seq > since
             ]
 
+    def current_seq(self) -> int:
+        with self._lock:
+            return self._seq
+
     def last_lines(self, count: int = 50) -> list[str]:
         with self._lock:
             return [f"[{e.label}] {e.message}" for e in list(self._entries)[-count:]]
@@ -55,6 +58,10 @@ LOG_BUFFER = LogBuffer()
 
 def run_script(argv: list[str], *, cwd, env, label: str) -> tuple[int, list[str]]:
     """Run a subprocess, stream output into the shared log buffer, and return code + tail."""
+    if not argv or any(not isinstance(arg, str) or "\x00" in arg for arg in argv):
+        LOG_BUFFER.append(label, "Invalid command arguments")
+        return 1, LOG_BUFFER.last_lines(50)
+
     LOG_BUFFER.append(label, f"$ {' '.join(argv)}")
     try:
         proc = subprocess.Popen(

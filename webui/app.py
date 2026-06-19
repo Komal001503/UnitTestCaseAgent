@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 import io
 import os
 from pathlib import Path
+import re
 import sys
 import time
 import urllib.parse
@@ -56,6 +57,20 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
 
     def _json_error(message: str, status: int = 500):
         return jsonify({"error": message, "last_log_lines": LOG_BUFFER.last_lines(50)}), status
+
+    def _safe_text(value: str, *, pattern: str, field_name: str) -> str:
+        if not re.fullmatch(pattern, value):
+            raise ValueError(f"Invalid {field_name}")
+        return value
+
+    def _safe_date_stamp(value: str) -> str:
+        return _safe_text(value, pattern=r"\d{4}-\d{2}-\d{2}", field_name="date_stamp")
+
+    def _safe_project_name(value: str) -> str:
+        return _safe_text(value, pattern=r"[A-Za-z0-9 ._-]{1,120}", field_name="project_name")
+
+    def _safe_filter_value(value: str, field_name: str) -> str:
+        return _safe_text(value, pattern=r"[A-Za-z0-9 .,:@/\\_-]{1,200}", field_name=field_name)
 
     def _markdown_candidates() -> list[Path]:
         cfg_local = _repo_cfg()
@@ -146,7 +161,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
             for key, flag in mapping.items():
                 value = body.get(key)
                 if value:
-                    argv.extend([flag, str(value)])
+                    argv.extend([flag, _safe_filter_value(str(value), key)])
             if body.get("verbose"):
                 argv.append("--verbose")
             if body.get("dry_run"):
@@ -245,8 +260,13 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
     def run_tests():
         cfg_local = _repo_cfg()
         body = request.get_json(silent=True) or {}
-        project_name = body.get("project_name") or os.environ.get("AZURE_DEVOPS_PROJECT") or "UnitTestCaseAgent"
-        date_stamp = body.get("date_stamp") or _utc_date()
+        try:
+            project_name = _safe_project_name(
+                body.get("project_name") or os.environ.get("AZURE_DEVOPS_PROJECT") or "UnitTestCaseAgent"
+            )
+            date_stamp = _safe_date_stamp(body.get("date_stamp") or _utc_date())
+        except ValueError as exc:
+            return jsonify({"error": str(exc)}), 400
 
         code, _ = run_script([sys.executable, "-m", "pytest"], cwd=cfg_local.repo_root, env=os.environ.copy(), label="pytest")
         if code != 0:
@@ -326,8 +346,15 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
             return jsonify({"error": "FC S connectivity check failed", "details": check_lines[-10:]}), 500
 
         tableid = (body.get("tableid") or _default_tableid(abs_path)).upper()
-        project_name = body.get("project_name") or os.environ.get("AZURE_DEVOPS_PROJECT") or "UnitTestCaseAgent"
-        date_stamp = body.get("date_stamp") or _utc_date()
+        if tableid not in {"INPUT", "OUTPUT"}:
+            return jsonify({"error": "Invalid tableid"}), 400
+        try:
+            project_name = _safe_project_name(
+                body.get("project_name") or os.environ.get("AZURE_DEVOPS_PROJECT") or "UnitTestCaseAgent"
+            )
+            date_stamp = _safe_date_stamp(body.get("date_stamp") or _utc_date())
+        except ValueError as exc:
+            return jsonify({"error": str(exc)}), 400
 
         code, lines = _upload_one(abs_path, tableid, project_name, date_stamp)
         if code != 0:
@@ -338,8 +365,13 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
     def fcs_upload_all():
         cfg_local = _repo_cfg()
         body = request.get_json(silent=True) or {}
-        project_name = body.get("project_name") or os.environ.get("AZURE_DEVOPS_PROJECT") or "UnitTestCaseAgent"
-        date_stamp = body.get("date_stamp") or _utc_date()
+        try:
+            project_name = _safe_project_name(
+                body.get("project_name") or os.environ.get("AZURE_DEVOPS_PROJECT") or "UnitTestCaseAgent"
+            )
+            date_stamp = _safe_date_stamp(body.get("date_stamp") or _utc_date())
+        except ValueError as exc:
+            return jsonify({"error": str(exc)}), 400
 
         check_code, check_lines = _run_fcs_check()
         if check_code == 2:
@@ -386,7 +418,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         except ValueError:
             since = 0
         entries = LOG_BUFFER.tail(since)
-        next_seq = entries[-1]["seq"] if entries else since
+        next_seq = int(entries[-1]["seq"]) if entries else LOG_BUFFER.current_seq()
         return jsonify({"entries": entries, "next_seq": next_seq})
 
     return app

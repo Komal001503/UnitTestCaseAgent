@@ -65,7 +65,8 @@
     reportsDiv.querySelectorAll("button[data-upload]").forEach((btn) => {
       btn.addEventListener("click", async () => {
         const path = btn.getAttribute("data-upload");
-        const tableid = reportsDiv.querySelector(`select[data-tableid="${CSS.escape(path)}"]`).value;
+        const tableSelect = reportsDiv.querySelector(`select[data-tableid="${CSS.escape(path)}"]`);
+        const tableid = tableSelect ? tableSelect.value : "OUTPUT";
         try {
           await jsonFetch("/api/fcs-upload", {
             method: "POST",
