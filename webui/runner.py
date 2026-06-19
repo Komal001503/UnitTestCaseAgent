@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections import deque
 from dataclasses import dataclass
 from datetime import datetime, timezone
+import re
 import subprocess
 import threading
 import traceback
@@ -54,11 +55,15 @@ class LogBuffer:
 
 
 LOG_BUFFER = LogBuffer()
+_SAFE_ARG_PATTERN = re.compile(r"^[A-Za-z0-9_./:=,@+\\\- &()%\[\]]{1,600}$")
 
 
 def run_script(argv: list[str], *, cwd, env, label: str) -> tuple[int, list[str]]:
     """Run a subprocess, stream output into the shared log buffer, and return code + tail."""
     if not argv or any(not isinstance(arg, str) or "\x00" in arg for arg in argv):
+        LOG_BUFFER.append(label, "Invalid command arguments")
+        return 1, LOG_BUFFER.last_lines(50)
+    if any(not _SAFE_ARG_PATTERN.fullmatch(arg) for arg in argv):
         LOG_BUFFER.append(label, "Invalid command arguments")
         return 1, LOG_BUFFER.last_lines(50)
 

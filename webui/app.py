@@ -56,7 +56,17 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         return resolved
 
     def _json_error(message: str, status: int = 500):
-        return jsonify({"error": message, "last_log_lines": LOG_BUFFER.last_lines(50)}), status
+        return jsonify({"error": message, "last_log_lines": _public_log_lines(LOG_BUFFER.last_lines(50))}), status
+
+    def _public_log_lines(lines: list[str]) -> list[str]:
+        redacted = []
+        for line in lines:
+            lower = line.lower()
+            if "traceback" in lower or 'file "' in lower:
+                redacted.append("[redacted internal traceback line]")
+            else:
+                redacted.append(line)
+        return redacted
 
     def _safe_text(value: str, *, pattern: str, field_name: str) -> str:
         if not re.fullmatch(pattern, value):
@@ -343,7 +353,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         if check_code == 2:
             return jsonify({"skipped": True, "reason": "FC S host not reachable. Are you on the L&T network/VPN?"}), 503
         if check_code != 0:
-            return jsonify({"error": "FC S connectivity check failed", "details": check_lines[-10:]}), 500
+            return jsonify({"error": "FC S connectivity check failed", "details": _public_log_lines(check_lines[-10:])}), 500
 
         tableid = (body.get("tableid") or _default_tableid(abs_path)).upper()
         if tableid not in {"INPUT", "OUTPUT"}:
@@ -358,7 +368,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
 
         code, lines = _upload_one(abs_path, tableid, project_name, date_stamp)
         if code != 0:
-            return jsonify({"error": "FC S upload failed", "details": lines[-10:]}), 500
+            return jsonify({"error": "FC S upload failed", "details": _public_log_lines(lines[-10:])}), 500
         return jsonify({"ok": True, "path": _repo_rel(abs_path), "tableid": tableid})
 
     @app.post("/api/fcs-upload-all")
@@ -377,7 +387,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         if check_code == 2:
             return jsonify({"skipped": True, "reason": "FC S host not reachable. Are you on the L&T network/VPN?"}), 503
         if check_code != 0:
-            return jsonify({"error": "FC S connectivity check failed", "details": check_lines[-10:]}), 500
+            return jsonify({"error": "FC S connectivity check failed", "details": _public_log_lines(check_lines[-10:])}), 500
 
         uploads: list[dict[str, str]] = []
         failures: list[dict[str, object]] = []
@@ -387,7 +397,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
             if code == 0:
                 uploads.append({"path": _repo_rel(report), "tableid": "OUTPUT"})
             else:
-                failures.append({"path": _repo_rel(report), "details": lines[-10:]})
+                failures.append({"path": _repo_rel(report), "details": _public_log_lines(lines[-10:])})
 
         markdowns = _markdown_candidates()
         if markdowns:
@@ -396,7 +406,7 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
             if code == 0:
                 uploads.append({"path": _repo_rel(latest_md), "tableid": "INPUT"})
             else:
-                failures.append({"path": _repo_rel(latest_md), "details": lines[-10:]})
+                failures.append({"path": _repo_rel(latest_md), "details": _public_log_lines(lines[-10:])})
 
         if failures:
             return jsonify({"ok": False, "uploaded": uploads, "failures": failures}), 500
@@ -406,10 +416,10 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
     def fcs_check():
         code, lines = _run_fcs_check()
         if code == 0:
-            return jsonify({"ok": True, "reason": "reachable", "details": lines[-5:]})
+            return jsonify({"ok": True, "reason": "reachable", "details": _public_log_lines(lines[-5:])})
         if code == 2:
-            return jsonify({"ok": False, "reason": "FC S host not reachable. Are you on the L&T network/VPN?", "details": lines[-5:]})
-        return jsonify({"ok": False, "reason": "FC S connectivity check failed", "details": lines[-5:]}), 500
+            return jsonify({"ok": False, "reason": "FC S host not reachable. Are you on the L&T network/VPN?", "details": _public_log_lines(lines[-5:])})
+        return jsonify({"ok": False, "reason": "FC S connectivity check failed", "details": _public_log_lines(lines[-5:])}), 500
 
     @app.get("/api/log/tail")
     def log_tail():
