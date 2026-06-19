@@ -349,11 +349,11 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         if not abs_path.exists() or not abs_path.is_file():
             return jsonify({"error": "File not found"}), 404
 
-        check_code, check_lines = _run_fcs_check()
+        check_code, _ = _run_fcs_check()
         if check_code == 2:
             return jsonify({"skipped": True, "reason": "FC S host not reachable. Are you on the L&T network/VPN?"}), 503
         if check_code != 0:
-            return jsonify({"error": "FC S connectivity check failed", "details": _public_log_lines(check_lines[-10:])}), 500
+            return _json_error("FC S connectivity check failed", 500)
 
         tableid = (body.get("tableid") or _default_tableid(abs_path)).upper()
         if tableid not in {"INPUT", "OUTPUT"}:
@@ -366,9 +366,9 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         except ValueError as exc:
             return jsonify({"error": str(exc)}), 400
 
-        code, lines = _upload_one(abs_path, tableid, project_name, date_stamp)
+        code, _ = _upload_one(abs_path, tableid, project_name, date_stamp)
         if code != 0:
-            return jsonify({"error": "FC S upload failed", "details": _public_log_lines(lines[-10:])}), 500
+            return _json_error("FC S upload failed", 500)
         return jsonify({"ok": True, "path": _repo_rel(abs_path), "tableid": tableid})
 
     @app.post("/api/fcs-upload-all")
@@ -383,30 +383,30 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
         except ValueError as exc:
             return jsonify({"error": str(exc)}), 400
 
-        check_code, check_lines = _run_fcs_check()
+        check_code, _ = _run_fcs_check()
         if check_code == 2:
             return jsonify({"skipped": True, "reason": "FC S host not reachable. Are you on the L&T network/VPN?"}), 503
         if check_code != 0:
-            return jsonify({"error": "FC S connectivity check failed", "details": _public_log_lines(check_lines[-10:])}), 500
+            return _json_error("FC S connectivity check failed", 500)
 
         uploads: list[dict[str, str]] = []
         failures: list[dict[str, object]] = []
 
         for report in sorted(cfg_local.reports_dir.glob("*.docx")) + sorted(cfg_local.reports_dir.glob("*.xlsx")):
-            code, lines = _upload_one(report, "OUTPUT", project_name, date_stamp)
+            code, _ = _upload_one(report, "OUTPUT", project_name, date_stamp)
             if code == 0:
                 uploads.append({"path": _repo_rel(report), "tableid": "OUTPUT"})
             else:
-                failures.append({"path": _repo_rel(report), "details": _public_log_lines(lines[-10:])})
+                failures.append({"path": _repo_rel(report), "error": "FC S upload failed"})
 
         markdowns = _markdown_candidates()
         if markdowns:
             latest_md = max(markdowns, key=lambda p: p.stat().st_mtime)
-            code, lines = _upload_one(latest_md, "INPUT", project_name, date_stamp)
+            code, _ = _upload_one(latest_md, "INPUT", project_name, date_stamp)
             if code == 0:
                 uploads.append({"path": _repo_rel(latest_md), "tableid": "INPUT"})
             else:
-                failures.append({"path": _repo_rel(latest_md), "details": _public_log_lines(lines[-10:])})
+                failures.append({"path": _repo_rel(latest_md), "error": "FC S upload failed"})
 
         if failures:
             return jsonify({"ok": False, "uploaded": uploads, "failures": failures}), 500
@@ -414,12 +414,12 @@ def create_app(config: WebUIConfig | None = None) -> Flask:
 
     @app.get("/api/fcs-check")
     def fcs_check():
-        code, lines = _run_fcs_check()
+        code, _ = _run_fcs_check()
         if code == 0:
-            return jsonify({"ok": True, "reason": "reachable", "details": _public_log_lines(lines[-5:])})
+            return jsonify({"ok": True, "reason": "reachable"})
         if code == 2:
-            return jsonify({"ok": False, "reason": "FC S host not reachable. Are you on the L&T network/VPN?", "details": _public_log_lines(lines[-5:])})
-        return jsonify({"ok": False, "reason": "FC S connectivity check failed", "details": _public_log_lines(lines[-5:])}), 500
+            return jsonify({"ok": False, "reason": "FC S host not reachable. Are you on the L&T network/VPN?"})
+        return jsonify({"ok": False, "reason": "FC S connectivity check failed"}), 500
 
     @app.get("/api/log/tail")
     def log_tail():
