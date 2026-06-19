@@ -289,3 +289,10 @@ python scripts/fcs_uploader.py upload path/to/file.xlsx INPUT --project-name "Wo
 | `scripts/fcs_uploader.py` | Uploads input/output documents to the FC S server |
 | `scripts/requirements.txt` | Script dependencies (Excel conversion + Azure DevOps sync + Word export) |
 | `sample/user_stories_sample.md` | Sample user stories for testing |
+
+## Local Web Console
+
+A local Flask-based one-page console is available for running sync/upload/generate/report actions on your machine (localhost only).
+
+See: [README-webui.md](README-webui.md)
+
