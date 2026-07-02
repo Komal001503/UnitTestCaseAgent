@@ -2189,7 +2189,7 @@ Total stories: 2373
 | US-23264 | Created by in Ticket Grid and in details show same in ITISA | New | 2 | Jayraj Desai |
 | US-23270 | Add_DeptWise_Dashboard_Graph_SRN | New | 2 | Jayraj Desai |
 | US-23321 | Root Cause Analysis Screen-Mega Menu Module Addition | New | 2 | Unassigned |
-| US-23322 | Digitize ASME Inspection Checklist for Authorized Inspector Signature | New | 2 | Unassigned |
+| US-23322 | Digitize ASME Inspection Checklist for Authorized Inspector Signature | Resolved | 2 | Santosh Soni |
 | US-23340 | Forging User can not access Training Feedback | New | 2 | Jayraj Desai |
 | US-23359 | Order Inflow and Enquiry Management system | New | 2 | Unassigned |
 | US-23362 | L&T Eye  | New | 2 | Unassigned |
@@ -88111,12 +88111,12 @@ Mega Menu->QA->RCA->Root Cause Analysis
 |-------|-------|
 | ID | US-23322 |
 | Work Item Type | User Story |
-| State | New |
+| State | Resolved |
 | Priority | 2 |
-| Assigned To | Unassigned |
+| Assigned To | Santosh Soni |
 | Area Path | IEMQS 4.0\New Enhancement |
 | Iteration Path | IEMQS 4.0 |
-| Changed Date | 2025-10-29T00:01:14.103Z |
+| Changed Date | 2026-07-01T06:48:16.013Z |
 | Created Date | 2025-10-29T00:01:14.103Z |
 | Tags |  |
 | ADO URL | [Open in ADO](https://dev.azure.com/LnT-HeavyEngineering-IEMQS/Workforce%20Management%20by%20MX%20Techies/_workitems/edit/23322) |
