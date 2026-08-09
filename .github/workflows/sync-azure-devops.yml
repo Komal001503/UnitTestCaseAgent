@@ -276,6 +276,44 @@ jobs:
           git commit -m "Sync Azure DevOps user stories ($(basename "$OUTPUT_PATH" .md | sed 's/^azure_devops_user_stories_//'))"
           git push
 
-      # After the Markdown is committed, trigger the report workflow to generate
-      # the Excel/Word test-case reports named after this project and today's date.
-      # Go to Actions → "Run Tests & Export Word Report" → Run workflow.
+      - name: Upload synced user stories to FC S
+        if: ${{ steps.outpath.outputs.path != '' }}
+        env:
+          FCS_USERNAME: ${{ secrets.FCS_USERNAME }}
+          FCS_PASSWORD: ${{ secrets.FCS_PASSWORD }}
+          FCS_TOKEN: ${{ secrets.FCS_TOKEN }}
+          FCS_BASE_URL: ${{ vars.FCS_BASE_URL }}
+          FCS_VERIFY_SSL: ${{ vars.FCS_VERIFY_SSL || 'true' }}
+          OUTPUT_PATH: ${{ steps.outpath.outputs.path }}
+          PROJECT: ${{ inputs.project || 'Workforce Management by MX Techies' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          if [[ ! -f "$OUTPUT_PATH" ]]; then
+            echo "No synced Markdown file found at '$OUTPUT_PATH'; skipping FC S upload."
+            exit 0
+          fi
+          host="$(python - <<'PY'
+          from scripts.fcs_uploader import FCSConfig, get_fcs_host
+          print(get_fcs_host(FCSConfig.from_env().base_url))
+          PY
+          )"
+          if connectivity_output="$(python scripts/fcs_uploader.py check-connectivity 2>&1)"; then
+            echo "$connectivity_output"
+          else
+            status=$?
+            if [[ $status -eq 2 ]]; then
+              echo "[fcs] Skipping FC S upload — host '$host' is not resolvable from this runner. FC S is an internal L&T network host; use a self-hosted runner inside the corporate network to upload. See README.md > 'FC S upload from CI' for details."
+              exit 0
+            fi
+            echo "$connectivity_output"
+            exit "$status"
+          fi
+          python scripts/fcs_uploader.py upload "$OUTPUT_PATH" INPUT \
+            --project-name "$PROJECT" \
+            --date-stamp "$(date -u +%Y-%m-%d)"
+
+      # The synced Markdown is uploaded to FC S as an INPUT document in the previous step,
+      # paired by linkedto (<SanitisedProjectName>_<YYYY-MM-DD>) with any future OUTPUT report
+      # generated for the same project and date.
